@@ -1,0 +1,3805 @@
+{
+    "title": "Wurm Unlimited - Action Names and Numbers",
+    "data sources": {
+        "json": {
+            "filename": "Wurm_Unlimited_-_Action_Names_and_Numbers.json",
+            "github gist": "https://gist.githubusercontent.com/jesterjunk/d19a7d8430317211a73d16c24fe38828/raw",
+            "pastebin": "https://pastebin.com/raw/Vtq4z4EL"
+        },
+        "txt": {
+            "filename": "Wurm_Unlimited_-_Action_Names_and_Numbers.txt",
+            "github gist": "https://gist.githubusercontent.com/jesterjunk/e573b82057ec9061ef16cdf843a48733/raw",
+            "pastebin": "https://pastebin.com/raw/w1cBN1K1"
+        }
+    },
+    "list": [
+        {
+            "name": "NOACTION",
+            "number": 0
+        },
+        {
+            "name": "EXAMINE",
+            "number": 1
+        },
+        {
+            "name": "EQUIPMENT",
+            "number": 2
+        },
+        {
+            "name": "OPEN",
+            "number": 3
+        },
+        {
+            "name": "CLOSE",
+            "number": 4
+        },
+        {
+            "name": "WAVE",
+            "number": 5
+        },
+        {
+            "name": "TAKE",
+            "number": 6
+        },
+        {
+            "name": "DROP",
+            "number": 7
+        },
+        {
+            "name": "CUT",
+            "number": 8
+        },
+        {
+            "name": "DISENGAGE",
+            "number": 9
+        },
+        {
+            "name": "ASSIST",
+            "number": 10
+        },
+        {
+            "name": "RIDE",
+            "number": 11
+        },
+        {
+            "name": "LIGHT",
+            "number": 12
+        },
+        {
+            "name": "BUY",
+            "number": 13
+        },
+        {
+            "name": "EMPTY",
+            "number": 14
+        },
+        {
+            "name": "CALL",
+            "number": 15
+        },
+        {
+            "name": "REMOVE",
+            "number": 16
+        },
+        {
+            "name": "READ",
+            "number": 17
+        },
+        {
+            "name": "KNOCK",
+            "number": 18
+        },
+        {
+            "name": "TASTE",
+            "number": 19
+        },
+        {
+            "name": "QUIT",
+            "number": 20
+        },
+        {
+            "name": "TELL",
+            "number": 21
+        },
+        {
+            "name": "QUAFF",
+            "number": 22
+        },
+        {
+            "name": "DISMOUNT",
+            "number": 23
+        },
+        {
+            "name": "ABANDON",
+            "number": 24
+        },
+        {
+            "name": "UNCOVER",
+            "number": 25
+        },
+        {
+            "name": "COVER",
+            "number": 26
+        },
+        {
+            "name": "UNSADDLE",
+            "number": 27
+        },
+        {
+            "name": "LOCK",
+            "number": 28
+        },
+        {
+            "name": "SADDLE",
+            "number": 29
+        },
+        {
+            "name": "WAKE",
+            "number": 30
+        },
+        {
+            "name": "SELL",
+            "number": 31
+        },
+        {
+            "name": "WEAR",
+            "number": 32
+        },
+        {
+            "name": "WIZKILL",
+            "number": 33
+        },
+        {
+            "name": "FINDPATH",
+            "number": 34
+        },
+        {
+            "name": "CRIMINALMODE",
+            "number": 35
+        },
+        {
+            "name": "FAITHMODE",
+            "number": 36
+        },
+        {
+            "name": "DROPDIRT",
+            "number": 37
+        },
+        {
+            "name": "CLIMB",
+            "number": 38
+        },
+        {
+            "name": "STOPCLIMB",
+            "number": 39
+        },
+        {
+            "name": "ORDERPET_MOVE",
+            "number": 40
+        },
+        {
+            "name": "ORDERPET_CLEAR",
+            "number": 41
+        },
+        {
+            "name": "ORDERPET_ATTACK",
+            "number": 42
+        },
+        {
+            "name": "PET_TRANSFER",
+            "number": 43
+        },
+        {
+            "name": "PET_STAYONLINE",
+            "number": 44
+        },
+        {
+            "name": "PET_GOOFFLINE",
+            "number": 45
+        },
+        {
+            "name": "TAME",
+            "number": 46
+        },
+        {
+            "name": "GIVE",
+            "number": 47
+        },
+        {
+            "name": "FOLLOW",
+            "number": 48
+        },
+        {
+            "name": "GROUP",
+            "number": 49
+        },
+        {
+            "name": "UNGROUP",
+            "number": 50
+        },
+        {
+            "name": "POUR",
+            "number": 51
+        },
+        {
+            "name": "SIP",
+            "number": 52
+        },
+        {
+            "name": "SNUFF",
+            "number": 53
+        },
+        {
+            "name": "CRUSH",
+            "number": 54
+        },
+        {
+            "name": "PICKSEED",
+            "number": 55
+        },
+        {
+            "name": "BUILD_PLAN",
+            "number": 56
+        },
+        {
+            "name": "BUILD_PLAN_REMOVE",
+            "number": 57
+        },
+        {
+            "name": "BUILD_PLAN_FINALIZE",
+            "number": 58
+        },
+        {
+            "name": "RENAME",
+            "number": 59
+        },
+        {
+            "name": "ADDPERSON",
+            "number": 60
+        },
+        {
+            "name": "REMOVEPERSON",
+            "number": 61
+        },
+        {
+            "name": "MANAGE",
+            "number": 62
+        },
+        {
+            "name": "TRADE",
+            "number": 63
+        },
+        {
+            "name": "GET_COORDINATES",
+            "number": 64
+        },
+        {
+            "name": "FOUND_VILLAGE",
+            "number": 65
+        },
+        {
+            "name": "MANAGE_VILLAGE_CITIZENS",
+            "number": 66
+        },
+        {
+            "name": "MANAGE_VILLAGE_GUARDS",
+            "number": 67
+        },
+        {
+            "name": "MANAGE_VILLAGE_SETTINGS",
+            "number": 68
+        },
+        {
+            "name": "MANAGE_VILLAGE_REPUTATIONS",
+            "number": 69
+        },
+        {
+            "name": "MANAGE_VILLAGE_GATES",
+            "number": 70
+        },
+        {
+            "name": "VILLAGE_HISTORY",
+            "number": 71
+        },
+        {
+            "name": "AREA_HISTORY",
+            "number": 72
+        },
+        {
+            "name": "VILLAGE_INVITE",
+            "number": 73
+        },
+        {
+            "name": "DRAG",
+            "number": 74
+        },
+        {
+            "name": "STOPDRAG",
+            "number": 75
+        },
+        {
+            "name": "RESIZE_VILLAGE",
+            "number": 76
+        },
+        {
+            "name": "VILLAGE_INFO",
+            "number": 77
+        },
+        {
+            "name": "REPLACE",
+            "number": 78
+        },
+        {
+            "name": "NOSPOON",
+            "number": 79
+        },
+        {
+            "name": "MANAGE_VILLAGE_ALLIANCES",
+            "number": 80
+        },
+        {
+            "name": "ALLIANCE_INVITE",
+            "number": 81
+        },
+        {
+            "name": "DESTROY_STRUCTURE",
+            "number": 82
+        },
+        {
+            "name": "DESTROY_ITEM",
+            "number": 83
+        },
+        {
+            "name": "SPAMMODE",
+            "number": 84
+        },
+        {
+            "name": "MANAGE_TRADERS",
+            "number": 85
+        },
+        {
+            "name": "SET_PRICE",
+            "number": 86
+        },
+        {
+            "name": "GET_PRICE",
+            "number": 87
+        },
+        {
+            "name": "SETDATA",
+            "number": 88
+        },
+        {
+            "name": "SETKINGDOM",
+            "number": 89
+        },
+        {
+            "name": "POLL",
+            "number": 90
+        },
+        {
+            "name": "ASK_REFRESH",
+            "number": 91
+        },
+        {
+            "name": "LEARNSKILL",
+            "number": 92
+        },
+        {
+            "name": "COMBINE",
+            "number": 93
+        },
+        {
+            "name": "TELEPORTSET",
+            "number": 94
+        },
+        {
+            "name": "TELEPORT",
+            "number": 95
+        },
+        {
+            "name": "CHOP",
+            "number": 96
+        },
+        {
+            "name": "CHOP_UP",
+            "number": 97
+        },
+        {
+            "name": "PROTECT",
+            "number": 98
+        },
+        {
+            "name": "PUSH",
+            "number": 99
+        },
+        {
+            "name": "STEAL",
+            "number": 100
+        },
+        {
+            "name": "LOCKPICK",
+            "number": 101
+        },
+        {
+            "name": "UNLOCK",
+            "number": 102
+        },
+        {
+            "name": "TAUNT",
+            "number": 103
+        },
+        {
+            "name": "LEARN",
+            "number": 104
+        },
+        {
+            "name": "SHIELDBASH",
+            "number": 105
+        },
+        {
+            "name": "LEAD",
+            "number": 106
+        },
+        {
+            "name": "STOPLEADING",
+            "number": 107
+        },
+        {
+            "name": "BACKSTAB",
+            "number": 108
+        },
+        {
+            "name": "TRACK",
+            "number": 109
+        },
+        {
+            "name": "RECITE",
+            "number": 110
+        },
+        {
+            "name": "TEACH",
+            "number": 111
+        },
+        {
+            "name": "REST",
+            "number": 112
+        },
+        {
+            "name": "KICK",
+            "number": 113
+        },
+        {
+            "name": "ATTACK",
+            "number": 114
+        },
+        {
+            "name": "LISTEN",
+            "number": 115
+        },
+        {
+            "name": "BUILD",
+            "number": 116
+        },
+        {
+            "name": "BURN",
+            "number": 117
+        },
+        {
+            "name": "USE",
+            "number": 118
+        },
+        {
+            "name": "BURY",
+            "number": 119
+        },
+        {
+            "name": "BUTCHER",
+            "number": 120
+        },
+        {
+            "name": "MEND",
+            "number": 121
+        },
+        {
+            "name": "CAST",
+            "number": 122
+        },
+        {
+            "name": "SCALP",
+            "number": 123
+        },
+        {
+            "name": "SHOOT",
+            "number": 124
+        },
+        {
+            "name": "QUICK_SHOT",
+            "number": 125
+        },
+        {
+            "name": "SHOOT_HEAD",
+            "number": 126
+        },
+        {
+            "name": "SHOOT_FACE",
+            "number": 127
+        },
+        {
+            "name": "SHOOT_TORSO",
+            "number": 128
+        },
+        {
+            "name": "SHOOT_LEFTARM",
+            "number": 129
+        },
+        {
+            "name": "SHOOT_RIGHTARM",
+            "number": 130
+        },
+        {
+            "name": "SHOOT_LEGS",
+            "number": 131
+        },
+        {
+            "name": "STRING",
+            "number": 132
+        },
+        {
+            "name": "BOW_UNSTRING",
+            "number": 133
+        },
+        {
+            "name": "TARGET_PRACTICE",
+            "number": 134
+        },
+        {
+            "name": "HIDE",
+            "number": 135
+        },
+        {
+            "name": "STEALTH",
+            "number": 136
+        },
+        {
+            "name": "PICK",
+            "number": 137
+        },
+        {
+            "name": "HANG",
+            "number": 138
+        },
+        {
+            "name": "SIT",
+            "number": 139
+        },
+        {
+            "name": "SLEEP",
+            "number": 140
+        },
+        {
+            "name": "PRAY",
+            "number": 141
+        },
+        {
+            "name": "SACRIFICE",
+            "number": 142
+        },
+        {
+            "name": "DESECRATE",
+            "number": 143
+        },
+        {
+            "name": "DIG",
+            "number": 144
+        },
+        {
+            "name": "MINE",
+            "number": 145
+        },
+        {
+            "name": "MINEUPWARDS",
+            "number": 146
+        },
+        {
+            "name": "MINEDOWNWARDS",
+            "number": 147
+        },
+        {
+            "name": "CREATE",
+            "number": 148
+        },
+        {
+            "name": "STOP",
+            "number": 149
+        },
+        {
+            "name": "FLATTEN",
+            "number": 150
+        },
+        {
+            "name": "FARM",
+            "number": 151
+        },
+        {
+            "name": "HARVEST",
+            "number": 152
+        },
+        {
+            "name": "SOW",
+            "number": 153
+        },
+        {
+            "name": "ROAD_PACK",
+            "number": 154
+        },
+        {
+            "name": "ROAD_PAVE",
+            "number": 155
+        },
+        {
+            "name": "PROSPECT",
+            "number": 156
+        },
+        {
+            "name": "FIGHT_AGGRESSIVE",
+            "number": 157
+        },
+        {
+            "name": "FIGHT_NORMAL",
+            "number": 158
+        },
+        {
+            "name": "FIGHT_DEFEND",
+            "number": 159
+        },
+        {
+            "name": "FISH",
+            "number": 160
+        },
+        {
+            "name": "SET_LOCK",
+            "number": 161
+        },
+        {
+            "name": "REPAIR",
+            "number": 162
+        },
+        {
+            "name": "BUILD_STONEWALL",
+            "number": 163
+        },
+        {
+            "name": "BUILD_STONEWALL_HIGH",
+            "number": 164
+        },
+        {
+            "name": "BUILD_PALISADE",
+            "number": 165
+        },
+        {
+            "name": "BUILD_WOODEN_FENCE",
+            "number": 166
+        },
+        {
+            "name": "BUILD_PALISADE_GATE",
+            "number": 167
+        },
+        {
+            "name": "BUILD_WOODEN_FENCE_GATE",
+            "number": 168
+        },
+        {
+            "name": "CONTINUE_BUILDING",
+            "number": 169
+        },
+        {
+            "name": "CONTINUE_BUILDING_FENCE",
+            "number": 170
+        },
+        {
+            "name": "PLAN_FENCE_DESTROY",
+            "number": 171
+        },
+        {
+            "name": "FENCE_DESTROY",
+            "number": 172
+        },
+        {
+            "name": "FENCE_DISASSEMBLE",
+            "number": 173
+        },
+        {
+            "name": "WALL_DESTROY",
+            "number": 174
+        },
+        {
+            "name": "WALL_DISASSEMBLE",
+            "number": 175
+        },
+        {
+            "name": "PLANT_SIGN",
+            "number": 176
+        },
+        {
+            "name": "TURN_ITEM",
+            "number": 177
+        },
+        {
+            "name": "TURN_ITEM_BACK",
+            "number": 178
+        },
+        {
+            "name": "SUMMON",
+            "number": 179
+        },
+        {
+            "name": "DESTROY",
+            "number": 180
+        },
+        {
+            "name": "PULL",
+            "number": 181
+        },
+        {
+            "name": "EAT",
+            "number": 182
+        },
+        {
+            "name": "DRINK",
+            "number": 183
+        },
+        {
+            "name": "SHUTDOWN",
+            "number": 184
+        },
+        {
+            "name": "GETINFO",
+            "number": 185
+        },
+        {
+            "name": "PLANT",
+            "number": 186
+        },
+        {
+            "name": "PICKSPROUT",
+            "number": 187
+        },
+        {
+            "name": "GROW",
+            "number": 188
+        },
+        {
+            "name": "FILL",
+            "number": 189
+        },
+        {
+            "name": "SPIN",
+            "number": 190
+        },
+        {
+            "name": "DESTROY_PAVE",
+            "number": 191
+        },
+        {
+            "name": "IMPROVE",
+            "number": 192
+        },
+        {
+            "name": "REPAIR_STRUCT",
+            "number": 193
+        },
+        {
+            "name": "PAYMENT_MANAGEMENT",
+            "number": 194
+        },
+        {
+            "name": "POWER_MANAGEMENT",
+            "number": 195
+        },
+        {
+            "name": "FIRSTAID",
+            "number": 196
+        },
+        {
+            "name": "SPECMOVE1",
+            "number": 197
+        },
+        {
+            "name": "SPECMOVE2",
+            "number": 198
+        },
+        {
+            "name": "SPECMOVE3",
+            "number": 199
+        },
+        {
+            "name": "SPECMOVE4",
+            "number": 200
+        },
+        {
+            "name": "SPECMOVE5",
+            "number": 201
+        },
+        {
+            "name": "SPECMOVE6",
+            "number": 202
+        },
+        {
+            "name": "SPECMOVE7",
+            "number": 203
+        },
+        {
+            "name": "SPECMOVE8",
+            "number": 204
+        },
+        {
+            "name": "SPECMOVE9",
+            "number": 205
+        },
+        {
+            "name": "SPECMOVE10",
+            "number": 206
+        },
+        {
+            "name": "SPECMOVE11",
+            "number": 207
+        },
+        {
+            "name": "SPECMOVE12",
+            "number": 208
+        },
+        {
+            "name": "DECLARE_WAR",
+            "number": 209
+        },
+        {
+            "name": "OFFER_PEACE",
+            "number": 210
+        },
+        {
+            "name": "PRACTICE",
+            "number": 211
+        },
+        {
+            "name": "FAITH_MANAGEMENT",
+            "number": 212
+        },
+        {
+            "name": "ASK_CONVERT",
+            "number": 213
+        },
+        {
+            "name": "ASK_GIFT",
+            "number": 214
+        },
+        {
+            "name": "CONVERT",
+            "number": 215
+        },
+        {
+            "name": "PREACH",
+            "number": 216
+        },
+        {
+            "name": "READ_INSCRIPTION_1",
+            "number": 217
+        },
+        {
+            "name": "READ_INSCRIPTION_2",
+            "number": 218
+        },
+        {
+            "name": "READ_INSCRIPTION_3",
+            "number": 219
+        },
+        {
+            "name": "SET_REALDEATH",
+            "number": 220
+        },
+        {
+            "name": "DESTROY_ALTAR",
+            "number": 221
+        },
+        {
+            "name": "MANAGE_BANK",
+            "number": 222
+        },
+        {
+            "name": "FORAGE",
+            "number": 223
+        },
+        {
+            "name": "BOTANIZE",
+            "number": 224
+        },
+        {
+            "name": "FILLET",
+            "number": 225
+        },
+        {
+            "name": "WITHDRAW_MONEY",
+            "number": 226
+        },
+        {
+            "name": "TUNNEL",
+            "number": 227
+        },
+        {
+            "name": "WORK",
+            "number": 228
+        },
+        {
+            "name": "REINFORCE",
+            "number": 229
+        },
+        {
+            "name": "FEED",
+            "number": 230
+        },
+        {
+            "name": "COLOR",
+            "number": 231
+        },
+        {
+            "name": "COLOR_REMOVE",
+            "number": 232
+        },
+        {
+            "name": "LOAD",
+            "number": 233
+        },
+        {
+            "name": "UNLOAD",
+            "number": 234
+        },
+        {
+            "name": "UNWIND",
+            "number": 235
+        },
+        {
+            "name": "FIRE",
+            "number": 236
+        },
+        {
+            "name": "WINCH",
+            "number": 237
+        },
+        {
+            "name": "WINCH5",
+            "number": 238
+        },
+        {
+            "name": "WINCH10",
+            "number": 239
+        },
+        {
+            "name": "TRANSFER_NORTH",
+            "number": 240
+        },
+        {
+            "name": "TRANSFER_EAST",
+            "number": 241
+        },
+        {
+            "name": "TRANSFER_SOUTH",
+            "number": 242
+        },
+        {
+            "name": "TRANSFER_WEST",
+            "number": 243
+        },
+        {
+            "name": "MANAGE_SERVERS",
+            "number": 244
+        },
+        {
+            "name": "SPELL_BLESS",
+            "number": 245
+        },
+        {
+            "name": "SPELL_CURELIGHT",
+            "number": 246
+        },
+        {
+            "name": "SPELL_CUREMEDIUM",
+            "number": 247
+        },
+        {
+            "name": "SPELL_CURESERIOUS",
+            "number": 248
+        },
+        {
+            "name": "SPELL_HEAL",
+            "number": 249
+        },
+        {
+            "name": "SPELL_REFRESH",
+            "number": 250
+        },
+        {
+            "name": "SPELL_MEND",
+            "number": 251
+        },
+        {
+            "name": "SPELL_SMITE",
+            "number": 252
+        },
+        {
+            "name": "SPELL_SUNDERITEM",
+            "number": 253
+        },
+        {
+            "name": "SPELL_DRAIN_STAMINA",
+            "number": 254
+        },
+        {
+            "name": "SPELL_DRAIN_HEALTH",
+            "number": 255
+        },
+        {
+            "name": "SPELL_EARLY_HARVEST",
+            "number": 256
+        },
+        {
+            "name": "SPELL_DRAIN_SKILL",
+            "number": 257
+        },
+        {
+            "name": "SPELL_BREAK_ALTAR",
+            "number": 258
+        },
+        {
+            "name": "SPELL_ENCHANT_TOXIN",
+            "number": 259
+        },
+        {
+            "name": "SPELL_ENCHANT_BLAZE",
+            "number": 260
+        },
+        {
+            "name": "SPELL_ENCHANT_GLACIAL",
+            "number": 261
+        },
+        {
+            "name": "SPELL_ENCHANT_CORROSION",
+            "number": 262
+        },
+        {
+            "name": "SPELL_ENCHANT_PROT_ACID",
+            "number": 263
+        },
+        {
+            "name": "SPELL_ENCHANT_PROT_FROST",
+            "number": 264
+        },
+        {
+            "name": "SPELL_ENCHANT_PROT_FIRE",
+            "number": 265
+        },
+        {
+            "name": "SPELL_ENCHANT_PROT_POISON",
+            "number": 266
+        },
+        {
+            "name": "SPELL_ENCHANT_DEMISE_HUMAN",
+            "number": 267
+        },
+        {
+            "name": "SPELL_ENCHANT_DEMISE_MONSTER",
+            "number": 268
+        },
+        {
+            "name": "SPELL_ENCHANT_DEMISE_ANIMAL",
+            "number": 269
+        },
+        {
+            "name": "SPELL_ENCHANT_DEMISE_LEGENDARY",
+            "number": 270
+        },
+        {
+            "name": "SPELL_LOCATE_ARTIFACT",
+            "number": 271
+        },
+        {
+            "name": "SPELL_VESSEL",
+            "number": 272
+        },
+        {
+            "name": "SPELL_REBIRTH",
+            "number": 273
+        },
+        {
+            "name": "SPELL_DOMINATE",
+            "number": 274
+        },
+        {
+            "name": "SPELL_CHARM",
+            "number": 275
+        },
+        {
+            "name": "SPELL_ITEMBUFF_SKILLGAIN",
+            "number": 276
+        },
+        {
+            "name": "SPELL_ITEMBUFF_WEAPONDAM",
+            "number": 277
+        },
+        {
+            "name": "SPELL_ITEMBUFF_PAINSHARE",
+            "number": 278
+        },
+        {
+            "name": "SPELL_ITEMBUFF_QUICKACTIONS",
+            "number": 279
+        },
+        {
+            "name": "SPELL_ITEMBUFF_GOODFOOD",
+            "number": 280
+        },
+        {
+            "name": "SPELL_ITEMBUFF_DAMAGE_BRITTLE",
+            "number": 281
+        },
+        {
+            "name": "SPELL_CREATUREBUFF_PROT_DAMAGE",
+            "number": 282
+        },
+        {
+            "name": "MIX",
+            "number": 283
+        },
+        {
+            "name": "TREAT",
+            "number": 284
+        },
+        {
+            "name": "MIX_INFO",
+            "number": 285
+        },
+        {
+            "name": "BECOME_PRIEST",
+            "number": 286
+        },
+        {
+            "name": "ATTACK_UPPER_LEFT_HARD",
+            "number": 287
+        },
+        {
+            "name": "ATTACK_UPPER_LEFT_NORMAL",
+            "number": 288
+        },
+        {
+            "name": "ATTACK_UPPER_LEFT_QUICK",
+            "number": 289
+        },
+        {
+            "name": "ATTACK_MID_LEFT_HARD",
+            "number": 290
+        },
+        {
+            "name": "ATTACK_MID_LEFT_NORMAL",
+            "number": 291
+        },
+        {
+            "name": "ATTACK_MID_LEFT_QUICK",
+            "number": 292
+        },
+        {
+            "name": "ATTACK_LOW_LEFT_HARD",
+            "number": 293
+        },
+        {
+            "name": "ATTACK_LOW_LEFT_NORMAL",
+            "number": 294
+        },
+        {
+            "name": "ATTACK_LOW_LEFT_QUICK",
+            "number": 295
+        },
+        {
+            "name": "ATTACK_LOW_HARD",
+            "number": 296
+        },
+        {
+            "name": "ATTACK_LOW_NORMAL",
+            "number": 297
+        },
+        {
+            "name": "ATTACK_LOW_QUICK",
+            "number": 298
+        },
+        {
+            "name": "ATTACK_HIGH_HARD",
+            "number": 299
+        },
+        {
+            "name": "ATTACK_HIGH_NORMAL",
+            "number": 300
+        },
+        {
+            "name": "ATTACK_HIGH_QUICK",
+            "number": 301
+        },
+        {
+            "name": "ATTACK_CENTER_HARD",
+            "number": 302
+        },
+        {
+            "name": "ATTACK_CENTER_NORMAL",
+            "number": 303
+        },
+        {
+            "name": "ATTACK_CENTER_QUICK",
+            "number": 304
+        },
+        {
+            "name": "ATTACK_UPPER_RIGHT_HARD",
+            "number": 305
+        },
+        {
+            "name": "ATTACK_UPPER_RIGHT_NORMAL",
+            "number": 306
+        },
+        {
+            "name": "ATTACK_UPPER_RIGHT_QUICK",
+            "number": 307
+        },
+        {
+            "name": "ATTACK_MID_RIGHT_HARD",
+            "number": 308
+        },
+        {
+            "name": "ATTACK_MID_RIGHT_NORMAL",
+            "number": 309
+        },
+        {
+            "name": "ATTACK_MID_RIGHT_QUICK",
+            "number": 310
+        },
+        {
+            "name": "ATTACK_LOW_RIGHT_HARD",
+            "number": 311
+        },
+        {
+            "name": "ATTACK_LOW_RIGHT_NORMAL",
+            "number": 312
+        },
+        {
+            "name": "ATTACK_LOW_RIGHT_QUICK",
+            "number": 313
+        },
+        {
+            "name": "DEFEND_HIGH",
+            "number": 314
+        },
+        {
+            "name": "DEFEND_LEFT",
+            "number": 315
+        },
+        {
+            "name": "DEFEND_LOW",
+            "number": 316
+        },
+        {
+            "name": "DEFEND_RIGHT",
+            "number": 317
+        },
+        {
+            "name": "CULTIVATE",
+            "number": 318
+        },
+        {
+            "name": "RENT_1_COPPER",
+            "number": 319
+        },
+        {
+            "name": "RENT_10_COPPER",
+            "number": 320
+        },
+        {
+            "name": "RENT_1_SILVER",
+            "number": 321
+        },
+        {
+            "name": "RENT_10_SILVER",
+            "number": 322
+        },
+        {
+            "name": "RESET_RENT",
+            "number": 323
+        },
+        {
+            "name": "HIRE",
+            "number": 324
+        },
+        {
+            "name": "ASKSLEEP",
+            "number": 325
+        },
+        {
+            "name": "TARGET",
+            "number": 326
+        },
+        {
+            "name": "FREEZE",
+            "number": 327
+        },
+        {
+            "name": "SUCK",
+            "number": 328
+        },
+        {
+            "name": "WATCH",
+            "number": 329
+        },
+        {
+            "name": "HATCH",
+            "number": 330
+        },
+        {
+            "name": "EMBARK_DRIVER",
+            "number": 331
+        },
+        {
+            "name": "EMBARK_PASSENGER",
+            "number": 332
+        },
+        {
+            "name": "DISEMBARK",
+            "number": 333
+        },
+        {
+            "name": "CHECK_REIMBURSEMENTS",
+            "number": 334
+        },
+        {
+            "name": "ASK_CHANGETILE",
+            "number": 335
+        },
+        {
+            "name": "MAIL_CHECK",
+            "number": 336
+        },
+        {
+            "name": "MAIL_SEND",
+            "number": 337
+        },
+        {
+            "name": "SPELL_ENCHANT_COURIER",
+            "number": 338
+        },
+        {
+            "name": "SPELL_ENCHANT_MESSENGER",
+            "number": 339
+        },
+        {
+            "name": "FIGHT_FOCUS",
+            "number": 340
+        },
+        {
+            "name": "CLEARTARGET",
+            "number": 341
+        },
+        {
+            "name": "THROW",
+            "number": 342
+        },
+        {
+            "name": "DUEL",
+            "number": 343
+        },
+        {
+            "name": "SPAR",
+            "number": 344
+        },
+        {
+            "name": "MILK",
+            "number": 345
+        },
+        {
+            "name": "HEALFAST",
+            "number": 346
+        },
+        {
+            "name": "HEAL_ABSORB",
+            "number": 347
+        },
+        {
+            "name": "DISBAND_VILLAGE",
+            "number": 348
+        },
+        {
+            "name": "STOP_DISBAND_VILLAGE",
+            "number": 349
+        },
+        {
+            "name": "DRAIN_COFFERS",
+            "number": 350
+        },
+        {
+            "name": "ASK_TUTORIAL",
+            "number": 351
+        },
+        {
+            "name": "SET_LOGGING",
+            "number": 352
+        },
+        {
+            "name": "ASPIRE_KING",
+            "number": 353
+        },
+        {
+            "name": "APPOINT",
+            "number": 354
+        },
+        {
+            "name": "KINGDOM_STATUS",
+            "number": 355
+        },
+        {
+            "name": "KINGDOM_HISTORY",
+            "number": 356
+        },
+        {
+            "name": "ANNOUNCE",
+            "number": 357
+        },
+        {
+            "name": "ABDICATE",
+            "number": 358
+        },
+        {
+            "name": "MANAGE_VEHICLE",
+            "number": 359
+        },
+        {
+            "name": "MOOR",
+            "number": 360
+        },
+        {
+            "name": "RAISEANCHOR",
+            "number": 361
+        },
+        {
+            "name": "DREDGE",
+            "number": 362
+        },
+        {
+            "name": "BUILD_MINEDOOR",
+            "number": 363
+        },
+        {
+            "name": "MANAGE_MINEDOOR",
+            "number": 364
+        },
+        {
+            "name": "RENT_10_IRON",
+            "number": 365
+        },
+        {
+            "name": "RENT_25_IRON",
+            "number": 366
+        },
+        {
+            "name": "RENT_50_IRON",
+            "number": 367
+        },
+        {
+            "name": "SETNP",
+            "number": 368
+        },
+        {
+            "name": "SCULPT",
+            "number": 369
+        },
+        {
+            "name": "RECHARGE",
+            "number": 370
+        },
+        {
+            "name": "ECONOMIC_INFO",
+            "number": 371
+        },
+        {
+            "name": "MANAGE_PERIMETER",
+            "number": 372
+        },
+        {
+            "name": "PRUNE",
+            "number": 373
+        },
+        {
+            "name": "TRAP",
+            "number": 374
+        },
+        {
+            "name": "DISARM",
+            "number": 375
+        },
+        {
+            "name": "SPELL_SIXTH_SENSE",
+            "number": 376
+        },
+        {
+            "name": "HITCH",
+            "number": 377
+        },
+        {
+            "name": "UNHITCH",
+            "number": 378
+        },
+        {
+            "name": "BREED",
+            "number": 379
+        },
+        {
+            "name": "WISH",
+            "number": 380
+        },
+        {
+            "name": "PROT_TILE",
+            "number": 381
+        },
+        {
+            "name": "DEPROT_TILE",
+            "number": 382
+        },
+        {
+            "name": "COUNT_ITEMS",
+            "number": 383
+        },
+        {
+            "name": "MEDITATE",
+            "number": 384
+        },
+        {
+            "name": "LEAVE_PATH",
+            "number": 385
+        },
+        {
+            "name": "PATH_LEADERS",
+            "number": 386
+        },
+        {
+            "name": "LIGHT_PATH",
+            "number": 387
+        },
+        {
+            "name": "ENCHANT",
+            "number": 388
+        },
+        {
+            "name": "LOVE_EFFECT",
+            "number": 389
+        },
+        {
+            "name": "DOUBLE_ATTACK_DAM",
+            "number": 390
+        },
+        {
+            "name": "DOUBLE_STRUCT_DAM",
+            "number": 391
+        },
+        {
+            "name": "FEAR_EFFECT",
+            "number": 392
+        },
+        {
+            "name": "NO_ELEMENTAL_DAM",
+            "number": 393
+        },
+        {
+            "name": "IGNORE_TRAPS",
+            "number": 394
+        },
+        {
+            "name": "CLEAN_WOUND",
+            "number": 395
+        },
+        {
+            "name": "FILLUP",
+            "number": 396
+        },
+        {
+            "name": "PUPPETEER",
+            "number": 397
+        },
+        {
+            "name": "GROOM",
+            "number": 398
+        },
+        {
+            "name": "MAGICLINK",
+            "number": 399
+        },
+        {
+            "name": "SPELL_HOLYCROP",
+            "number": 400
+        },
+        {
+            "name": "SPELL_RITUAL_SUN",
+            "number": 401
+        },
+        {
+            "name": "SPELL_RITE_DEATH",
+            "number": 402
+        },
+        {
+            "name": "SPELL_RITE_SPRING",
+            "number": 403
+        },
+        {
+            "name": "SPELL_OAKSHELL",
+            "number": 404
+        },
+        {
+            "name": "SPELL_WILLOWSPINE",
+            "number": 405
+        },
+        {
+            "name": "SPELL_BEARPAW",
+            "number": 406
+        },
+        {
+            "name": "SPELL_HUMIDDRIZZLE",
+            "number": 407
+        },
+        {
+            "name": "SPELL_GENESIS",
+            "number": 408
+        },
+        {
+            "name": "SPELL_ITEMBUFF_LIFETRANSFER",
+            "number": 409
+        },
+        {
+            "name": "SPELL_FORESTGIANT",
+            "number": 410
+        },
+        {
+            "name": "SPELL_FROGLEAP",
+            "number": 411
+        },
+        {
+            "name": "SPELL_ITEMBUFF_VENOM",
+            "number": 412
+        },
+        {
+            "name": "SPELL_TORNADO",
+            "number": 413
+        },
+        {
+            "name": "SPELL_ICEPILLAR",
+            "number": 414
+        },
+        {
+            "name": "SPELL_ITEMBUFF_MINDSTEALER",
+            "number": 415
+        },
+        {
+            "name": "SPELL_ITEMBUFF_NIMBLE",
+            "number": 416
+        },
+        {
+            "name": "SPELL_ITEMBUFF_FROSTBRAND",
+            "number": 417
+        },
+        {
+            "name": "SPELL_TENTACLESDEEP",
+            "number": 418
+        },
+        {
+            "name": "SPELL_LOCATE_PLAYER",
+            "number": 419
+        },
+        {
+            "name": "SPELL_FIREPILLAR",
+            "number": 420
+        },
+        {
+            "name": "SPELL_LIGHTTOKEN",
+            "number": 421
+        },
+        {
+            "name": "SPELL_GOATSHAPE",
+            "number": 422
+        },
+        {
+            "name": "SPELL_FRANTICCHARGE",
+            "number": 423
+        },
+        {
+            "name": "SPELL_FIREHEART",
+            "number": 424
+        },
+        {
+            "name": "SPELL_MASS_STAMINA",
+            "number": 425
+        },
+        {
+            "name": "SPELL_PHANTASMS",
+            "number": 426
+        },
+        {
+            "name": "SPELL_HELLSTRENGTH",
+            "number": 427
+        },
+        {
+            "name": "SPELL_ROTTINGGUT",
+            "number": 428
+        },
+        {
+            "name": "SPELL_WEAKNESS",
+            "number": 429
+        },
+        {
+            "name": "SPELL_WORMBRAINS",
+            "number": 430
+        },
+        {
+            "name": "SPELL_ZOMBIEINFESTATION",
+            "number": 431
+        },
+        {
+            "name": "SPELL_PAINRAIN",
+            "number": 432
+        },
+        {
+            "name": "SPELL_FUNGUSTRAP",
+            "number": 433
+        },
+        {
+            "name": "SPELL_OUTOFMIND",
+            "number": 434
+        },
+        {
+            "name": "SPELL_LANDOFDEAD",
+            "number": 435
+        },
+        {
+            "name": "SPELL_WILDGROWTH",
+            "number": 436
+        },
+        {
+            "name": "SPELL_WARD",
+            "number": 437
+        },
+        {
+            "name": "SPELL_LIGHTOFFO",
+            "number": 438
+        },
+        {
+            "name": "SPELL_MOLESENSES",
+            "number": 439
+        },
+        {
+            "name": "SPELL_STRONGWALL",
+            "number": 440
+        },
+        {
+            "name": "SPELL_WRATH_OF_MAGRANON",
+            "number": 441
+        },
+        {
+            "name": "SPELL_EXCEL",
+            "number": 442
+        },
+        {
+            "name": "SPELL_REVEAL_SETTLEMENT",
+            "number": 443
+        },
+        {
+            "name": "SPELL_REVEAL_CREATURES",
+            "number": 444
+        },
+        {
+            "name": "SPELL_WISDOM_VYNORA",
+            "number": 445
+        },
+        {
+            "name": "SPELL_CORRUPT",
+            "number": 446
+        },
+        {
+            "name": "SPELL_TRUEHIT",
+            "number": 447
+        },
+        {
+            "name": "SPELL_SCORN_LIBILA",
+            "number": 448
+        },
+        {
+            "name": "SPELL_DISINTEGRATE",
+            "number": 449
+        },
+        {
+            "name": "SPELL_DISPEL",
+            "number": 450
+        },
+        {
+            "name": "SPELL_NOLOCATE",
+            "number": 451
+        },
+        {
+            "name": "SELECT_SPELL",
+            "number": 452
+        },
+        {
+            "name": "SPELL_DIRT",
+            "number": 453
+        },
+        {
+            "name": "SPELL_ITEMBUFF_BLOODTHIRST",
+            "number": 454
+        },
+        {
+            "name": "SPELL_ITEMBUFF_SLOWDOWN",
+            "number": 455
+        },
+        {
+            "name": "SPELL_ITEMBUFF_BLESSINGDARK",
+            "number": 456
+        },
+        {
+            "name": "SPELL_ITEMBUFF_LOCATEFISH",
+            "number": 457
+        },
+        {
+            "name": "SPELL_ITEMBUFF_LOCATECHAMP",
+            "number": 458
+        },
+        {
+            "name": "SPELL_ITEMBUFF_LOCATEENEMY",
+            "number": 459
+        },
+        {
+            "name": "WRAP",
+            "number": 460
+        },
+        {
+            "name": "TOGGLE_JOAT",
+            "number": 461
+        },
+        {
+            "name": "TRANSMUTATE",
+            "number": 462
+        },
+        {
+            "name": "ADD",
+            "number": 463
+        },
+        {
+            "name": "REMOVE_TEN",
+            "number": 464
+        },
+        {
+            "name": "REMOVE_FIFTY",
+            "number": 465
+        },
+        {
+            "name": "REFUND",
+            "number": 466
+        },
+        {
+            "name": "GM_INTERFACE",
+            "number": 467
+        },
+        {
+            "name": "CHOP_OLD_TREE",
+            "number": 468
+        },
+        {
+            "name": "TEAM_INVITE",
+            "number": 469
+        },
+        {
+            "name": "TEAM_KICK",
+            "number": 470
+        },
+        {
+            "name": "TEAM_MANAGE",
+            "number": 471
+        },
+        {
+            "name": "MISSION_MANAGE",
+            "number": 472
+        },
+        {
+            "name": "TALK",
+            "number": 473
+        },
+        {
+            "name": "SHOW",
+            "number": 474
+        },
+        {
+            "name": "STEP_ON",
+            "number": 475
+        },
+        {
+            "name": "GETLOGEVENTS",
+            "number": 476
+        },
+        {
+            "name": "BUILD_IRON_FENCE",
+            "number": 477
+        },
+        {
+            "name": "BUILD_WOVEN_FENCE",
+            "number": 478
+        },
+        {
+            "name": "BUILD_IRON_FENCE_GATE",
+            "number": 479
+        },
+        {
+            "name": "FOUND_KINGDOM",
+            "number": 480
+        },
+        {
+            "name": "CONFIGURE_TWITTER",
+            "number": 481
+        },
+        {
+            "name": "READ_INSCRIPTION_4",
+            "number": 482
+        },
+        {
+            "name": "TEST_TERRAIN",
+            "number": 483
+        },
+        {
+            "name": "BRAND",
+            "number": 484
+        },
+        {
+            "name": "SPELL_SHARD_ICE",
+            "number": 485
+        },
+        {
+            "name": "TESTCASE",
+            "number": 486
+        },
+        {
+            "name": "VOTE",
+            "number": 487
+        },
+        {
+            "name": "CHALLENGE",
+            "number": 488
+        },
+        {
+            "name": "RECALL",
+            "number": 489
+        },
+        {
+            "name": "FINAL_BREATH",
+            "number": 490
+        },
+        {
+            "name": "ON_DEATH",
+            "number": 491
+        },
+        {
+            "name": "ON_CUT_DOWN",
+            "number": 492
+        },
+        {
+            "name": "SET_PROTECTED",
+            "number": 493
+        },
+        {
+            "name": "VOICE_CHAT",
+            "number": 494
+        },
+        {
+            "name": "LAST_GASP",
+            "number": 495
+        },
+        {
+            "name": "RITUAL_FAITH",
+            "number": 496
+        },
+        {
+            "name": "RITUAL_RAIN",
+            "number": 497
+        },
+        {
+            "name": "RITUAL_FOG",
+            "number": 498
+        },
+        {
+            "name": "RITUAL_SUN",
+            "number": 499
+        },
+        {
+            "name": "RITUAL_HEALING",
+            "number": 500
+        },
+        {
+            "name": "RITUAL_DEATH",
+            "number": 501
+        },
+        {
+            "name": "RITUAL_PLAGUE",
+            "number": 502
+        },
+        {
+            "name": "CREATE_ZONE",
+            "number": 503
+        },
+        {
+            "name": "CONQUER",
+            "number": 504
+        },
+        {
+            "name": "INSCRIBE",
+            "number": 505
+        },
+        {
+            "name": "INSCRIPTION_READ",
+            "number": 506
+        },
+        {
+            "name": "BUILD_PLAN_ROOF",
+            "number": 507
+        },
+        {
+            "name": "BUILD_PLAN_FLOOR_ABOVE",
+            "number": 508
+        },
+        {
+            "name": "BUILD_PLAN_FLOOR_BELOW",
+            "number": 509
+        },
+        {
+            "name": "MANAGE_ACHIEVEMENT",
+            "number": 510
+        },
+        {
+            "name": "KARMA_QUESTION",
+            "number": 511
+        },
+        {
+            "name": "MAGIC_WALL",
+            "number": 512
+        },
+        {
+            "name": "SUMMON_GUARDS",
+            "number": 513
+        },
+        {
+            "name": "BUILD_PLAN_FLOOR_ABOVE_WITH_DOOR",
+            "number": 514
+        },
+        {
+            "name": "BUILD_PLAN_FLOOR_ABOVE_WITH_OPENING",
+            "number": 515
+        },
+        {
+            "name": "BUILD_WOODEN_FENCE_PARAPET",
+            "number": 516
+        },
+        {
+            "name": "BUILD_STONE_FENCE_PARAPET",
+            "number": 517
+        },
+        {
+            "name": "RAISE_GROUND",
+            "number": 518
+        },
+        {
+            "name": "SMELT",
+            "number": 519
+        },
+        {
+            "name": "BUILD_WOODEN_FENCE_CRUDE",
+            "number": 520
+        },
+        {
+            "name": "BUILD_STONE_IRON_FENCE_PARAPET",
+            "number": 521
+        },
+        {
+            "name": "CLIMB_UP",
+            "number": 522
+        },
+        {
+            "name": "CLIMB_DOWN",
+            "number": 523
+        },
+        {
+            "name": "FLOOR_DESTROY",
+            "number": 524
+        },
+        {
+            "name": "ROOF_DESTROY",
+            "number": 525
+        },
+        {
+            "name": "BUILD_WOODEN_FENCE_GARDESGARD_LOW",
+            "number": 526
+        },
+        {
+            "name": "BUILD_WOODEN_FENCE_GARDESGARD_HIGH",
+            "number": 527
+        },
+        {
+            "name": "BUILD_WOODEN_FENCE_CRUDE_GATE",
+            "number": 528
+        },
+        {
+            "name": "BUILD_WOODEN_FENCE_GARDESGARD_GATE",
+            "number": 529
+        },
+        {
+            "name": "BUILD_EXPAND_TILE",
+            "number": 530
+        },
+        {
+            "name": "BUILD_REMOVE_TILE",
+            "number": 531
+        },
+        {
+            "name": "LEVEL",
+            "number": 532
+        },
+        {
+            "name": "FLATTEN_BORDER",
+            "number": 533
+        },
+        {
+            "name": "GM_TOOL",
+            "number": 534
+        },
+        {
+            "name": "FEATURE_MANAGEMENT",
+            "number": 535
+        },
+        {
+            "name": "ANALYSE",
+            "number": 536
+        },
+        {
+            "name": "THREATEN",
+            "number": 537
+        },
+        {
+            "name": "GM_SET_TRAITS",
+            "number": 538
+        },
+        {
+            "name": "GM_SET_ENCHANTS",
+            "number": 539
+        },
+        {
+            "name": "MANAGE_VILLAGE_ROLES",
+            "number": 540
+        },
+        {
+            "name": "BUILD_STONE_FENCE",
+            "number": 541
+        },
+        {
+            "name": "BUILD_STONE_CURB",
+            "number": 542
+        },
+        {
+            "name": "BUILD_ROPE_FENCE_LOW",
+            "number": 543
+        },
+        {
+            "name": "BUILD_ROPE_FENCE_HIGH",
+            "number": 544
+        },
+        {
+            "name": "BUILD_HIGH_IRON_FENCE",
+            "number": 545
+        },
+        {
+            "name": "BUILD_HIGH_IRON_FENCE_GATE",
+            "number": 546
+        },
+        {
+            "name": "SPELL_KARMA_DISEASE",
+            "number": 547
+        },
+        {
+            "name": "SPELL_KARMA_RUSTMONSTER",
+            "number": 548
+        },
+        {
+            "name": "SPELL_KARMA_FIREBALL",
+            "number": 549
+        },
+        {
+            "name": "SPELL_KARMA_BOLT",
+            "number": 550
+        },
+        {
+            "name": "SPELL_KARMA_MISSILE",
+            "number": 551
+        },
+        {
+            "name": "SPELL_KARMA_CONTINUUM",
+            "number": 552
+        },
+        {
+            "name": "SPELL_KARMA_STONESKIN",
+            "number": 553
+        },
+        {
+            "name": "SPELL_KARMA_SLOW",
+            "number": 554
+        },
+        {
+            "name": "SPELL_KARMA_TRUESTRIKE",
+            "number": 555
+        },
+        {
+            "name": "SPELL_KARMA_ICEWALL",
+            "number": 556
+        },
+        {
+            "name": "SPELL_KARMA_FIREWALL",
+            "number": 557
+        },
+        {
+            "name": "SPELL_KARMA_STONEWALL",
+            "number": 558
+        },
+        {
+            "name": "SPELL_KARMA_SUMMON",
+            "number": 559
+        },
+        {
+            "name": "SPELL_KARMA_FORECAST",
+            "number": 560
+        },
+        {
+            "name": "SPELL_KARMA_WEATHER",
+            "number": 561
+        },
+        {
+            "name": "SPELL_KARMA_MIRRORS",
+            "number": 562
+        },
+        {
+            "name": "PLANT_FLOWERBED",
+            "number": 563
+        },
+        {
+            "name": "PLANT_FLOWER",
+            "number": 564
+        },
+        {
+            "name": "WATER_PLANT",
+            "number": 565
+        },
+        {
+            "name": "MANAGE_PLAYER_PROFILE",
+            "number": 566
+        },
+        {
+            "name": "ADD_INVENTORY_GROUP",
+            "number": 567
+        },
+        {
+            "name": "OPEN_INVENTORY_CONTAINER",
+            "number": 568
+        },
+        {
+            "name": "FORAGE_VEG",
+            "number": 569
+        },
+        {
+            "name": "FORAGE_RESOURCE",
+            "number": 570
+        },
+        {
+            "name": "FORAGE_BERRIES",
+            "number": 571
+        },
+        {
+            "name": "BOTANIZE_SEEDS",
+            "number": 572
+        },
+        {
+            "name": "BOTANIZE_HERBS",
+            "number": 573
+        },
+        {
+            "name": "BOTANIZE_PLANTS",
+            "number": 574
+        },
+        {
+            "name": "BOTANIZE_RESOURCE",
+            "number": 575
+        },
+        {
+            "name": "ROAD_PAVE_CORNER",
+            "number": 576
+        },
+        {
+            "name": "SET_INVISIBLE",
+            "number": 577
+        },
+        {
+            "name": "SET_VISIBLE",
+            "number": 578
+        },
+        {
+            "name": "SET_INVULNERABLE",
+            "number": 579
+        },
+        {
+            "name": "SET_VULNERABLE",
+            "number": 580
+        },
+        {
+            "name": "DECAY",
+            "number": 581
+        },
+        {
+            "name": "EQUIP",
+            "number": 582
+        },
+        {
+            "name": "EQUIP_LEFT",
+            "number": 583
+        },
+        {
+            "name": "EQUIP_RIGHT",
+            "number": 584
+        },
+        {
+            "name": "UNEQUIP",
+            "number": 585
+        },
+        {
+            "name": "REMOVE_INVENTORY_GROUP",
+            "number": 586
+        },
+        {
+            "name": "TICKET_VIEW",
+            "number": 587
+        },
+        {
+            "name": "TICKET_CANCEL",
+            "number": 588
+        },
+        {
+            "name": "TICKET_RESPOND",
+            "number": 589
+        },
+        {
+            "name": "TICKET_RESOLVED",
+            "number": 590
+        },
+        {
+            "name": "TICKET_FORWARD_GM",
+            "number": 591
+        },
+        {
+            "name": "TICKET_FORWARD_ARCH",
+            "number": 592
+        },
+        {
+            "name": "TICKET_FORWARD_DEV",
+            "number": 593
+        },
+        {
+            "name": "TICKET_ONHOLD",
+            "number": 594
+        },
+        {
+            "name": "TICKET_TAKE",
+            "number": 595
+        },
+        {
+            "name": "TICKET_FORWARD_CM",
+            "number": 596
+        },
+        {
+            "name": "TICKET_FEEDBACK",
+            "number": 597
+        },
+        {
+            "name": "MANAGE_RECRUITMENT_AD",
+            "number": 598
+        },
+        {
+            "name": "TICKET_REOPEN",
+            "number": 599
+        },
+        {
+            "name": "DISCARD",
+            "number": 600
+        },
+        {
+            "name": "LOOK_FOR_VILLAGE",
+            "number": 601
+        },
+        {
+            "name": "DELETE_RECRUITMENT_AD",
+            "number": 602
+        },
+        {
+            "name": "EDIT_RECRUITMENT_AD",
+            "number": 603
+        },
+        {
+            "name": "PAINT_TERRAIN",
+            "number": 604
+        },
+        {
+            "name": "LOAD_CARGO",
+            "number": 605
+        },
+        {
+            "name": "UNLOAD_CARGO",
+            "number": 606
+        },
+        {
+            "name": "ADD_TO_CREATION_WINDOW",
+            "number": 607
+        },
+        {
+            "name": "SWITCH_SKILL",
+            "number": 608
+        },
+        {
+            "name": "INGAME_VOTING_SETUP",
+            "number": 609
+        },
+        {
+            "name": "COMMUNE",
+            "number": 610
+        },
+        {
+            "name": "BUILD_MEDIUM_CHAIN_FENCE",
+            "number": 611
+        },
+        {
+            "name": "BUILD_WOOD_WALL",
+            "number": 612
+        },
+        {
+            "name": "BUILD_WOOD_WINDOW",
+            "number": 613
+        },
+        {
+            "name": "BUILD_WOOD_DOOR",
+            "number": 614
+        },
+        {
+            "name": "BUILD_WOOD_DOUBLE_DOOR",
+            "number": 615
+        },
+        {
+            "name": "BUILD_WOOD_ARCHED_WALL",
+            "number": 616
+        },
+        {
+            "name": "BUILD_STONE_WALL",
+            "number": 617
+        },
+        {
+            "name": "BUILD_STONE_WINDOW",
+            "number": 618
+        },
+        {
+            "name": "BUILD_STONE_DOOR",
+            "number": 619
+        },
+        {
+            "name": "BUILD_STONE_DOUBLE_DOOR",
+            "number": 620
+        },
+        {
+            "name": "BUILD_STONE_ARCHED_WALL",
+            "number": 621
+        },
+        {
+            "name": "BUILD_TIMBER_FRAMED_WALL",
+            "number": 622
+        },
+        {
+            "name": "BUILD_TIMBER_FRAMED_WINDOW",
+            "number": 623
+        },
+        {
+            "name": "BUILD_TIMBER_FRAMED_DOOR",
+            "number": 624
+        },
+        {
+            "name": "BUILD_TIMBER_FRAMED_DOUBLE_DOOR",
+            "number": 625
+        },
+        {
+            "name": "BUILD_TIMBER_FRAMED_ARCHED_WALL",
+            "number": 626
+        },
+        {
+            "name": "ROAD_PAVE_ROUGH",
+            "number": 627
+        },
+        {
+            "name": "ROAD_PAVE_ROUND",
+            "number": 628
+        },
+        {
+            "name": "SPELL_KARMA_SUMMON_WORG",
+            "number": 629
+        },
+        {
+            "name": "SPELL_KARMA_SUMMON_WRAITH",
+            "number": 630
+        },
+        {
+            "name": "SPELL_KARMA_SUMMON_SKELETONS",
+            "number": 631
+        },
+        {
+            "name": "TRANSFER_RARITY",
+            "number": 632
+        },
+        {
+            "name": "IMBUE",
+            "number": 633
+        },
+        {
+            "name": "SPELL_KARMA_SPROUT_TREES",
+            "number": 634
+        },
+        {
+            "name": "GROUP_CA_HELP_SETUP",
+            "number": 635
+        },
+        {
+            "name": "HOLD",
+            "number": 636
+        },
+        {
+            "name": "BUILD_PLAN_BRIDGE",
+            "number": 637
+        },
+        {
+            "name": "DROP_AS_PILE",
+            "number": 638
+        },
+        {
+            "name": "DRAIN",
+            "number": 639
+        },
+        {
+            "name": "SURVEY",
+            "number": 640
+        },
+        {
+            "name": "SPELL_TANGLEWEAVE",
+            "number": 641
+        },
+        {
+            "name": "RUMMAGE",
+            "number": 642
+        },
+        {
+            "name": "UNBRAND",
+            "number": 643
+        },
+        {
+            "name": "TRIM",
+            "number": 644
+        },
+        {
+            "name": "GATHER",
+            "number": 645
+        },
+        {
+            "name": "SHEAR",
+            "number": 646
+        },
+        {
+            "name": "MODIFY_WALL",
+            "number": 647
+        },
+        {
+            "name": "BUILD_PLAIN_STONE_WALL",
+            "number": 648
+        },
+        {
+            "name": "BUILD_PLAIN_STONE_WINDOW",
+            "number": 649
+        },
+        {
+            "name": "BUILD_PLAIN_NARROW_STONE_WINDOW",
+            "number": 650
+        },
+        {
+            "name": "BUILD_PLAIN_STONE_DOOR",
+            "number": 651
+        },
+        {
+            "name": "BUILD_PLAIN_STONE_DOUBLE_DOOR",
+            "number": 652
+        },
+        {
+            "name": "BUILD_PLAIN_STONE_ARCHED_WALL",
+            "number": 653
+        },
+        {
+            "name": "BUILD_FENCE_PORTCULLIS",
+            "number": 654
+        },
+        {
+            "name": "BUILD_PLAIN_STONE_PORTCULLIS",
+            "number": 655
+        },
+        {
+            "name": "BUILD_PLAIN_STONE_BARRED_WALL",
+            "number": 656
+        },
+        {
+            "name": "BUILD_STONE_PORTCULLIS",
+            "number": 657
+        },
+        {
+            "name": "BUILD_WOOD_PORTCULLIS",
+            "number": 658
+        },
+        {
+            "name": "BUILD_PLAN_STAIRCASE_WITH_OPENING_ABOVE",
+            "number": 659
+        },
+        {
+            "name": "PLANT_CENTER",
+            "number": 660
+        },
+        {
+            "name": "MANAGE_FRIENDS",
+            "number": 661
+        },
+        {
+            "name": "INSIDEOUT",
+            "number": 662
+        },
+        {
+            "name": "MANAGE_ANIMAL",
+            "number": 663
+        },
+        {
+            "name": "MANAGE_BUILDING",
+            "number": 664
+        },
+        {
+            "name": "MANAGE_CART",
+            "number": 665
+        },
+        {
+            "name": "MANAGE_DOOR",
+            "number": 666
+        },
+        {
+            "name": "MANAGE_GATE",
+            "number": 667
+        },
+        {
+            "name": "MANAGE_SHIP",
+            "number": 668
+        },
+        {
+            "name": "MANAGE_WAGON",
+            "number": 669
+        },
+        {
+            "name": "MANAGE_UPKEEP",
+            "number": 670
+        },
+        {
+            "name": "HAUL_UP",
+            "number": 671
+        },
+        {
+            "name": "HAUL_DOWN",
+            "number": 672
+        },
+        {
+            "name": "MANAGE_ALL_DOORS",
+            "number": 673
+        },
+        {
+            "name": "TAG_ITEM",
+            "number": 674
+        },
+        {
+            "name": "SUMMON_TAGGED_ITEM",
+            "number": 675
+        },
+        {
+            "name": "BUILD_TIMBER_FRAMED_BALCONY",
+            "number": 676
+        },
+        {
+            "name": "BUILD_TIMBER_FRAMED_JETTY",
+            "number": 677
+        },
+        {
+            "name": "BUILD_DECORATED_STONE_ORIEL",
+            "number": 678
+        },
+        {
+            "name": "BUILD_WOODEN_CANOPY",
+            "number": 679
+        },
+        {
+            "name": "BUILD_WOODEN_WIDE_WINDOW",
+            "number": 680
+        },
+        {
+            "name": "BUILD_PLAIN_STONE_ORIEL",
+            "number": 681
+        },
+        {
+            "name": "USE_PENDULUM",
+            "number": 682
+        },
+        {
+            "name": "ROTATE_WALL",
+            "number": 683
+        },
+        {
+            "name": "MANAGE_ITEM_RESTRICTIONS",
+            "number": 684
+        },
+        {
+            "name": "PICKUP_PLANTED",
+            "number": 685
+        },
+        {
+            "name": "SPELL_KARMA_INCINERATE",
+            "number": 686
+        },
+        {
+            "name": "MANAGE_SMALL_CART",
+            "number": 687
+        },
+        {
+            "name": "MANAGE_ITEM",
+            "number": 688
+        },
+        {
+            "name": "SHOW_VILLAGE_PLAN",
+            "number": 689
+        },
+        {
+            "name": "SEARCH_PERMISSIONS",
+            "number": 690
+        },
+        {
+            "name": "SHOW_HISTORY_FOR_OBJECT",
+            "number": 691
+        },
+        {
+            "name": "SHOW_HISTORY_FOR_DOOR",
+            "number": 692
+        },
+        {
+            "name": "SKIP_TUTORIAL",
+            "number": 693
+        },
+        {
+            "name": "ROAD_PAVE_CORNER_ROUGH",
+            "number": 694
+        },
+        {
+            "name": "ROAD_PAVE_CORNER_ROUND",
+            "number": 695
+        },
+        {
+            "name": "PUSH_GENTLY",
+            "number": 696
+        },
+        {
+            "name": "PULL_GENTLY",
+            "number": 697
+        },
+        {
+            "name": "TOGGLE_CA",
+            "number": 698
+        },
+        {
+            "name": "TOGGLE_CM",
+            "number": 699
+        },
+        {
+            "name": "GET_LCM_INFO",
+            "number": 700
+        },
+        {
+            "name": "SIT_ANY",
+            "number": 701
+        },
+        {
+            "name": "SIT_LEFT",
+            "number": 702
+        },
+        {
+            "name": "SIT_RIGHT",
+            "number": 703
+        },
+        {
+            "name": "BUILD_PLAN_WIDE_STAIRCASE",
+            "number": 704
+        },
+        {
+            "name": "BUILD_PLAN_RIGHT_STAIRCASE",
+            "number": 705
+        },
+        {
+            "name": "BUILD_PLAN_LEFT_STAIRCASE",
+            "number": 706
+        },
+        {
+            "name": "BURY_ALL",
+            "number": 707
+        },
+        {
+            "name": "STAND_UP",
+            "number": 708
+        },
+        {
+            "name": "BUILD_PLAN_CLOCKWISE_STAIRCASE",
+            "number": 709
+        },
+        {
+            "name": "BUILD_PLAN_ANTICLOCKWISE_STAIRCASE",
+            "number": 710
+        },
+        {
+            "name": "BUILD_PLAN_CLOCKWISE_STAIRCASE_WITH_BANISTER",
+            "number": 711
+        },
+        {
+            "name": "BUILD_PLAN_ANTICLOCKWISE_STAIRCASE_WITH_BANISTER",
+            "number": 712
+        },
+        {
+            "name": "BUILD_PLAN_WIDE_STAIRCASE_RIGHT_BANISTER",
+            "number": 713
+        },
+        {
+            "name": "BUILD_PLAN_WIDE_STAIRCASE_LEFT_BANISTER",
+            "number": 714
+        },
+        {
+            "name": "BUILD_PLAN_WIDE_STAIRCASE_BOTH_BANISTER",
+            "number": 715
+        },
+        {
+            "name": "TARGET_HOSTILE",
+            "number": 716
+        },
+        {
+            "name": "PLOT_COURSE",
+            "number": 717
+        },
+        {
+            "name": "DEFAULT_TERRAFORMING",
+            "number": 718
+        },
+        {
+            "name": "KINGDOM_MEMBER_LIST",
+            "number": 719
+        },
+        {
+            "name": "BOTANIZE_SPICES",
+            "number": 720
+        },
+        {
+            "name": "GM_SET_MEDPATH",
+            "number": 721
+        },
+        {
+            "name": "CHANGE_PATH",
+            "number": 722
+        },
+        {
+            "name": "EQUIP_TIMED",
+            "number": 723
+        },
+        {
+            "name": "EQUIP_TIMED_AUTO",
+            "number": 724
+        },
+        {
+            "name": "SET_VOLUME_1",
+            "number": 725
+        },
+        {
+            "name": "SET_VOLUME_2",
+            "number": 726
+        },
+        {
+            "name": "SET_VOLUME_5",
+            "number": 727
+        },
+        {
+            "name": "SET_VOLUME_10",
+            "number": 728
+        },
+        {
+            "name": "SET_VOLUME_20",
+            "number": 729
+        },
+        {
+            "name": "SET_VOLUME_50",
+            "number": 730
+        },
+        {
+            "name": "SET_VOLUME_100",
+            "number": 731
+        },
+        {
+            "name": "SET_VOLUME_200",
+            "number": 732
+        },
+        {
+            "name": "SET_VOLUME_500",
+            "number": 733
+        },
+        {
+            "name": "SET_VOLUME_1000",
+            "number": 734
+        },
+        {
+            "name": "SET_VOLUME_2000",
+            "number": 735
+        },
+        {
+            "name": "SET_VOLUME_5000",
+            "number": 736
+        },
+        {
+            "name": "SET_VOLUME_10000",
+            "number": 737
+        },
+        {
+            "name": "COOKBOOK",
+            "number": 738
+        },
+        {
+            "name": "SEAL",
+            "number": 739
+        },
+        {
+            "name": "UNSEAL",
+            "number": 740
+        },
+        {
+            "name": "COLLECT",
+            "number": 741
+        },
+        {
+            "name": "WRITE_RECIPE",
+            "number": 742
+        },
+        {
+            "name": "READ_RECIPE",
+            "number": 743
+        },
+        {
+            "name": "ADD_RECIPE",
+            "number": 744
+        },
+        {
+            "name": "THROW_PLAYFUL",
+            "number": 745
+        },
+        {
+            "name": "PLANT_LEFT",
+            "number": 746
+        },
+        {
+            "name": "PLANT_RIGHT",
+            "number": 747
+        },
+        {
+            "name": "VIEW_LINKS",
+            "number": 748
+        },
+        {
+            "name": "SET_LINK_NORTH",
+            "number": 749
+        },
+        {
+            "name": "SET_LINK_NORTH_EAST",
+            "number": 750
+        },
+        {
+            "name": "SET_LINK_EAST",
+            "number": 751
+        },
+        {
+            "name": "SET_LINK_SOUTH_EAST",
+            "number": 752
+        },
+        {
+            "name": "SET_LINK_SOUTH",
+            "number": 753
+        },
+        {
+            "name": "SET_LINK_SOUTH_WEST",
+            "number": 754
+        },
+        {
+            "name": "SET_LINK_WEST",
+            "number": 755
+        },
+        {
+            "name": "SET_LINK_NORTH_WEST",
+            "number": 756
+        },
+        {
+            "name": "PRY",
+            "number": 757
+        },
+        {
+            "name": "FIND_ROUTE",
+            "number": 758
+        },
+        {
+            "name": "VIEW_PROTECTION",
+            "number": 759
+        },
+        {
+            "name": "BUILD_WOOD_ARCHED_LEFT",
+            "number": 760
+        },
+        {
+            "name": "BUILD_WOOD_ARCHED_RIGHT",
+            "number": 761
+        },
+        {
+            "name": "BUILD_WOOD_ARCHED_T",
+            "number": 762
+        },
+        {
+            "name": "BUILD_STONE_ARCHED_LEFT",
+            "number": 763
+        },
+        {
+            "name": "BUILD_STONE_ARCHED_RIGHT",
+            "number": 764
+        },
+        {
+            "name": "BUILD_STONE_ARCHED_T",
+            "number": 765
+        },
+        {
+            "name": "BUILD_TIMBER_FRAMED_ARCHED_LEFT",
+            "number": 766
+        },
+        {
+            "name": "BUILD_TIMBER_FRAMED_ARCHED_RIGHT",
+            "number": 767
+        },
+        {
+            "name": "BUILD_TIMBER_FRAMED_ARCHED_T",
+            "number": 768
+        },
+        {
+            "name": "BUILD_PLAIN_STONE_ARCHED_LEFT",
+            "number": 769
+        },
+        {
+            "name": "BUILD_PLAIN_STONE_ARCHED_RIGHT",
+            "number": 770
+        },
+        {
+            "name": "BUILD_PLAIN_STONE_ARCHED_T",
+            "number": 771
+        },
+        {
+            "name": "BUILD_SLATE_WALL",
+            "number": 772
+        },
+        {
+            "name": "BUILD_SLATE_WINDOW",
+            "number": 773
+        },
+        {
+            "name": "BUILD_SLATE_NARROW_WINDOW",
+            "number": 774
+        },
+        {
+            "name": "BUILD_SLATE_DOOR",
+            "number": 775
+        },
+        {
+            "name": "BUILD_SLATE_DOUBLE_DOOR",
+            "number": 776
+        },
+        {
+            "name": "BUILD_SLATE_ARCHED_WALL",
+            "number": 777
+        },
+        {
+            "name": "BUILD_SLATE_PORTCULLIS",
+            "number": 778
+        },
+        {
+            "name": "BUILD_SLATE_BARRED_WALL",
+            "number": 779
+        },
+        {
+            "name": "BUILD_SLATE_ORIEL",
+            "number": 780
+        },
+        {
+            "name": "BUILD_SLATE_ARCHED_LEFT",
+            "number": 781
+        },
+        {
+            "name": "BUILD_SLATE_ARCHED_RIGHT",
+            "number": 782
+        },
+        {
+            "name": "BUILD_SLATE_ARCHED_T",
+            "number": 783
+        },
+        {
+            "name": "BUILD_ROUNDED_STONE_WALL",
+            "number": 784
+        },
+        {
+            "name": "BUILD_ROUNDED_STONE_WINDOW",
+            "number": 785
+        },
+        {
+            "name": "BUILD_ROUNDED_STONE_NARROW_WINDOW",
+            "number": 786
+        },
+        {
+            "name": "BUILD_ROUNDED_STONE_DOOR",
+            "number": 787
+        },
+        {
+            "name": "BUILD_ROUNDED_STONE_DOUBLE_DOOR",
+            "number": 788
+        },
+        {
+            "name": "BUILD_ROUNDED_STONE_ARCHED_WALL",
+            "number": 789
+        },
+        {
+            "name": "BUILD_ROUNDED_STONE_PORTCULLIS",
+            "number": 790
+        },
+        {
+            "name": "BUILD_ROUNDED_STONE_BARRED_WALL",
+            "number": 791
+        },
+        {
+            "name": "BUILD_ROUNDED_STONE_ORIEL",
+            "number": 792
+        },
+        {
+            "name": "BUILD_ROUNDED_STONE_ARCHED_LEFT",
+            "number": 793
+        },
+        {
+            "name": "BUILD_ROUNDED_STONE_ARCHED_RIGHT",
+            "number": 794
+        },
+        {
+            "name": "BUILD_ROUNDED_STONE_ARCHED_T",
+            "number": 795
+        },
+        {
+            "name": "BUILD_POTTERY_WALL",
+            "number": 796
+        },
+        {
+            "name": "BUILD_POTTERY_WINDOW",
+            "number": 797
+        },
+        {
+            "name": "BUILD_POTTERY_NARROW_WINDOW",
+            "number": 798
+        },
+        {
+            "name": "BUILD_POTTERY_DOOR",
+            "number": 799
+        },
+        {
+            "name": "BUILD_POTTERY_DOUBLE_DOOR",
+            "number": 800
+        },
+        {
+            "name": "BUILD_POTTERY_ARCHED_WALL",
+            "number": 801
+        },
+        {
+            "name": "BUILD_POTTERY_PORTCULLIS",
+            "number": 802
+        },
+        {
+            "name": "BUILD_POTTERY_BARRED_WALL",
+            "number": 803
+        },
+        {
+            "name": "BUILD_POTTERY_ORIEL",
+            "number": 804
+        },
+        {
+            "name": "BUILD_POTTERY_ARCHED_LEFT",
+            "number": 805
+        },
+        {
+            "name": "BUILD_POTTERY_ARCHED_RIGHT",
+            "number": 806
+        },
+        {
+            "name": "BUILD_POTTERY_ARCHED_T",
+            "number": 807
+        },
+        {
+            "name": "BUILD_SANDSTONE_WALL",
+            "number": 808
+        },
+        {
+            "name": "BUILD_SANDSTONE_WINDOW",
+            "number": 809
+        },
+        {
+            "name": "BUILD_SANDSTONE_NARROW_WINDOW",
+            "number": 810
+        },
+        {
+            "name": "BUILD_SANDSTONE_DOOR",
+            "number": 811
+        },
+        {
+            "name": "BUILD_SANDSTONE_DOUBLE_DOOR",
+            "number": 812
+        },
+        {
+            "name": "BUILD_SANDSTONE_ARCHED_WALL",
+            "number": 813
+        },
+        {
+            "name": "BUILD_SANDSTONE_PORTCULLIS",
+            "number": 814
+        },
+        {
+            "name": "BUILD_SANDSTONE_BARRED_WALL",
+            "number": 815
+        },
+        {
+            "name": "BUILD_SANDSTONE_ORIEL",
+            "number": 816
+        },
+        {
+            "name": "BUILD_SANDSTONE_ARCHED_LEFT",
+            "number": 817
+        },
+        {
+            "name": "BUILD_SANDSTONE_ARCHED_RIGHT",
+            "number": 818
+        },
+        {
+            "name": "BUILD_SANDSTONE_ARCHED_T",
+            "number": 819
+        },
+        {
+            "name": "BUILD_MARBLE_WALL",
+            "number": 820
+        },
+        {
+            "name": "BUILD_MARBLE_WINDOW",
+            "number": 821
+        },
+        {
+            "name": "BUILD_MARBLE_NARROW_WINDOW",
+            "number": 822
+        },
+        {
+            "name": "BUILD_MARBLE_DOOR",
+            "number": 823
+        },
+        {
+            "name": "BUILD_MARBLE_DOUBLE_DOOR",
+            "number": 824
+        },
+        {
+            "name": "BUILD_MARBLE_ARCHED_WALL",
+            "number": 825
+        },
+        {
+            "name": "BUILD_MARBLE_PORTCULLIS",
+            "number": 826
+        },
+        {
+            "name": "BUILD_MARBLE_BARRED_WALL",
+            "number": 827
+        },
+        {
+            "name": "BUILD_MARBLE_ORIEL",
+            "number": 828
+        },
+        {
+            "name": "BUILD_MARBLE_ARCHED_LEFT",
+            "number": 829
+        },
+        {
+            "name": "BUILD_MARBLE_ARCHED_RIGHT",
+            "number": 830
+        },
+        {
+            "name": "BUILD_MARBLE_ARCHED_T",
+            "number": 831
+        },
+        {
+            "name": "BUILD_SLATE_FENCE",
+            "number": 832
+        },
+        {
+            "name": "BUILD_SLATE_IRON_FENCE",
+            "number": 833
+        },
+        {
+            "name": "BUILD_SLATE_IRON_FENCE_GATE",
+            "number": 834
+        },
+        {
+            "name": "BUILD_ROUNDED_STONE_FENCE",
+            "number": 835
+        },
+        {
+            "name": "BUILD_ROUNDED_STONE_IRON_FENCE",
+            "number": 836
+        },
+        {
+            "name": "BUILD_ROUNDED_STONE_IRON_FENCE_GATE",
+            "number": 837
+        },
+        {
+            "name": "BUILD_POTTERY_FENCE",
+            "number": 838
+        },
+        {
+            "name": "BUILD_POTTERY_IRON_FENCE",
+            "number": 839
+        },
+        {
+            "name": "BUILD_POTTERY_IRON_FENCE_GATE",
+            "number": 840
+        },
+        {
+            "name": "BUILD_SANDSTONE_FENCE",
+            "number": 841
+        },
+        {
+            "name": "BUILD_SANDSTONE_IRON_FENCE",
+            "number": 842
+        },
+        {
+            "name": "BUILD_SANDSTONE_IRON_FENCE_GATE",
+            "number": 843
+        },
+        {
+            "name": "BUILD_MARBLE_FENCE",
+            "number": 844
+        },
+        {
+            "name": "BUILD_MARBLE_IRON_FENCE",
+            "number": 845
+        },
+        {
+            "name": "BUILD_MARBLE_IRON_FENCE_GATE",
+            "number": 846
+        },
+        {
+            "name": "TOGGLE_RENDER",
+            "number": 847
+        },
+        {
+            "name": "TOGGLE_HALF_ARCH",
+            "number": 848
+        },
+        {
+            "name": "INCREASE_ANGLE",
+            "number": 849
+        },
+        {
+            "name": "REDUCE_ANGLE",
+            "number": 850
+        },
+        {
+            "name": "RAM",
+            "number": 851
+        },
+        {
+            "name": "STUDY",
+            "number": 852
+        },
+        {
+            "name": "RECORD",
+            "number": 853
+        },
+        {
+            "name": "ADD_FOLDER",
+            "number": 854
+        },
+        {
+            "name": "REMOVE_FOLDER",
+            "number": 855
+        },
+        {
+            "name": "REINFORCE_STONE",
+            "number": 856
+        },
+        {
+            "name": "REINFORCE_SLATE",
+            "number": 857
+        },
+        {
+            "name": "REINFORCE_POTTERY",
+            "number": 858
+        },
+        {
+            "name": "REINFORCE_ROUNDED_STONE",
+            "number": 859
+        },
+        {
+            "name": "REINFORCE_SANDSTONE",
+            "number": 860
+        },
+        {
+            "name": "REINFORCE_MARBLE",
+            "number": 861
+        },
+        {
+            "name": "REINFORCE_WOOD",
+            "number": 862
+        },
+        {
+            "name": "MANAGE_WAGONER",
+            "number": 863
+        },
+        {
+            "name": "MOVE_CENTER",
+            "number": 864
+        },
+        {
+            "name": "LEVEL_BORDER",
+            "number": 865
+        },
+        {
+            "name": "BUILD_ALL_WALL_PLANS",
+            "number": 866
+        },
+        {
+            "name": "BUILD_SCAFFOLDING_OPENING",
+            "number": 867
+        },
+        {
+            "name": "BUILD_SCAFFOLDING_FLOOR",
+            "number": 868
+        },
+        {
+            "name": "BUILD_SCAFFOLDING_SUPPORT",
+            "number": 869
+        },
+        {
+            "name": "BUILD_FENCE_SLATE_TALL_STONE_WALL",
+            "number": 870
+        },
+        {
+            "name": "BUILD_FENCE_SLATE_PORTCULLIS",
+            "number": 871
+        },
+        {
+            "name": "BUILD_FENCE_SLATE_HIGH_IRON_FENCE",
+            "number": 872
+        },
+        {
+            "name": "BUILD_FENCE_SLATE_HIGH_IRON_FENCE_GATE",
+            "number": 873
+        },
+        {
+            "name": "BUILD_FENCE_SLATE_STONE_PARAPET",
+            "number": 874
+        },
+        {
+            "name": "BUILD_FENCE_SLATE_CHAIN_FENCE",
+            "number": 875
+        },
+        {
+            "name": "BUILD_FENCE_ROUNDED_STONE_TALL_STONE_WALL",
+            "number": 876
+        },
+        {
+            "name": "BUILD_FENCE_ROUNDED_STONE_PORTCULLIS",
+            "number": 877
+        },
+        {
+            "name": "BUILD_FENCE_ROUNDED_STONE_HIGH_IRON_FENCE",
+            "number": 878
+        },
+        {
+            "name": "BUILD_FENCE_ROUNDED_STONE_HIGH_IRON_FENCE_GATE",
+            "number": 879
+        },
+        {
+            "name": "BUILD_FENCE_ROUNDED_STONE_STONE_PARAPET",
+            "number": 880
+        },
+        {
+            "name": "BUILD_FENCE_ROUNDED_STONE_CHAIN_FENCE",
+            "number": 881
+        },
+        {
+            "name": "BUILD_FENCE_SANDSTONE_TALL_STONE_WALL",
+            "number": 882
+        },
+        {
+            "name": "BUILD_FENCE_SANDSTONE_PORTCULLIS",
+            "number": 883
+        },
+        {
+            "name": "BUILD_FENCE_SANDSTONE_HIGH_IRON_FENCE",
+            "number": 884
+        },
+        {
+            "name": "BUILD_FENCE_SANDSTONE_HIGH_IRON_FENCE_GATE",
+            "number": 885
+        },
+        {
+            "name": "BUILD_FENCE_SANDSTONE_STONE_PARAPET",
+            "number": 886
+        },
+        {
+            "name": "BUILD_FENCE_SANDSTONE_CHAIN_FENCE",
+            "number": 887
+        },
+        {
+            "name": "BUILD_FENCE_RENDERED_TALL_STONE_WALL",
+            "number": 888
+        },
+        {
+            "name": "BUILD_FENCE_RENDERED_PORTCULLIS",
+            "number": 889
+        },
+        {
+            "name": "BUILD_FENCE_RENDERED_HIGH_IRON_FENCE",
+            "number": 890
+        },
+        {
+            "name": "BUILD_FENCE_RENDERED_HIGH_IRON_FENCE_GATE",
+            "number": 891
+        },
+        {
+            "name": "BUILD_FENCE_RENDERED_STONE_PARAPET",
+            "number": 892
+        },
+        {
+            "name": "BUILD_FENCE_RENDERED_CHAIN_FENCE",
+            "number": 893
+        },
+        {
+            "name": "BUILD_FENCE_POTTERY_TALL_STONE_WALL",
+            "number": 894
+        },
+        {
+            "name": "BUILD_FENCE_POTTERY_PORTCULLIS",
+            "number": 895
+        },
+        {
+            "name": "BUILD_FENCE_POTTERY_HIGH_IRON_FENCE",
+            "number": 896
+        },
+        {
+            "name": "BUILD_FENCE_POTTERY_HIGH_IRON_FENCE_GATE",
+            "number": 897
+        },
+        {
+            "name": "BUILD_FENCE_POTTERY_STONE_PARAPET",
+            "number": 898
+        },
+        {
+            "name": "BUILD_FENCE_POTTERY_CHAIN_FENCE",
+            "number": 899
+        },
+        {
+            "name": "BUILD_FENCE_MARBLE_TALL_STONE_WALL",
+            "number": 900
+        },
+        {
+            "name": "BUILD_FENCE_MARBLE_PORTCULLIS",
+            "number": 901
+        },
+        {
+            "name": "BUILD_FENCE_MARBLE_HIGH_IRON_FENCE",
+            "number": 902
+        },
+        {
+            "name": "BUILD_FENCE_MARBLE_HIGH_IRON_FENCE_GATE",
+            "number": 903
+        },
+        {
+            "name": "BUILD_FENCE_MARBLE_STONE_PARAPET",
+            "number": 904
+        },
+        {
+            "name": "BUILD_FENCE_MARBLE_CHAIN_FENCE",
+            "number": 905
+        },
+        {
+            "name": "REMOVE_MINEDOOR",
+            "number": 906
+        },
+        {
+            "name": "LOAD_CREATURE",
+            "number": 907
+        },
+        {
+            "name": "UNLOAD_CREATURE",
+            "number": 908
+        },
+        {
+            "name": "GETSTOREDCREATUREINFO",
+            "number": 909
+        },
+        {
+            "name": "INVESTIGATE",
+            "number": 910
+        },
+        {
+            "name": "IDENTIFY_ITEM",
+            "number": 911
+        },
+        {
+            "name": "COMBINE_FRAGMENT",
+            "number": 912
+        },
+        {
+            "name": "ON_DESTROY",
+            "number": 913
+        },
+        {
+            "name": "TRANSFERBULKITEMS",
+            "number": 914
+        },
+        {
+            "name": "SETUP_DELIVERY",
+            "number": 915
+        },
+        {
+            "name": "MANAGE_DELIVERIES",
+            "number": 916
+        },
+        {
+            "name": "CANCEL_DELIVERY",
+            "number": 917
+        },
+        {
+            "name": "VIEW_DELIVERY",
+            "number": 918
+        },
+        {
+            "name": "WAGONER_HISTORY",
+            "number": 919
+        },
+        {
+            "name": "WAGONER_DISMISS",
+            "number": 920
+        },
+        {
+            "name": "DIG_TO_PILE",
+            "number": 921
+        },
+        {
+            "name": "REMOVE_ASH",
+            "number": 922
+        },
+        {
+            "name": "COLOR2",
+            "number": 923
+        },
+        {
+            "name": "COLOR2_REMOVE",
+            "number": 924
+        },
+        {
+            "name": "PLACE_ITEM",
+            "number": 925
+        },
+        {
+            "name": "PLACE_ITEM_LARGE",
+            "number": 926
+        },
+        {
+            "name": "SWITCH_TILE_TYPE",
+            "number": 927
+        },
+        {
+            "name": "GM_CHANGE_AGE",
+            "number": 928
+        },
+        {
+            "name": "SPELL_FOCUSED_WILL",
+            "number": 929
+        },
+        {
+            "name": "SPELL_CLEANSE",
+            "number": 930
+        },
+        {
+            "name": "SPELL_INFERNO",
+            "number": 931
+        },
+        {
+            "name": "SPELL_HYPOTHERMIA",
+            "number": 932
+        },
+        {
+            "name": "SPELL_ITEMBUFF_ESSENCEDRAIN",
+            "number": 933
+        },
+        {
+            "name": "SPELL_SUMMON_SOUL",
+            "number": 934
+        },
+        {
+            "name": "SEARCH",
+            "number": 935
+        },
+        {
+            "name": "MAKE_BAIT",
+            "number": 936
+        },
+        {
+            "name": "MAKE_FLOAT",
+            "number": 937
+        },
+        {
+            "name": "CATCH_FLYS",
+            "number": 938
+        },
+        {
+            "name": "UPGRADE",
+            "number": 939
+        },
+        {
+            "name": "OPEN2",
+            "number": 940
+        },
+        {
+            "name": "CLOSE2",
+            "number": 941
+        },
+        {
+            "name": "PRY_OPEN",
+            "number": 942
+        },
+        {
+            "name": "ATTACH",
+            "number": 943
+        },
+        {
+            "name": "DETACH",
+            "number": 944
+        },
+        {
+            "name": "USE_RUNE",
+            "number": 945
+        },
+        {
+            "name": "SPELL_PURGE",
+            "number": 946
+        }
+    ]
+}
