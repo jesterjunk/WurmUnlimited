@@ -76,14 +76,11 @@
     }
     div.mod_stats {
         block-size: fit-content;
-/*        background-color: var(--color-01);*/
-/*        filter: drop-shadow(0 0 4px hsla(0, 0%, 0%, .5));*/
-/*        border-radius: 10px;*/
         height: calc(118px + 22px);
     }
     div.mod_stats div.stats {
         padding-left: 11px;
-        padding-right: 69px;
+        padding-right: 22px;
         padding-top: 11px;
         padding-bottom: 11px;
         float: right;
@@ -182,7 +179,7 @@
         position: relative;
         min-width: calc(420px + 6px);
     }
-    table tbody tr td.mod_name .anchor_slug {
+    table tbody tr td.mod_name a {
         position: absolute;
         top: 0;
         left: 0;
@@ -194,12 +191,10 @@
         border-bottom-left-radius: 10px;
     }
     table tbody tr td.description {
-/*        width: 420px;*/
         min-width: calc(460px + 12px);
     }
 
     table tbody tr td.version_details {
-/*        vertical-align: text-top;*/
         font-family: var(--main-monospace-font-00);
         white-space: pre;
         font-size: .75em;
@@ -264,10 +259,7 @@
         display: flex;
         align-items: center;
         width: 100px;
-        bottom: -3px;
         background-color: var(--virustotal-background-color);
-        border-opacity
-/*        border: 2px solid pink;*/
         height: 24px;
         border-radius: 5px;
         opacity: .84;
@@ -276,7 +268,7 @@
     }
     div.virustotal a svg {
         position: absolute;
-        top: 4px;
+        top: 7px;
         width: 100%%;
         padding-left:  6px;
         padding-right: 6px;
@@ -323,7 +315,7 @@ HTML;
         }
         if ($forum_1_archive) {
             $forum_wiki_urls .= <<<HTML
-                <a href="{$forum_1_archive}" title="{$forum_1_archive}" target="_blank">f1 arch</a>\n
+                <a href="{$forum_1_archive}" title="{$forum_1_archive}" target="_blank">f1 arc</a>\n
 HTML;
         }
         if ($forum_2_main) {
@@ -333,7 +325,7 @@ HTML;
         }
         if ($forum_2_archive) {
             $forum_wiki_urls .= <<<HTML
-                <a href="{$forum_2_archive}" title="{$forum_2_archive}" target="_blank">f2 arch</a>\n
+                <a href="{$forum_2_archive}" title="{$forum_2_archive}" target="_blank">f2 arc</a>\n
 HTML;
         }
         if ($wiki) {
@@ -484,7 +476,7 @@ HTML;
 
         $rows .= <<<HTML
         <tr id="{$anchor_slug}">
-            <td class="mod_name text_center">{$mod_name}<a class="anchor_slug" href="#{$anchor_slug}"></a></td>
+            <td class="mod_name text_center">{$mod_name}<a href="#{$anchor_slug}"></a></td>
             <td class="author text_center">{$author}</td>
             <td class="forum_wiki text_center">$forum_wiki_urls</td>
             <td class="github text_center">$github_urls</td>
@@ -515,11 +507,11 @@ $total_size = human_file_size($total_size) . "(" . number_format($total_size) . 
 $mod_stats = <<<HTML
    mod count: {$counter}
 
-  total size: {$total_size}<!--
+  total size: {$total_size}
 
 download all:
 <a href="localhost">zip</a>｜<a href="localhost">rar</a>｜<a href="localhost">7z</a>｜<a href="localhost">tar.gz</a>— main
-<a href="localhost">zip</a>｜<a href="localhost">rar</a>｜<a href="localhost">7z</a>｜<a href="localhost">tar.gz</a>— archive.org-->
+<a href="localhost">zip</a>｜<a href="localhost">rar</a>｜<a href="localhost">7z</a>｜<a href="localhost">tar.gz</a>— archive.org
 HTML;
 ?>
 
@@ -535,7 +527,7 @@ HTML;
 
         <div id="github-corner">
             <a href="https://github.com/jesterjunk/WurmUnlimited" target="_blank" class="github-corner" title="View source on GitHub" aria-label="View source on GitHub">
-                <svg width="80" height="80" viewBox="0 0 250 250" style="fill: hsl(50, 11%, 41%); color: var(--header-background-color); float: right; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true">
+                <svg width="80" height="80" viewBox="0 0 250 250" style="fill: hsl(50, 11%, 41%); color: var(--header-background-color); position: absolute; top: 0; border: 0; left: 0; transform: scale(-1, 1)" aria-hidden="true">
                     <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
                     <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
                     <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path>
