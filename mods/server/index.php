@@ -11,16 +11,26 @@
     <style>
 
     :root {
+        --main-color: #EBEBE8;
+        --main-font: Arial, Helvetica, sans-serif;
+        --main-monospace-font-00: 'IBM Plex Mono', monospace;
+
         --color-00: hsl(70, 8%, 15%);
         --color-01: hsl(50, 12%, 20%);
+        --color-02: silver;
 
-        --monospace-font-00: 'IBM Plex Mono', monospace;
+        --virustotal-background-color: hsl(72, 8%, 12%);
+
+        --header-background-color: hsl(72, 9%, 11%);
+        --table-header-text-color: #BAB8AE;
+
+        --table-row-spacing-adjustment: 42px;
     }
 
     body {
-        margin: 24px 24px 48px;
-        color: hsl(60, 30%, 96%);
-        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        color: var(--main-color);
+        font-family: var(--main-font);
     }
 
     /*  URLS  */
@@ -37,14 +47,6 @@
         text-align: right;
     }
 
-    table thead tr th.forum_wiki a,
-    table thead tr th.forum_wiki a,
-    table tbody tr td.github a,
-    table thead tr th.github a {
-        padding-left:  11px;
-        padding-right: 11px;
-    }
-
     hr {
         margin: 6px 0;
         border: 0;
@@ -52,24 +54,98 @@
         background-color: var(--color-00);
     }
 
+    div.scroll_wall {
+        z-index: 998;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        height: calc(180px + 22px);
+        background-color: var(--header-background-color);
+        border-bottom: 1px solid hsl(80, 8%, 8%);
+    filter: drop-shadow(0 0 8px hsla(0, 0%, 0%, .5));
+    }
+
+
+
+
+    div.header_container {
+        z-index: 1000;
+        position: fixed;
+        top: 0;
+        width: calc(100%);
+    }
+    div.mod_stats {
+        block-size: fit-content;
+/*        background-color: var(--color-01);*/
+/*        filter: drop-shadow(0 0 4px hsla(0, 0%, 0%, .5));*/
+/*        border-radius: 10px;*/
+        height: calc(118px + 22px);
+    }
+    div.mod_stats div.stats {
+        padding-left: 11px;
+        padding-right: 69px;
+        padding-top: 11px;
+        padding-bottom: 11px;
+        float: right;
+        color: var(--color-02);
+        font-family: var(--main-monospace-font-00);
+        font-size: 1em;
+        font-weight: 500;
+        white-space: pre;
+        line-height: 1.05em;
+        letter-spacing: .01em;
+    }
+
+    div.mod_stats h3 {
+        z-index: 111;
+        position: relative;
+        top: calc(4px + (129px / 2));
+        margin: 0;
+        line-height: 0;
+        font-family: Verdana, Geneva, sans-serif;
+    }
+
+
+    div.table_container {
+        margin: 0 24px;
+    }
+
+    table thead tr th.forum_wiki a,
+    table tbody tr td.forum_wiki a,
+    table tbody tr td.github a,
+    table thead tr th.github a {
+        padding-left:  11px;
+        padding-right: 11px;
+    }
+
     table {
-        margin: 0 auto;
-/*        width: 100%;*/
-        border-spacing: 0 24px;
+        position: absolute;
+        top: 0;
+        margin: 0 auto 0;
+        width: calc(100% - 48px);
+        border-spacing: 0 var(--table-row-spacing-adjustment);
+    }
+    table thead tr {
+        z-index:998
+        filter: drop-shadow(0 0 4px hsla(0, 0%, 0%, .5));
     }
     table thead tr th {
-        position: relative;
-        bottom: -12px;
-        padding: 8px;
-        background: hsl(70, 8%, 15%);
+        z-index: 999;
+        position: -webkit-sticky;
+        position: sticky;
+        top: var(--table-row-spacing-adjustment);
+        height: calc(180px - var(--table-row-spacing-adjustment));
+        padding-bottom: 8px;
+        background: var(--header-background-color);
+        vertical-align: bottom;
+        color: var(--table-header-text-color);
     }
     table thead tr th.direct_download {
         padding-left: 0;
         padding-right: 0;
     }
-    table thead tr th.forum_wiki {
+    table tbody tr td.forum_wiki {
         white-space: nowrap !important;
-        width: 64px;
     }
     table tbody tr td:first-child {
         border-top-left-radius: 10px;
@@ -103,8 +179,19 @@
         padding-right: 8px;
     }
     table tbody tr td.mod_name {
-/*        width: 400px;*/
+        position: relative;
         min-width: calc(420px + 6px);
+    }
+    table tbody tr td.mod_name .anchor_slug {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block;
+        width: 100%;
+        height: 100%;
+/*        background-color: rebeccapurple;*/
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
     }
     table tbody tr td.description {
 /*        width: 420px;*/
@@ -113,7 +200,7 @@
 
     table tbody tr td.version_details {
 /*        vertical-align: text-top;*/
-        font-family: var(--monospace-font-00);
+        font-family: var(--main-monospace-font-00);
         white-space: pre;
         font-size: .75em;
     }
@@ -136,7 +223,7 @@
     }
     div.sha256_hash textarea {
         overflow: hidden;
-        color: silver;
+        color: var(--color-02);
         border: none;
         background-color: var(--color-01);
         outline: none;
@@ -150,7 +237,7 @@
         padding-top:    4px;
         padding-bottom: 4px;
         font-size: .8em;
-        color: silver;
+        color: var(--color-02);
     }
     span.span_triple_dot {
         position: relative;
@@ -158,46 +245,13 @@
         bottom: 2px;
 /*        font-size: 1em;*/
         font-weight: bold;
-        color: silver;
+        color: var(--color-02);
         letter-spacing: .1em;
     }
-    span.span_mod_counter {
-        position: relative;
-        bottom: 8px;
-        color: silver;
-        font-family: var(--monospace-font-00);
-    }
-    div.mod_stats {
-        block-size: fit-content;
-/*        top: calc(-1.1em - 6px);*/
-        background-color: var(--color-01);
-        filter: drop-shadow(0 0 4px hsla(0, 0%, 0%, .5));
-        border-radius: 10px;
-        height: calc(118px + 22px);
-    }
-    div.mod_stats div.stats {
-        padding-left: 11px;
-        padding-right: 69px;
-        padding-top: 11px;
-        padding-bottom: 11px;
-        float: right;
-        color: silver;
-        font-family: var(--monospace-font-00);
-        font-size: 1em;
-        font-weight: 500;
-        white-space: pre;
-        line-height: 1.05em;
-        letter-spacing: .01em;
-    }
 
-    div.mod_stats h3 {
-        z-index: 111;
-        position: relative;
-        top: calc(4px + (129px / 2));
-        margin: 0;
-        line-height: 0;
-        font-family: Verdana, Geneva, sans-serif;
-    }
+
+
+
     div.virustotal {
         position: relative;
         display: flex;
@@ -211,7 +265,7 @@
         align-items: center;
         width: 100px;
         bottom: -3px;
-        background-color: hsl(72, 8%, 12%);
+        background-color: var(--virustotal-background-color);
         border-opacity
 /*        border: 2px solid pink;*/
         height: 24px;
@@ -389,6 +443,8 @@ foreach ($server_mods as $server_mod_num => $server_mod) {
 
         $counter++;
 
+        $anchor_slug          = $server_mod->slug;
+
         $mod_num_padded       = sprintf("%0{$server_mods_count}d", $counter);
 
         $author               = preg_replace("/\saka\s/", "<span class='aka'>aka</span>", $server_mod->author);
@@ -427,8 +483,8 @@ HTML;
         $description          = $server_mod->description;
 
         $rows .= <<<HTML
-        <tr>
-            <td class="mod_name text_center">{$mod_name}</td>
+        <tr id="{$anchor_slug}">
+            <td class="mod_name text_center">{$mod_name}<a class="anchor_slug" href="#{$anchor_slug}"></a></td>
             <td class="author text_center">{$author}</td>
             <td class="forum_wiki text_center">$forum_wiki_urls</td>
             <td class="github text_center">$github_urls</td>
@@ -467,54 +523,58 @@ download all:
 HTML;
 ?>
 
+<div class="scroll_wall"></div>
 
-<div class="outer_container">
+<div class="header_container">
 
-<div class="mod_stats">
+    <div class="mod_stats">
 
-    <h3 class="text_center">Wurm Unlimited Server Mods</h3>
+        <h3 class="text_center">Wurm Unlimited Server Mods</h3>
 
-    <div class="stats"><?=$mod_stats?></div>
+        <div class="stats"><?=$mod_stats?></div>
 
-    <div id="github-corner">
-        <a href="https://github.com/jesterjunk/WurmUnlimited" target="_blank" class="github-corner" title="View source on GitHub" aria-label="View source on GitHub">
-            <svg width="80" height="80" viewBox="0 0 250 250" style="fill: hsl(50, 11%, 41%); color: #000; float: right; position: absolute; top: 0; border: 0; right: 0; border-top-right-radius: 10px;" aria-hidden="true">
-                <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
-                <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
-                <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path>
-            </svg>
-        </a>
-        <style>
-        .github-corner {
-            border-radius: 10px;
-        }
-        .github-corner:hover .octo-arm {
-            animation:octocat-wave 560ms ease-in-out
-        }
-        @keyframes octocat-wave {
-            0%,100%{
-                transform:rotate(0)
+        <div id="github-corner">
+            <a href="https://github.com/jesterjunk/WurmUnlimited" target="_blank" class="github-corner" title="View source on GitHub" aria-label="View source on GitHub">
+                <svg width="80" height="80" viewBox="0 0 250 250" style="fill: hsl(50, 11%, 41%); color: var(--header-background-color); float: right; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true">
+                    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+                    <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
+                    <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path>
+                </svg>
+            </a>
+            <style>
+            .github-corner {
+                border-radius: 10px;
             }
-            20%,60%{
-                transform:rotate(-25deg)
-            }
-            40%,80%{
-                transform:rotate(10deg)
-            }
-        }
-        @media (max-width:500px) {
-            .github-corner:hover .octo-arm{
-                animation:none
-            }
-            .github-corner .octo-arm {
+            .github-corner:hover .octo-arm {
                 animation:octocat-wave 560ms ease-in-out
             }
-        }
-        </style>
+            @keyframes octocat-wave {
+                0%,100%{
+                    transform:rotate(0)
+                }
+                20%,60%{
+                    transform:rotate(-25deg)
+                }
+                40%,80%{
+                    transform:rotate(10deg)
+                }
+            }
+            @media (max-width:500px) {
+                .github-corner:hover .octo-arm{
+                    animation:none
+                }
+                .github-corner .octo-arm {
+                    animation:octocat-wave 560ms ease-in-out
+                }
+            }
+            </style>
+        </div>
+
     </div>
 
 </div>
 
+<div class="table_container">
 
 <table cellpadding="0">
     <thead>
@@ -534,6 +594,7 @@ HTML;
 </table>
 
 </div>
+
 
 
 <?php
