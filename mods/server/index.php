@@ -26,13 +26,13 @@
         --table-header-text-color: #BAB8AE;
 
         --table-header-spacing-adjustment: 11px;
-        --table-row-spacing-adjustment: 16px;
+        --table-row-spacing-adjustment: 22px;
 
     }
 
     html {
-        scroll-behavior: smooth;
-        scroll-padding: calc(202px + 28px);
+/*        scroll-behavior: smooth;*/
+        scroll-padding: calc(202px + 42px);
 
 /*                            This is for                                      */
 /*                              FireFox                                        */
@@ -81,7 +81,7 @@
         height: calc(180px + 22px);
         background-color: var(--header-background-color);
         border-bottom: 1px solid hsl(80, 8%, 8%);
-        filter: drop-shadow(0 0 8px hsla(0, 0%, 0%, .5));
+        filter: drop-shadow(0 11px 11px hsla(0, 0%, 0%, 1));
     }
 
 
