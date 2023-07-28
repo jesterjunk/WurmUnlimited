@@ -25,21 +25,24 @@
         --header-background-color: hsl(72, 9%, 11%);  /* used for scrollbar track  */
         --table-header-text-color: #BAB8AE;
 
-        --table-row-spacing-adjustment: 42px;
+        --table-header-spacing-adjustment: 11px;
+        --table-row-spacing-adjustment: 16px;
+
     }
 
     html {
         scroll-behavior: smooth;
         scroll-padding: calc(202px + 28px);
 
-/*                            This is for                                     */
-/*                              FireFox                                       */
-/*                       thumb           track                                */
-        scrollbar-color: var(--color-03) var(--header-background-color);
+/*                            This is for                                      */
+/*                              FireFox                                        */
+/*                       thumb           track                                 */
+        scrollbar-color: #74705d         #1E1F1A;
+        scrollbar-width: thin;  /* options: auto (this is default), thin, none */
     }
 
     body::-webkit-scrollbar {
-        width: 1em;
+        width: .5em;
     }
 
     body::-webkit-scrollbar-track {
@@ -70,13 +73,6 @@
         text-align: right;
     }
 
-    hr {
-        margin: 6px 0;
-        border: 0;
-        height: 2px;
-        background-color: var(--color-00);
-    }
-
     div.scroll_wall {
         z-index: 998;
         position: fixed;
@@ -95,7 +91,7 @@
         z-index: 1000;
         position: fixed;
         top: 0;
-        width: calc(100%);
+        width: 100%;
     }
     div.mod_stats {
         block-size: fit-content;
@@ -109,26 +105,49 @@
         float: right;
         color: var(--color-02);
         font-family: var(--main-monospace-font-00);
-        font-size: 1em;
+        font-size: .95em;
         font-weight: 500;
         white-space: pre;
         line-height: 1.05em;
         letter-spacing: .01em;
     }
-
+    div.mod_stats div.stats span.counter {
+        font-weight: 600;
+    }
+    div.mod_stats div.stats span.pipe {
+        position: relative;
+        top: 2px;
+        font-size: 1.5em;
+        line-height: 0;
+        font-weight: 600;
+        color: var(--color-03);
+/*        color: rebeccapurple;*/
+    }
+    div.mod_stats div.stats hr {
+        border: 0;
+        height: 0;
+    }
+    div.mod_stats div.stats hr.hr_00 {
+        margin: 11px 0;
+        margin-bottom: -8px;
+    }
+    div.mod_stats div.stats hr.hr_01 {
+        margin: 9px 0;
+        margin-bottom: -14px;
+    }
+    div.mod_stats div.stats hr.hr_02 {
+        margin: 5px 0;
+        margin-bottom: -14px;
+    }
     div.mod_stats h3 {
         z-index: 111;
         position: relative;
-        top: calc(4px + (129px / 2));
+        top: calc(var(--table-header-spacing-adjustment) + (129px / 2) + 11px);
         margin: 0;
         line-height: 0;
         font-family: Verdana, Geneva, sans-serif;
     }
 
-
-    div.table_container {
-        margin: 0 24px;
-    }
 
     table thead tr th.forum_wiki a,
     table tbody tr td.forum_wiki a,
@@ -141,7 +160,7 @@
     table {
         top: 400px;
         margin: 0 auto 0;
-        width: calc(100% - 48px);
+        width: calc(100% - var(--table-row-spacing-adjustment) * 2);
         border-spacing: 0 var(--table-row-spacing-adjustment);
     }
     table thead tr {
@@ -153,8 +172,8 @@
         position: -webkit-sticky;
         position: sticky;
         top: var(--table-row-spacing-adjustment);
-        height: calc(180px - var(--table-row-spacing-adjustment));
-        padding-bottom: 8px;
+        height:        calc(180px + var(--table-header-spacing-adjustment) - var(--table-row-spacing-adjustment));
+        padding-bottom: calc(22px - var(--table-header-spacing-adjustment));
         background: var(--header-background-color);
         vertical-align: bottom;
         color: var(--table-header-text-color);
@@ -221,7 +240,14 @@
         white-space: pre;
         font-size: .75em;
     }
-
+    table tbody tr td.forum_wiki hr,
+    table tbody tr td.github hr,
+    table tbody tr td.direct_download hr {
+        margin: 6px 0;
+        border: 0;
+        height: 2px;
+        background-color: var(--color-00);
+    }
     div.sha256 {
         position: relative;
         bottom: -3px;
@@ -307,14 +333,20 @@
 <?php
 
 
-function human_file_size($size,$unit="") {
-  if( (!$unit && $size >= 1<<30) || $unit == " GB")
-    return number_format($size/(1<<30),2)." GB";
-  if( (!$unit && $size >= 1<<20) || $unit == " MB")
-    return number_format($size/(1<<20),2)." MB";
-  if( (!$unit && $size >= 1<<10) || $unit == " KB")
-    return number_format($size/(1<<10),2)." KB";
-  return number_format($size)." bytes";
+function human_file_size($size, $unit = "") {
+
+    if( (! $unit && $size >= 1 << 30) || $unit == " GB") { return number_format($size / (1 << 30), 2) . " GB"; }
+    if( (! $unit && $size >= 1 << 20) || $unit == " MB") { return number_format($size / (1 << 20), 2) . " MB"; }
+    if( (! $unit && $size >= 1 << 10) || $unit == " KB") { return number_format($size / (1 << 10), 2) . " KB"; }
+                                                           return number_format($size)                . " bytes";
+}
+
+
+function build_url_v00($url, $text) {
+
+    return <<<HTML
+                <a href="{$url}" title="{$url}" target="_blank">$text</a>\n
+HTML;
 }
 
 
@@ -322,39 +354,17 @@ function forum_wiki_urls($server_mod) {
 
     $forum_1_main    = $server_mod->forum_1->main;
     $forum_1_archive = $server_mod->forum_1->archive;
-
     $forum_2_main    = $server_mod->forum_2->main;
     $forum_2_archive = $server_mod->forum_2->archive;
-
     $wiki            = $server_mod->wiki;
 
     $forum_wiki_urls = "";
 
-        if ($forum_1_main) {
-            $forum_wiki_urls .= <<<HTML
-                <a href="{$forum_1_main}" title="{$forum_1_main}" target="_blank">forum 1</a>\n
-HTML;
-        }
-        if ($forum_1_archive) {
-            $forum_wiki_urls .= <<<HTML
-                <a href="{$forum_1_archive}" title="{$forum_1_archive}" target="_blank">f1 arc</a>\n
-HTML;
-        }
-        if ($forum_2_main) {
-            $forum_wiki_urls .= <<<HTML
-                <a href="{$forum_2_main}" title="{$forum_2_main}" target="_blank">forum 2</a>\n
-HTML;
-        }
-        if ($forum_2_archive) {
-            $forum_wiki_urls .= <<<HTML
-                <a href="{$forum_2_archive}" title="{$forum_2_archive}" target="_blank">f2 arc</a>\n
-HTML;
-        }
-        if ($wiki) {
-            $forum_wiki_urls .= <<<HTML
-                <a href="{$wiki}" title="{$wiki}" target="_blank">wiki</a>\n
-HTML;
-        }
+    if ($forum_1_main)    { $forum_wiki_urls .= build_url_v00($forum_1_main,    "forum 1"); }
+    if ($forum_1_archive) { $forum_wiki_urls .= build_url_v00($forum_1_archive, "f1 arc"); }
+    if ($forum_2_main)    { $forum_wiki_urls .= build_url_v00($forum_2_main,    "forum 2"); }
+    if ($forum_2_archive) { $forum_wiki_urls .= build_url_v00($forum_2_archive, "f2 arc"); }
+    if ($wiki)            { $forum_wiki_urls .= build_url_v00($wiki,            "wiki"); }
 
     return "\n                " . str_replace("\n", "<br><hr>\n", trim($forum_wiki_urls)) . "\n            ";
 }
@@ -367,16 +377,8 @@ function github_urls($server_mod) {
 
     $github_urls = "";
 
-        if ($readme) {
-            $github_urls .= <<<HTML
-                <a href="{$readme}" title="{$readme}" target="_blank">readme</a>\n
-HTML;
-        }
-        if ($release) {
-            $github_urls .= <<<HTML
-                <a href="{$release}" title="{$release}" target="_blank">release</a>\n
-HTML;
-        }
+    if ($readme)  { $github_urls .= build_url_v00($readme,  "readme"); }
+    if ($release) { $github_urls .= build_url_v00($release, "release"); }
 
     return "\n                " . str_replace("\n", "<br><hr>\n", trim($github_urls)) . "\n            ";
 }
@@ -391,29 +393,16 @@ function direct_download_urls($server_mod) {
 
     $direct_download_urls = "";
 
-        if ($main) {
-            $direct_download_urls .= <<<HTML
-                <a href="{$main}" title="{$main}" target="_blank">main</a>\n
-HTML;
-        }
-        if ($mirror) {
-            $direct_download_urls .= <<<HTML
-                <a href="{$mirror}" title="{$mirror}" target="_blank">mirror</a>\n
-HTML;
-        }
-        if ($archive) {
-            $direct_download_urls .= <<<HTML
-                <a href="{$archive}" title="{$archive}" target="_blank">archive</a>\n
-HTML;
-        }
-        if ($virustotal) {
-            $direct_download_urls .= <<<HTML
+    if ($main)       { $direct_download_urls .= build_url_v00($main,    "main"); }
+    if ($mirror)     { $direct_download_urls .= build_url_v00($mirror,  "mirror"); }
+    if ($archive)    { $direct_download_urls .= build_url_v00($archive, "archive"); }
+    if ($virustotal) { $direct_download_urls .= <<<HTML
                 <div class="virustotal"><a class="virustotal" href="{$virustotal}" title="{$virustotal}" target="_blank">
                     <svg width="1em" height="1em" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 100 89"><path fill-rule="evenodd" d="M45.292 44.5 0 89h100V0H0l45.292 44.5zM90 80H22l35.987-35.2L22 9h68v71z"></path></svg>
                     <div>virustotal</div>
                 </a></div>\n
 HTML;
-        }
+    }
 
     return "\n                " . str_replace("\n", "<br><hr>\n", trim($direct_download_urls)) . "\n            ";
 }
@@ -527,13 +516,17 @@ HTML;
 $total_size = human_file_size($total_size) . "(" . number_format($total_size) . " bytes)";
 
 $mod_stats = <<<HTML
-   mod count: {$counter}
-
-  total size: {$total_size}
-
-download all:
-<a href="localhost">zip</a>｜<a href="localhost">rar</a>｜<a href="localhost">7z</a>｜<a href="localhost">tar.gz</a>— main
-<a href="localhost">zip</a>｜<a href="localhost">rar</a>｜<a href="localhost">7z</a>｜<a href="localhost">tar.gz</a>— archive.org
+<span class="counter">{$counter}</span> mods <span class="pipe">｜</span> {$total_size}
+<hr class="hr_00">
+download all  ‌
+<hr class="hr_01">
+main     archive
+<hr class="hr_02">
+<a href="localhost">zip</a>      <a href="localhost">zip</a>    ‌
+<a href="localhost">rar</a>      <a href="localhost">rar</a>    ‌
+<a href="localhost">7z</a>       <a href="localhost">7z</a>     ‌
+<a href="localhost">tar.gz</a>   <a href="localhost">tar.gz</a> ‌
+<a href="localhost">zip</a>      <a href="localhost">zip</a>    ‌
 HTML;
 ?>
 
@@ -545,7 +538,7 @@ HTML;
 
         <h3 class="text_center">Wurm Unlimited Server Mods</h3>
 
-        <div class="stats"><?=$mod_stats?></div>
+        <div class="stats text_right"><?=$mod_stats?></div>
 
         <div id="github-corner">
             <a href="https://github.com/jesterjunk/WurmUnlimited" target="_blank" class="github-corner" title="View source on GitHub" aria-label="View source on GitHub">
