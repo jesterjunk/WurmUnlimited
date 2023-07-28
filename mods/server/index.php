@@ -17,6 +17,7 @@
 
         --color-00: hsl(70, 8%, 15%);
         --color-01: hsl(50, 12%, 20%);
+        --color-01-selected: hsl(48, 6%, 35%);
         --color-02: silver;
         --color-03: hsl(50, 11%, 41%);  /* used for github corner fill and scrollbar thumb  */
 
@@ -81,7 +82,7 @@
         height: calc(180px + 22px);
         background-color: var(--header-background-color);
         border-bottom: 1px solid hsl(80, 8%, 8%);
-        filter: drop-shadow(0 11px 11px hsla(0, 0%, 0%, 1));
+        filter: drop-shadow(0 11px 11px hsla(0, 0%, 0%, .69));
     }
 
 
@@ -206,6 +207,10 @@
         padding-top: 6px;
         padding-bottom: 6px;
         background-color: var(--color-01);
+    }
+    table tbody tr.selected td {
+        background-color: #292821;
+        border-color: #1A1914;
     }
     table tbody tr td.mod_num,
     table tbody tr td.mod_name,
@@ -609,6 +614,54 @@ HTML;
 // echo "<pre>\n{$json}\n</pre>";
 
 ?>
+
+
+<script>
+
+
+// https://stackoverflow.com/questions/9899372/vanilla-javascript-equivalent-of-jquerys-ready-how-to-call-a-function-whe/9899701#9899701
+function docReady(fn) {
+
+    document.readyState === "complete" || document.readyState === "interactive" // see if DOM is already available
+    ? setTimeout(fn, 20)                                                        // call on next available tick
+    : document.addEventListener("DOMContentLoaded", fn)
+}
+
+
+docReady(function() {
+
+    // var current_anchor = window.top.location.hash.substr(1)
+
+
+    if (window.top.location.hash.substr(1)) {
+
+        console.log(window.top.location.hash.substr(1))
+
+        document.querySelector(`[id="${window.top.location.hash.substr(1)}"]`).classList.add('selected');
+    }
+
+    var current_anchor = window.top.location.hash.substr(1)
+
+
+    var table = document.getElementsByTagName(`table`)[0]
+    var rows = document.querySelectorAll(`tr`)
+
+    for (var i = 1; i < rows.length; i++) {
+
+        var current_row = table.rows[i]
+
+            current_row.onclick = function() {
+
+                console.log(`test`)
+            }
+    }
+
+
+
+})
+
+
+</script>
 
 
 </body>
