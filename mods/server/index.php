@@ -17,7 +17,7 @@
 
         --color-00: hsl(70, 8%, 15%);
         --color-01: hsl(50, 12%, 20%);
-        --color-01-selected: hsl(48, 6%, 35%);
+        --color-01-selected: hsl(48, 12%, 16%);
         --color-02: silver;
         --color-03: hsl(50, 11%, 41%);  /* used for github corner fill and scrollbar thumb  */
 
@@ -29,6 +29,7 @@
         --table-header-spacing-adjustment: 11px;
         --table-row-spacing-adjustment: 22px;
 
+        --color-scroll-wall-border-bottom: hsl(80, 8%, 8%);
     }
 
     html {
@@ -81,7 +82,7 @@
         top: 0;
         height: calc(180px + 22px);
         background-color: var(--header-background-color);
-        border-bottom: 1px solid hsl(80, 8%, 8%);
+        border-bottom: 1px solid var(--color-scroll-wall-border-bottom);
         filter: drop-shadow(0 11px 11px hsla(0, 0%, 0%, .69));
     }
 
@@ -209,7 +210,7 @@
         background-color: var(--color-01);
     }
     table tbody tr.selected td {
-        background-color: #292821;
+        background-color: var(--color-01-selected);
         border-color: #1A1914;
     }
     table tbody tr td.mod_num,
@@ -361,7 +362,8 @@ function forum_wiki_urls($server_mod) {
     $forum_1_archive = $server_mod->forum_1->archive;
     $forum_2_main    = $server_mod->forum_2->main;
     $forum_2_archive = $server_mod->forum_2->archive;
-    $wiki            = $server_mod->wiki;
+    $wiki_main       = $server_mod->wiki->main;
+    $wiki_archive    = $server_mod->wiki->archive;
 
     $forum_wiki_urls = "";
 
@@ -369,7 +371,8 @@ function forum_wiki_urls($server_mod) {
     if ($forum_1_archive) { $forum_wiki_urls .= build_url_v00($forum_1_archive, "f1 arc"); }
     if ($forum_2_main)    { $forum_wiki_urls .= build_url_v00($forum_2_main,    "forum 2"); }
     if ($forum_2_archive) { $forum_wiki_urls .= build_url_v00($forum_2_archive, "f2 arc"); }
-    if ($wiki)            { $forum_wiki_urls .= build_url_v00($wiki,            "wiki"); }
+    if ($wiki_main)       { $forum_wiki_urls .= build_url_v00($wiki_main,       "wiki"); }
+    if ($wiki_archive)    { $forum_wiki_urls .= build_url_v00($wiki_archive,    "wiki arc"); }
 
     return "\n                " . str_replace("\n", "<br><hr>\n", trim($forum_wiki_urls)) . "\n            ";
 }
