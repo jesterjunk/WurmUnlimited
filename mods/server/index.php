@@ -101,6 +101,50 @@
         block-size: fit-content;
         height: calc(118px + 22px);
     }
+    div.mod_stats .disclaimer {
+        position: absolute;
+        top: 0;
+        left: 0;
+        font-size: .9em;
+        line-height: 1.2em;
+        padding-bottom: 2px;
+    }
+    div.mod_stats .disclaimer .div_disclaimer {
+        position: relative;
+        width: 100%;
+        margin: 0 auto;
+        font-weight: 600;
+        font-size: 1.2em !important;
+        padding-top: 4px;
+        padding-bottom: 8px;
+        padding-right: 8px;
+        right: 8px;
+        color: hsla(0, 100%, 50%, .88);
+        background-color: hsla(0, 0%, 0%, .5);
+        font-family: Verdana, Geneva, sans-serif;
+    }
+    div.mod_stats .disclaimer .div_disclaimer_message {
+        background-color: hsla(0, 0%, 0%, .5);
+        font-family: Verdana, Geneva, sans-serif;
+        padding-bottom:  4px;
+        padding-left:  8px;
+        padding-right: 8px;
+    }
+    div.mod_stats .disclaimer div.spacer {
+        height: 8px;
+    }
+    div.mod_stats .disclaimer .div_copy_to_clipboard_message {
+        left: calc(80px + 40px + 8px);
+        padding: 8px;
+        color: #FFFF7FEE;
+        letter-spacing: .1em;
+        text-shadow: 0 0 2px #000,
+                     0 0 4px #000,
+                     0 0 6px #000;
+        font-family: Verdana, Geneva, sans-serif;
+        font-size: .95em;
+/*        background-color: var(--color-03);*/
+    }
     div.mod_stats div.stats {
         padding-left: 11px;
         padding-right: 22px;
@@ -148,9 +192,9 @@
         flex-direction: column;
         justify-content: center;
         top: 0;
-        left: 80px;
+        left: 350px;
         display: block;
-        width: calc(100% - 80px - 380px + 11px);
+        width: calc(100% - 683px - 37px);
         height: 160px;
 /*        border: 1px solid rebeccapurple;*/
     }
@@ -554,7 +598,26 @@ HTML;
 
     <div class="mod_stats">
 
-        <a id="h3_header_title_link" href="." title="Wurm Unlimited Server Mods"><h3 class="text_center">Wurm Unlimited Server Mods</h3></a>
+        <div class="disclaimer">
+            <div class="div_disclaimer text_right">DISCLAIMER</div>
+            <div class="div_disclaimer_message text_right">
+                I did not create any of these mods.<br>
+                <div class="spacer"></div>
+                Please do your own research to verify<br>
+                interoperability between the mods.<br>
+                <div class="spacer"></div>
+                DO NOT blame me when something breaks!
+            </div>
+            <div class="div_copy_to_clipboard_message text_center">
+                left click a table row to copy the anchor<br>
+                address url of that row to your clipboard
+            </div>
+        </div>
+
+
+        <a id="h3_header_title_link" href="." title="Wurm Unlimited Server Mods">
+            <h3 class="text_center">Wurm Unlimited Server Mods</h3>
+        </a>
 
         <div class="stats text_right"><?=$mod_stats?></div>
 
@@ -642,7 +705,7 @@ window.addEventListener('load',function(){
         document.querySelector(`[id="${window.top.location.hash.substr(1)}"]`).classList.add('selected');
     }
 
-    document.querySelectorAll(`tr`).forEach(tr => {
+    document.querySelectorAll(`tbody tr`).forEach(tr => {
 
         tr.addEventListener('click', () => {
 
@@ -656,14 +719,13 @@ window.addEventListener('load',function(){
 
 
             // copy current address to clipboard
-            var dummy = document.createElement('input'),
-                text = window.location.href;
+            var dummy = document.createElement('input')
 
-            document.body.appendChild(dummy);
-            dummy.value = text;
-            dummy.select();
-            document.execCommand('copy');
-            document.body.removeChild(dummy);
+            document.body.appendChild(dummy)
+            dummy.value = window.location.href
+            dummy.select()
+            document.execCommand('copy')
+            document.body.removeChild(dummy)
         })
     })
 })
