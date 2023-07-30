@@ -21,9 +21,11 @@
         --color-02: silver;
         --color-03: hsl(50, 11%, 41%);  /* used for github corner fill and scrollbar thumb  */
 
+        --header-background-color: hsl(72, 9%, 11%);  /* used for scrollbar track  */
+        --header-title-link-text: #D1CFC9;  /* used for github corner fill and scrollbar thumb  */
+
         --virustotal-background-color: hsl(72, 8%, 12%);
 
-        --header-background-color: hsl(72, 9%, 11%);  /* used for scrollbar track  */
         --table-header-text-color: #BAB8AE;
 
         --table-header-spacing-adjustment: 11px;
@@ -34,7 +36,7 @@
 
     html {
 /*        scroll-behavior: smooth;*/
-        scroll-padding: calc(202px + 42px);
+        scroll-padding: calc(50% + (202px / 5.25));
 
 /*                            This is for                                      */
 /*                              FireFox                                        */
@@ -82,8 +84,8 @@
         top: 0;
         height: calc(180px + 22px);
         background-color: var(--header-background-color);
-        border-bottom: 1px solid var(--color-scroll-wall-border-bottom);
-        filter: drop-shadow(0 11px 11px hsla(0, 0%, 0%, .69));
+/*        border-bottom: 1px solid var(--color-scroll-wall-border-bottom);*/
+        filter: drop-shadow(0 11px 11px hsla(0, 0%, 0%, .80));
     }
 
 
@@ -123,7 +125,6 @@
         line-height: 0;
         font-weight: 600;
         color: var(--color-03);
-/*        color: rebeccapurple;*/
     }
     div.mod_stats div.stats hr {
         border: 0;
@@ -141,13 +142,24 @@
         margin: 5px 0;
         margin-bottom: -14px;
     }
-    div.mod_stats h3 {
-        z-index: 111;
-        position: relative;
-        top: calc(var(--table-header-spacing-adjustment) + (129px / 2) + 11px);
+    div.mod_stats a#h3_header_title_link {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        top: 0;
+        left: 80px;
+        display: block;
+        width: calc(100% - 80px - 380px + 11px);
+        height: 160px;
+/*        border: 1px solid rebeccapurple;*/
+    }
+
+    div.mod_stats a#h3_header_title_link h3 {
+        color: var(--header-title-link-text);
         margin: 0;
-        line-height: 0;
         font-family: Verdana, Geneva, sans-serif;
+        line-height: calc(160px);
     }
 
 
@@ -159,15 +171,12 @@
         padding-right: 11px;
     }
 
+
     table {
         top: 400px;
         margin: 0 auto 0;
         width: calc(100% - var(--table-row-spacing-adjustment) * 2);
         border-spacing: 0 var(--table-row-spacing-adjustment);
-    }
-    table thead tr {
-        z-index:998
-        filter: drop-shadow(0 0 4px hsla(0, 0%, 0%, .5));
     }
     table thead tr th {
         z-index: 999;
@@ -176,7 +185,6 @@
         top: var(--table-row-spacing-adjustment);
         height:        calc(180px + var(--table-header-spacing-adjustment) - var(--table-row-spacing-adjustment));
         padding-bottom: calc(22px - var(--table-header-spacing-adjustment));
-        background: var(--header-background-color);
         vertical-align: bottom;
         color: var(--table-header-text-color);
     }
@@ -202,16 +210,18 @@
         border-right:  1px solid var(--color-00);
     }
     table tbody tr {
-        filter: drop-shadow(0 0 4px hsla(0, 0%, 0%, .5));
+        filter: drop-shadow(0 0 3px #000);
+    }
+    table tbody tr.selected {
+        position: relative;
+        z-index: 996;
+        filter: drop-shadow(0 0 22px #000000)
+                drop-shadow(0 0 22px #000000);
     }
     table tbody tr td {
         padding-top: 6px;
         padding-bottom: 6px;
         background-color: var(--color-01);
-    }
-    table tbody tr.selected td {
-        background-color: var(--color-01-selected);
-        border-color: #1A1914;
     }
     table tbody tr td.mod_num,
     table tbody tr td.mod_name,
@@ -274,7 +284,7 @@
         overflow: hidden;
         color: var(--color-02);
         border: none;
-        background-color: var(--color-01);
+        background: none;
         outline: none;
         resize: none;
     }
@@ -381,12 +391,12 @@ function forum_wiki_urls($server_mod) {
 function github_urls($server_mod) {
 
     $readme    = $server_mod->github->readme;
-    $release  = $server_mod->github->release;
+    $releases  = $server_mod->github->releases;
 
     $github_urls = "";
 
     if ($readme)  { $github_urls .= build_url_v00($readme,  "readme"); }
-    if ($release) { $github_urls .= build_url_v00($release, "release"); }
+    if ($releases) { $github_urls .= build_url_v00($releases, "releases"); }
 
     return "\n                " . str_replace("\n", "<br><hr>\n", trim($github_urls)) . "\n            ";
 }
@@ -494,8 +504,8 @@ HTML;
         $description          = $server_mod->description;
 
         $rows .= <<<HTML
-        <tr id="{$anchor_slug}">
-            <td class="mod_name text_center">{$mod_name}<a href="#{$anchor_slug}"></a></td>
+        <tr id="{$anchor_slug}" data-location="#{$anchor_slug}">
+            <td class="mod_name text_center">{$mod_name}</td>
             <td class="author text_center">{$author}</td>
             <td class="forum_wiki text_center">$forum_wiki_urls</td>
             <td class="github text_center">$github_urls</td>
@@ -544,7 +554,7 @@ HTML;
 
     <div class="mod_stats">
 
-        <h3 class="text_center">Wurm Unlimited Server Mods</h3>
+        <a id="h3_header_title_link" href="." title="Wurm Unlimited Server Mods"><h3 class="text_center">Wurm Unlimited Server Mods</h3></a>
 
         <div class="stats text_right"><?=$mod_stats?></div>
 
@@ -622,47 +632,41 @@ HTML;
 <script>
 
 
-// https://stackoverflow.com/questions/9899372/vanilla-javascript-equivalent-of-jquerys-ready-how-to-call-a-function-whe/9899701#9899701
-function docReady(fn) {
-
-    document.readyState === "complete" || document.readyState === "interactive" // see if DOM is already available
-    ? setTimeout(fn, 20)                                                        // call on next available tick
-    : document.addEventListener("DOMContentLoaded", fn)
-}
+var current_anchor = window.top.location.hash.substr(1)
 
 
-docReady(function() {
-
-    // var current_anchor = window.top.location.hash.substr(1)
-
+window.addEventListener('load',function(){
 
     if (window.top.location.hash.substr(1)) {
-
-        console.log(window.top.location.hash.substr(1))
 
         document.querySelector(`[id="${window.top.location.hash.substr(1)}"]`).classList.add('selected');
     }
 
-    var current_anchor = window.top.location.hash.substr(1)
+    document.querySelectorAll(`tr`).forEach(tr => {
+
+        tr.addEventListener('click', () => {
+
+            window.location = tr.dataset.location;
+
+            var selected = document.querySelector(".selected")
+
+            if (selected) { selected.classList.remove("selected")            }
+
+            tr.classList.add("selected")
 
 
-    var table = document.getElementsByTagName(`table`)[0]
-    var rows = document.querySelectorAll(`tr`)
+            // copy current address to clipboard
+            var dummy = document.createElement('input'),
+                text = window.location.href;
 
-    for (var i = 1; i < rows.length; i++) {
-
-        var current_row = table.rows[i]
-
-            current_row.onclick = function() {
-
-                console.log(`test`)
-            }
-    }
-
-
-
+            document.body.appendChild(dummy);
+            dummy.value = text;
+            dummy.select();
+            document.execCommand('copy');
+            document.body.removeChild(dummy);
+        })
+    })
 })
-
 
 </script>
 
