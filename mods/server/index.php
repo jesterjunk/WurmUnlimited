@@ -507,13 +507,18 @@ function forum_wiki_urls($server_mod) {
 
 function github_urls($server_mod) {
 
-    $readme    = $server_mod->github->readme;
-    $releases  = $server_mod->github->releases;
+    $github_releases  = $server_mod->github_releases;
 
     $github_urls = "";
 
-    if ($readme)  { $github_urls .= build_url_v00($readme,  "readme"); }
-    if ($releases) { $github_urls .= build_url_v00($releases, "releases"); }
+    if ($github_releases) {
+
+        $readme = preg_replace("/releases$/", "#readme", $github_releases);
+
+        $github_urls .= build_url_v00($readme,  "readme");
+
+        $github_urls .= build_url_v00($github_releases, "releases");
+    }
 
     return "\n                " . str_replace("\n", "<br><hr>\n", trim($github_urls)) . "\n            ";
 }
