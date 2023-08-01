@@ -35,8 +35,8 @@
     }
 
     html {
-/*        scroll-behavior: smooth;*/
-        scroll-padding: calc(50% + (210px / 5.25));
+        scroll-behavior: smooth;
+        scroll-padding: 269px;
 
 /*                            This is for                                      */
 /*                              FireFox                                        */
@@ -132,7 +132,7 @@
     div.header_information div.disclaimer div.spacer {
         height: 6px;
     }
-/*    div.header_information div.disclaimer .div_copy_to_clipboard_message {
+    div.header_information div.disclaimer .div_copy_to_clipboard_message {
         left: calc(80px + 40px + 8px);
         padding-top: 8px;
         padding-bottom: 6px;
@@ -146,7 +146,7 @@
                      0 0 6px #000;
         font-family: Verdana, Geneva, sans-serif;
         font-size: 1em;
-    }*/
+    }
 
     div.header_information div.disclaimer div.github-corner a {
         z-index: 2024;
@@ -225,7 +225,7 @@
         left: 350px;
         min-width: 104px;
         width: calc(100% - 683px - 37px);
-        height: 210px;
+        height: 169px;
         -webkit-transition: text-decoration 1000ms ease-in-out;
            -moz-transition: text-decoration 1000ms ease-in-out;
                 transition: text-decoration 1000ms ease-in-out;
@@ -378,8 +378,10 @@
         padding-right: 8px;
     }
     table#mods_table tbody tr td.mod_name_and_description {
-/*        vertical-align: top;*/
+        vertical-align: top;
         height: 1px;
+        height: 100%;
+/*        border: 1px solid rebeccapurple;*/
     }
     table#mods_table tbody tr td.mod_name_and_description div {
         display: flex;
@@ -402,7 +404,6 @@
     table#mods_table tbody tr td.mod_name_and_description div div.name {
         position: relative;
         display: unset;
-        flex: 1;
         font-size: 1em;
         line-height: 1.25em;
         font-weight: 700;
@@ -698,13 +699,13 @@ size <span class="span_color_00">······</span> $size_formatted
 HTML;
 
         $rows .= <<<HTML
-        <tr id="{$anchor_slug}" data-location="#{$anchor_slug}">
+        <tr id="{$anchor_slug}">
             <td class="mod_name_and_description">
                 <div>
                     <div class="name">
                         {$mod_name}
                         <div class="anchor_link_icon">
-                            <a href="#{$anchor_slug}">
+                            <a href="#{$anchor_slug}" data-location="#{$anchor_slug}">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
                                     <path d="M15 9l6-6s6-6 12 0 0 12 0 12l-8 8s-6 6-12 0c-1.125-1.125-1.822-2.62-1.822-2.62l3.353-3.348S14.396 18.396 16 20c0 0 3 3 6 0l8-8s3-3 0-6-6 0-6 0l-3.729 3.729s-1.854-1.521-5.646-.354L15 9z"/>
                                     <path d="M20.845 27l-6 6s-6 6-12 0 0-12 0-12l8-8s6-6 12 0c1.125 1.125 1.822 2.62 1.822 2.62l-3.354 3.349s.135-1.365-1.469-2.969c0 0-3-3-6 0l-8 8s-3 3 0 6 6 0 6 0l3.729-3.729s1.854 1.521 5.646.354l-.374.375z"/>
@@ -805,10 +806,13 @@ HTML;
                 interoperability between the mods.<br>
                 <div class="spacer"></div>
                 DO NOT blame me when something breaks!
-            </div><!--
+            </div>
             <div class="div_copy_to_clipboard_message">
-                <b><i>left click</i></b> a table row to copy<br>its anchor address to clipboard
-            </div>-->
+                <!--<b><i>left click</i></b> a table row to copy<br>its anchor address to clipboard-->
+                <!--Click the link icon in the <b><i>mod name and<br>description</i></b> column to copy the anchor<br>url for that row to your clipboard.-->
+                <b>mod name and description</b> column:<br>
+                The <b><i>link icon</i></b> copies the anchor url<br>for that row to clipboard.
+            </div>
         </div>
 
         <a id="h3_header_title_link" href="." title="Wurm Unlimited Server Mods">
@@ -852,42 +856,42 @@ HTML;
 
 <script>
 
-
-// var current_anchor = window.top.location.hash.substr(1)
-
-
-// window.addEventListener('load',function(){
-
-//     if (window.top.location.hash.substr(1)) {
-
-//         document.querySelector(`[id="${window.top.location.hash.substr(1)}"]`).classList.add('selected');
-//     }
-
-//     document.querySelectorAll(`tbody tr`).forEach(tr => {
-
-//         tr.addEventListener('click', () => {
-
-//             window.location = tr.dataset.location;
-
-//             var selected = document.querySelector(".selected")
-
-//             if (selected) { selected.classList.remove("selected")            }
-
-//             tr.classList.add("selected")
+var current_anchor = window.top.location.hash.substr(1)
 
 
-//             // copy current address to clipboard
-//             var dummy = document.createElement('input')
+window.addEventListener('load',function(){
 
-//             document.body.appendChild(dummy)
-//             dummy.value = window.location.href
-//             dummy.select()
-//             document.execCommand('copy')
-//             document.body.removeChild(dummy)
-//         })
-//     })
-// }
-)
+    if (window.top.location.hash.substr(1)) {
+
+        document.querySelector(`[id="${window.top.location.hash.substr(1)}"]`).classList.add('selected');
+    }
+
+    document.querySelectorAll(`div[class="anchor_link_icon"] a`).forEach(anchor_link_icon => {
+
+        anchor_link_icon.addEventListener('click', () => {
+
+            window.location = anchor_link_icon.dataset.location;
+
+            var selected = document.querySelector(".selected")
+
+            if (selected) { selected.classList.remove("selected")            }
+
+            anchor_link_icon.parentElement.parentElement.parentElement.parentElement.parentElement.classList.add("selected")
+
+
+            // copy current address to clipboard
+            var dummy = document.createElement('input'),
+                text = window.location.href;
+
+            document.body.appendChild(dummy);
+            dummy.value = text;
+            dummy.select();
+            document.execCommand('copy');
+            document.body.removeChild(dummy);
+        })
+    })
+})
+
 </script>
 
 
