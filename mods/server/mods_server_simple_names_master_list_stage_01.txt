@@ -774,7 +774,7 @@ modname    Armoury                                             give server owner
             "main": "https://github.com/Sindusk/armoury/releases/download/v4.1/Armoury-4.1.zip",
             "mirror": "https://github.com/jesterjunk/WurmUnlimited/raw/master/mods/server/authors/sindusk/Armoury-4.1.zip",
             "archive": "https://web.archive.org/web/20230727112215/https://github.com/Sindusk/armoury/releases/download/v4.1/Armoury-4.1.zip",
-            "filename": "",
+            "filename": "Armoury-4.1.zip",
             "bytes": 35751,
             "sha256": "5636963d167bc4e3602963fef83e03a107b648114d65c4f864154eef2f43121c",
             "virustotal": "https://www.virustotal.com/gui/file/5636963d167bc4e3602963fef83e03a107b648114d65c4f864154eef2f43121c"
@@ -3179,8 +3179,8 @@ modname    CreaturesOnWater                                    Allows leading cr
 •·⸱⸳.•
     {
         "author": "Xyp",
-        "mod_name": "",
-        "slug": "",
+        "mod_name": "Creatures on Water",
+        "slug": "creatures_on_water",
         "forum_1": {
             "main": "https://forum.wurmonline.com/index.php?/topic/135743-released-lead-creatures-on-water-for-use-with-agos-loader/",
             "archive": "https://web.archive.org/web/20230802204745/https://forum.wurmonline.com/index.php?/topic/135743-released-lead-creatures-on-water-for-use-with-agos-loader/",
@@ -3213,7 +3213,7 @@ modname    CreaturesOnWater                                    Allows leading cr
         },
         "current_version": "0",
         "release_date": "Oct 3, 2018",
-        "description": ""
+        "description": "Tricks creatures you are leading into thinking they can swim, so that you can lead them over water.<br><br><b>Note:</b><br>If you stop leading them they will try to get to shore, and start taking drowning damage."
     },
 •·⸱⸳.•
 
@@ -3387,57 +3387,17 @@ modname    CustomWagons (with the help of Bdew and Coldie )    *Creates the pote
 
 
 
-modname    customtrader
-modname    customtrader.properties
-•·⸱⸳.•
-    {
-        "author": "",
-        "mod_name": "",
-        "slug": "",
-        "forum_1": {
-            "main": "",
-            "archive": "",
-            "pages": {}
-        },
-        "forum_2": {
-            "main": "",
-            "archive": "",
-            "pages": {}
-        },
-        "wiki": {
-            "main": "",
-            "archive": ""
-        },
-        "github_releases": "",
-        "direct_download": {
-            "main": "",
-            "mirror": "",
-            "archive": "",
-            "filename": "",
-            "bytes": 0,
-            "sha256": "",
-            "virustotal": ""
-        },
-        "current_version": "",
-        "release_date": "",
-        "description": ""
-    },
-•·⸱⸳.•
-
-
-
-
 modname    Decoration
 modname    Decorations
 modname    Decorations Mod                                     *Craftables toys and a playable chessboard
 •·⸱⸳.•
     {
-        "author": "",
+        "author": "Coldie aka Cuddles",
         "mod_name": "",
         "slug": "",
         "forum_1": {
-            "main": "",
-            "archive": "",
+            "main": "https://forum.wurm-unlimited.net/viewtopic.php?f=36&t=28",
+            "archive": "https://web.archive.org/web/20230802212455/https://forum.wurm-unlimited.net/viewtopic.php?f=36&t=28",
             "pages": {}
         },
         "forum_2": {
@@ -3446,17 +3406,17 @@ modname    Decorations Mod                                     *Craftables toys 
             "pages": {}
         },
         "wiki": {
-            "main": "",
+            "main": "https://wiki.wurm-unlimited.net/page/Decorations_Mod",
             "archive": ""
         },
         "github_releases": "",
         "direct_download": {
-            "main": "",
+            "main": "https://1drv.ms/u/s!AjnBltNOSFjChA2Wpyj7JSFtCt4-?e=QB27Dj",
             "mirror": "",
             "archive": "",
-            "filename": "",
-            "bytes": 0,
-            "sha256": "",
+            "filename": "decorations.zip",
+            "bytes": 36356064,
+            "sha256": "4b880c28095849f6afdbf596c53b1b9283bf2db6f0f503c08dd3e791a87ca356",
             "virustotal": ""
         },
         "current_version": "",

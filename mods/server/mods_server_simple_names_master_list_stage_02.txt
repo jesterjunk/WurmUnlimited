@@ -517,87 +517,60 @@ modname    Creatures Mod                                       ----
         "description":             "This mod will add more creatures to your wurm game without replacing the original creatures.",
 
 
-modname    CreaturesOnWater                                    Allows leading creatures while in a boat.
-•·⸱⸳.•
-    {
-        "author":                  "",
-        "mod_name":                "",
-        "slug":                    "",
-        "forum":                   "",
-        "github_releases":         "",
-        "direct_download_main"     "",
-        "current_version":         "",
-        "description":             "",
-
-
 modname    cropmod.config
 modname    cropmod.properties
 •·⸱⸳.•
     {
-        "author":                  "",
-        "mod_name":                "",
-        "slug":                    "",
-        "forum":                   "",
-        "github_releases":         "",
-        "direct_download_main"     "",
-        "current_version":         "",
-        "description":             "",
+        "author":                  "Ago",
+        "mod_name":                "Crop",
+        "slug":                    "crop",
+        "forum":                   "https://forum.wurmonline.com/index.php?/topic/133085-released-server-mod-loader-priest-crops-seasons-server-packs-bag-of-holding/",
+        "github_releases":         "https://github.com/ago1024/WurmServerModLauncher/releases",
+        "direct_download_main"     "https://github.com/ago1024/WurmServerModLauncher/releases/download/v0.45/cropmod-0.45.zip",
+        "current_version":         "0.45",
+        "description":             "Prevent crops from overgrowing",
 
 
 modname    Custom NPC                                          Allows you to spawn a "Custom NPC", which work similar to vanilla NPCs. You can set the movementspeed/waypoints the equipement and some more
 modname    Custom NPC                                          Allows you to spawn a "Custom NPC", which work similar to vanilla NPCs. You can set the movementspeed/waypoints the equipement and some more
 •·⸱⸳.•
     {
-        "author":                  "",
-        "mod_name":                "",
-        "slug":                    "",
-        "forum":                   "",
-        "github_releases":         "",
-        "direct_download_main"     "",
-        "current_version":         "",
-        "description":             "",
+        "author":                  "Bdew",
+        "mod_name":                "Custom NPC",
+        "slug":                    "Custom NPC",
+        "forum":                   "https://forum.wurmonline.com/index.php?/topic/160582-alpha-custom-npc/",
+        "github_releases":         "https://github.com/bdew-wurm/customnpc/releases",
+        "direct_download_main"     "https://github.com/bdew-wurm/customnpc/releases/download/v0.4/customnpc-0.4.zip",
+        "current_version":         "0.4",
+        "description":             "Allows you to spawn a "Custom NPC", which work similar to vanilla NPCs. You can set the movementspeed/waypoints the equipement and some more.",
 
 
 
 modname    Custom Trader
 •·⸱⸳.•
     {
-        "author":                  "",
-        "mod_name":                "",
-        "slug":                    "",
-        "forum":                   "",
-        "github_releases":         "",
-        "direct_download_main"     "",
-        "current_version":         "",
-        "description":             "",
+        "author":                  "Mthec",
+        "mod_name":                "Custom Trader",
+        "slug":                    "custom_trader",
+        "forum":                   "https://forum.wurmonline.com/index.php?/topic/166806-released-mthecs-npcs-crafter-buyer-deliverycontracts-merchantcap-customtrader-toolpurchaser-banker-beastsummoner/",
+        "github_releases":         "https://github.com/Mthec/CustomTrader/releases",
+        "direct_download_main"     "https://github.com/Mthec/CustomTrader/releases/download/0.3.10/customtrader.zip",
+        "current_version":         "0.3.10",
+        "description":             "A new type of NPC based on the standard trader, that can only be placed by GMs.  Has various options for a custom inventory, including restocking rules.  Use a 'tag' to share the same inventory between multiple custom traders, or just use a unique inventory.<br><br><b>Requirements:</b><br>Ago's Mod Launcher",
 
 
 modname    Custom Wagons
 modname    CustomWagons (with the help of Bdew and Coldie )    *Creates the potential to make your own custom wagons provided you can add the textures for them.
 •·⸱⸳.•
     {
-        "author":                  "",
-        "mod_name":                "",
-        "slug":                    "",
-        "forum":                   "",
-        "github_releases":         "",
-        "direct_download_main"     "",
-        "current_version":         "",
-        "description":             "",
-
-
-modname    customtrader
-modname    customtrader.properties
-•·⸱⸳.•
-    {
-        "author":                  "",
-        "mod_name":                "",
-        "slug":                    "",
-        "forum":                   "",
-        "github_releases":         "",
-        "direct_download_main"     "",
-        "current_version":         "",
-        "description":             "",
+        "author":                  "Ayluin",
+        "mod_name":                "Custom Wagons",
+        "slug":                    "custom_wagons",
+        "forum":                   "https://forum.wurmonline.com/index.php?/topic/169728-release-revelations-server-mods/",
+        "github_releases":         "https://github.com/revelation343/CustomWagons/releases",
+        "direct_download_main"     "https://github.com/revelation343/CustomWagons/releases/download/1.1/CustomWagons-1.1.zip",
+        "current_version":         "1.1",
+        "description":             "Enables Wagoner and Canvas removed wagons on Wurm Unlimited.<br><br>- Creates the potential to make your own custom wagons provided you can add the textures for them.<br><br>- Thanks to <a href=\"https://forum.wurmonline.com/index.php?/profile/76770-cuddles/\">@Cuddles</a></b> and <a href=\"https://forum.wurmonline.com/index.php?/profile/1469-bdew/\">@bdew</a> for assistance in getting this project available to be released publicly for everyone to use.",
 
 
 modname    Decorations
