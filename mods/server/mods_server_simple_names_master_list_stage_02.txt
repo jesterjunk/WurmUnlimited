@@ -1,0 +1,3050 @@
+
+
+modname    actiondemo
+modname    actiondemo.properties
+•·⸱⸳.•
+    {
+        "author":                  "----",
+        "mod_name":                "----",
+        "slug":                    "----",
+        "forum":                   "----",
+        "github_releases":         "----",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+
+modname    Animal Neutering                                    You can neuter you animals to remove their breeding ability.
+•·⸱⸳.•
+    {
+        "author":                  "----",
+        "mod_name":                "----",
+        "slug":                    "----",
+        "forum":                   "----",
+        "github_releases":         "----",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+
+modname    Arrowpacks                                          You can take a quiver and 20 War or Hunting Arrows to make an arrow pack. You need 70 fletching skill to make hunting arrow packs and 75 fletching skill for war arrow packs.
+•·⸱⸳.•
+    {
+        "author":                  "----",
+        "mod_name":                "----",
+        "slug":                    "----",
+        "forum":                   "----",
+        "github_releases":         "----",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    bdew server mod tools                               This is a library that will be used by bdew (and possibly other people's) mods.
+modname    bdew server mod tools                               This is a library that will be used by bdew (and possibly other people's) mods.
+•·⸱⸳.•
+    {
+        "author":                  "Bdew",
+        "mod_name":                "Bdew Server Mod Tools",
+        "slug":                    "bdew_server_mod_tools",
+        "forum":                   "https://forum.wurmonline.com/index.php?/topic/138254-released-bdew-server-mods-new-mod-fishy-tweaks-updated-apr-09/",
+        "github_releases":         "https://github.com/bdew-wurm/bdew_server_mod_tools/releases",
+        "direct_download_main"     "https://github.com/bdew-wurm/bdew_server_mod_tools/releases/download/v2.1.0/bdew_server_mod_tools-2.1.0.zip",
+        "current_version":         "2.1.0",
+        "description":             "This is a library that will be used by bdew (and possibly other people's) mods.",
+
+
+modname    beastsummoner
+modname    beastsummoner.properties
+•·⸱⸳.•
+    {
+        "author":                  "Mthec",
+        "mod_name":                "BeastSummoner",
+        "slug":                    "beastsummoner",
+        "forum":                   "https://forum.wurmonline.com/index.php?/topic/166806-released-mthecs-npcs-crafter-buyer-deliverycontracts-merchantcap-customtrader-toolpurchaser-banker-beastsummoner/",
+        "github_releases":         "https://github.com/Mthec/BeastSummoner/releases",
+        "direct_download_main"     "https://github.com/Mthec/BeastSummoner/releases/download/0.1.3-testing/beastsummoner.zip",
+        "current_version":         "0.1.3",
+        "description":             "A new type of NPC that can be placed by GM, to offer creature spawning services to players.",
+
+
+modname    BetterDig                                           Almost everything is possible to do while mounted, resource digging increased to 20kg.
+modname    betterdig.properties
+•·⸱⸳.•
+    {
+        "author":                  "Bdew",
+        "mod_name":                "Better Digging",
+        "slug":                    "better_digging",
+        "forum":                   "https://forum.wurmonline.com/index.php?/topic/138254-released-bdew-server-mods-new-mod-fishy-tweaks-updated-apr-09/",
+        "github_releases":         "https://github.com/bdew-wurm/betterdig/releases",
+        "direct_download_main"     "https://github.com/bdew-wurm/betterdig/releases/download/v0.9/betterdig-0.9.zip",
+        "current_version":         "0.9",
+        "description":             "Some usefull features to bring dirt into a vehicle or on ground instead of player inventory and much more<br><br><span class="mod_description_warning">Warning</span>: This mod is probably incompatible with the other digging-like-mining mods, and should fully replace their functionality. Having multiple mods of this type will likely lead to crashes, dupes and/or weird ######.",
+
+
+modname    betterfarm.config
+modname    betterfarm.properties
+•·⸱⸳.•
+    {
+        "author":                  "Bdew",
+        "mod_name":                "Better Farming",
+        "slug":                    "better_farming",
+        "forum":                   "https://forum.wurmonline.com/index.php?/topic/138254-released-bdew-server-mods-new-mod-fishy-tweaks-updated-apr-09/",
+        "github_releases":         "https://github.com/bdew-wurm/betterfarm/releases",
+        "direct_download_main"     "https://github.com/bdew-wurm/betterfarm/releases/download/v2.2/betterfarm-2.2.zip",
+        "current_version":         "2.2",
+        "description":             "Adds ability to cultivate, sow, farm, harvest, harvest and replant in a bigger area / mass plant and harvest planter racks and some more",
+
+
+modname    BetterGamemasters
+modname    BetterGamemasters.properties
+•·⸱⸳.•
+    {
+        "author":                  "Ulviirala",
+        "mod_name":                "Better Gamemasters",
+        "slug":                    "better_gamemasters",
+        "forum":                   "https://forum.wurmonline.com/index.php?/topic/133975-alpha-better-gamemasters-111-hotfix/",
+        "github_releases":         "https://github.com/dmon82/BetterGamemasters/releases",
+        "direct_download_main"     "https://github.com/dmon82/BetterGamemasters/releases/download/v1.1.1/BetterGamemasters-1.1.1-bin.zip",
+        "current_version":         "1.1.1",
+        "description":             "Game masters can pick-up items with disregard to carry limits by body strength, walking speed is not affected by inventory weight",
+
+
+
+modname    Better Sleep                                        With higher quality on your bed you get more sleep bonus from it. Rarity on them will increase gained sleep bonus even further. The increase in sleep bonus is equivalent to 0.5% more per QL of the bed. At 100QL, the bed will grant 50% more sleep bonus. Each level of rarity multiplies the total by 10%.
+•·⸱⸳.•
+    {
+        "author":                  "----",
+        "mod_name":                "----",
+        "slug":                    "----",
+        "forum":                   "----",
+        "github_releases":         "----",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+
+modname    Better Surface Mining                               Exposing a rock tile will allow you to mine each of it's corners without exposing adjacent tiles and with a 100% chance of success.
+•·⸱⸳.•
+    {
+        "author":                  "----",
+        "mod_name":                "----",
+        "slug":                    "----",
+        "forum":                   "----",
+        "github_releases":         "----",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    Bids                                                Released     New mod from 27. april 2018    https://github.com/mpsmonk/wurm-mods/
+modname    Bids                                                New mod from 27. april 2018
+•·⸱⸳.•
+    {
+        "author":                  "Druward aka mpsmonk",
+        "mod_name":                "Bids",
+        "slug":                    "bids",
+        "forum":                   "----",
+        "github_releases":         "https://github.com/mpsmonk/wurm-mods/releases",
+        "direct_download_main"     "https://github.com/mpsmonk/wurm-mods/blob/master/Bids.7z",
+        "current_version":         "0",
+        "description":             "Bids mod WU Mod for holding draws for players. Supports the following commands: /bidinfo - status at the moment /bid sum_of_bid_in_iron_coin - start bid. For example /bid 100 - start bid with stake 1 copper /bidup - join to bid All info about bid will be in chat tab "Bids" Duration of a draw can be regulated in properties. For participation in a draw the player has to have money on the bank account",
+
+
+modname    Bind To All Interfaces                              Makes the server bind all it's sockets (external, intraserver and RMI if enabled) to all available interfaces
+modname    Bind To All Interfaces                              Makes the server bind all it's sockets (external, intraserver and RMI if enabled) to all available interfaces
+•·⸱⸳.•
+    {
+        "author":                  "Bdew",
+        "mod_name":                "Bind To All Interfaces",
+        "slug":                    "bind_to_all_interfaces",
+        "forum":                   "https://forum.wurmonline.com/index.php?/topic/138254-released-bdew-server-mods-new-mod-fishy-tweaks-updated-apr-09/",
+        "github_releases":         "https://github.com/bdew-wurm/bindmod/releases",
+        "direct_download_main"     "https://github.com/bdew-wurm/bindmod/releases/download/v0.2/bindmod-0.2.zip",
+        "current_version":         "0.2",
+        "description":             "Makes the server bind all it's sockets (external, intraserver and RMI if enabled) to all available interfaces",
+
+
+modname    BoatMod                                             change wind effect, make all animals able to swim, enable continued leading
+modname    BoatMod                                             change wind effect, make all animals able to swim, enable continued leading
+•·⸱⸳.•
+    {
+        "author":                  "WalkerInTheVoid",
+        "mod_name":                "BoatMod",
+        "slug":                    "boatmod",
+        "forum":                   "https://forum.wurmonline.com/index.php?/topic/134477-released-mods-for-modloader-bounties-digging-like-mining-meditation-underground-prospecting-spider-replacements/",
+        "github_releases":         "https://github.com/WalkerInTheVoid/WurmMods/releases",
+        "direct_download_main"     "https://github.com/WalkerInTheVoid/WurmMods/releases/download/v1.5/WalkerMods.V1.5.zip",
+        "current_version":         "1.5",
+        "description":             "change wind effect, make all animals able to swim, enable continued leading",
+
+
+modname    Bookshelfs                                          Released     New mod from 27. april 2018    https://github.com/mpsmonk/wurm-mods/
+modname    Bookshelfs                                          New mod from 27. april 2018
+•·⸱⸳.•
+    {
+        "author":                  "Druward aka mpsmonk",
+        "mod_name":                "Bookshelfs",
+        "slug":                    "bookshelfs",
+        "forum":                   "----",
+        "github_releases":         "https://github.com/mpsmonk/wurm-mods/releases",
+        "direct_download_main"     "https://github.com/mpsmonk/wurm-mods/blob/master/bookshelfs.7z",
+        "current_version":         "0",
+        "description":             "Bookshelfs mod WU You can create a blank book: Activate leather on paper sheet and choose "create". Need 1 leather and 10 paper sheet, uses papyrus making skill. You can try write a book of skill: Activate reed pen on blank book and choose "Write the book". At first you must have papyrus making skill more than 50. You will receive list of skill for writing a book. If you chosen skill is lower than 70, you will fail. In other case you will receive "tome of skill" You can study that tome and receive small amount of skill. Activate hand on tome and choose "Study". The quality of the tome influences the number of experience in that skill. You can put the tome in bookshelf. Activate tome on high/low bookshelf and choose "Put the book". In high you can put 20 tome, in low 10. You can reed something from bookshelf. Activate hand on bookshelf and choose " Thumb through". You receive a small amount in skill depends of what book was put on it, or only in one of mind/logic/speed if there is no book inside. You can create a cover book: Activate leather on paper sheet and choose "create". Need 1 leather and 1 paper sheet, uses papyrus making skill. Simple container.",
+
+
+modname    BountyMod                                           receive bounty for killed creatures / enable skillgain for bred creatures and a lot more options
+modname    bountymod.properties
+•·⸱⸳.•
+    {
+        "author":                  "WalkerInTheVoid",
+        "mod_name":                "BountyMod",
+        "slug":                    "bountymod",
+        "forum":                   "https://forum.wurmonline.com/index.php?/topic/134477-released-mods-for-modloader-bounties-digging-like-mining-meditation-underground-prospecting-spider-replacements/",
+        "github_releases":         "https://github.com/WalkerInTheVoid/WurmMods/releases",
+        "direct_download_main"     "https://github.com/WalkerInTheVoid/WurmMods/releases/download/v1.7/WalkerServerMods.V1.7.zip",
+        "current_version":         "1.7",
+        "description":             "receive bounty for killed creatures / enable skillgain for bred creatures and a lot more options",
+
+
+modname    BountyOnBurn.properties
+modname    BurnBounty                                          Burning corpses provides a small amount of coin and karma.
+•·⸱⸳.•
+    {
+        "author":                  "Governor aka Jubaroo",
+        "mod_name":                "Bounty on Burn",
+        "slug":                    "bounty_on_burn",
+        "forum":                   "https://forum.wurmonline.com/index.php?/topic/163363-released-governor-server-mods-newest-mod-altars-mod/",
+        "github_releases":         "https://github.com/Jubaroo/Bounty-on-Burn/releases",
+        "direct_download_main"     "https://github.com/Jubaroo/Bounty-on-Burn/releases/download/1.4/BountyOnBurn_v1.4.zip",
+        "current_version":         "1.4",
+        "description":             "Burn corpses for cash or karma! ",
+
+
+modname    Bridge Mod                                          modify bridge max width, works well with my infinite wide mine entrances and mine doors mod.
+modname    Bridge Mod                                          modify bridge max width, works well with my infinite wide mine entrances and mine doors mod.
+•·⸱⸳.•
+    {
+        "author":                  "Ausimus",
+        "mod_name":                "Bridge Mod",
+        "slug":                    "Bridge Mod",
+        "forum":                   "https://forum.wurmonline.com/index.php?/topic/153100-ausmods-consolidated-list-new-whitelisting-mod/",
+        "github_releases":         "https://github.com/ausimus/WurmUnlimited-BridgeMod/releases",
+        "direct_download_main"     "https://github.com/ausimus/WurmUnlimited-BridgeMod/releases/download/10%3D.0/BM_1_0.zip",
+        "current_version":         "1.0",
+        "description":             "modify bridge max width, works well with my infinite wide mine entrances and mine doors mod.",
+
+
+modname    Bulkseparated                                       https://github.com/bdew-wurm/bulkseparated
+modname    bulkseparated.properties
+•·⸱⸳.•
+    {
+        "author":                  "Bdew",
+        "mod_name":                "BulkSeparated",
+        "slug":                    "bulkseparated",
+        "forum":                   "https://forum.wurmonline.com/index.php?/topic/142516-beta-nekoexmachina-mods-newest-addition-fix-for-white-foals-from-creature-mod/&do=findComment&comment=1729338",
+        "github_releases":         "https://github.com/bdew-wurm/bulkseparated/releases",
+        "direct_download_main"     "https://github.com/bdew-wurm/bulkseparated/releases/download/1.2/bulkseparated-bdew-1.2.zip",
+        "current_version":         "1.2",
+        "description":             "mod to separate bulk items",
+
+
+modname    Bulk storage tranfer limits                         Released     https://forum.wurmonline.com/index.php?/topic/133518-released-bulk-storage-tranfer-limits/
+modname    Bulk storage tranfer limits                         ----
+•·⸱⸳.•
+    {
+        "author":                  "Webba",
+        "mod_name":                "Bulk storage tranfer limits",
+        "slug":                    "bulk_storage_tranfer_limits",
+        "forum":                   "https://forum.wurmonline.com/index.php?/topic/133518-released-bulk-storage-tranfer-limits/",
+        "github_releases":         "https://github.com/bdew-wurm/bulktransportmod/releases",
+        "direct_download_main"     "https://github.com/bdew-wurm/bulktransportmod/releases/download/cooking-fixes/bulktransportmod.jar",
+        "current_version":         "0",
+        "description":             "A small mod to remove the limit on moving items between bsbs and crates, \"As many as I can carry\" will  default to the lower of 1000 items or the number in the bulk container that they are in. Also removes limit on moving to a container (forge, cart). You can type in a number above 1000 to move more items.<br><br><span class=\"mod_description_alert\">Create a new and file name it <b>bulktransportmod.properties</b><br><br>Copy / Paste the following into it: <b><pre>classname=com.webbrar.wurm.mods.bulktransportmod.BulkTransportMod<br>classpath=bulktransportmod.jar</pre></b>Create a new directory named <b>bulktransportmod</b><br><br>Move the <b>bulktransportmod.jar</b> and <b>bulktransportmod.properties</b> files into the <b>bulktransportmod</b> directory.<br><br>The directory structure should look like this: <b><pre>bulktransportmod\bulktransportmod.jar<br>bulktransportmod\bulktransportmod.properties</pre></b></span>",
+
+
+modname    BulkMod                                             placing hot iems into BSBs and FSBs
+modname    BulkMod                                             placing hot iems into BSBs and FSBs
+•·⸱⸳.•
+    {
+        "author":                  "WalkerInTheVoid",
+        "mod_name":                "BulkMod",
+        "slug":                    "bulkmod",
+        "forum":                   "https://forum.wurmonline.com/index.php?/topic/134477-released-mods-for-modloader-bounties-digging-like-mining-meditation-underground-prospecting-spider-replacements/",
+        "github_releases":         "https://github.com/WalkerInTheVoid/WurmMods/releases",
+        "direct_download_main"     "https://github.com/WalkerInTheVoid/WurmMods/releases/download/v1.3/WalkerMods.V1.3.zip",
+        "current_version":         "1.3",
+        "description":             "Enables placing hot items into BSBs and FSBs.",
+
+
+
+modname    BulkMods                                            Bulk containers have double the capacity and auto-sort quality.
+•·⸱⸳.•
+    {
+        "author":                  "----",
+        "mod_name":                "----",
+        "slug":                    "----",
+        "forum":                   "----",
+        "github_releases":         "----",
+        "direct_download_main"     "----",
+        "current_version":         "----",
+        "description":             "----",
+
+
+modname    buyermerchant
+modname    buyermerchant.properties
+•·⸱⸳.•
+    {
+        "author":                  "Mthec",
+        "mod_name":                "Buyer Merchant",
+        "slug":                    "buyer_merchant",
+        "forum":                   "https://forum.wurmonline.com/index.php?/topic/166806-released-mthecs-npcs-crafter-buyer-deliverycontracts-merchantcap-customtrader-toolpurchaser-banker-beastsummoner/",
+        "github_releases":         "https://github.com/Mthec/BuyerMerchant/releases",
+        "direct_download_main"     "https://github.com/Mthec/BuyerMerchant/releases/download/0.5.31/buyermerchant.zip",
+        "current_version":         "0.5.31",
+        "description":             "Introduces a new type of NPC, based on the merchant, that will buy items from players instead of selling them.",
+
+
+
+modname    Calysto Custom Stuff
+•·⸱⸳.•
+    {
+        "author":                  "----",
+        "mod_name":                "----",
+        "slug":                    "----",
+        "forum":                   "----",
+        "github_releases":         "----",
+        "direct_download_main"     "----",
+        "current_version":         "----",
+        "description":             "----",
+
+
+modname    Cave Dwellings Tweaks Mod                           Abandoned    https://forum.wurmonline.com/index.php?/topic/141818-abandoned-cave-dwellings-tweaks-mod/
+modname    Cave Dwellings Tweaks Mod                           ----
+•·⸱⸳.•
+    {
+        "author":                  "joedobo",
+        "mod_name":                "Cave Dwellings Tweaks",
+        "slug":                    "cave_dwellings_tweaks",
+        "forum":                   "https://forum.wurmonline.com/index.php?/topic/141818-abandoned-cave-dwellings-tweaks-mod/",
+        "github_releases":         "https://github.com/Joedobo27/cavedwellingstweaksmod/releases",
+        "direct_download_main"     "https://github.com/Joedobo27/cavedwellingstweaksmod/releases/download/1.0.2/CaveDwellingsTweaksModv102.zip",
+        "current_version":         "1.0.2",
+        "description":             "<b>This mod is now abandoned.</b><br><br>Provide options to disable a few restrictions that exists in vanilla WU pertaining the cave dwelling construction.",
+
+
+modname    Chest claim
+•·⸱⸳.•
+    {
+        "author":                  "Bdew",
+        "mod_name":                "Treasure Chest Claim",
+        "slug":                    "treasure_chest_claim",
+        "forum":                   "https://forum.wurmonline.com/index.php?/topic/138254-released-bdew-server-mods-new-mod-fishy-tweaks-updated-apr-09/",
+        "github_releases":         "https://github.com/bdew-wurm/chestclaim/releases",
+        "direct_download_main"     "https://github.com/bdew-wurm/chestclaim/releases/download/v0.2/chestclaim-0.2.zip",
+        "current_version":         "0.2",
+        "description":             "Allows players to "claim" random treasure chests, unlocking the chest and rewarding the players with some karma",
+
+
+
+modname    Chirp Info
+•·⸱⸳.•
+    {
+        "author":                  "Ricowan aka Ricoware",
+        "mod_name":                "Chirp Info",
+        "slug":                    "chirp_info",
+        "forum":                   "https://forum.wurmonline.com/index.php?/topic/189153-release-ricos-mods-chirpinfo-persistcroptick/",
+        "github_releases":         "https://github.com/Ricoware/WurmUnlimited-Chirp-Info/releases",
+        "direct_download_main"     "https://github.com/Ricoware/WurmUnlimited-Chirp-Info/releases/download/1.1/chirpinfo.zip",
+        "current_version":         "1.1",
+        "description":             "Simple server mod to display time to next farm tick (chirp) on login and by command.<br><br>Commands <b>/chirp</b>, <b>/nextchirp</b>, or <b>/nextcrop</b> will display the current time to next farm tick.<br><br><span class="mod_description_warning">Warning</span>: <br><br><b>This mod should NOT be used on the same server as the PersistCropTick mod.</b>",
+
+
+modname    christmasmod.config
+modname    christmasmod.properties
+•·⸱⸳.•
+    {
+        "author":                  "Ago",
+        "mod_name":                "Christmas Mod",
+        "slug":                    "christmas_mod",
+        "forum":                   "https://forum.wurmonline.com/index.php?/topic/133085-released-server-mod-loader-priest-crops-seasons-server-packs-bag-of-holding/",
+        "github_releases":         "https://github.com/ago1024/WurmServerModLauncher/releases",
+        "direct_download_main"     "https://github.com/ago1024/WurmServerModLauncher/releases/download/v0.45/christmasmod-0.45.zip",
+        "current_version":         "0.45",
+        "description":             "Configure christmas gifts.",
+
+
+modname    Common Tweaks
+modname    Common Tweaks                                       https://wiki.wurm-unlimited.net/page/Common_Tweaks_Mod
+•·⸱⸳.•
+    {
+        "author":                  "Tyoda",
+        "mod_name":                "Common Tweaks",
+        "slug":                    "common_tweaks",
+        "forum":                   "https://forum.wurm-unlimited.net/viewtopic.php?f=12&t=164",
+        "github_releases":         "https://github.com/Tyoda/CommonTweaks/releases",
+        "direct_download_main"     "https://github.com/Tyoda/CommonTweaks/releases/download/0.6/CommonTweaks-0.6.zip",
+        "current_version":         "0.6",
+        "description":             "A mod that adds an assortment of configurable tweaks to wurm unlimited",
+
+
+
+modname    Community Goals                                     Community goals are massive events, usually funding a certain milestone on the server. Players can contribute to receive great rewards in the end. These events can take weeks or months to complete.
+•·⸱⸳.•
+    {
+        "author":                  "----",
+        "mod_name":                "----",
+        "slug":                    "----",
+        "forum":                   "----",
+        "github_releases":         "----",
+        "direct_download_main"     "----",
+        "current_version":         "----",
+        "description":             "----",
+
+
+
+modname    Concrete  Mod (Ausimus)                             Add a second recipe using rock shards and clay.
+•·⸱⸳.•
+    {
+        "author":                  "Ausimus",
+        "mod_name":                "Simple Concrete",
+        "slug":                    "simple_concrete",
+        "forum":                   "https://forum.wurmonline.com/index.php?/topic/153100-ausmods-consolidated-list-new-whitelisting-mod/",
+        "github_releases":         "https://github.com/ausimus/WU-SimpleConcrete/releases",
+        "direct_download_main"     "https://github.com/ausimus/WU-SimpleConcrete/releases/download/1.0/SimpleConcrete.zip",
+        "current_version":         "1.0",
+        "description":             "Allows for the simple creation of concrete using just clay and rock shards.",
+
+
+
+modname    Configure Dirt
+•·⸱⸳.•
+    {
+        "author":                  "----",
+        "mod_name":                "----",
+        "slug":                    "----",
+        "forum":                   "----",
+        "github_releases":         "----",
+        "direct_download_main"     "----",
+        "current_version":         "----",
+        "description":             "----",
+
+
+
+modname    Cooking
+•·⸱⸳.•
+    {
+        "author":                  "Bdew",
+        "mod_name":                "Cooking",
+        "slug":                    "cooking",
+        "forum":                   "https://forum.wurmonline.com/index.php?/topic/169728-release-revelations-server-mods/",
+        "github_releases":         "https://github.com/revelation343/CookingMod/releases",
+        "direct_download_main"     "https://github.com/revelation343/CookingMod/releases/download/1.0/CookingMod-1.0.zip",
+        "current_version":         "1.0",
+        "description":             "Fills cooking containers by right-clicking and selecting Fill provided you know the recipe, and then moves items from inventory into cooking container (frying pan, sauce pan, etc.)<br><br>- GMs 4 and greater can make any recipe as they have all known recipes.",
+
+
+modname    CopyItems
+modname    CopyItems.properties
+•·⸱⸳.•
+    {
+        "author":                  "Governor aka Jubaroo",
+        "mod_name":                "Copy Items",
+        "slug":                    "copy_items",
+        "forum":                   "https://forum.wurmonline.com/index.php?/topic/163363-released-governor-server-mods-newest-mod-altars-mod/page/3/&tab=comments#comment-1698604",
+        "github_releases":         "https://github.com/Jubaroo/CopyPaste/releases",
+        "direct_download_main"     "https://github.com/Jubaroo/CopyPaste/releases/download/v1.3/Copy_Paste_V1.3.zip",
+        "current_version":         "1.3",
+        "description":             "Copy items with ease as a GM!<br><br>Video previews:<br><br><a href=\"https://i.imgur.com/RGzabdm.gifv\">Duplicate Action</a> (<a href=\"https://web.archive.org/web/20230428083158id_/https://i.imgur.com/RGzabdm.mp4\">archive</a>)<br><br><a href=\"https://i.imgur.com/slMfy2L.mp4\">Copy & Paste Action</a> (<a href=\"https://web.archive.org/web/20230428083145id_/https://i.imgur.com/slMfy2L.mp4\">archive</a>)",
+
+
+modname    Craft More Things                                   Allows for the creation of an array of new items previously uncraftable. will update with a list shortly.
+modname    Craft More Things                                   Allows for the creation of an array of new items previously uncraftable. will update with a list shortly.
+•·⸱⸳.•
+    {
+        "author":                  "Ausimus",
+        "mod_name":                "Craft More Things",
+        "slug":                    "craft_more_things",
+        "forum":                   "https://forum.wurmonline.com/index.php?/topic/153100-ausmods-consolidated-list-new-whitelisting-mod/",
+        "github_releases":         "https://github.com/ausimus/wurmunlimited-morecraftables/releases",
+        "direct_download_main"     "https://github.com/ausimus/wurmunlimited-morecraftables/releases/download/1803/CraftMoreThings_1803_HotFix.zip",
+        "current_version":         "1.8.0.3",
+        "description":             "Allows for the creation of an array of new items previously uncraftable.",
+
+
+modname    Crafter                                             A new type of NPC who accepts orders from players for items to be improved in return for money.
+modname    crafter.properties
+•·⸱⸳.•
+    {
+        "author":                  "Mthec",
+        "mod_name":                "Crafter",
+        "slug":                    "crafter",
+        "forum":                   "https://forum.wurmonline.com/index.php?/topic/166806-released-mthecs-npcs-crafter-buyer-deliverycontracts-merchantcap-customtrader-toolpurchaser-banker-beastsummoner/",
+        "github_releases":         "https://github.com/Mthec/Crafter/releases",
+        "direct_download_main"     "https://github.com/Mthec/Crafter/releases/download/0.5.10/crafter.zip",
+        "current_version":         "0.5.10",
+        "description":             "A new type of NPC who accepts orders from players for items to be improved in return for money.",
+
+
+modname    Creature age
+modname    Creature Age Mod
+•·⸱⸳.•
+    {
+        "author":                  "Ago",
+        "mod_name":                "Creature Age",
+        "slug":                    "creature_age",
+        "forum":                   "https://forum.wurmonline.com/index.php?/topic/133085-released-server-mod-loader-priest-crops-seasons-server-packs-bag-of-holding/",
+        "github_releases":         "https://github.com/ago1024/WurmServerModLauncher/releases",
+        "direct_download_main"     "https://github.com/ago1024/WurmServerModLauncher/releases/download/v0.45/creatureagemod-0.45.zip",
+        "current_version":         "0.45",
+        "description":             "Animals grow up faster",
+
+
+
+modname    Creature DB                                         *Fix when manually deleted creatures and caused issues on the Db.
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    Creatures Mod (AbsollutlyNobody)                    Add 7 new colors of horses, new colors of animals, and new animals (zebra, panda, ocelot)
+modname    Creatures Mod                                       ----
+•·⸱⸳.•
+    {
+        "author":                  "AbsolutelyNobody",
+        "mod_name":                "Creatures",
+        "slug":                    "creatures",
+        "forum":                   "https://forum.wurmonline.com/index.php?/topic/133254-released-creatures-mod/",
+        "github_releases":         "https://github.com/ago1024/CreatureMod/releases",
+        "direct_download_main"     "https://github.com/ago1024/CreatureMod/releases/download/v2.6.2/creaturemod-2.6.2.zip",
+        "current_version":         "2.6.2",
+        "description":             "This mod will add more creatures to your wurm game without replacing the original creatures.",
+
+
+modname    CreaturesOnWater                                    Allows leading creatures while in a boat.
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    cropmod.config
+modname    cropmod.properties
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    Custom NPC                                          Allows you to spawn a "Custom NPC", which work similar to vanilla NPCs. You can set the movementspeed/waypoints the equipement and some more
+modname    Custom NPC                                          Allows you to spawn a "Custom NPC", which work similar to vanilla NPCs. You can set the movementspeed/waypoints the equipement and some more
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+
+modname    Custom Trader
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    Custom Wagons
+modname    CustomWagons (with the help of Bdew and Coldie )    *Creates the potential to make your own custom wagons provided you can add the textures for them.
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    customtrader
+modname    customtrader.properties
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    Decorations
+modname    Decorations Mod                                     *Craftables toys and a playable chessboard
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    DeedMod                                             Update to the previous DeedMod written by Keenan to allow a maximum Spirit Templar count
+modname    DeedMod                                             ----
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+
+modname    Deed Start-Up Is Free                               You can freely claim your deed. It will come with 4 silver coins worth already paid for. Keep in mind that your deed will still cost upkeep.
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    deedmaker
+modname    deedmaker.properties
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    Delivery Contracts                                  A new type of contract that facilitates placing heavy items on a merchant. Awesome mod, read more et the forum!
+modname    Delivery Contracts                                  A new type of contract that facilitates placing heavy items on a merchant. Awesome mod, read more et the forum!
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    DigLikeMiningMod                                    *Enabled dredging to ship. Added the ability to use dirt or sand piled on the tile you're standing on if you need to use dirt/sand when flattening or leveling. You will use dirt in your inventory, then dirt in a pile, then sand in your inventory, and finally sand in a pile, in that order.
+modname    DigLikeMiningMod                                    ----
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+
+modname    Digtoground                                         https://wiki.wurm-unlimited.net/page/Ago%27s_Server_Mods
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+
+modname    Disable Fatigue
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    DisableFogSpieders                                  Update for joebado's DisableFogSpider for version 1.9
+modname    DisableFogSpieders                                  Update for joebado's DisableFogSpider for version 1.9
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    disbandmod.config
+modname    disbandmod.properties
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    DiscordRelay                                        Everything in our server is sent to our discord and vice-versa through game channels.
+modname    DiscordRelay.properties
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    Doorbells on Fencegates                             Released     New mod from 27. april 2018    https://forum.wurmonline.com/index.php?/topic/162553-door-bell-on-locked-fencegates/#comment-1662582
+modname    Doorbells on Fencegates                             New mod from 27. april 2018
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    DoubleBulkCapacity
+modname    DoubleBulkCapacity.properties
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    DPS                                                 show the damage you do on your enemies and more interessted informations
+modname    DPS                                                 show the damage you do on your enemies and more interessted informations
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    Dragon Mounts                                       Allows breedable, rideable, tameable Drakes to be enabled in Wurm
+modname    Dragon rider
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+
+modname    Dual-Wielding                                       You can use two one-handed weapons at the same time. And it works!
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    Dungeon Mod                                         a complex mod where you can setup different areas with dungeons/own currency. Please read on forum
+modname    Dungeon Mod                                         a complex mod where you can setup different areas with dungeons/own currency. Please read on forum
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    DUSKombat                                           https://forum.wurmonline.com/index.php?/topic/163705-duskombat-full-combat-system-rewrite/
+modname    DUSKombat                                           A complete overhaul of the combat system in Wurm to allow for more playstyles in fighting.
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    Dyemaker
+modname    Dyemaker.properties
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+
+modname    Earn Coins for daily voting                         You receive rewards for your daily voting here. The reward you get is dependent on your tier. Voting automatically increases your tier and you can check it with /tier. Here you can check out which tier gets which rewards. After voting, type /vote or /claim in-game to claim your reward.
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+
+modname    Easily ridable unicorns and hell horses             When you brand your horse you don't need to lead it anymore to ride it or changing the equipment of your horse.
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+
+modname    Empty Trash Bin (MpsMonk)                           Activate flint and steel and click on trash heap then select Empty trash bin to immediately dispose of all items inside.
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    EnhancedChickenCoop                                 Allows for the quality level of chicken coop eggs to be configured in properties rather than limited to Chicken Coop ql
+modname    EnhancedChickenCoop                                 Allows for the quality level of chicken coop eggs to be configured in properties rather than limited to Chicken Coop ql
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    Epic Curve                                          epic curve for PVE servers
+modname    Epic Skill Curve                                    Benefit from having all skills increased by the Epic curve.
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    Eventmod                                            https://forum.wurmonline.com/index.php?/topic/167518-released-coldies-compilations/
+modname    EventMod                                            When we host events, you can teleport directly to the action by using any settlement token on the map.
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    FireBurnTime                                        Find out how long your forges will stay lit in hours and minutes.
+modname    FireBurnTime.properties
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+
+modname    Faster Bulk Transfer                                Bulk transfer is faster and does not do body checks. This means you can transfer larger amounts at once.
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+
+modname    Faster horses                                       Horses, unicorns and hell horses are much faster than normally. A normal horse can go up to 22 km/h. In addition, horses can climb slopes of up to 50.
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    FindModName                                         Fix for white foals from Creatures Mod.
+modname    Fix for white foals from Creatures Mod.             Beta    https://forum.wurmonline.com/index.php?/topic/142516-beta-nekoexmachina-mods-newest-addition-fix-for-white-foals-from-creature-mod/#comment-1470940
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    Fishmonger
+modname    fishmonger.properties
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    FishyTweaks                                         Utilize lore options at 20 and 50 fishing skill to help with get vital data on fishing.
+modname    Fishytweaks(Bdew)                                   notification when a fish bites (when rod fishing) or spawns (spearfishing)\nCaught fish can be automatically stored\nAdded passive skill gain ticks during fishing actions\nSpearfishing no longer misses if you click too far from the fish\nNimbleness cast on spears makes fish with them easier\nWind of Ages and Blessing of the Dark casts on rods/spears/nets and their QL make fishing with them faster\nLore action will display a detailed report on all that you can currently catch after 40 skill, After 60 skill you will be able to look up a detailed report on each fish, see what it likes and how it affects your chances
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    Fix Guards (GM Mod)                                 Fixes villages spawning infinite number of templars due to a database error
+modname    Fix Guards (GM Mod)                                 Fixes villages spawning infinite number of templars due to a database error
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+
+modname    Forest Guardians                                    Be careful with the forest maybe you will meet the Forest Guardian. These ancient mini bosses will hunt down those who hurt the nature.
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+
+modname    Free Capital City Teleport                          Right-click on the ground and open the Riviera Menu, there you can see Teleport to Rivia. There will be a timer running through and on completion you will be teleported to the Rivia town square. The timer speed depends on your Soul depth and Mind Speed skill.
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    Fuel Storage
+modname    Fuel storage
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+
+modname    Furniture pack
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    gambler
+modname    gambler.properties
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    gmcommands
+modname    gmcommands.properties
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    GM Deed Maker                                       own more than one deed with your gm char
+modname    GM Deed Maker                                       own more than one deed with your gm char
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    GuardAssist
+modname    GuardAssist.properties
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    Halloween Mod 1.1                                   This mods adds a Halloween event. Ominous gravestones will spawn in random positions across the server (usually in foresty areas) with Evil Trees and Pumpkin Monsters around them. Players that find a gravestone and clear out the mobs guarding it will be able to investigate the gravestone to get a treat... or a trick, there are custom items, titles and achievements that players will keep
+modname    Halloween Mod 1.1                                   This mods adds a Halloween event. Ominous gravestones will spawn in random positions across the server (usually in foresty areas) with Evil Trees and Pumpkin Monsters around them. Players that find a gravestone and clear out the mobs guarding it will be able to investigate the gravestone to get a treat... or a trick, there are custom items, titles and achievements that players will keep
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+
+modname    Happy Hours                                         Happy hours are occasional mini-events that grant various performance enhancers to every player online, such as increased skillgain or more bounty payout.
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    harvesthelper.config
+modname    harvesthelper.properties
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    Hide Time                                           Released     https://forum.wurmonline.com/index.php?/topic/161521-hidetime/
+modname    Hide Time                                           ----
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    Highway Portals                                     Player craftable portals that allow teleporting between deeds on the same highway network.
+modname    Highway Portals                                     Player craftable portals that allow teleporting between deeds on the same highway network.
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    Hitching Limits - Allows control over what animals can be hitched to carts/wagons
+modname    Hitchlimits (Bdew)                                  Will allow weaker animals to drag carts/wagons with reasonable speed.\nPrevent previous pets from getting unhitched when a new pet is tamed/charmed.\nPacify hitched creatures, preventing them from attacking.
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    hitchingpost
+modname    hitchingpost.properties
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    Hota Statues                                        Released     New mod from 27. april 2018    https://github.com/mpsmonk/wurm-mods/
+modname    Hota Statues                                        New mod from 27. april 2018
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    Hots Fixes                                          Allows mycelium on PVE server and fixes it´s spreading / remove ore cap on non freedom servers and some more
+modname    Hots Fixes                                          Allows mycelium on PVE server and fixes it´s spreading / remove ore cap on non freedom servers and some more
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    httpserver.config
+modname    httpserver.properties
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+
+modname    Hybrid Skillgain                                    The hybrid system makes it so players gain skill for any action, including mild failures. This is done in order to discourage the "spam creation" skilling method. It is still effective, but improvement is now competitive.
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    InactivePlayersMod                                  Released     https://forum.wurmonline.com/index.php?/topic/159382-released-inactiveplayersmod/
+modname    InactivePlayersMod                                  ----
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    InbreedWarning                                      Gives an event window message when you are breeding animals that would be inbred and result in negative traits.
+modname    inbreedwarning.properties
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    Increase Merchant Max Items                         Enables the ability to modify the max items a merchant can carry default value is 100.
+modname    Increased Merchant Inventory Space                  Personal Merchants have 500 inventory slots available for your items.
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+
+modname    Increased Movement Speed                            Movement speeds are increased overall. This applies to all players, animals, carts and boats!
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+
+modname    Increased Storage Capacity                          Small crates can hold up to 300 items and large crates up to 600 items.
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    Infinite Wide Mine Entrances and Mine Doors         Server side mod to allow for infinite wide mines with the same mechanics as 2/3 wide.
+modname    Infinite Wide Mine Entrances and Mine Doors         Server side mod to allow for infinite wide mines with the same mechanics as 2/3 wide.
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+
+modname    Ingame Map                                          The in-game map updates every time the server restarts to show the current map.
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    JPWM Offspring Names (now with custom name item)    Abandoned    https://forum.wurmonline.com/index.php?/topic/134505-released-jpwm-offspring-names-now-with-custom-name-item/
+modname    JPWM Offspring Names (now with custom name item)    ----
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    Karma Actions                                       Released     https://forum.wurmonline.com/index.php?/topic/159533-release-karma-actions/
+modname    Karma Actions                                       ----
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    Kingdom Items                                       https://forum.wurmonline.com/index.php?/topic/163363-released-governor-server-mods-newest-mod-altars-mod/
+modname    Kingdom Items                                       Enables the creation of PMK wagons, banners, and flags not normally able to be crafted.
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    Kingdom offices                                     *----
+modname    Kingdom offices                                     ----
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    Lead More - lead 6 animals
+modname    Leadables
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+
+modname    Leaderboards                                        Check out your and other peoples skills on the leaderboard. You can opt in or opt out to make your name public or not. Open your skillsheet (F2) and rightclick on the skill you want to look up.
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+
+modname    Life transfer Debuff
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+
+modname    Livemap                                             Check out our livemap which shows deeds, altars and points of interest!
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    LocationCommand
+modname    LocationCommand.properties
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+
+modname    Locations                                           Provide others your coordinates and find others with an exact location on the map.
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    Log wall panels                                     Allows for the creation of mock log facades to imitate the effect of a log home.
+modname    logs
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    Loot Tables                                         Released     https://forum.wurmonline.com/index.php?/topic/151741-released-server-mod-loot-tables/
+modname    Loot Tables                                         ----
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+
+modname    Mail Merchants
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+
+modname    Mailboxes                                           Mailboxes come pre-enchanted with a power 30 Courier spell cast on it. You're also able to select Receive all to receive up to 100 mails at once.
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    MarkAndRecall.properties
+modname    Marks and Recall runes
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    meditatemod.properties
+modname    Meditation Changes                                  You can always get Skill gain for meditating and it's easier to find the right tile for your path. For further Information you can look it up here.
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    merchantdecayprevention
+modname    merchantdecayprevention.properties
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    Merchant Listing Mod                                Beta         https://forum.wurmonline.com/index.php?/topic/160146-beta-merchant-listing-mod-view-up-to-date-merchant-inventory-from-anywhere/
+modname    Merchant Listing Mod                                ----
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    Mighty Mattock Mod                                  Beta         https://forum.wurmonline.com/index.php?/topic/157738-beta-mighty-mattock-mod/
+modname    Mighty Mattock Mod                                  ----
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    Milk Reset                                          set all animals with a command to be milkable
+modname    Milk Reset                                          set all animals with a command to be milkable
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    Mini Pets
+modname    Mini pets
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    Mission Items                                       Adds items to the mission ruler list including rift items and coins
+modname    Add Mission Items
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    Mob Max Count                                       *To set the max count values on any creatures.
+modname    Mob Spawn Max Count
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+
+modname    Model Me Impressed       https://wiki.wurm-unlimited.net/page/Model_Me_Impressed_Mod#Bugs.2FFeatures_2.0
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    ModifyGestationPeriod                               A spell that allows you to decrease the time for animal pregnancy.
+modname    ModifyGestationPeriod.properties
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    Moon Metal Mining and Home Server Mining            ----
+modname    moonmetalminingmod
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+
+modname    More Flowers Mod (server only)                      Spawns more flowers, Which spawns more white dotted flowers (rare).
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    More Potables-Plant anything in a pot               Can plant, grow, and harvest almost anything in a pot like herbs and spices.
+modname    More Potables-Plant anything in a pot               Can plant, grow, and harvest almost anything in a pot like herbs and spices.
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+
+modname    Mounted Actions
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    Movemod(Bdew)                                       speed and mobility: increases the amount of weight that horses, hell horses, and unicorns can carry before they start slowing down.
+modname    movemod.properties
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    MovetoCenter                                        Allows for precise placing of objects to the center of the tile.
+modname    movetocenter.properties
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    New Portals                                         Released     https://forum.wurmonline.com/index.php?/topic/144320-released-new-portals/
+modname    New Portals                                         ----
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    No Build Limits
+modname    NoBuildLimit                                        Building can be done regardless of the relevant carpentry skill.
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    No Damage                                           Removes all damage from items, walls, roofs, floors, fences and bridges from all sources. With this mod nothing will ever decay, bashing is impossible (except GMs)
+modname    No Damage                                           Removes all damage from items, walls, roofs, floors, fences and bridges from all sources. With this mod nothing will ever decay, bashing is impossible (except GMs)
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    No Holy Ground                                      Founding settlements, terraforming, and building structures near the white and black light altar / allows founding settlements despite aggressive creatures and creature dens.
+modname    No Holy Ground                                      Founding settlements, terraforming, and building structures near the white and black light altar / allows founding settlements despite aggressive creatures and creature dens.
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    NoMailCost
+modname    NoMailCost.properties
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+
+modname    No Priest Restrictions                              All WL Priests share spells. You can also pray for faith every 60 minutes, as often as you want per day. Praying will give you 3x the faith as well!
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    Non-combat Pets Mod (Minipets)                      Non-combat pets are small companions that can follow you around, they do not fight and will not be attacked by other creatures and players
+modname    Non-combat Pets Mod (Minipets)                      Non-combat pets are small companions that can follow you around, they do not fight and will not be attacked by other creatures and players
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    OneTileMining                                       You only need to uncover one tile to surface mine that tile.
+modname    onetilemining.properties
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    Paintings
+modname    Paintings
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+
+modname    Passive Income                                      You receive 10 iron coins and 1 karma per minute for simply being online!
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    PhobiaMod - replace Spiders with Black Bears / Fiends
+modname    PhobiaMod - replace Spiders with Black Bears / Fiends
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    Pick More Sprouts                                   Pick more sprouts with one action. Configure the amount in the settings
+modname    PickMoreSprouts                                     Gain additional sprouts per picking action.
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+
+modname    Piggy Bank                                          https://wiki.wurm-unlimited.net/page/Piggy_Bank_Mod
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    planters.config
+modname    planters.properties
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    Player Attributes Modifications                     Beta         https://forum.wurmonline.com/index.php?/topic/158613-beta-player-attributes-modifications/
+modname    Player Attributes Modifications                     ----
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+
+modname    Players Online                                      Command line /playersonline, which allows players to see who is online.
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    Poll Spawner                                        allows the server to randomly spawn items (currently only Rift Items) around the map.
+modname    Poll Spawner                                        allows the server to randomly spawn items (currently only Rift Items) around the map.
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    ProspectMod
+modname    ProspectMod                                         ----
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+
+modname    Proximity Dice Rolling                              You can roll dices to play games or raffle loot from a successful hunt. The result will be broadcasted to everyone close to you. Syntax: /rolldice <required: number> <optional: item name>
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    PvP Surface Mining Slope                            On Epic, the slope limit for surface mining is 1.0 times your mining skill, this reverts it to 3.0 times (like on PvE).
+modname    PvP Surface Mining Slope                            On Epic, the slope limit for surface mining is 1.0 times your mining skill, this reverts it to 3.0 times (like on PvE).
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+
+modname    Random Spawn Portal                                 You can use the Random Spawn Portal in Rivia to teleport to a random spawning location on the world. Use this to kickstart your adventure. If you don't like the location, you can always teleport back to Rivia by rightclicking your body in the character window.
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+
+modname    Rename Animals
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+
+modname    Repair Tower                                        *Removes the fight skill 20 normally required to repair Towers.
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    Reward Mod                                          Released     New mod from 27. april 2018    https://github.com/mpsmonk/wurm-mods/
+modname    Reward Mod                                          New mod from 27. april 2018
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    riftevent
+modname    riftevent.properties
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+
+modname    Riviera Menu                                        When you right-click on the ground you will see our Riviera Menu. In there you can check up your Bank Balance and teleport yourself to our capital town. There you can also find some information about running mega events.
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    Roll                                                a interessting usefull roll system
+modname    roll.properties
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    SacrificeMod                                        Adds a configurable chance for a rare item to award a bone of the same rarity, instead of the usual benefits.
+modname    SacrificeMod                                        There is a chance to receive a strange bone equal to the rarity of items you sacrifice.
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    SalveMod                                            Adds "power - " to the beginning of newly made healing cover names, so you no longer have to figure it out in your head.
+modname    SalveMod                                            Adds "power - " to the beginning of newly made healing cover names, so you no longer have to figure it out in your head.
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+
+modname    Scraps to Planks Mod                                (Created by Goibniu for the server only)  Add a recipe to turn wood scraps into planks with the use of a mallet.
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    scriptrunner.config
+modname    scriptrunner.properties
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+
+modname    Seasonal Events                                     We got many many seasonal events like valentine, new years or christmas, advent calendar, easter egg hunt, etc.
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    Separate bulk items                                 Released    https://forum.wurmonline.com/index.php?/topic/142516-beta-nekoexmachina-mods-newest-addition-fix-for-white-foals-from-creature-mod/#comment-1470940
+modname    Separate bulk items                                 ----
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    Server Fixes
+modname    Server fixes
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+
+modname    Server Info Tab                                     add a chat tab that provides Server Information.
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    Server Map
+modname    Server map
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    Server Modloader                                    The modloader and statup scripts
+modname    Server Modloader                                    The modloader and statup scripts
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    Server Packs
+modname    Server packs
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    Server Player Counter                               correct the player count in the launcher (merged all counted players on your servers to your login server)
+modname    Server Player Counter                               correct the player count in the launcher (merged all counted players on your servers to your login server)
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    Server Time Command                                 *Get the time of the server in an event message, Message color can be configured in the properties file.
+modname    Server Time Command                                 Get the time of the server in an event message, Message color can be configured in the properties file
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    Server Tweaks                                       The next big mod with very much settings! Make your server better and turn on/off what you like. More details in the mod thread.
+modname    Server Tweaks                                       The next big mod with very much settings! Make your server better and turn on/off what you like. More details in the mod thread.
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    serverfixes
+modname    serverfixes.properties
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    servermap.config
+modname    servermap.properties
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    Serverpacks                                         Provides additional pack download service for mods
+modname    serverpacks.properties
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    serverplayercounter
+modname    serverplayercounter.properties
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+
+modname    ServerTimeCommand                                   Utilize /servertime to find out the time of where the server is hosted.
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    ServerTweaks
+modname    ServerTweaks.properties
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    setheight
+modname    setheight.properties
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+
+modname    Shipbuilding customizations                         You can build rowing boats and sailboats without any skill requirement. But for more advanced ships you need a higher skill to build them. More information can be found in our wiki.
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    Shipping Trade Route                                make shiproutes with a new trade storage bin where players can earn money for bringing stuff from one point to another one
+modname    Shipping Trade Route                                make shiproutes with a new trade storage bin where players can earn money for bringing stuff from one point to another one
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    SimpleConcrete                                      Concrete can be created with rock shards and clay rather than the default crafting materials.
+modname    SimpleConcrete.properties
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    SinduskLibrary
+modname    SinduskLibrary.properties
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    Skillmod                                            ----
+modname    skillmod.properties
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+
+modname    Sleep in tents                                      You can sleep in tents to receive sleep bonus.
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    Smelt Purify Mod                                    Released     https://forum.wurmonline.com/index.php?/topic/154522-released-smelt-purify-mod/
+modname    Smelt Purify Mod                                    ----
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+
+modname    Smoking out monster dens                            You can smoke out dens to get a bounty from them. Simply use a steel and flint on them.
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+
+modname    Source orbs                                         You can store your karma in source orbs for simple trading of karma. These orbs can be obtained through events and merchants.
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    Spellcraft                                          Priest restrictions removed, custom spells, no cooldown on faith gains.
+modname    Spellcraft.properties
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    spellmod.config
+modname    spellmod.properties
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    Spellpower                                          Released    https://forum.wurmonline.com/index.php?/topic/142516-beta-nekoexmachina-mods-newest-addition-fix-for-white-foals-from-creature-mod/#comment-1470940
+modname    Spellpower                                          ----
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+
+modname    Spells
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    StableMaster Mod - ----
+modname    StableMaster.properties
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    StarterGear
+modname    StarterGear.properties
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    Steam ID Ban                                        No more needed, its implemted in the new WU 1.8 version
+modname    Steam ID Ban                                        No more needed, its implemted in the new WU 1.8 version
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+
+modname    Strange bones for sacrificing                       You can receive a strange bone for sacrificing rare/supreme/fantastic items.
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+
+modname    Surface mining Mod                                  server only, mod customized by Greenskye    Customized from the OneTileMining Mod, it adds a curve to adjust the % of fail depending on your mining skill when you surface mine.
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    Tabards                                             *A mod that allows the creation of PMK kingdom tabards to be worn by players.
+modname    Tabards                                             A mod that allows the creation of PMK kingdom tabards to be worn by players
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    Taxidermy mod(Bdew)                                 Adds craftable taxidermy kits that can be used to preserve corpses as decorations. Doesn't work with the textures coming from the creatures mods
+modname    taxidermy.properties
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    TemplarReplacer
+modname    TemplarReplacer.properties
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+
+modname    Tent On Deed
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    Tentsleep
+modname    Tentsleep                                           https://wiki.wurm-unlimited.net/page/Tent_Sleep_Mod
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    TimedPay                                            ----
+modname    TimedPay.properties
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+
+modname    Transfer Ownership                                  You can right-click any item you placed on the ground and transfer your ownership to another person by using the 'Transfer Item Ownership' action in the riviera menu.
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    Treasure Chest Claim                                Allows players to "claim" random treasure chests, unlocking the chest and rewarding the players with some karma
+modname    Treasure Chest Claim                                Allows players to "claim" random treasure chests, unlocking the chest and rewarding the players with some karma
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    TreasureHunting                                     Earn treasure maps through standard gathering skills that unlock chests with rewards.
+modname    TreasureHunting.properties
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+
+modname    Unique loot distribution                            When a unique is killed, everybody who participated in the hunt will receive the loot through an automatic raffle (rare bones, skull, meat, etc..) and also have a fixed amount of hide / scale. Every player who is online, but not participating in the fight will receive 10% of the hide / scale drop automatically.
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    Unleash                                             unleashes uniques from their specific location and lets them roam free
+modname    Unleash                                             unleashes uniques from their specific location and lets them roam free J1vdaVz.png
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    Upkeep Costs                                        ----
+modname    Upkeepcosts                                         https://forum.wurmonline.com/index.php?/topic/135756-final-upkeep-costs/
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    Vampires And Slayers                                Released     https://forum.wurmonline.com/index.php?/topic/152569-released-vampires-and-slayers-a-bit-of-pvp-on-pve-server-mod/
+modname    Vampires And Slayers                                ----
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+
+modname    Void Incursions                                     There will be rift events with waves of enemies, rift resources and amazing rewards for those fighting till the end!
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    VoteReward                                          Earn 25c daily for voting for our server.
+modname    VoteReward.properties
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    Waxed food Mod                                      (with a list of extra items, non-food items, like tools, weapons, etc )(Bdew)  Allows preserving food items (and now non-food items too) using beeswax. Preserved food/items will turn into a decoration.\nThey can be planted/secured/painted and will not go into piles.
+modname    Waxed Foods                                         https://forum.wurmonline.com/index.php?/topic/138254-released-bdew-server-mods-new-mod-fishy-tweaks-updated-apr-09/
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+
+modname    Weapons
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    White List                                          Restrict who can join your server with White Listing of players by name.
+modname    White List                                          Restrict who can join your server with White Listing of players by name.
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
+
+
+modname    windmill.properties
+modname    Windmills
+•·⸱⸳.•
+    {
+        "author":                  "",
+        "mod_name":                "",
+        "slug":                    "",
+        "forum":                   "",
+        "github_releases":         "",
+        "direct_download_main"     "",
+        "current_version":         "",
+        "description":             "",
