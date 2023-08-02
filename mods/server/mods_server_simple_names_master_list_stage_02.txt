@@ -503,20 +503,6 @@ modname    Creature Age Mod
         "description":             "Animals grow up faster",
 
 
-
-modname    Creature DB                                         *Fix when manually deleted creatures and caused issues on the Db.
-•·⸱⸳.•
-    {
-        "author":                  "",
-        "mod_name":                "",
-        "slug":                    "",
-        "forum":                   "",
-        "github_releases":         "",
-        "direct_download_main"     "",
-        "current_version":         "",
-        "description":             "",
-
-
 modname    Creatures Mod (AbsollutlyNobody)                    Add 7 new colors of horses, new colors of animals, and new animals (zebra, panda, ocelot)
 modname    Creatures Mod                                       ----
 •·⸱⸳.•

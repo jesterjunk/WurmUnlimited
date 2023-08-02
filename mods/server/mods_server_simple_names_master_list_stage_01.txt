@@ -3012,15 +3012,15 @@ modname    Creature DB                                         *Fix when manuall
         "github_releases": "",
         "direct_download": {
             "main": "https://1drv.ms/u/s!AjnBltNOSFjCgnRSIOc8KBVGanzy?e=twg72G",
-            "mirror": "",
+            "mirror": "https://github.com/jesterjunk/WurmUnlimited/raw/master/mods/server/authors/coldie_aka_cuddles/creaturesdb.zip",
             "archive": "https://web.archive.org/web/20230802202258/https://o2t91w.dm.files.1drv.com/y4m95XUexQpLCoATggniKE0jS0_9sIWztQcaeHDTbuQzws31LC1TgEiHvAyD9Ug3UdqXGckn2IwSpZ-wKy3fo5pJNVRiG9PQll4OnTrH9fahs-ngP6bsaddUKY7XEkLGWoOYd52vpprxZ6HjBHSAxX_8SfCIMWV6dClKdAuvlKJEcTx1xRADWnnHw6xRWF4rukDSto9CxtdkiFrXtYx19aIsg",
             "filename": "creaturesdb.zip",
             "bytes": 3718,
             "sha256": "afd6a6232bf4d3bc918d94ba886180c2b506e081275b2c9c83ef9371b10840ec",
             "virustotal": "https://www.virustotal.com/gui/file/afd6a6232bf4d3bc918d94ba886180c2b506e081275b2c9c83ef9371b10840ec"
         },
-        "current_version": "",
-        "release_date": "",
+        "current_version": "0",
+        "release_date": "Nov 17, 2019",
         "description": "If you have manually deleted creatures from the creatures database then you may have caused issues on your server, each creature is listed in the database several times in different places. So if you have deleted creatures manually then add this mod and when the server next starts it will go through the database and try to remove any data that is usually removed when creatures are removed properly. Afterwards you can just remove the mod, it only needs to run 1 time after you did manual deletions, of course if you manually delete again then just add mod again."
     },
 •·⸱⸳.•
@@ -3178,13 +3178,19 @@ modname    Creatures Mod                                       ----
 modname    CreaturesOnWater                                    Allows leading creatures while in a boat.
 •·⸱⸳.•
     {
-        "author": "",
+        "author": "Xyp",
         "mod_name": "",
         "slug": "",
         "forum_1": {
-            "main": "",
-            "archive": "",
-            "pages": {}
+            "main": "https://forum.wurmonline.com/index.php?/topic/135743-released-lead-creatures-on-water-for-use-with-agos-loader/",
+            "archive": "https://web.archive.org/web/20230802204745/https://forum.wurmonline.com/index.php?/topic/135743-released-lead-creatures-on-water-for-use-with-agos-loader/",
+            "pages": {
+                "0": {
+                    "page_number": 1,
+                    "main": "https://forum.wurmonline.com/index.php?/topic/135743-released-lead-creatures-on-water-for-use-with-agos-loader/page/1",
+                    "archive": "https://web.archive.org/web/20230802204907/https://forum.wurmonline.com/index.php?/topic/135743-released-lead-creatures-on-water-for-use-with-agos-loader/page/1"
+                }
+            }
         },
         "forum_2": {
             "main": "",
@@ -3197,16 +3203,16 @@ modname    CreaturesOnWater                                    Allows leading cr
         },
         "github_releases": "",
         "direct_download": {
-            "main": "",
+            "main": "https://github.com/BattaWhite/creaturesonwater/raw/master/creaturesonwater.zip",
             "mirror": "",
-            "archive": "",
-            "filename": "",
-            "bytes": 0,
-            "sha256": "",
-            "virustotal": ""
+            "archive": "https://web.archive.org/web/20230802205415if_/https://raw.githubusercontent.com/BattaWhite/creaturesonwater/master/creaturesonwater.zip",
+            "filename": "creaturesonwater.zip",
+            "bytes": 2098,
+            "sha256": "729085bcfa616fddec8eb4c5ff1d2a45f60c3c98648cebbb35fcc87561e3ddd7",
+            "virustotal": "https://www.virustotal.com/gui/file/729085bcfa616fddec8eb4c5ff1d2a45f60c3c98648cebbb35fcc87561e3ddd7"
         },
-        "current_version": "",
-        "release_date": "",
+        "current_version": "0",
+        "release_date": "Oct 3, 2018",
         "description": ""
     },
 •·⸱⸳.•
