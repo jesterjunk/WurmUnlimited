@@ -2926,17 +2926,83 @@ modname    Creature Age Mod
 modname    Creature DB                                         *Fix when manually deleted creatures and caused issues on the Db.
 •·⸱⸳.•
     {
-        "author": "",
-        "mod_name": "",
-        "slug": "",
+        "author": "Coldie aka Cuddles",
+        "mod_name": "Creatures DB",
+        "slug": "creatures_db",
         "forum_1": {
-            "main": "",
-            "archive": "",
-            "pages": {}
+            "main": "https://forum.wurmonline.com/index.php?/topic/167518-released-coldies-compilations/",
+            "archive": "https://web.archive.org/web/20230724170802/https://forum.wurmonline.com/index.php?/topic/167518-released-coldies-compilations/",
+            "pages": {
+                "0": {
+                    "page_number": 1,
+                    "main": "https://forum.wurmonline.com/index.php?/topic/167518-released-coldies-compilations/page/1/",
+                    "archive": "https://web.archive.org/web/20230724173857/https://forum.wurmonline.com/index.php?/topic/167518-released-coldies-compilations/page/1/"
+                },
+                "1": {
+                    "page_number": 2,
+                    "main": "https://forum.wurmonline.com/index.php?/topic/167518-released-coldies-compilations/page/2/",
+                    "archive": "https://web.archive.org/web/20230724171238/https://forum.wurmonline.com/index.php?/topic/167518-released-coldies-compilations/page/2/"
+                },
+                "2": {
+                    "page_number": 3,
+                    "main": "https://forum.wurmonline.com/index.php?/topic/167518-released-coldies-compilations/page/3/",
+                    "archive": "https://web.archive.org/web/20230724171408/https://forum.wurmonline.com/index.php?/topic/167518-released-coldies-compilations/page/3/"
+                },
+                "3": {
+                    "page_number": 4,
+                    "main": "https://forum.wurmonline.com/index.php?/topic/167518-released-coldies-compilations/page/4/",
+                    "archive": "https://web.archive.org/web/20230724171511/https://forum.wurmonline.com/index.php?/topic/167518-released-coldies-compilations/page/4/"
+                },
+                "4": {
+                    "page_number": 5,
+                    "main": "https://forum.wurmonline.com/index.php?/topic/167518-released-coldies-compilations/page/5/",
+                    "archive": "https://web.archive.org/web/20230724171656/https://forum.wurmonline.com/index.php?/topic/167518-released-coldies-compilations/page/5/"
+                },
+                "5": {
+                    "page_number": 6,
+                    "main": "https://forum.wurmonline.com/index.php?/topic/167518-released-coldies-compilations/page/6/",
+                    "archive": "https://web.archive.org/web/20230724171730/https://forum.wurmonline.com/index.php?/topic/167518-released-coldies-compilations/page/6/"
+                },
+                "6": {
+                    "page_number": 7,
+                    "main": "https://forum.wurmonline.com/index.php?/topic/167518-released-coldies-compilations/page/7/",
+                    "archive": "https://web.archive.org/web/20230724171750/https://forum.wurmonline.com/index.php?/topic/167518-released-coldies-compilations/page/7/"
+                },
+                "7": {
+                    "page_number": 8,
+                    "main": "https://forum.wurmonline.com/index.php?/topic/167518-released-coldies-compilations/page/8/",
+                    "archive": "https://web.archive.org/web/20230724171804/https://forum.wurmonline.com/index.php?/topic/167518-released-coldies-compilations/page/8/"
+                },
+                "8": {
+                    "page_number": 9,
+                    "main": "https://forum.wurmonline.com/index.php?/topic/167518-released-coldies-compilations/page/9/",
+                    "archive": "https://web.archive.org/web/20230724171837/https://forum.wurmonline.com/index.php?/topic/167518-released-coldies-compilations/page/9/"
+                },
+                "9": {
+                    "page_number": 10,
+                    "main": "https://forum.wurmonline.com/index.php?/topic/167518-released-coldies-compilations/page/10/",
+                    "archive": "https://web.archive.org/web/20230724171850/https://forum.wurmonline.com/index.php?/topic/167518-released-coldies-compilations/page/10/"
+                },
+                "10": {
+                    "page_number": 11,
+                    "main": "https://forum.wurmonline.com/index.php?/topic/167518-released-coldies-compilations/page/11/",
+                    "archive": "https://web.archive.org/web/20230724171945/https://forum.wurmonline.com/index.php?/topic/167518-released-coldies-compilations/page/11/"
+                },
+                "11": {
+                    "page_number": 12,
+                    "main": "https://forum.wurmonline.com/index.php?/topic/167518-released-coldies-compilations/page/12/",
+                    "archive": "https://web.archive.org/web/20230724172328/https://forum.wurmonline.com/index.php?/topic/167518-released-coldies-compilations/page/12/"
+                },
+                "12": {
+                    "page_number": 13,
+                    "main": "https://forum.wurmonline.com/index.php?/topic/167518-released-coldies-compilations/page/13/",
+                    "archive": "https://web.archive.org/web/20230724172438/https://forum.wurmonline.com/index.php?/topic/167518-released-coldies-compilations/page/13/"
+                }
+            }
         },
         "forum_2": {
-            "main": "",
-            "archive": "",
+            "main": "https://forum.wurm-unlimited.net/viewtopic.php?f=36&t=48",
+            "archive": "https://web.archive.org/web/20230802202733/https://forum.wurm-unlimited.net/viewtopic.php?f=36&t=48",
             "pages": {}
         },
         "wiki": {
@@ -2945,17 +3011,17 @@ modname    Creature DB                                         *Fix when manuall
         },
         "github_releases": "",
         "direct_download": {
-            "main": "",
+            "main": "https://1drv.ms/u/s!AjnBltNOSFjCgnRSIOc8KBVGanzy?e=twg72G",
             "mirror": "",
-            "archive": "",
-            "filename": "",
-            "bytes": 0,
-            "sha256": "",
-            "virustotal": ""
+            "archive": "https://web.archive.org/web/20230802202258/https://o2t91w.dm.files.1drv.com/y4m95XUexQpLCoATggniKE0jS0_9sIWztQcaeHDTbuQzws31LC1TgEiHvAyD9Ug3UdqXGckn2IwSpZ-wKy3fo5pJNVRiG9PQll4OnTrH9fahs-ngP6bsaddUKY7XEkLGWoOYd52vpprxZ6HjBHSAxX_8SfCIMWV6dClKdAuvlKJEcTx1xRADWnnHw6xRWF4rukDSto9CxtdkiFrXtYx19aIsg",
+            "filename": "creaturesdb.zip",
+            "bytes": 3718,
+            "sha256": "afd6a6232bf4d3bc918d94ba886180c2b506e081275b2c9c83ef9371b10840ec",
+            "virustotal": "https://www.virustotal.com/gui/file/afd6a6232bf4d3bc918d94ba886180c2b506e081275b2c9c83ef9371b10840ec"
         },
         "current_version": "",
         "release_date": "",
-        "description": ""
+        "description": "If you have manually deleted creatures from the creatures database then you may have caused issues on your server, each creature is listed in the database several times in different places. So if you have deleted creatures manually then add this mod and when the server next starts it will go through the database and try to remove any data that is usually removed when creatures are removed properly. Afterwards you can just remove the mod, it only needs to run 1 time after you did manual deletions, of course if you manually delete again then just add mod again."
     },
 •·⸱⸳.•
 
