@@ -3051,16 +3051,16 @@ modname    Creature max count (Coldie)                         Admin management 
         "github_releases": "",
         "direct_download": {
             "main": "https://1drv.ms/u/s!AjnBltNOSFjCgm1CgrVce73g0-Go?e=Nu9cxf",
-            "mirror": "",
-            "archive": "",
+            "mirror": "https://github.com/jesterjunk/WurmUnlimited/raw/master/mods/server/authors/coldie_aka_cuddles/mobspawnmaxcount.zip",
+            "archive": "https://web.archive.org/web/20230802184914/https://1tpq7g.dm.files.1drv.com/y4mWX3TdOjJaHguq3Jt0lRiq-po7md8-tRd5EeSYFt46hRPN4ptVhZF3ay919dAqvxPk1dEfk6xxlQfyITrh2527pQ35YnINxeYVCe2TghjLg-8TZvVTzpdyg8JWUH6WKfV56MMlMsDFlnE3f_OP-SpTLbMFiAsufiRoeCNNG6obRmdQaGbYoQ_psHb0lGzVatjmRXNNmd3OzF-Hhv8ZvzHGQ",
             "filename": "mobspawnmaxcount.zip",
             "bytes": 4387,
             "sha256": "96d929d17b2b36a86d1269bd92a07a9c59d721fea65c2b6890738542d94c5955",
             "virustotal": "https://www.virustotal.com/gui/file/96d929d17b2b36a86d1269bd92a07a9c59d721fea65c2b6890738542d94c5955"
         },
-        "current_version": "",
-        "release_date": "",
-        "description": ""
+        "current_version": "0",
+        "release_date": "Aug 11, 2019",
+        "description": "This mod lets an admin put max count values on any creatures they want, it won't remove mobs but it will stop the game autospawning those mobs higher than the value set.<br><br>This max count seems to also include GM wanded and bred creatures, so keep that in mind if you add horsies to the list.<br><br>You can add as many ids as you want, if you are really keen you can list every creature ID.<br><br>I added a txt file which has all the creature ids to the zip."
     },
 •·⸱⸳.•
 
