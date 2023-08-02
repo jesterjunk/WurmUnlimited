@@ -627,11 +627,9 @@ $text = file_get_contents("mods_server_simple_names_master_list_stage_01.txt");
 
 preg_match_all("/^•·⸱⸳.•\n([^⸱]+)\n•·⸱⸳.•/im", $text, $text_matches);
 
-$json_sections = $text_matches[1];
-
 $json = "[\n";
 
-foreach ($json_sections as $json_section_num => $json_section) {
+foreach ($text_matches[1] as $json_section_num => $json_section) {
 
     $json .= $json_section . "\n";
 }
