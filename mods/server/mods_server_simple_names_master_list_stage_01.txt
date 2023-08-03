@@ -3393,8 +3393,8 @@ modname    Decorations Mod                                     *Craftables toys 
 •·⸱⸳.•
     {
         "author": "Coldie aka Cuddles",
-        "mod_name": "",
-        "slug": "",
+        "mod_name": "Decorations",
+        "slug": "decorations",
         "forum_1": {
             "main": "https://forum.wurm-unlimited.net/viewtopic.php?f=36&t=28",
             "archive": "https://web.archive.org/web/20230802212455/https://forum.wurm-unlimited.net/viewtopic.php?f=36&t=28",
@@ -3407,21 +3407,21 @@ modname    Decorations Mod                                     *Craftables toys 
         },
         "wiki": {
             "main": "https://wiki.wurm-unlimited.net/page/Decorations_Mod",
-            "archive": ""
+            "archive": "https://web.archive.org/web/20230802234333/https://wiki.wurm-unlimited.net/page/Decorations_Mod"
         },
         "github_releases": "",
         "direct_download": {
             "main": "https://1drv.ms/u/s!AjnBltNOSFjChA2Wpyj7JSFtCt4-?e=QB27Dj",
-            "mirror": "",
-            "archive": "",
+            "mirror": "https://github.com/jesterjunk/WurmUnlimited/raw/master/mods/server/authors/coldie_aka_cuddles/decorations.zip",
+            "archive": "https://web.archive.org/web/20230802212535/https://ag0oza.dm.files.1drv.com/y4m6c_W2tf_zc4h9hbQzC5nOG0fL2ywy9BDX9-KXNETd7DAX5yaw6ivf0wUALFHKtIznd2U1qyjxWKmGOlwmEqXjI9zbaA3GlAB9zD3v6ZvTDZZBkBss4KeyUf9fl1q-omxmCbw34iz5Fb-k9Z5-x-MHSP-BHIlejX6S5KoylFO2FLGE2xU20QtPoP72vRLlEnW1DvHEsOlIRlbaZwOxdVg-Q",
             "filename": "decorations.zip",
             "bytes": 36356064,
             "sha256": "4b880c28095849f6afdbf596c53b1b9283bf2db6f0f503c08dd3e791a87ca356",
-            "virustotal": ""
+            "virustotal": "https://www.virustotal.com/gui/file/4b880c28095849f6afdbf596c53b1b9283bf2db6f0f503c08dd3e791a87ca356"
         },
-        "current_version": "",
-        "release_date": "",
-        "description": ""
+        "current_version": "0",
+        "release_date": "Sep 23, 2020",
+        "description": "Craftables toys and a playable chessboard"
     },
 •·⸱⸳.•
 
@@ -3473,54 +3473,15 @@ modname    DeedMod                                             ----
 
 
 
-modname    Deed Start-Up Is Free                               You can freely claim your deed. It will come with 4 silver coins worth already paid for. Keep in mind that your deed will still cost upkeep.
-•·⸱⸳.•
-    {
-        "author": "",
-        "mod_name": "",
-        "slug": "",
-        "forum_1": {
-            "main": "",
-            "archive": "",
-            "pages": {}
-        },
-        "forum_2": {
-            "main": "",
-            "archive": "",
-            "pages": {}
-        },
-        "wiki": {
-            "main": "",
-            "archive": ""
-        },
-        "github_releases": "",
-        "direct_download": {
-            "main": "",
-            "mirror": "",
-            "archive": "",
-            "filename": "",
-            "bytes": 0,
-            "sha256": "",
-            "virustotal": ""
-        },
-        "current_version": "",
-        "release_date": "",
-        "description": ""
-    },
-•·⸱⸳.•
-
-
-
-
 modname    deedmaker
 modname    deedmaker.properties
 •·⸱⸳.•
     {
-        "author": "",
-        "mod_name": "",
-        "slug": "",
+        "author": "Coldie aka Cuddles",
+        "mod_name": "GM Deed Maker",
+        "slug": "gm_deed_maker",
         "forum_1": {
-            "main": "",
+            "main": "https://forum.wurmonline.com/index.php?/topic/167518-released-coldies-compilations/&tab=comments#comment-1709555",
             "archive": "",
             "pages": {}
         },
@@ -3535,13 +3496,13 @@ modname    deedmaker.properties
         },
         "github_releases": "",
         "direct_download": {
-            "main": "",
+            "main": "https://1drv.ms/u/s!AjnBltNOSFjCgk9lnoUxtjbrRlCh",
             "mirror": "",
-            "archive": "",
-            "filename": "",
-            "bytes": 0,
-            "sha256": "",
-            "virustotal": ""
+            "archive": "https://web.archive.org/web/20230802235529/https://z5h6wq.dm.files.1drv.com/y4mtiqbALAERvUA9jS5Hj3B-J9pdkXPoS5v_SpDs1M2b58TOhEWYPD5fPN9rEErebb_Kq4kTgoOPsryO0SVg74PjaNCbBlPNfbqTy-ASeYjuuxWUpOIAtAGdGionN_EMzKUryeCZ6c9y5VppZB2zC0DyxbfTPeRtuQS3nHfQLltte9kAzTLNBkWCW86-W80VvT1r0NLyuErRLm3RGmRypRB7g",
+            "filename": "deedmaker.zip",
+            "bytes": 10207,
+            "sha256": "664957dc9fdf8a7148ced644c224d216050858122bc7126d04d3155f9c87ec18",
+            "virustotal": "https://www.virustotal.com/gui/file/664957dc9fdf8a7148ced644c224d216050858122bc7126d04d3155f9c87ec18"
         },
         "current_version": "",
         "release_date": "",

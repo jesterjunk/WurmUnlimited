@@ -573,46 +573,18 @@ modname    CustomWagons (with the help of Bdew and Coldie )    *Creates the pote
         "description":             "Enables Wagoner and Canvas removed wagons on Wurm Unlimited.<br><br>- Creates the potential to make your own custom wagons provided you can add the textures for them.<br><br>- Thanks to <a href=\"https://forum.wurmonline.com/index.php?/profile/76770-cuddles/\">@Cuddles</a></b> and <a href=\"https://forum.wurmonline.com/index.php?/profile/1469-bdew/\">@bdew</a> for assistance in getting this project available to be released publicly for everyone to use.",
 
 
-modname    Decorations
-modname    Decorations Mod                                     *Craftables toys and a playable chessboard
-•·⸱⸳.•
-    {
-        "author":                  "",
-        "mod_name":                "",
-        "slug":                    "",
-        "forum":                   "",
-        "github_releases":         "",
-        "direct_download_main"     "",
-        "current_version":         "",
-        "description":             "",
-
-
 modname    DeedMod                                             Update to the previous DeedMod written by Keenan to allow a maximum Spirit Templar count
 modname    DeedMod                                             ----
 •·⸱⸳.•
     {
-        "author":                  "",
-        "mod_name":                "",
-        "slug":                    "",
-        "forum":                   "",
-        "github_releases":         "",
-        "direct_download_main"     "",
-        "current_version":         "",
-        "description":             "",
-
-
-
-modname    Deed Start-Up Is Free                               You can freely claim your deed. It will come with 4 silver coins worth already paid for. Keep in mind that your deed will still cost upkeep.
-•·⸱⸳.•
-    {
-        "author":                  "",
-        "mod_name":                "",
-        "slug":                    "",
-        "forum":                   "",
-        "github_releases":         "",
-        "direct_download_main"     "",
-        "current_version":         "",
-        "description":             "",
+        "author":                  "Ayluin",
+        "mod_name":                "Deed Mod",
+        "slug":                    "deed_mod",
+        "forum":                   "https://forum.wurmonline.com/index.php?/topic/169728-release-revelations-server-mods/",
+        "github_releases":         "https://github.com/revelation343/DeedMod/releases",
+        "direct_download_main"     "https://github.com/revelation343/DeedMod/releases/download/2.0.2/DeedMod-2.0.2.zip",
+        "current_version":         "2.0.2",
+        "description":             "Up﻿date to the previous DeedMod written by Keenan to allow a maximum Spirit Templar count",
 
 
 modname    deedmaker
