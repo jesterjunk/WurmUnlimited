@@ -4580,7 +4580,7 @@ modname    fishmonger.properties
         "github_releases": "",
         "direct_download": {
             "main": "https://1drv.ms/u/s!AjnBltNOSFjCgmfYBTPObME6skDD",
-            "mirror": "",
+            "mirror": "https://github.com/jesterjunk/WurmUnlimited/raw/master/mods/server/authors/coldie_aka_cuddles/fishmonger.zip",
             "archive": "https://web.archive.org/web/20230807231117/https://cvqjgg.dm.files.1drv.com/y4mRFS5Kb0TShFjwYnoEKmAgPKiAglcHrvhX0pGM92R1M8nHvSfv_d0_0Etiq-l2Ah6rh4VK83OdBToPrFCtiykuDZ7VL2pVQPHAu55VWuzkpvPHfKevmJ3F9LjfTfJS7YD66mNQcojFQej-C_GEsEG7UmDlbCZNjz6EDJgjuUyFOlP5NpLwcnyJaxTZYCB2hVOSnk99jSMfH3dm5aSofBnwQ",
             "filename": "fishmonger.zip",
             "bytes": 11430,
