@@ -214,7 +214,6 @@
         margin-bottom: -14px;
     }
     div.header_information a#h3_header_title_link {
-/*        display: block;*/
         position: absolute;
         display: flex;
         flex-direction: column;
@@ -229,15 +228,12 @@
         -webkit-transition: text-decoration 1000ms ease-in-out;
            -moz-transition: text-decoration 1000ms ease-in-out;
                 transition: text-decoration 1000ms ease-in-out;
-/*        border: 1px solid rebeccapurple;*/
     }
     div.header_information a#h3_header_title_link h3 {
 /*        flex: 1;*/
         color: var(--header-title-link-text);
         margin: 0;
         font-family: Verdana, Geneva, sans-serif;
-/*        line-height: calc(160px);*/
-/*        border: 1px solid rebeccapurple;*/
     }
     div.header_information a#h3_header_title_link:hover {
         color: var(--header-title-link-text);
@@ -248,7 +244,6 @@
     div.header_information div.Ko-fi {
         z-index: 2023;
         display: flex;
-/*        display: none;*/
         position: fixed;
         justify-content: center;
         align-items: center;
@@ -284,8 +279,8 @@
         fill: #00B9FE;
     }
     div.header_information div.Ko-fi a svg {
-        width:  calc(84px - 8px);
-        height: calc(42px - 8px);
+        width:  calc(84px - 16px);
+        height: calc(42px - 16px);
     }
     div.header_information div.Ko-fi a svg .cls-1 {
         fill: #00b9fe;
@@ -361,7 +356,6 @@
     }
     table#mods_table tbody tr.selected {
         position: relative;
-/*        z-index: 996;*/
         filter: drop-shadow(0 0 24px #000)
                 drop-shadow(0 0 24px #000);
     }
@@ -381,7 +375,6 @@
         vertical-align: top;
         height: 1px;
         height: 100%;
-/*        border: 1px solid rebeccapurple;*/
     }
     table#mods_table tbody tr td.mod_name_and_description div {
         display: flex;
@@ -391,13 +384,10 @@
         justify-content: flex-start;
         align-items: flex-start;
         align-content: center;
-/*        border: 1px solid rebeccapurple;*/
     }
     table#mods_table tbody tr td.mod_name_and_description div div.name,
     table#mods_table tbody tr td.mod_name_and_description div div.description {
         position: relative;
-/*        min-width: 240px;*/
-/*        border: 1px solid rebeccapurple;*/
         padding-left:  16px;
         padding-right: 16px;
     }
@@ -409,14 +399,15 @@
         font-weight: 700;
         padding-top: 6px;
         padding-bottom: 12px;
-/*        text-align: center;*/
         width: 100%;
+    }
+    table#mods_table tbody tr td.mod_name_and_description div div.description {
+        line-height: 1.5;
     }
     table#mods_table tbody tr td.mod_name_and_description div div.name div.anchor_link_icon {
         position: absolute;
         top: calc(-6px + 6px);
         right: calc(8px + 24px + 6px);
-/*        border: 1px solid rebeccapurple;*/
     }
     table#mods_table tbody tr td.mod_name_and_description div div.name div.anchor_link_icon a {
         display: flex;
@@ -430,12 +421,12 @@
         border-radius: 4px;
         opacity: .84;
     }
-    table#mods_table tbody tr td.mod_name_and_description div div.name div.anchor_link_icon a svg {
-        width: 22px;
+    table#mods_table tbody tr td.mod_name_and_description div div.name div.anchor_link_icon a div {
+        width:  22px;
         height: 22px;
-    }
-    table#mods_table tbody tr td.mod_name_and_description div div.name div.anchor_link_icon a svg path {
-        fill: currentColor;
+        background-color: currentColor;
+        -webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36"><path d="M15 9l6-6s6-6 12 0 0 12 0 12l-8 8s-6 6-12 0c-1.125-1.125-1.822-2.62-1.822-2.62l3.353-3.348S14.396 18.396 16 20c0 0 3 3 6 0l8-8s3-3 0-6-6 0-6 0l-3.729 3.729s-1.854-1.521-5.646-.354L15 9z"/><path d="M20.845 27l-6 6s-6 6-12 0 0-12 0-12l8-8s6-6 12 0c1.125 1.125 1.822 2.62 1.822 2.62l-3.354 3.349s.135-1.365-1.469-2.969c0 0-3-3-6 0l-8 8s-3 3 0 6 6 0 6 0l3.729-3.729s1.854 1.521 5.646.354l-.374.375z"/></svg>');
+        mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36"><path d="M15 9l6-6s6-6 12 0 0 12 0 12l-8 8s-6 6-12 0c-1.125-1.125-1.822-2.62-1.822-2.62l3.353-3.348S14.396 18.396 16 20c0 0 3 3 6 0l8-8s3-3 0-6-6 0-6 0l-3.729 3.729s-1.854-1.521-5.646-.354L15 9z"/><path d="M20.845 27l-6 6s-6 6-12 0 0-12 0-12l8-8s6-6 12 0c1.125 1.125 1.822 2.62 1.822 2.62l-3.354 3.349s.135-1.365-1.469-2.969c0 0-3-3-6 0l-8 8s-3 3 0 6 6 0 6 0l3.729-3.729s1.854 1.521 5.646.354l-.374.375z"/></svg>');
     }
     table#mods_table tbody tr td.mod_name_and_description div div.description {
         display: unset;
@@ -559,20 +550,20 @@ HTML;
 function forum_wiki_urls($server_mod) {
 
     $forum_1_main    = $server_mod->forum_1->main;
-    // $forum_1_archive = $server_mod->forum_1->archive;
+    $forum_1_archive = $server_mod->forum_1->archive;
     $forum_2_main    = $server_mod->forum_2->main;
-    // $forum_2_archive = $server_mod->forum_2->archive;
+    $forum_2_archive = $server_mod->forum_2->archive;
     $wiki_main       = $server_mod->wiki->main;
-    // $wiki_archive    = $server_mod->wiki->archive;
+    $wiki_archive    = $server_mod->wiki->archive;
 
     $forum_wiki_urls = "";
 
     if ($forum_1_main)    { $forum_wiki_urls .= build_url_v00($forum_1_main,    "forum 1"); }
-    // if ($forum_1_archive) { $forum_wiki_urls .= build_url_v00($forum_1_archive, "f1 arc"); }
+    if ($forum_1_archive) { $forum_wiki_urls .= build_url_v00($forum_1_archive, "f1 arc"); }
     if ($forum_2_main)    { $forum_wiki_urls .= build_url_v00($forum_2_main,    "forum 2"); }
-    // if ($forum_2_archive) { $forum_wiki_urls .= build_url_v00($forum_2_archive, "f2 arc"); }
+    if ($forum_2_archive) { $forum_wiki_urls .= build_url_v00($forum_2_archive, "f2 arc"); }
     if ($wiki_main)       { $forum_wiki_urls .= build_url_v00($wiki_main,       "wiki"); }
-    // if ($wiki_archive)    { $forum_wiki_urls .= build_url_v00($wiki_archive,    "wiki arc"); }
+    if ($wiki_archive)    { $forum_wiki_urls .= build_url_v00($wiki_archive,    "wiki arc"); }
 
     return "\n                " . str_replace("\n", "<br><hr>\n", trim($forum_wiki_urls)) . "\n            ";
 }
@@ -703,12 +694,7 @@ HTML;
                     <div class="name">
                         {$mod_name}
                         <div class="anchor_link_icon">
-                            <a href="#{$anchor_slug}" data-location="#{$anchor_slug}">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
-                                    <path d="M15 9l6-6s6-6 12 0 0 12 0 12l-8 8s-6 6-12 0c-1.125-1.125-1.822-2.62-1.822-2.62l3.353-3.348S14.396 18.396 16 20c0 0 3 3 6 0l8-8s3-3 0-6-6 0-6 0l-3.729 3.729s-1.854-1.521-5.646-.354L15 9z"/>
-                                    <path d="M20.845 27l-6 6s-6 6-12 0 0-12 0-12l8-8s6-6 12 0c1.125 1.125 1.822 2.62 1.822 2.62l-3.354 3.349s.135-1.365-1.469-2.969c0 0-3-3-6 0l-8 8s-3 3 0 6 6 0 6 0l3.729-3.729s1.854 1.521 5.646.354l-.374.375z"/>
-                                </svg>
-                            </a>
+                            <a href="#{$anchor_slug}" data-location="#{$anchor_slug}"><div></div></a>
                         </div>
                     </div>
                     <div class="description">{$description}</div>

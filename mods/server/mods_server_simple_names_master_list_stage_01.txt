@@ -3482,7 +3482,7 @@ modname    deedmaker.properties
         "slug": "gm_deed_maker",
         "forum_1": {
             "main": "https://forum.wurmonline.com/index.php?/topic/167518-released-coldies-compilations/&tab=comments#comment-1709555",
-            "archive": "",
+            "archive": "https://web.archive.org/web/20230802235418/https://forum.wurmonline.com/index.php?/topic/167518-released-coldies-compilations/&tab=comments",
             "pages": {}
         },
         "forum_2": {
@@ -3491,8 +3491,8 @@ modname    deedmaker.properties
             "pages": {}
         },
         "wiki": {
-            "main": "",
-            "archive": ""
+            "main": "https://forum.wurm-unlimited.net/viewtopic.php?f=26&t=41",
+            "archive": "https://web.archive.org/web/20230803000257/https://forum.wurm-unlimited.net/viewtopic.php?f=26&t=41"
         },
         "github_releases": "",
         "direct_download": {
@@ -3504,9 +3504,9 @@ modname    deedmaker.properties
             "sha256": "664957dc9fdf8a7148ced644c224d216050858122bc7126d04d3155f9c87ec18",
             "virustotal": "https://www.virustotal.com/gui/file/664957dc9fdf8a7148ced644c224d216050858122bc7126d04d3155f9c87ec18"
         },
-        "current_version": "",
-        "release_date": "",
-        "description": ""
+        "current_version": "0",
+        "release_date": "Sep 28, 2019",
+        "description": "Own more than one deed with your gm character"
     },
 •·⸱⸳.•
 

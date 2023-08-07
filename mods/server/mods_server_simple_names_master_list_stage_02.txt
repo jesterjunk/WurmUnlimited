@@ -556,7 +556,7 @@ modname    Custom Trader
         "github_releases":         "https://github.com/Mthec/CustomTrader/releases",
         "direct_download_main"     "https://github.com/Mthec/CustomTrader/releases/download/0.3.10/customtrader.zip",
         "current_version":         "0.3.10",
-        "description":             "A new type of NPC based on the standard trader, that can only be placed by GMs.  Has various options for a custom inventory, including restocking rules.  Use a 'tag' to share the same inventory between multiple custom traders, or just use a unique inventory.<br><br><b>Requirements:</b><br>Ago's Mod Launcher",
+        "description":             "A new type of NPC based on the standard trader, that can only be placed by GMs.  Has various options for a custom inventory, including restocking rules.  Use a 'tag' to share the same inventory between multiple custom traders, or just use a unique inventory.<br><br><b>Requirements:</b><br><a href=\"https://forum.wurmonline.com/index.php?/topic/133085-released-server-mod-loader-priest-crops-seasons-server-packs-bag-of-holding/&page=1\">Ago's Mod Launcher</a>",
 
 
 modname    Custom Wagons
@@ -584,104 +584,90 @@ modname    DeedMod                                             ----
         "github_releases":         "https://github.com/revelation343/DeedMod/releases",
         "direct_download_main"     "https://github.com/revelation343/DeedMod/releases/download/2.0.2/DeedMod-2.0.2.zip",
         "current_version":         "2.0.2",
-        "description":             "Up﻿date to the previous DeedMod written by Keenan to allow a maximum Spirit Templar count",
-
-
-modname    deedmaker
-modname    deedmaker.properties
-•·⸱⸳.•
-    {
-        "author":                  "",
-        "mod_name":                "",
-        "slug":                    "",
-        "forum":                   "",
-        "github_releases":         "",
-        "direct_download_main"     "",
-        "current_version":         "",
-        "description":             "",
+        "description":             "Update to the previous DeedMod written by Keenan to allow a maximum Spirit Templar count",
 
 
 modname    Delivery Contracts                                  A new type of contract that facilitates placing heavy items on a merchant. Awesome mod, read more et the forum!
 modname    Delivery Contracts                                  A new type of contract that facilitates placing heavy items on a merchant. Awesome mod, read more et the forum!
 •·⸱⸳.•
     {
-        "author":                  "",
-        "mod_name":                "",
-        "slug":                    "",
-        "forum":                   "",
-        "github_releases":         "",
-        "direct_download_main"     "",
-        "current_version":         "",
-        "description":             "",
+        "author":                  "Mthec",
+        "mod_name":                "Delivery Contracts",
+        "slug":                    "delivery_contracts",
+        "forum":                   "https://forum.wurmonline.com/index.php?/topic/166806-released-mthecs-npcs-crafter-buyer-deliverycontracts-merchantcap-customtrader-toolpurchaser-banker-beastsummoner/",
+        "github_releases":         "https://github.com/Mthec/DeliveryContracts/releases",
+        "direct_download_main"     "https://github.com/Mthec/DeliveryContracts/releases/download/0.5.13/deliverycontracts.zip",
+        "current_version":         "0.5.13",
+        "description":             "A new type of contract that facilitates placing heavy items on a merchant.<br><br><b>Requirements:</b><br><a href=\"https://forum.wurmonline.com/index.php?/topic/133085-released-server-mod-loader-priest-crops-seasons-server-packs-bag-of-holding/&page=1\">Ago's Mod Launcher</a>",
 
 
 modname    DigLikeMiningMod                                    *Enabled dredging to ship. Added the ability to use dirt or sand piled on the tile you're standing on if you need to use dirt/sand when flattening or leveling. You will use dirt in your inventory, then dirt in a pile, then sand in your inventory, and finally sand in a pile, in that order.
 modname    DigLikeMiningMod                                    ----
 •·⸱⸳.•
     {
-        "author":                  "",
-        "mod_name":                "",
-        "slug":                    "",
-        "forum":                   "",
-        "github_releases":         "",
-        "direct_download_main"     "",
-        "current_version":         "",
-        "description":             "",
+        "author":                  "WalkerInTheVoid",
+        "mod_name":                "Dig Like Mining",
+        "slug":                    "dig_like_mining",
+        "forum":                   "https://forum.wurmonline.com/index.php?/topic/134477-released-mods-for-modloader-bounties-digging-like-mining-meditation-underground-prospecting-spider-replacements/",
+        "github_releases":         "https://github.com/WalkerInTheVoid/WurmMods/releases",
+        "direct_download_main"     "https://github.com/WalkerInTheVoid/WurmMods/releases/download/v1.4/WalkerMods.V1.4.zip",
+        "current_version":         "1.4",
+        "description":             "A recreation of Alexgopen's Digging Like Mining for use with <a href=\"https://forum.wurmonline.com/index.php?/topic/133085-released-server-mod-loader-priest-crops-seasons-server-packs-bag-of-holding/&page=1\">Ago's Mod Launcher</a>.<br><br>Enabled dredging to ship. Added the ability to use dirt or sand piled on the tile you're standing on if you need to use dirt/sand when flattening or leveling. You will use dirt in your inventory, then dirt in a pile, then sand in your inventory, and finally sand in a pile, in that order.",
 
 
 
 modname    Digtoground                                         https://wiki.wurm-unlimited.net/page/Ago%27s_Server_Mods
 •·⸱⸳.•
     {
-        "author":                  "",
-        "mod_name":                "",
-        "slug":                    "",
-        "forum":                   "",
-        "github_releases":         "",
-        "direct_download_main"     "",
-        "current_version":         "",
-        "description":             "",
+        "author":                  "----",
+        "mod_name":                "----",
+        "slug":                    "----",
+        "forum":                   "----",
+        "github_releases":         "----",
+        "direct_download_main"     "----",
+        "current_version":         "----",
+        "description":             "----",
 
 
 
 modname    Disable Fatigue
 •·⸱⸳.•
     {
-        "author":                  "",
-        "mod_name":                "",
-        "slug":                    "",
-        "forum":                   "",
-        "github_releases":         "",
-        "direct_download_main"     "",
-        "current_version":         "",
-        "description":             "",
+        "author":                  "DavatarNew aka DavatarTheFirst",
+        "mod_name":                "Disable Fatigue",
+        "slug":                    "disable_fatigue",
+        "forum":                   "https://forum.wurmonline.com/index.php?/topic/186308-released-davatar-server-mods-new-mods-allow-concrete-on-dirt-disable-fatigue-hydrator-mounted-actions-pendulum-coordinates-stop-dirt-flowing-tent-on-deed/",
+        "github_releases":         "https://github.com/DavatarTheFirst/WUDisableFatigue/releases",
+        "direct_download_main"     "https://github.com/DavatarTheFirst/WUDisableFatigue/releases/download/v0.1/DisableFatigue.zip",
+        "current_version":         "0.1",
+        "description":             "Fatigue doesn't make sense, when you play alone anyway. This mod removes fatigue from the game.",
 
 
 modname    DisableFogSpieders                                  Update for joebado's DisableFogSpider for version 1.9
 modname    DisableFogSpieders                                  Update for joebado's DisableFogSpider for version 1.9
 •·⸱⸳.•
     {
-        "author":                  "",
-        "mod_name":                "",
-        "slug":                    "",
-        "forum":                   "",
-        "github_releases":         "",
-        "direct_download_main"     "",
-        "current_version":         "",
-        "description":             "",
+        "author":                  "Ayluin",
+        "mod_name":                "Disable Fog Spiders",
+        "slug":                    "disable_fog_spiders",
+        "forum":                   "https://forum.wurmonline.com/index.php?/topic/169728-release-revelations-server-mods/",
+        "github_releases":         "https://github.com/revelation343/DisableFogSpiders/releases",
+        "direct_download_main"     "https://github.com/revelation343/DisableFogSpiders/releases/download/1.0/DisableFogSpiders-1.0.zip",
+        "current_version":         "1.0",
+        "description":             "A simple mod that disables fog spiders entirely.<br><br>Original code by joedobo Updated for 1.9.1.5",
 
 
 modname    disbandmod.config
 modname    disbandmod.properties
 •·⸱⸳.•
     {
-        "author":                  "",
-        "mod_name":                "",
-        "slug":                    "",
-        "forum":                   "",
-        "github_releases":         "",
-        "direct_download_main"     "",
-        "current_version":         "",
+        "author":                  "Ignacius",
+        "mod_name":                "Disband",
+        "slug":                    "disband",
+        "forum":                   "https://forum.wurmonline.com/index.php?/topic/168318-release-disband-mod-disable-deeds-mod/",
+        "github_releases":         "https://github.com/hattrickpatrick/disbandmod/releases",
+        "direct_download_main"     "https://github.com/hattrickpatrick/disbandmod/releases/download/v1.1/disbandmod.zip",
+        "current_version":         "1.1",
         "description":             "",
 
 
