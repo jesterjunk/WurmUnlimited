@@ -4127,15 +4127,15 @@ modname    Dyemaker.properties
         "github_releases": "",
         "direct_download": {
             "main": "https://1drv.ms/u/s!AjnBltNOSFjChAaSk_GXtEbXecVP?e=OQCEkZ",
-            "mirror": "",
-            "archive": "",
+            "mirror": "https://github.com/jesterjunk/WurmUnlimited/raw/master/mods/server/authors/coldie_aka_cuddles/dyemaker.zip",
+            "archive": "https://web.archive.org/web/20230807094924/https://byimba.dm.files.1drv.com/y4m96kt9EiDttYCOVARYIilhtPVT-vSJav3IOPsCu6olGIOhZFdezJZewd7oSid73G0jRrAx3WyUqs1H3cJDBucpHmmDkX3h7HSQviId62dz8PU5jYv0VIf7Ipc6lmES0JNraNBHp-L9OEnUznbSuCnMJlJAHml9ynxnz1uziqpj1XAmLWs3wb2epeZbiFz86ZyH3iDTFdsrGzp1YKKFGd5zg",
             "filename": "dyemaker.zip",
             "bytes": 13692142,
             "sha256": "74d8be179ffae7a2296590fa06a634cd8d41746a52f137f1eae5b59f0e0cc021",
             "virustotal": "https://www.virustotal.com/gui/file/74d8be179ffae7a2296590fa06a634cd8d41746a52f137f1eae5b59f0e0cc021"
         },
         "current_version": "0",
-        "release_date": "",
+        "release_date": "Jun 18, 2020",
         "description": "Add an item that makes creation of many colors of dye possible."
     },
 •·⸱⸳.•
