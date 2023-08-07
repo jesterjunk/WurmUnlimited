@@ -668,49 +668,49 @@ modname    disbandmod.properties
         "github_releases":         "https://github.com/hattrickpatrick/disbandmod/releases",
         "direct_download_main"     "https://github.com/hattrickpatrick/disbandmod/releases/download/v1.1/disbandmod.zip",
         "current_version":         "1.1",
-        "description":             "",
+        "description":             "To disband villages/settlements on a server when the mayor has been inactive/hasn't logged in for a set amount of time.",
 
 
 modname    DiscordRelay                                        Everything in our server is sent to our discord and vice-versa through game channels.
 modname    DiscordRelay.properties
 •·⸱⸳.•
     {
-        "author":                  "",
-        "mod_name":                "",
-        "slug":                    "",
-        "forum":                   "",
-        "github_releases":         "",
-        "direct_download_main"     "",
-        "current_version":         "",
-        "description":             "",
+        "author":                  "Sindusk",
+        "mod_name":                "Discord Relay",
+        "slug":                    "discord_relay",
+        "forum":                   "https://forum.wurmonline.com/index.php?/topic/146986-sindusk-server-mods/",
+        "github_releases":         "https://github.com/Sindusk/DiscordRelay/releases",
+        "direct_download_main"     "https://github.com/Sindusk/DiscordRelay/releases/download/v3.0/DiscordRelay-3.0.zip",
+        "current_version":         "3.0",
+        "description":             "Connect your server chat/trade and more to your discord.",
 
 
 modname    Doorbells on Fencegates                             Released     New mod from 27. april 2018    https://forum.wurmonline.com/index.php?/topic/162553-door-bell-on-locked-fencegates/#comment-1662582
 modname    Doorbells on Fencegates                             New mod from 27. april 2018
 •·⸱⸳.•
     {
-        "author":                  "",
-        "mod_name":                "",
-        "slug":                    "",
-        "forum":                   "",
-        "github_releases":         "",
-        "direct_download_main"     "",
-        "current_version":         "",
-        "description":             "",
+        "author":                  "Druward",
+        "mod_name":                "Doorbells on Fencegates",
+        "slug":                    "doorbells_on_fencegates",
+        "forum":                   "https://forum.wurmonline.com/index.php?/topic/162553-door-bell-on-locked-fencegates/#comment-1662582",
+        "github_releases":         "https://github.com/mpsmonk/wurm-mods/releases",
+        "direct_download_main"     "https://github.com/mpsmonk/wurm-mods/blob/master/doorbell.7z",
+        "current_version":         "0",
+        "description":             "You can use right click on the gate and choose "Ring at doorbell" if gate on the deed, all citizen will receive message about it. If gate not on a deed only one who attach the lock will receive it.",
 
 
 modname    DoubleBulkCapacity
 modname    DoubleBulkCapacity.properties
 •·⸱⸳.•
     {
-        "author":                  "",
-        "mod_name":                "",
-        "slug":                    "",
-        "forum":                   "",
-        "github_releases":         "",
-        "direct_download_main"     "",
-        "current_version":         "",
-        "description":             "",
+        "author":                  "Ulviirala",
+        "mod_name":                "Double Bulk Capacity",
+        "slug":                    "double_bulk_capacity",
+        "forum":                   "https://forum.wurmonline.com/index.php?/topic/144930-released-unlimitedquacks-142-another-small-collection-of-mods/",
+        "github_releases":         "https://github.com/dmon82/UnlimitedQuacks/releases",
+        "direct_download_main"     "https://github.com/dmon82/UnlimitedQuacks/releases/download/1.3.1/DoubleBulkCapacity.zip",
+        "current_version":         "1.3.1",
+        "description":             "Newly created BSBs and FSBs capacity is quadrupled (4x). All crates capacity is doubled.",
 
 
 modname    DPS                                                 show the damage you do on your enemies and more interessted informations

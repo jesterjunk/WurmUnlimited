@@ -15,6 +15,8 @@
         --main-font: Arial, Helvetica, sans-serif;
         --main-monospace-font-00: 'IBM Plex Mono', monospace;
 
+        --font_Verdana: Verdana, Geneva, sans-serif;
+
         --color-00: hsl(70, 8%, 15%);
         --color-01: hsl(50, 12%, 20%);
         --color-01-selected: hsl(48, 12%, 16%);
@@ -98,7 +100,6 @@
         width: 100%;
     }
     div.header_information {
-/*        block-size: fit-content;*/
         height: calc(118px + 22px);
     }
     div.header_information div.disclaimer {
@@ -120,11 +121,11 @@
         right: 8px;
         color: hsla(0, 100%, 50%, .88);
         background-color: hsla(0, 0%, 0%, .42);
-        font-family: Verdana, Geneva, sans-serif;
+        font-family: var(--font_Verdana);
     }
     div.header_information div.disclaimer div.disclaimer_message {
         background-color: hsla(0, 0%, 0%, .42);
-        font-family: Verdana, Geneva, sans-serif;
+        font-family: var(--font_Verdana);
         padding-bottom:  4px;
         padding-left: 48px;
         padding-right: 8px;
@@ -144,7 +145,7 @@
         text-shadow: 0 0 2px #000,
                      0 0 4px #000,
                      0 0 6px #000;
-        font-family: Verdana, Geneva, sans-serif;
+        font-family: var(--font_Verdana);
         font-size: 1em;
     }
 
@@ -159,12 +160,12 @@
         height: 111px;
     }
     div.header_information div.disclaimer div.github-corner a svg {
-        fill: var(--color-03);
-        color: var(--header-background-color);
-        transform: scale(-1, 1)
+        fill: var(--header-background-color);
+        color: var(--color-03);
+        transform: scale(-1, 1);
     }
     div.header_information div.disclaimer div.github-corner a:hover .octo-arm {
-        animation: octocat-wave 560ms ease-in-out
+        animation: octocat-wave 560ms ease-in-out;
     }
     div.header_information div.disclaimer div.github-corner a:hover .octo-arm @keyframes octocat-wave {
         0%, 100% { transform: rotate(0)      }
@@ -233,7 +234,7 @@
 /*        flex: 1;*/
         color: var(--header-title-link-text);
         margin: 0;
-        font-family: Verdana, Geneva, sans-serif;
+        font-family: var(--font_Verdana);
     }
     div.header_information a#h3_header_title_link:hover {
         color: var(--header-title-link-text);
@@ -370,6 +371,9 @@
     table#mods_table tbody tr td.version_details {
         padding-left:  8px;
         padding-right: 8px;
+    }
+    table#mods_table tbody tr td.author {
+        font-family: var(--font_Verdana);
     }
     table#mods_table tbody tr td.mod_name_and_description {
         vertical-align: top;
@@ -522,6 +526,14 @@
         border-radius: 4px;
         opacity: .84;
     }
+    span.not_on_github {
+        font-family: var(--font_Verdana);
+        color: #EBEBE899;
+        text-shadow: 0 0  3px #000,
+                     0 0  6px #000,
+                     0 0  9px #000,
+                     0 0 12px #000;
+    }
     </style>
 </head>
 <body>
@@ -583,6 +595,8 @@ function github_urls($server_mod) {
 
         $github_urls .= build_url_v00($github_releases, "releases");
     }
+
+    $github_urls = $github_urls ? $github_urls : "<span class=\"not_on_github\">not on<br>github</span>";
 
     return "\n                " . str_replace("\n", "<br><hr>\n", trim($github_urls)) . "\n            ";
 }
