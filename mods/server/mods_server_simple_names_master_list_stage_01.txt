@@ -3907,13 +3907,13 @@ modname    DPS                                                 show the damage y
             "pages": {}
         },
         "forum_2": {
-            "main": "",
-            "archive": "",
+            "main": "https://forum.wurm-unlimited.net/viewtopic.php?f=36&t=31",
+            "archive": "https://web.archive.org/web/20230807093229/https://forum.wurm-unlimited.net/viewtopic.php?f=36&t=31",
             "pages": {}
         },
         "wiki": {
-            "main": "",
-            "archive": ""
+            "main": "https://wiki.wurm-unlimited.net/page/DPS_Mod",
+            "archive": "https://web.archive.org/web/20230807093317/https://wiki.wurm-unlimited.net/page/DPS_Mod"
         },
         "github_releases": "",
         "direct_download": {
@@ -4028,13 +4028,13 @@ modname    Dungeon Mod                                         a complex mod whe
             "pages": {}
         },
         "forum_2": {
-            "main": "",
-            "archive": "",
+            "main": "https://forum.wurm-unlimited.net/viewtopic.php?f=36&t=39",
+            "archive": "https://web.archive.org/web/20230807092841/https://forum.wurm-unlimited.net/viewtopic.php?f=36&t=39",
             "pages": {}
         },
         "wiki": {
-            "main": "",
-            "archive": ""
+            "main": "https://wiki.wurm-unlimited.net/page/Dungeon_Mod",
+            "archive": "https://web.archive.org/web/20230807093022/https://wiki.wurm-unlimited.net/page/Dungeon_Mod"
         },
         "github_releases": "",
         "direct_download": {
@@ -4107,36 +4107,36 @@ modname    Dyemaker
 modname    Dyemaker.properties
 •·⸱⸳.•
     {
-        "author": "",
-        "mod_name": "",
-        "slug": "",
+        "author": "Coldie aka Cuddles",
+        "mod_name": "Dye Maker",
+        "slug": "dye_maker",
         "forum_1": {
-            "main": "",
+            "main": "https://forum.wurmonline.com/index.php?/topic/167518-released-coldies-compilations/",
             "archive": "",
             "pages": {}
         },
         "forum_2": {
-            "main": "",
+            "main": "https://forum.wurm-unlimited.net/viewtopic.php?f=36&t=51",
             "archive": "",
             "pages": {}
         },
         "wiki": {
-            "main": "",
+            "main": "https://wiki.wurm-unlimited.net/page/Dye_Maker_Mod",
             "archive": ""
         },
         "github_releases": "",
         "direct_download": {
-            "main": "",
+            "main": "https://1drv.ms/u/s!AjnBltNOSFjChAaSk_GXtEbXecVP?e=OQCEkZ",
             "mirror": "",
             "archive": "",
-            "filename": "",
-            "bytes": 0,
-            "sha256": "",
-            "virustotal": ""
+            "filename": "dyemaker.zip",
+            "bytes": 13692142,
+            "sha256": "74d8be179ffae7a2296590fa06a634cd8d41746a52f137f1eae5b59f0e0cc021",
+            "virustotal": "https://www.virustotal.com/gui/file/74d8be179ffae7a2296590fa06a634cd8d41746a52f137f1eae5b59f0e0cc021"
         },
-        "current_version": "",
+        "current_version": "0",
         "release_date": "",
-        "description": ""
+        "description": "Add an item that makes creation of many colors of dye possible."
     },
 •·⸱⸳.•
 

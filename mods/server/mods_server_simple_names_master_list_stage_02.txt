@@ -745,14 +745,14 @@ modname    DUSKombat                                           https://forum.wur
 modname    DUSKombat                                           A complete overhaul of the combat system in Wurm to allow for more playstyles in fighting.
 •·⸱⸳.•
     {
-        "author":                  "",
-        "mod_name":                "",
-        "slug":                    "",
-        "forum":                   "",
-        "github_releases":         "",
-        "direct_download_main"     "",
-        "current_version":         "",
-        "description":             "",
+        "author":                  "Sindusk",
+        "mod_name":                "DUSKombat",
+        "slug":                    "duskombat",
+        "forum":                   "https://forum.wurmonline.com/index.php?/topic/163705-duskombat-full-combat-system-rewrite/",
+        "github_releases":         "https://github.com/Sindusk/DUSKombat/releases",
+        "direct_download_main"     "https://github.com/Sindusk/DUSKombat/releases/download/v2.1/DUSKombat-2.1.zip",
+        "current_version":         "2.1",
+        "description":             "Full combat system rewrite",
 
 
 modname    Dyemaker
