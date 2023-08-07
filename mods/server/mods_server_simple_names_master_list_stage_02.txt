@@ -42,20 +42,6 @@ modname    Arrowpacks                                          You can take a qu
         "description":             "",
 
 
-modname    bdew server mod tools                               This is a library that will be used by bdew (and possibly other people's) mods.
-modname    bdew server mod tools                               This is a library that will be used by bdew (and possibly other people's) mods.
-•·⸱⸳.•
-    {
-        "author":                  "Bdew",
-        "mod_name":                "Bdew Server Mod Tools",
-        "slug":                    "bdew_server_mod_tools",
-        "forum":                   "https://forum.wurmonline.com/index.php?/topic/138254-released-bdew-server-mods-new-mod-fishy-tweaks-updated-apr-09/",
-        "github_releases":         "https://github.com/bdew-wurm/bdew_server_mod_tools/releases",
-        "direct_download_main"     "https://github.com/bdew-wurm/bdew_server_mod_tools/releases/download/v2.1.0/bdew_server_mod_tools-2.1.0.zip",
-        "current_version":         "2.1.0",
-        "description":             "This is a library that will be used by bdew (and possibly other people's) mods.",
-
-
 modname    beastsummoner
 modname    beastsummoner.properties
 •·⸱⸳.•
