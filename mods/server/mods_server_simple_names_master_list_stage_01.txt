@@ -4409,7 +4409,7 @@ modname    EventMod                                            When we host even
         "github_releases": "",
         "direct_download": {
             "main": "https://1drv.ms/u/s!AjnBltNOSFjCgkgH-QH3qkEfavEz",
-            "mirror": "",
+            "mirror": "https://github.com/jesterjunk/WurmUnlimited/raw/master/mods/server/authors/coldie_aka_cuddles/eventmod.zip",
             "archive": "https://web.archive.org/web/20230807221706/https://ag15yq.dm.files.1drv.com/y4mbiEpLCSXSOWoR7KKodySoDmn3aqiiRkFHNsxKoUs7leOO1U2-_6r4Dqacnz4iqBYpaBJt8vykstZvDMr2T1OlWIIr8Sghfgqszprk3yx9KJkbO0F2e1eipSr0GrZkCDjInZvUQKDpML_zHJOTqw27W747m354Aq-3MAFbgxrZUsEEg5Zi3nQw359-RN7yQ-_k05dclgJdCsfelt3dro0gQ",
             "filename": "eventmod.zip",
             "bytes": 25454,
