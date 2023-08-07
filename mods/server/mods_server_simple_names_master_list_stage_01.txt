@@ -4307,11 +4307,11 @@ modname    Epic Curve                                          epic curve for PV
 modname    Epic Skill Curve                                    Benefit from having all skills increased by the Epic curve.
 •·⸱⸳.•
     {
-        "author": "",
-        "mod_name": "",
-        "slug": "",
+        "author": "Coldie aka Cuddles",
+        "mod_name": "Epic Curve",
+        "slug": "epic_curve",
         "forum_1": {
-            "main": "",
+            "main": "https://forum.wurmonline.com/index.php?/topic/167518-released-coldies-compilations/",
             "archive": "",
             "pages": {}
         },
@@ -4326,17 +4326,17 @@ modname    Epic Skill Curve                                    Benefit from havi
         },
         "github_releases": "",
         "direct_download": {
-            "main": "",
+            "main": "https://1drv.ms/u/s!AjnBltNOSFjCgkPuAweA0v-Blc2I",
             "mirror": "",
-            "archive": "",
-            "filename": "",
-            "bytes": 0,
-            "sha256": "",
+            "archive": "https://web.archive.org/web/20230807220113/https://ag3seg.dm.files.1drv.com/y4mwdjj_Ug4TUMbJHEZM0CwF0o6-Qpm2imLv6Z8StKHuasd4k2x5FMY8Rfz56VCoTYJM_Q9cIXVpomDkELYO5db1rgdjgMhp4QRHOg2HjYUCjuZW7HaFtVmAN5jr0wdiOgbjMoTNkoDsfeeG_gmDuf76mQvV-9bjOO-i8BNNL6pt3O0-jh6YzujW1DLCec-V1WdqDjxlqLVCm1OZPxFWheMzw",
+            "filename": "epiccurve.zip",
+            "bytes": 4693,
+            "sha256": "69f4607162413827354b5dc7c914f77c41ddd315512bb083e9e558c7d6a52854",
             "virustotal": ""
         },
         "current_version": "",
         "release_date": "",
-        "description": ""
+        "description": "Nothing to change in properties file with this 1, mod is either there or it isn't.<br>This will make even PVE have Epic Curve active.<br>*Note* After i released this mod the WU devs added an option in server settings to turn on 'Epic Settings" even for pve servers, so this mod is no longer needed.<br><a href="https://www.wurmpedia.com/index.php/The_Curve" title="https://www.wurmpedia.com/index.php/The_Curve" target="_blank">https://www.wurmpedia.com/index.php/The_Curve</a>"
     },
 •·⸱⸳.•
 

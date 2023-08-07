@@ -772,28 +772,28 @@ modname    Easily ridable unicorns and hell horses             When you brand yo
 modname    Empty Trash Bin (MpsMonk)                           Activate flint and steel and click on trash heap then select Empty trash bin to immediately dispose of all items inside.
 •·⸱⸳.•
     {
-        "author":                  "",
-        "mod_name":                "",
-        "slug":                    "",
-        "forum":                   "",
-        "github_releases":         "",
-        "direct_download_main"     "",
-        "current_version":         "",
-        "description":             "",
+        "author":                  "Druward aka mpsmonk",
+        "mod_name":                "Empty Trash Bin",
+        "slug":                    "empty_trash_bin",
+        "forum":                   "https://forum.wurmonline.com/index.php?/topic/162669-trash-bin-empty/&do=findComment&comment=1664655",
+        "github_releases":         "https://github.com/mpsmonk/wurm-mods/releases",
+        "direct_download_main"     "https://github.com/mpsmonk/wurm-mods/blob/master/emptytrashbin.7z",
+        "current_version":         "0",
+        "description":             "For immediately dispose of all items inside. Activate flint and steel and click on trash heap then select Empty trash bin. You have time to think while action executing. Time on action changes in properties",
 
 
 modname    EnhancedChickenCoop                                 Allows for the quality level of chicken coop eggs to be configured in properties rather than limited to Chicken Coop ql
 modname    EnhancedChickenCoop                                 Allows for the quality level of chicken coop eggs to be configured in properties rather than limited to Chicken Coop ql
 •·⸱⸳.•
     {
-        "author":                  "",
-        "mod_name":                "",
-        "slug":                    "",
-        "forum":                   "",
-        "github_releases":         "",
-        "direct_download_main"     "",
-        "current_version":         "",
-        "description":             "",
+        "author":                  "Ayluin",
+        "mod_name":                "Enhanced Chicken Coop",
+        "slug":                    "enhanced_chicken_coop",
+        "forum":                   "https://forum.wurmonline.com/index.php?/topic/169728-release-revelations-server-mods/",
+        "github_releases":         "https://github.com/revelation343/EnhancedChickenCoop/releases",
+        "direct_download_main"     "https://github.com/revelation343/EnhancedChickenCoop/releases/download/1.0/EnhancedChickenCoop-1.0.zip",
+        "current_version":         "1.0",
+        "description":             "Allows for the quality level of chicken coop eggs to be configured in properties rather than limited to Chicken Coop ql",
 
 
 modname    Epic Curve                                          epic curve for PVE servers
@@ -1136,7 +1136,7 @@ modname    Hota Statues                                        Released     New 
 modname    Hota Statues                                        New mod from 27. april 2018
 •·⸱⸳.•
     {
-        "author":                  "",
+        "author":                  "Druward aka mpsmonk",
         "mod_name":                "",
         "slug":                    "",
         "forum":                   "",
@@ -2046,7 +2046,7 @@ modname    Reward Mod                                          Released     New 
 modname    Reward Mod                                          New mod from 27. april 2018
 •·⸱⸳.•
     {
-        "author":                  "",
+        "author":                  "Druward aka mpsmonk",
         "mod_name":                "",
         "slug":                    "",
         "forum":                   "",
