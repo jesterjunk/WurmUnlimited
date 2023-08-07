@@ -3918,16 +3918,16 @@ modname    DPS                                                 show the damage y
         "github_releases": "",
         "direct_download": {
             "main": "https://1drv.ms/u/s!AjnBltNOSFjCgkLm33ZmIJs-ACXK",
-            "mirror": "",
+            "mirror": "https://github.com/jesterjunk/WurmUnlimited/raw/master/mods/server/authors/coldie_aka_cuddles/DPS.zip",
             "archive": "https://web.archive.org/web/20230807085659/https://ag2h7w.dm.files.1drv.com/y4m9bSnO9PgJjTiS42aDF4Eik9YWoC5GSYa0HzEhyPkGtQUI1JZ2kiSxnXOE1V5ywucxSJF3vsyUpnwPOG531RrUt1vNejB-vU5ZHXYQrxRhgn4X6LRjnLZgwlN1Xj7vlo1tqtMl0_LRbxr34bFIZO7pn9JLgKJ8Fq0yFJG_3LFKSR3yBp37e_vGUrTGBlkyymuAUtAH3XXK__VveCXY_orwA",
             "filename": "DPS.zip",
             "bytes": 10827,
             "sha256": "92b023955554a4d86c71c94433b68528614b7011f6b399c21e4c2173e67d86ad",
             "virustotal": "https://www.virustotal.com/gui/file/92b023955554a4d86c71c94433b68528614b7011f6b399c21e4c2173e67d86ad"
         },
-        "current_version": "",
-        "release_date": "",
-        "description": ""
+        "current_version": "0",
+        "release_date": "Mar 14, 2019",
+        "description": "Show the damage you do on your enemies and more interested informations."
     },
 •·⸱⸳.•
 
@@ -4019,11 +4019,11 @@ modname    Dungeon Mod                                         a complex mod whe
 modname    Dungeon Mod                                         a complex mod where you can setup different areas with dungeons/own currency. Please read on forum
 •·⸱⸳.•
     {
-        "author": "",
-        "mod_name": "",
-        "slug": "",
+        "author": "Coldie aka Cuddles",
+        "mod_name": "Dungeon",
+        "slug": "dungeon",
         "forum_1": {
-            "main": "",
+            "main": "https://forum.wurmonline.com/index.php?/topic/167518-released-coldies-compilations/",
             "archive": "",
             "pages": {}
         },
@@ -4038,17 +4038,17 @@ modname    Dungeon Mod                                         a complex mod whe
         },
         "github_releases": "",
         "direct_download": {
-            "main": "",
+            "main": "https://1drv.ms/u/s!AjnBltNOSFjCgkqJESX7w46Wtxhm",
             "mirror": "",
-            "archive": "",
-            "filename": "",
-            "bytes": 0,
-            "sha256": "",
-            "virustotal": ""
+            "archive": "https://web.archive.org/web/20230807092214/https://z5ipyw.dm.files.1drv.com/y4mxxxotJZsaS0UL2ZETntEVY2jzmUm4wwG3Yy7zmSjcsSUPctY68uCAMLfkbTBGWoe3corU0GnUeeEUiKT80ZuMhZ9TDD3S4ji2bSP7vB3rOJznRBzA38VGlQyHytJ6USBAWkieQn_MWDLe4-_IRdAgRDhIa9XZEXvFt56Q4xMon4G0AbYcNmqj_HfQCK6JNUFSOO0A1c5Zl5aZP8ZIRIubQ",
+            "filename": "dungeon.zip",
+            "bytes": 107324,
+            "sha256": "e26e0bb1169b34755cde16d6727504568e20d3e5d72329add5049127177e7cf8",
+            "virustotal": "https://www.virustotal.com/gui/file/e26e0bb1169b34755cde16d6727504568e20d3e5d72329add5049127177e7cf8"
         },
-        "current_version": "",
-        "release_date": "",
-        "description": ""
+        "current_version": "0",
+        "release_date": "July 15, 2019",
+        "description": "a complex mod where you can setup different areas with dungeons/own currency. Please read on forum"
     },
 •·⸱⸳.•
 

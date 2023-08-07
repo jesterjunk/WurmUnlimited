@@ -713,60 +713,32 @@ modname    DoubleBulkCapacity.properties
         "description":             "Newly created BSBs and FSBs capacity is quadrupled (4x). All crates capacity is doubled.",
 
 
-modname    DPS                                                 show the damage you do on your enemies and more interessted informations
-modname    DPS                                                 show the damage you do on your enemies and more interessted informations
-•·⸱⸳.•
-    {
-        "author":                  "",
-        "mod_name":                "",
-        "slug":                    "",
-        "forum":                   "",
-        "github_releases":         "",
-        "direct_download_main"     "",
-        "current_version":         "",
-        "description":             "",
-
-
 modname    Dragon Mounts                                       Allows breedable, rideable, tameable Drakes to be enabled in Wurm
 modname    Dragon rider
 •·⸱⸳.•
     {
-        "author":                  "",
-        "mod_name":                "",
-        "slug":                    "",
-        "forum":                   "",
-        "github_releases":         "",
-        "direct_download_main"     "",
-        "current_version":         "",
-        "description":             "",
+        "author":                  "Governor aka Jubaroo",
+        "mod_name":                "Dragon Rider",
+        "slug":                    "dragon_rider",
+        "forum":                   "https://forum.wurmonline.com/index.php?/topic/163363-released-governor-server-mods-newest-mod-altars-mod/",
+        "github_releases":         "https://github.com/Jubaroo/DragonRider/releases",
+        "direct_download_main"     "https://github.com/Jubaroo/DragonRider/releases/download/1.6/DragonRiderV1.6.zip",
+        "current_version":         "1.6",
+        "description":             "Allows breedable, rideable, tameable Drakes to be enabled in Wurm.",
 
 
 
 modname    Dual-Wielding                                       You can use two one-handed weapons at the same time. And it works!
 •·⸱⸳.•
     {
-        "author":                  "",
-        "mod_name":                "",
-        "slug":                    "",
-        "forum":                   "",
-        "github_releases":         "",
-        "direct_download_main"     "",
-        "current_version":         "",
-        "description":             "",
-
-
-modname    Dungeon Mod                                         a complex mod where you can setup different areas with dungeons/own currency. Please read on forum
-modname    Dungeon Mod                                         a complex mod where you can setup different areas with dungeons/own currency. Please read on forum
-•·⸱⸳.•
-    {
-        "author":                  "",
-        "mod_name":                "",
-        "slug":                    "",
-        "forum":                   "",
-        "github_releases":         "",
-        "direct_download_main"     "",
-        "current_version":         "",
-        "description":             "",
+        "author":                  "----",
+        "mod_name":                "----",
+        "slug":                    "----",
+        "forum":                   "----",
+        "github_releases":         "----",
+        "direct_download_main"     "----",
+        "current_version":         "----",
+        "description":             "----",
 
 
 modname    DUSKombat                                           https://forum.wurmonline.com/index.php?/topic/163705-duskombat-full-combat-system-rewrite/
