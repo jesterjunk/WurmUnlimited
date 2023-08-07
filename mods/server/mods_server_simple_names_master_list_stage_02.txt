@@ -841,14 +841,14 @@ modname    FindModName                                         Fix for white foa
 modname    Fix for white foals from Creatures Mod.             Beta    https://forum.wurmonline.com/index.php?/topic/142516-beta-nekoexmachina-mods-newest-addition-fix-for-white-foals-from-creature-mod/#comment-1470940
 •·⸱⸳.•
     {
-        "author":                  "",
-        "mod_name":                "",
-        "slug":                    "",
-        "forum":                   "",
-        "github_releases":         "",
-        "direct_download_main"     "",
-        "current_version":         "",
-        "description":             "",
+        "author":                  "nekoexmachina",
+        "mod_name":                "Fix for white foals from Creatures Mod",
+        "slug":                    "fix_for_white_foals_from_creatures_mod",
+        "forum":                   "https://forum.wurmonline.com/index.php?/topic/142516-beta-nekoexmachina-mods-newest-addition-fix-for-white-foals-from-creature-mod/",
+        "github_releases":         "----",
+        "direct_download_main"     "----",
+        "current_version":         "0.0.1",
+        "description":             "Fix for white foals from Creatures Mod",
 
 
 modname    Fishmonger

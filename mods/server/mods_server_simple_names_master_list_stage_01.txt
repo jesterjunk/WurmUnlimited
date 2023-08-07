@@ -4560,36 +4560,36 @@ modname    Fishmonger
 modname    fishmonger.properties
 •·⸱⸳.•
     {
-        "author": "",
-        "mod_name": "",
-        "slug": "",
+        "author": "Coldie aka Cuddles",
+        "mod_name": "Fish Monger",
+        "slug": "fish_monger",
         "forum_1": {
-            "main": "",
+            "main": "https://forum.wurmonline.com/index.php?/topic/167518-released-coldies-compilations/",
             "archive": "",
             "pages": {}
         },
         "forum_2": {
-            "main": "",
-            "archive": "",
+            "main": "https://forum.wurm-unlimited.net/viewtopic.php?f=36&t=49",
+            "archive": "https://web.archive.org/web/20230807231420/https://forum.wurm-unlimited.net/viewtopic.php?f=36&t=49",
             "pages": {}
         },
         "wiki": {
-            "main": "",
-            "archive": ""
+            "main": "https://wiki.wurm-unlimited.net/page/Fishmonger_Mod",
+            "archive": "https://web.archive.org/web/20230807231439/https://wiki.wurm-unlimited.net/page/Fishmonger_Mod"
         },
         "github_releases": "",
         "direct_download": {
-            "main": "",
+            "main": "https://1drv.ms/u/s!AjnBltNOSFjCgmfYBTPObME6skDD",
             "mirror": "",
-            "archive": "",
-            "filename": "",
-            "bytes": 0,
-            "sha256": "",
-            "virustotal": ""
+            "archive": "https://web.archive.org/web/20230807231117/https://cvqjgg.dm.files.1drv.com/y4mRFS5Kb0TShFjwYnoEKmAgPKiAglcHrvhX0pGM92R1M8nHvSfv_d0_0Etiq-l2Ah6rh4VK83OdBToPrFCtiykuDZ7VL2pVQPHAu55VWuzkpvPHfKevmJ3F9LjfTfJS7YD66mNQcojFQej-C_GEsEG7UmDlbCZNjz6EDJgjuUyFOlP5NpLwcnyJaxTZYCB2hVOSnk99jSMfH3dm5aSofBnwQ",
+            "filename": "fishmonger.zip",
+            "bytes": 11430,
+            "sha256": "e04e6d6bd5db34dbbd3e3f94ac8b517ac6b1c77691fea3fe96b9ca91a069508e",
+            "virustotal": "https://www.virustotal.com/gui/file/e04e6d6bd5db34dbbd3e3f94ac8b517ac6b1c77691fea3fe96b9ca91a069508e"
         },
-        "current_version": "",
-        "release_date": "",
-        "description": ""
+        "current_version": "0",
+        "release_date": "Aug 13, 2020",
+        "description": "New item GM can create and drop on the ground called Fishmonger.<br><br>Players bring their fish up to it and activate their fish then right click the Fishmonger and click Sell Fish."
     },
 •·⸱⸳.•
 
