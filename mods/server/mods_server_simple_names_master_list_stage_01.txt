@@ -4316,45 +4316,34 @@ modname    Epic Skill Curve                                    Benefit from havi
             "pages": {}
         },
         "forum_2": {
-            "main": "",
-            "archive": "",
+            "main": "https://forum.wurm-unlimited.net/viewtopic.php?f=36&t=32",
+            "archive": "https://web.archive.org/web/20230807220714/https://forum.wurm-unlimited.net/viewtopic.php?f=36&t=32",
             "pages": {}
         },
         "wiki": {
-            "main": "",
-            "archive": ""
+            "main": "https://wiki.wurm-unlimited.net/page/Epic_Curve_Mod",
+            "archive": "https://web.archive.org/web/20230807220738/https://wiki.wurm-unlimited.net/page/Epic_Curve_Mod"
         },
         "github_releases": "",
         "direct_download": {
             "main": "https://1drv.ms/u/s!AjnBltNOSFjCgkPuAweA0v-Blc2I",
-            "mirror": "",
+            "mirror": "https://github.com/jesterjunk/WurmUnlimited/raw/master/mods/server/authors/coldie_aka_cuddles/epiccurve.zip",
             "archive": "https://web.archive.org/web/20230807220113/https://ag3seg.dm.files.1drv.com/y4mwdjj_Ug4TUMbJHEZM0CwF0o6-Qpm2imLv6Z8StKHuasd4k2x5FMY8Rfz56VCoTYJM_Q9cIXVpomDkELYO5db1rgdjgMhp4QRHOg2HjYUCjuZW7HaFtVmAN5jr0wdiOgbjMoTNkoDsfeeG_gmDuf76mQvV-9bjOO-i8BNNL6pt3O0-jh6YzujW1DLCec-V1WdqDjxlqLVCm1OZPxFWheMzw",
             "filename": "epiccurve.zip",
             "bytes": 4693,
             "sha256": "69f4607162413827354b5dc7c914f77c41ddd315512bb083e9e558c7d6a52854",
-            "virustotal": ""
+            "virustotal": "https://www.virustotal.com/gui/file/69f4607162413827354b5dc7c914f77c41ddd315512bb083e9e558c7d6a52854"
         },
-        "current_version": "",
-        "release_date": "",
-        "description": "Nothing to change in properties file with this 1, mod is either there or it isn't.<br>This will make even PVE have Epic Curve active.<br>*Note* After i released this mod the WU devs added an option in server settings to turn on 'Epic Settings" even for pve servers, so this mod is no longer needed.<br><a href="https://www.wurmpedia.com/index.php/The_Curve" title="https://www.wurmpedia.com/index.php/The_Curve" target="_blank">https://www.wurmpedia.com/index.php/The_Curve</a>"
+        "current_version": "0",
+        "release_date": "Jan 8, 2019",
+        "description": "Nothing to change in properties file with this 1, mod is either there or it isn't.<br>This will make even PVE have Epic Curve active.<br>*Note* After i released this mod the WU devs added an option in server settings to turn on \"Epic Settings\" even for pve servers, so this mod is no longer needed.<br><a href=\"https://www.wurmpedia.com/index.php/The_Curve\" title=\"https://www.wurmpedia.com/index.php/The_Curve\" target=\"_blank\">https://www.wurmpedia.com/index.php/The_Curve</a>"
     },
 •·⸱⸳.•
-
-
 
 
 modname    Epic Mission Hints                                  *Tree cut down missions will centre the tree on the tile, and set it to 69 damage / customize mission generation and some more.
 modname    Epic Mission Hints                                  Tree cut down missions will centre the tree on the tile, and set it to 69 damage / customize mission generation and some more
 modname    Epic Mission Hints                                  Tree cut down missions will centre the tree on the tile, and set it to 69 damage / customize mission generation and some more
-
-
-modname    Event Mod
-modname    Event Mod (GM Mod)                                  *gm´s can drop event portals, players can teleport to the event and after it, teleporting back to the old location.
-modname    Event Mod                                           gm´s can drop event portals, players can teleport to the event and after it, teleporting back to the old location
-modname    Event Mod                                           gm´s can drop event portals, players can teleport to the event and after it, teleporting back to the old location
-modname    Event Portals                                       When an event is running and it's telling you to use the event portal you can use it on every deed token.
-modname    Eventmod                                            https://forum.wurmonline.com/index.php?/topic/167518-released-coldies-compilations/
-modname    EventMod                                            When we host events, you can teleport directly to the action by using any settlement token on the map.
 •·⸱⸳.•
     {
         "author": "",
@@ -4387,6 +4376,49 @@ modname    EventMod                                            When we host even
         "current_version": "",
         "release_date": "",
         "description": ""
+    },
+•·⸱⸳.•
+
+
+modname    Event Mod
+modname    Event Mod (GM Mod)                                  *gm´s can drop event portals, players can teleport to the event and after it, teleporting back to the old location.
+modname    Event Mod                                           gm´s can drop event portals, players can teleport to the event and after it, teleporting back to the old location
+modname    Event Mod                                           gm´s can drop event portals, players can teleport to the event and after it, teleporting back to the old location
+modname    Event Portals                                       When an event is running and it's telling you to use the event portal you can use it on every deed token.
+modname    Eventmod                                            https://forum.wurmonline.com/index.php?/topic/167518-released-coldies-compilations/
+modname    EventMod                                            When we host events, you can teleport directly to the action by using any settlement token on the map.
+•·⸱⸳.•
+    {
+        "author": "Coldie aka Cuddles",
+        "mod_name": "Event",
+        "slug": "event",
+        "forum_1": {
+            "main": "https://forum.wurmonline.com/index.php?/topic/167518-released-coldies-compilations/",
+            "archive": "",
+            "pages": {}
+        },
+        "forum_2": {
+            "main": "https://forum.wurm-unlimited.net/viewtopic.php?f=36&t=42",
+            "archive": "https://web.archive.org/web/20230807221935/https://forum.wurm-unlimited.net/viewtopic.php?f=36&t=42",
+            "pages": {}
+        },
+        "wiki": {
+            "main": "https://wiki.wurm-unlimited.net/page/Event_Mod",
+            "archive": "https://web.archive.org/web/20230807222010/https://wiki.wurm-unlimited.net/page/Event_Mod"
+        },
+        "github_releases": "",
+        "direct_download": {
+            "main": "https://1drv.ms/u/s!AjnBltNOSFjCgkgH-QH3qkEfavEz",
+            "mirror": "",
+            "archive": "https://web.archive.org/web/20230807221706/https://ag15yq.dm.files.1drv.com/y4mbiEpLCSXSOWoR7KKodySoDmn3aqiiRkFHNsxKoUs7leOO1U2-_6r4Dqacnz4iqBYpaBJt8vykstZvDMr2T1OlWIIr8Sghfgqszprk3yx9KJkbO0F2e1eipSr0GrZkCDjInZvUQKDpML_zHJOTqw27W747m354Aq-3MAFbgxrZUsEEg5Zi3nQw359-RN7yQ-_k05dclgJdCsfelt3dro0gQ",
+            "filename": "eventmod.zip",
+            "bytes": 25454,
+            "sha256": "4a40832174a119e22e75413066e335937cda75fc09a70b1d53b4d4e46031f43f",
+            "virustotal": "https://www.virustotal.com/gui/file/4a40832174a119e22e75413066e335937cda75fc09a70b1d53b4d4e46031f43f"
+        },
+        "current_version": "0",
+        "release_date": "May 11, 2019",
+        "description": "GM's can drop event portals, players can teleport to the event and after it, teleporting back to the old location"
     },
 •·⸱⸳.•
 

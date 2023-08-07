@@ -796,18 +796,18 @@ modname    EnhancedChickenCoop                                 Allows for the qu
         "description":             "Allows for the quality level of chicken coop eggs to be configured in properties rather than limited to Chicken Coop ql",
 
 
-modname    Epic Curve                                          epic curve for PVE servers
-modname    Epic Skill Curve                                    Benefit from having all skills increased by the Epic curve.
+modname    Epic Mission Hints                                  Tree cut down missions will centre the tree on the tile, and set it to 69 damage / customize mission generation and some more
+modname    Epic Mission Hints                                  Tree cut down missions will centre the tree on the tile, and set it to 69 damage / customize mission generation and some more
 •·⸱⸳.•
     {
-        "author":                  "",
-        "mod_name":                "",
-        "slug":                    "",
-        "forum":                   "",
-        "github_releases":         "",
-        "direct_download_main"     "",
-        "current_version":         "",
-        "description":             "",
+        "author":                  "Ulviirala",
+        "mod_name":                "Epic Mission Hints",
+        "slug":                    "epic_mission_hints",
+        "forum":                   "https://forum.wurmonline.com/index.php?/topic/144930-released-unlimitedquacks-142-another-small-collection-of-mods/",
+        "github_releases":         "https://github.com/dmon82/UnlimitedQuacks/releases",
+        "direct_download_main"     "https://github.com/dmon82/UnlimitedQuacks/releases/download/1.4.1/EpicMissionHints-1.4.1.zip",
+        "current_version":         "1.4.1",
+        "description":             "Tree cut down missions will centre the tree on the tile, and set it to 69 damage / customize mission generation and some more",
 
 
 modname    Eventmod                                            https://forum.wurmonline.com/index.php?/topic/167518-released-coldies-compilations/
