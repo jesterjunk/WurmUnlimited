@@ -837,7 +837,7 @@ modname    AshProduce.default
 modname    AshProduce.properties
 •·⸱⸳.•
     {
-        "author": "Ulviirala",
+        "author": "Ulviirala aka dmon82",
         "mod_name": "Ash Produce",
         "slug": "ash_produce",
         "forum_1": {
@@ -4435,45 +4435,6 @@ modname    Fire Burn Time                                      Displays pretty m
 modname    FireBurnTime
 modname    FireBurnTime                                        Find out how long your forges will stay lit in hours and minutes.
 modname    FireBurnTime.properties
-•·⸱⸳.•
-    {
-        "author": "",
-        "mod_name": "",
-        "slug": "",
-        "forum_1": {
-            "main": "",
-            "archive": "",
-            "pages": {}
-        },
-        "forum_2": {
-            "main": "",
-            "archive": "",
-            "pages": {}
-        },
-        "wiki": {
-            "main": "",
-            "archive": ""
-        },
-        "github_releases": "",
-        "direct_download": {
-            "main": "",
-            "mirror": "",
-            "archive": "",
-            "filename": "",
-            "bytes": 0,
-            "sha256": "",
-            "virustotal": ""
-        },
-        "current_version": "",
-        "release_date": "",
-        "description": ""
-    },
-•·⸱⸳.•
-
-
-
-
-modname    Faster Bulk Transfer                                Bulk transfer is faster and does not do body checks. This means you can transfer larger amounts at once.
 •·⸱⸳.•
     {
         "author": "",

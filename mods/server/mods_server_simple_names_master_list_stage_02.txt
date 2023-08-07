@@ -88,7 +88,7 @@ modname    BetterGamemasters
 modname    BetterGamemasters.properties
 •·⸱⸳.•
     {
-        "author":                  "Ulviirala",
+        "author":                  "Ulviirala aka dmon82",
         "mod_name":                "Better Gamemasters",
         "slug":                    "better_gamemasters",
         "forum":                   "https://forum.wurmonline.com/index.php?/topic/133975-alpha-better-gamemasters-111-hotfix/",
@@ -689,7 +689,7 @@ modname    DoubleBulkCapacity
 modname    DoubleBulkCapacity.properties
 •·⸱⸳.•
     {
-        "author":                  "Ulviirala",
+        "author":                  "Ulviirala aka dmon82",
         "mod_name":                "Double Bulk Capacity",
         "slug":                    "double_bulk_capacity",
         "forum":                   "https://forum.wurmonline.com/index.php?/topic/144930-released-unlimitedquacks-142-another-small-collection-of-mods/",
@@ -800,7 +800,7 @@ modname    Epic Mission Hints                                  Tree cut down mis
 modname    Epic Mission Hints                                  Tree cut down missions will centre the tree on the tile, and set it to 69 damage / customize mission generation and some more
 •·⸱⸳.•
     {
-        "author":                  "Ulviirala",
+        "author":                  "Ulviirala aka dmon82",
         "mod_name":                "Epic Mission Hints",
         "slug":                    "epic_mission_hints",
         "forum":                   "https://forum.wurmonline.com/index.php?/topic/144930-released-unlimitedquacks-142-another-small-collection-of-mods/",
@@ -810,60 +810,31 @@ modname    Epic Mission Hints                                  Tree cut down mis
         "description":             "Tree cut down missions will centre the tree on the tile, and set it to 69 damage / customize mission generation and some more",
 
 
-modname    Eventmod                                            https://forum.wurmonline.com/index.php?/topic/167518-released-coldies-compilations/
-modname    EventMod                                            When we host events, you can teleport directly to the action by using any settlement token on the map.
-•·⸱⸳.•
-    {
-        "author":                  "",
-        "mod_name":                "",
-        "slug":                    "",
-        "forum":                   "",
-        "github_releases":         "",
-        "direct_download_main"     "",
-        "current_version":         "",
-        "description":             "",
-
-
 modname    FireBurnTime                                        Find out how long your forges will stay lit in hours and minutes.
 modname    FireBurnTime.properties
 •·⸱⸳.•
     {
-        "author":                  "",
-        "mod_name":                "",
-        "slug":                    "",
-        "forum":                   "",
-        "github_releases":         "",
-        "direct_download_main"     "",
-        "current_version":         "",
-        "description":             "",
-
-
-
-modname    Faster Bulk Transfer                                Bulk transfer is faster and does not do body checks. This means you can transfer larger amounts at once.
-•·⸱⸳.•
-    {
-        "author":                  "",
-        "mod_name":                "",
-        "slug":                    "",
-        "forum":                   "",
-        "github_releases":         "",
-        "direct_download_main"     "",
-        "current_version":         "",
-        "description":             "",
-
+        "author":                  "Ulviirala aka dmon82",
+        "mod_name":                "Fire Burn Time",
+        "slug":                    "fire_burn_time",
+        "forum":                   "https://forum.wurmonline.com/index.php?/topic/144930-released-unlimitedquacks-142-another-small-collection-of-mods/",
+        "github_releases":         "https://github.com/dmon82/UnlimitedQuacks/releases",
+        "direct_download_main"     "https://github.com/dmon82/UnlimitedQuacks/releases/download/1.4.1/FireBurnTime-1.4.1.zip",
+        "current_version":         "1.4.1",
+        "description":             "Displays pretty much the exact time until a fire becomes a layer of glowing coals.",
 
 
 modname    Faster horses                                       Horses, unicorns and hell horses are much faster than normally. A normal horse can go up to 22 km/h. In addition, horses can climb slopes of up to 50.
 •·⸱⸳.•
     {
-        "author":                  "",
-        "mod_name":                "",
-        "slug":                    "",
-        "forum":                   "",
-        "github_releases":         "",
-        "direct_download_main"     "",
-        "current_version":         "",
-        "description":             "",
+        "author":                  "----",
+        "mod_name":                "----",
+        "slug":                    "----",
+        "forum":                   "----",
+        "github_releases":         "----",
+        "direct_download_main"     "----",
+        "current_version":         "----",
+        "description":             "----",
 
 
 modname    FindModName                                         Fix for white foals from Creatures Mod.
