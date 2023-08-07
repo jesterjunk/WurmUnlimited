@@ -9,9 +9,9 @@ modname    actiondemo.properties
         "slug":                    "----",
         "forum":                   "----",
         "github_releases":         "----",
-        "direct_download_main"     "",
-        "current_version":         "",
-        "description":             "",
+        "direct_download_main"     "----",
+        "current_version":         "----",
+        "description":             "----",
 
 
 
@@ -23,9 +23,9 @@ modname    Animal Neutering                                    You can neuter yo
         "slug":                    "----",
         "forum":                   "----",
         "github_releases":         "----",
-        "direct_download_main"     "",
-        "current_version":         "",
-        "description":             "",
+        "direct_download_main"     "----",
+        "current_version":         "----",
+        "description":             "----",
 
 
 
@@ -37,9 +37,9 @@ modname    Arrowpacks                                          You can take a qu
         "slug":                    "----",
         "forum":                   "----",
         "github_releases":         "----",
-        "direct_download_main"     "",
-        "current_version":         "",
-        "description":             "",
+        "direct_download_main"     "----",
+        "current_version":         "----",
+        "description":             "----",
 
 
 modname    beastsummoner
@@ -107,9 +107,9 @@ modname    Better Sleep                                        With higher quali
         "slug":                    "----",
         "forum":                   "----",
         "github_releases":         "----",
-        "direct_download_main"     "",
-        "current_version":         "",
-        "description":             "",
+        "direct_download_main"     "----",
+        "current_version":         "----",
+        "description":             "----",
 
 
 
@@ -121,9 +121,9 @@ modname    Better Surface Mining                               Exposing a rock t
         "slug":                    "----",
         "forum":                   "----",
         "github_releases":         "----",
-        "direct_download_main"     "",
-        "current_version":         "",
-        "description":             "",
+        "direct_download_main"     "----",
+        "current_version":         "----",
+        "description":             "----",
 
 
 modname    Bids                                                Released     New mod from 27. april 2018    https://github.com/mpsmonk/wurm-mods/
@@ -744,14 +744,14 @@ modname    DUSKombat                                           A complete overha
 modname    Earn Coins for daily voting                         You receive rewards for your daily voting here. The reward you get is dependent on your tier. Voting automatically increases your tier and you can check it with /tier. Here you can check out which tier gets which rewards. After voting, type /vote or /claim in-game to claim your reward.
 •·⸱⸳.•
     {
-        "author":                  "",
-        "mod_name":                "",
-        "slug":                    "",
-        "forum":                   "",
-        "github_releases":         "",
-        "direct_download_main"     "",
-        "current_version":         "",
-        "description":             "",
+        "author":                  "Ayluin",
+        "mod_name":                "Vote Reward",
+        "slug":                    "vote_reward",
+        "forum":                   "https://forum.wurmonline.com/index.php?/topic/169728-release-revelations-server-mods/",
+        "github_releases":         "https://github.com/revelation343/VoteReward/releases",
+        "direct_download_main"     "https://github.com/revelation343/VoteReward/releases/download/1.0/VoteReward-1.0.zip",
+        "current_version":         "1.0",
+        "description":             "A mod that allows hosts to reward players with coins for voting on Wurm-Unlimited.com - Custom messages, reward amounts",
 
 
 
