@@ -1592,10 +1592,10 @@ modname    BetterGamemasters.properties
             "filename": "BetterGamemasters-1.1.1-bin.zip",
             "bytes": 5225,
             "sha256": "a4cc7b05028013a89366db3e0946cb74b15c05fb89b2870921b4752096667cbb",
-            "virustotal": ""
+            "virustotal": "https://www.virustotal.com/gui/file/a4cc7b05028013a89366db3e0946cb74b15c05fb89b2870921b4752096667cbb"
         },
         "current_version": "1.1.1",
-        "release_date": "https://www.virustotal.com/gui/file/a4cc7b05028013a89366db3e0946cb74b15c05fb89b2870921b4752096667cbb",
+        "release_date": "Nov 6, 2015",
         "description": "Game masters can pick-up items with disregard to carry limits by body strength, walking speed is not affected by inventory weight"
     },
 •·⸱⸳.•
