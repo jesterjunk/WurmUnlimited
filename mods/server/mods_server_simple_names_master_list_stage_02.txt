@@ -1620,20 +1620,6 @@ modname    movetocenter.properties
         "description":             "",
 
 
-modname    New Portals                                         Released     https://forum.wurmonline.com/index.php?/topic/144320-released-new-portals/
-modname    New Portals                                         ----
-•·⸱⸳.•
-    {
-        "author":                  "",
-        "mod_name":                "",
-        "slug":                    "",
-        "forum":                   "",
-        "github_releases":         "",
-        "direct_download_main"     "",
-        "current_version":         "",
-        "description":             "",
-
-
 modname    No Build Limits
 modname    NoBuildLimit                                        Building can be done regardless of the relevant carpentry skill.
 •·⸱⸳.•

@@ -1371,7 +1371,7 @@ modname    beastsummoner.properties
         "direct_download": {
             "main": "https://github.com/Mthec/BeastSummoner/releases/download/0.1.3-testing/beastsummoner.zip",
             "mirror": "https://github.com/jesterjunk/WurmUnlimited/raw/master/mods/server/authors/mthec/beastsummoner.zip",
-            "archive": "https://web.archive.org/web/20230808030007/https://github.com/Mthec/BeastSummoner/releases/download/0.1.3-testing/beastsummoner.zip",
+            "archive": "https://web.archive.org/web/20230808040941/https://github.com/Mthec/BeastSummoner/releases/download/0.1.3-testing/beastsummoner.zip",
             "filename": "beastsummoner.zip",
             "bytes": 180661,
             "sha256": "7fa39b81e98d8582d600ea3a6a0a0107df527055d1d20882cf105865ada2b3c6",
@@ -1419,7 +1419,7 @@ modname    betterdig.properties
         "direct_download": {
             "main": "https://github.com/bdew-wurm/betterdig/releases/download/v0.9/betterdig-0.9.zip",
             "mirror": "https://github.com/jesterjunk/WurmUnlimited/raw/master/mods/server/authors/bdew/betterdig-0.9.zip",
-            "archive": "https://web.archive.org/web/20230808030029/https://github.com/bdew-wurm/betterdig/releases/download/v0.9/betterdig-0.9.zip",
+            "archive": "https://web.archive.org/web/20230808041040/https://github.com/bdew-wurm/betterdig/releases/download/v0.9/betterdig-0.9.zip",
             "filename": "betterdig-0.9.zip",
             "bytes": 11841,
             "sha256": "31f1353e7366c61470a68ca202f8bf19599cde61a50147ebb4888e3be0e32a22",
@@ -1469,7 +1469,7 @@ modname    betterfarm.properties
         "direct_download": {
             "main": "https://github.com/bdew-wurm/betterfarm/releases/download/v2.2/betterfarm-2.2.zip",
             "mirror": "https://github.com/jesterjunk/WurmUnlimited/raw/master/mods/server/authors/bdew/betterfarm-2.2.zip",
-            "archive": "https://web.archive.org/web/20230808030042/https://github.com/bdew-wurm/betterfarm/releases/download/v2.2/betterfarm-2.2.zip",
+            "archive": "https://web.archive.org/web/20230808041054/https://github.com/bdew-wurm/betterfarm/releases/download/v2.2/betterfarm-2.2.zip",
             "filename": "betterfarm-2.2.zip",
             "bytes": 92829,
             "sha256": "367a3cc7522f3884a82bfc51fc0e0a9e41621b412517f67e88bf572a5a7305b3",
@@ -1514,7 +1514,7 @@ modname    BetterGamemasters.properties
         "direct_download": {
             "main": "https://github.com/dmon82/BetterGamemasters/releases/download/v1.1.1/BetterGamemasters-1.1.1-bin.zip",
             "mirror": "https://github.com/jesterjunk/WurmUnlimited/raw/master/mods/server/authors/ulviirala_aka_dmon82/BetterGamemasters-1.1.1-bin.zip",
-            "archive": "https://web.archive.org/web/20230808030056/https://github.com/dmon82/BetterGamemasters/releases/download/v1.1.1/BetterGamemasters-1.1.1-bin.zip",
+            "archive": "https://web.archive.org/web/20201129121051/https://github.com/dmon82/BetterGamemasters/releases/download/v1.1.1/BetterGamemasters-1.1.1-bin.zip",
             "filename": "BetterGamemasters-1.1.1-bin.zip",
             "bytes": 5225,
             "sha256": "a4cc7b05028013a89366db3e0946cb74b15c05fb89b2870921b4752096667cbb",
@@ -7055,15 +7055,36 @@ modname    movetocenter.properties
 
 
 
+
+
+
+modname    New Portals                                         Released     https://forum.wurmonline.com/index.php?/topic/144320-released-new-portals/
+modname    New Portals                                         ----
+    {
+        "author":                  "Xyp",
+        "mod_name":                "New Portals",
+        "slug":                    "new_portals",
+        "forum":                   "https://forum.wurmonline.com/index.php?/topic/144320-released-new-portals/",
+        "github_releases":         "https://github.com/revelation343/NewPortals/releases",
+        "direct_download_main"     "https://github.com/revelation343/NewPortals/releases/download/1.0.2/NewPortals-1.0.2.zip",
+        "current_version":         "1.0.2",
+        "description":             "",
+
+
+
+
+
+
+
 modname    New Portals                                         Released     https://forum.wurmonline.com/index.php?/topic/144320-released-new-portals/
 modname    New Portals                                         ----
 •·⸱⸳.•
     {
-        "author": "",
-        "mod_name": "",
-        "slug": "",
+        "author": "Xyp",
+        "mod_name": "New Portals",
+        "slug": "new_portals",
         "forum_1": {
-            "main": "",
+            "main": "https://forum.wurmonline.com/index.php?/topic/144320-released-new-portals/",
             "archive": "",
             "pages": {}
         },
@@ -7076,19 +7097,19 @@ modname    New Portals                                         ----
             "main": "",
             "archive": ""
         },
-        "github_releases": "",
+        "github_releases": "https://github.com/revelation343/NewPortals/releases",
         "direct_download": {
-            "main": "",
-            "mirror": "",
-            "archive": "",
-            "filename": "",
-            "bytes": 0,
-            "sha256": "",
-            "virustotal": ""
+            "main": "https://github.com/revelation343/NewPortals/releases/download/1.0.2/NewPortals-1.0.2.zip",
+            "mirror": "https://github.com/jesterjunk/WurmUnlimited/raw/master/mods/server/authors/xyp/NewPortals-1.0.2.zip",
+            "archive": "https://web.archive.org/web/20230808043113/https://github.com/revelation343/NewPortals/releases/download/1.0.2/NewPortals-1.0.2.zip",
+            "filename": "NewPortals-1.0.2.zip",
+            "bytes": 4610,
+            "sha256": "fc1aa63ab4eb655f10daf3ab835537c80cd161998f3822a73fb4da8287e9956b",
+            "virustotal": "https://www.virustotal.com/gui/file/fc1aa63ab4eb655f10daf3ab835537c80cd161998f3822a73fb4da8287e9956b"
         },
-        "current_version": "",
-        "release_date": "",
-        "description": ""
+        "current_version": "1.0.2",
+        "release_date": "Jul 19, 2019",
+        "description": "Configurable portals that can be set to specific coordinates where X=Data1 and Y=Data2. Aux Code must be set to 1 for Port option to work. Original author: Xyp"
     },
 •·⸱⸳.•
 
