@@ -542,7 +542,7 @@ modname    Custom Trader
         "github_releases":         "https://github.com/Mthec/CustomTrader/releases",
         "direct_download_main"     "https://github.com/Mthec/CustomTrader/releases/download/0.3.10/customtrader.zip",
         "current_version":         "0.3.10",
-        "description":             "A new type of NPC based on the standard trader, that can only be placed by GMs.  Has various options for a custom inventory, including restocking rules.  Use a 'tag' to share the same inventory between multiple custom traders, or just use a unique inventory.<br><br><b>Requirements:</b><br><a href=\"https://forum.wurmonline.com/index.php?/topic/133085-released-server-mod-loader-priest-crops-seasons-server-packs-bag-of-holding/&page=1\">Ago's Mod Launcher</a>",
+        "description":             "A new type of NPC based on the standard trader, that can only be placed by GMs.  Has various options for a custom inventory, including restocking rules.  Use a 'tag' to share the same inventory between multiple custom traders, or just use a unique inventory.<br><br><b>Requirements:</b><br>",
 
 
 modname    Custom Wagons
@@ -584,7 +584,7 @@ modname    Delivery Contracts                                  A new type of con
         "github_releases":         "https://github.com/Mthec/DeliveryContracts/releases",
         "direct_download_main"     "https://github.com/Mthec/DeliveryContracts/releases/download/0.5.13/deliverycontracts.zip",
         "current_version":         "0.5.13",
-        "description":             "A new type of contract that facilitates placing heavy items on a merchant.<br><br><b>Requirements:</b><br><a href=\"https://forum.wurmonline.com/index.php?/topic/133085-released-server-mod-loader-priest-crops-seasons-server-packs-bag-of-holding/&page=1\">Ago's Mod Launcher</a>",
+        "description":             "A new type of contract that facilitates placing heavy items on a merchant.<br><br><b>Requirements:</b><br><a href=\"https://forum.wurmonline.com/index.php?/topic/133085-released-server-mod-loader-priest-crops-seasons-server-packs-bag-of-holding/\" title=\"https://forum.wurmonline.com/index.php?/topic/133085-released-server-mod-loader-priest-crops-seasons-server-packs-bag-of-holding/\" target=\"_blank\">Ago's Mod Launcher</a>",
 
 
 modname    DigLikeMiningMod                                    *Enabled dredging to ship. Added the ability to use dirt or sand piled on the tile you're standing on if you need to use dirt/sand when flattening or leveling. You will use dirt in your inventory, then dirt in a pile, then sand in your inventory, and finally sand in a pile, in that order.
@@ -598,7 +598,7 @@ modname    DigLikeMiningMod                                    ----
         "github_releases":         "https://github.com/WalkerInTheVoid/WurmMods/releases",
         "direct_download_main"     "https://github.com/WalkerInTheVoid/WurmMods/releases/download/v1.4/WalkerMods.V1.4.zip",
         "current_version":         "1.4",
-        "description":             "A recreation of Alexgopen's Digging Like Mining for use with <a href=\"https://forum.wurmonline.com/index.php?/topic/133085-released-server-mod-loader-priest-crops-seasons-server-packs-bag-of-holding/&page=1\">Ago's Mod Launcher</a>.<br><br>Enabled dredging to ship. Added the ability to use dirt or sand piled on the tile you're standing on if you need to use dirt/sand when flattening or leveling. You will use dirt in your inventory, then dirt in a pile, then sand in your inventory, and finally sand in a pile, in that order.",
+        "description":             "A recreation of Alexgopen's Digging Like Mining for use with <a href=\"https://forum.wurmonline.com/index.php?/topic/133085-released-server-mod-loader-priest-crops-seasons-server-packs-bag-of-holding/\" title=\"https://forum.wurmonline.com/index.php?/topic/133085-released-server-mod-loader-priest-crops-seasons-server-packs-bag-of-holding/\" target=\"_blank\">Ago's Mod Launcher</a>.<br><br>Enabled dredging to ship. Added the ability to use dirt or sand piled on the tile you're standing on if you need to use dirt/sand when flattening or leveling. You will use dirt in your inventory, then dirt in a pile, then sand in your inventory, and finally sand in a pile, in that order.",
 
 
 
@@ -851,88 +851,74 @@ modname    Fix for white foals from Creatures Mod.             Beta    https://f
         "description":             "Fix for white foals from Creatures Mod",
 
 
-modname    Fishmonger
-modname    fishmonger.properties
-•·⸱⸳.•
-    {
-        "author":                  "",
-        "mod_name":                "",
-        "slug":                    "",
-        "forum":                   "",
-        "github_releases":         "",
-        "direct_download_main"     "",
-        "current_version":         "",
-        "description":             "",
-
-
 modname    FishyTweaks                                         Utilize lore options at 20 and 50 fishing skill to help with get vital data on fishing.
 modname    Fishytweaks(Bdew)                                   notification when a fish bites (when rod fishing) or spawns (spearfishing)\nCaught fish can be automatically stored\nAdded passive skill gain ticks during fishing actions\nSpearfishing no longer misses if you click too far from the fish\nNimbleness cast on spears makes fish with them easier\nWind of Ages and Blessing of the Dark casts on rods/spears/nets and their QL make fishing with them faster\nLore action will display a detailed report on all that you can currently catch after 40 skill, After 60 skill you will be able to look up a detailed report on each fish, see what it likes and how it affects your chances
 •·⸱⸳.•
     {
-        "author":                  "",
-        "mod_name":                "",
-        "slug":                    "",
-        "forum":                   "",
-        "github_releases":         "",
-        "direct_download_main"     "",
-        "current_version":         "",
-        "description":             "",
+        "author":                  "Bdew",
+        "mod_name":                "Fishy tweaks",
+        "slug":                    "fishy_tweaks",
+        "forum":                   "https://forum.wurmonline.com/index.php?/topic/138254-released-bdew-server-mods-new-mod-fishy-tweaks-updated-apr-09/",
+        "github_releases":         "https://github.com/bdew-wurm/fishytweaks/releases",
+        "direct_download_main"     "https://github.com/bdew-wurm/fishytweaks/releases/download/v1.1.0/fishytweaks-1.1.0.zip",
+        "current_version":         "1.1.0",
+        "description":             "dded on screen notification when a fish bites, Caught fish can be automatically stored and much much more. Read Forum!",
 
 
 modname    Fix Guards (GM Mod)                                 Fixes villages spawning infinite number of templars due to a database error
 modname    Fix Guards (GM Mod)                                 Fixes villages spawning infinite number of templars due to a database error
 •·⸱⸳.•
     {
-        "author":                  "",
-        "mod_name":                "",
-        "slug":                    "",
-        "forum":                   "",
-        "github_releases":         "",
-        "direct_download_main"     "",
-        "current_version":         "",
-        "description":             "",
+        "author":                  "Bdew",
+        "mod_name":                "Fix Guards",
+        "slug":                    "fix_guards",
+        "forum":                   "https://forum.wurmonline.com/index.php?/topic/138254-released-bdew-server-mods-new-mod-fishy-tweaks-updated-apr-09/",
+        "github_releases":         "https://github.com/bdew-wurm/fixguards/releases",
+        "direct_download_main"     "https://github.com/bdew-wurm/fixguards/releases/download/v0.1/fixguards-0.1.zip",
+        "current_version":         "0.1",
+        "description":             "Fixes villages spawning infinite number of templars due to a database error",
 
 
 
 modname    Forest Guardians                                    Be careful with the forest maybe you will meet the Forest Guardian. These ancient mini bosses will hunt down those who hurt the nature.
 •·⸱⸳.•
     {
-        "author":                  "",
-        "mod_name":                "",
-        "slug":                    "",
-        "forum":                   "",
-        "github_releases":         "",
-        "direct_download_main"     "",
-        "current_version":         "",
-        "description":             "",
+        "author":                  "----",
+        "mod_name":                "----",
+        "slug":                    "----",
+        "forum":                   "----",
+        "github_releases":         "----",
+        "direct_download_main"     "----",
+        "current_version":         "----",
+        "description":             "----",
 
 
 
 modname    Free Capital City Teleport                          Right-click on the ground and open the Riviera Menu, there you can see Teleport to Rivia. There will be a timer running through and on completion you will be teleported to the Rivia town square. The timer speed depends on your Soul depth and Mind Speed skill.
 •·⸱⸳.•
     {
-        "author":                  "",
-        "mod_name":                "",
-        "slug":                    "",
-        "forum":                   "",
-        "github_releases":         "",
-        "direct_download_main"     "",
-        "current_version":         "",
-        "description":             "",
+        "author":                  "----",
+        "mod_name":                "----",
+        "slug":                    "----",
+        "forum":                   "----",
+        "github_releases":         "----",
+        "direct_download_main"     "----",
+        "current_version":         "----",
+        "description":             "----",
 
 
 modname    Fuel Storage
 modname    Fuel storage
 •·⸱⸳.•
     {
-        "author":                  "",
-        "mod_name":                "",
-        "slug":                    "",
-        "forum":                   "",
-        "github_releases":         "",
-        "direct_download_main"     "",
-        "current_version":         "",
-        "description":             "",
+        "author":                  "Arathok",
+        "mod_name":                "Fuel Storage",
+        "slug":                    "fuel_storage",
+        "forum":                   "https://forum.wurmonline.com/index.php?/topic/189409-released-fuelstorage-mod/",
+        "github_releases":         "https://github.com/Arathok/Wurm-Unlimited-FuelStorage/releases",
+        "direct_download_main"     "https://github.com/Arathok/Wurm-Unlimited-FuelStorage/releases/download/3.0/fuelStorage3.0.1.zip",
+        "current_version":         "3.0.1",
+        "description":             "Adds containers for fuel as an addon to your forges/kilns/ovens etc. Refills the heater when the fire is about to go out fuel Storage. Does NOT take logs but anything else that can burn.<br>NEEDS to be put on the same tile of the heater item.<br>After setting it up you need to open the feeder once to add it to the database. Then you can set the temperature at your leisure.<br><br>model done by <a href=\"https://forum.wurmonline.com/index.php?/profile/2283-axeblade346/\" title=\"https://forum.wurmonline.com/index.php?/profile/2283-axeblade346/\" target=\"_blank\">Axeblade</a>, coding help by bdew. Thank you, you two!<br><br>Requires <a href=\"https://forum.wurmonline.com/index.php?/topic/133085-released-server-mod-loader-priest-crops-seasons-server-packs-bag-of-holding/\" title=\"https://forum.wurmonline.com/index.php?/topic/133085-released-server-mod-loader-priest-crops-seasons-server-packs-bag-of-holding/\" target=\"_blank\">Ago's Mod Launcher</a> and server packs and http-Server to be setup correctly.",
 
 
 
