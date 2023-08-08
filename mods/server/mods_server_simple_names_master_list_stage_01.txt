@@ -873,7 +873,7 @@ modname    AshProduce.properties
         "github_releases": "https://github.com/dmon82/UnlimitedQuacks/releases",
         "direct_download": {
             "main": "https://github.com/dmon82/UnlimitedQuacks/releases/download/1.4.1/AshProduce-1.4.1.zip",
-            "mirror": "https://github.com/jesterjunk/WurmUnlimited/raw/master/mods/server/authors/ulviirala/AshProduce-1.4.1.zip",
+            "mirror": "https://github.com/jesterjunk/WurmUnlimited/raw/master/mods/server/authors/ulviirala_aka_dmon82/AshProduce-1.4.1.zip",
             "archive": "https://web.archive.org/web/20230727165746/https://github.com/dmon82/UnlimitedQuacks/releases/download/1.4.1/AshProduce-1.4.1.zip",
             "filename": "AshProduce-1.4.1.zip",
             "bytes": 7424,
@@ -1345,16 +1345,90 @@ modname    bdew server mod tools                               This is a library
 
 
 
+
+
+
+
+
+
+
+modname    beastsummoner
+modname    beastsummoner.properties
+    {
+        "author":                  "Mthec",
+        "mod_name":                "BeastSummoner",
+        "slug":                    "beastsummoner",
+        "forum":                   "https://forum.wurmonline.com/index.php?/topic/166806-released-mthecs-npcs-crafter-buyer-deliverycontracts-merchantcap-customtrader-toolpurchaser-banker-beastsummoner/",
+        "github_releases":         "https://github.com/Mthec/BeastSummoner/releases",
+        "direct_download_main"     "https://github.com/Mthec/BeastSummoner/releases/download/0.1.3-testing/beastsummoner.zip",
+        "current_version":         "0.1.3",
+        "description":             "A new type of NPC that can be placed by GM, to offer creature spawning services to players.",
+
+
+modname    BetterDig                                           Almost everything is possible to do while mounted, resource digging increased to 20kg.
+modname    betterdig.properties
+    {
+        "author":                  "Bdew",
+        "mod_name":                "Better Digging",
+        "slug":                    "better_digging",
+        "forum":                   "https://forum.wurmonline.com/index.php?/topic/138254-released-bdew-server-mods-new-mod-fishy-tweaks-updated-apr-09/",
+        "github_releases":         "https://github.com/bdew-wurm/betterdig/releases",
+        "direct_download_main"     "https://github.com/bdew-wurm/betterdig/releases/download/v0.9/betterdig-0.9.zip",
+        "current_version":         "0.9",
+        "description":             "Some usefull features to bring dirt into a vehicle or on ground instead of player inventory and much more<br><br><span class="mod_description_warning">Warning</span>: This mod is probably incompatible with the other digging-like-mining mods, and should fully replace their functionality. Having multiple mods of this type will likely lead to crashes, dupes and/or weird ######.",
+
+
+modname    betterfarm.config
+modname    betterfarm.properties
+    {
+        "author":                  "Bdew",
+        "mod_name":                "Better Farming",
+        "slug":                    "better_farming",
+        "forum":                   "https://forum.wurmonline.com/index.php?/topic/138254-released-bdew-server-mods-new-mod-fishy-tweaks-updated-apr-09/",
+        "github_releases":         "https://github.com/bdew-wurm/betterfarm/releases",
+        "direct_download_main"     "https://github.com/bdew-wurm/betterfarm/releases/download/v2.2/betterfarm-2.2.zip",
+        "current_version":         "2.2",
+        "description":             "Adds ability to cultivate, sow, farm, harvest, harvest and replant in a bigger area / mass plant and harvest planter racks and some more",
+
+
+modname    BetterGamemasters
+modname    BetterGamemasters.properties
+    {
+        "author":                  "Ulviirala aka dmon82",
+        "mod_name":                "Better Gamemasters",
+        "slug":                    "better_gamemasters",
+        "forum":                   "https://forum.wurmonline.com/index.php?/topic/133975-alpha-better-gamemasters-111-hotfix/",
+        "github_releases":         "https://github.com/dmon82/BetterGamemasters/releases",
+        "direct_download_main"     "https://github.com/dmon82/BetterGamemasters/releases/download/v1.1.1/BetterGamemasters-1.1.1-bin.zip",
+        "current_version":         "1.1.1",
+        "description":             "Game masters can pick-up items with disregard to carry limits by body strength, walking speed is not affected by inventory weight",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 modname    Beast Summoner
 modname    beastsummoner
 modname    beastsummoner.properties
 •·⸱⸳.•
     {
-        "author": "",
-        "mod_name": "",
-        "slug": "",
+        "author": "Mthec",
+        "mod_name": "BeastSummoner",
+        "slug": "beastsummoner",
         "forum_1": {
-            "main": "",
+            "main": "https://forum.wurmonline.com/index.php?/topic/166806-released-mthecs-npcs-crafter-buyer-deliverycontracts-merchantcap-customtrader-toolpurchaser-banker-beastsummoner/",
             "archive": "",
             "pages": {}
         },
@@ -1367,19 +1441,19 @@ modname    beastsummoner.properties
             "main": "",
             "archive": ""
         },
-        "github_releases": "",
+        "github_releases": "https://github.com/Mthec/BeastSummoner/releases",
         "direct_download": {
-            "main": "",
-            "mirror": "",
-            "archive": "",
-            "filename": "",
-            "bytes": 0,
-            "sha256": "",
-            "virustotal": ""
+            "main": "https://github.com/Mthec/BeastSummoner/releases/download/0.1.3-testing/beastsummoner.zip",
+            "mirror": "https://github.com/jesterjunk/WurmUnlimited/raw/master/mods/server/authors/mthec/beastsummoner.zip",
+            "archive": "https://web.archive.org/web/20230808030007/https://github.com/Mthec/BeastSummoner/releases/download/0.1.3-testing/beastsummoner.zip",
+            "filename": "beastsummoner.zip",
+            "bytes": 180661,
+            "sha256": "7fa39b81e98d8582d600ea3a6a0a0107df527055d1d20882cf105865ada2b3c6",
+            "virustotal": "https://www.virustotal.com/gui/file/7fa39b81e98d8582d600ea3a6a0a0107df527055d1d20882cf105865ada2b3c6"
         },
-        "current_version": "",
-        "release_date": "",
-        "description": ""
+        "current_version": "0.1.3-testing",
+        "release_date": "Aug 15, 2022",
+        "description": "A new type of NPC that can be placed by GM, to offer creature spawning services to players."
     },
 •·⸱⸳.•
 
@@ -1398,11 +1472,11 @@ modname    BetterDig                                           Almost everything
 modname    betterdig.properties
 •·⸱⸳.•
     {
-        "author": "",
-        "mod_name": "",
-        "slug": "",
+        "author": "Bdew",
+        "mod_name": "Better Digging",
+        "slug": "better_digging",
         "forum_1": {
-            "main": "",
+            "main": "https://forum.wurmonline.com/index.php?/topic/138254-released-bdew-server-mods-new-mod-fishy-tweaks-updated-apr-09/",
             "archive": "",
             "pages": {}
         },
@@ -1415,19 +1489,19 @@ modname    betterdig.properties
             "main": "",
             "archive": ""
         },
-        "github_releases": "",
+        "github_releases": "https://github.com/bdew-wurm/betterdig/releases",
         "direct_download": {
-            "main": "",
-            "mirror": "",
-            "archive": "",
-            "filename": "",
-            "bytes": 0,
-            "sha256": "",
-            "virustotal": ""
+            "main": "https://github.com/bdew-wurm/betterdig/releases/download/v0.9/betterdig-0.9.zip",
+            "mirror": "https://github.com/jesterjunk/WurmUnlimited/raw/master/mods/server/authors/bdew/betterdig-0.9.zip",
+            "archive": "https://web.archive.org/web/20230808030029/https://github.com/bdew-wurm/betterdig/releases/download/v0.9/betterdig-0.9.zip",
+            "filename": "betterdig-0.9.zip",
+            "bytes": 11841,
+            "sha256": "31f1353e7366c61470a68ca202f8bf19599cde61a50147ebb4888e3be0e32a22",
+            "virustotal": "https://www.virustotal.com/gui/file/31f1353e7366c61470a68ca202f8bf19599cde61a50147ebb4888e3be0e32a22"
         },
-        "current_version": "",
-        "release_date": "",
-        "description": ""
+        "current_version": "0.9",
+        "release_date": "Mar 11, 2019",
+        "description": "Some usefull features to bring dirt into a vehicle or on ground instead of player inventory and much more<br><br><span class=\"mod_description_warning\">Warning</span>: This mod is probably incompatible with the other digging-like-mining mods, and should fully replace their functionality. Having multiple mods of this type will likely lead to crashes, dupes and/or weird ######."
     },
 •·⸱⸳.•
 
@@ -1448,11 +1522,11 @@ modname    betterfarm.config
 modname    betterfarm.properties
 •·⸱⸳.•
     {
-        "author": "",
-        "mod_name": "",
-        "slug": "",
+        "author": "Bdew",
+        "mod_name": "Better Farming",
+        "slug": "better_farming",
         "forum_1": {
-            "main": "",
+            "main": "https://forum.wurmonline.com/index.php?/topic/138254-released-bdew-server-mods-new-mod-fishy-tweaks-updated-apr-09/",
             "archive": "",
             "pages": {}
         },
@@ -1465,19 +1539,19 @@ modname    betterfarm.properties
             "main": "",
             "archive": ""
         },
-        "github_releases": "",
+        "github_releases": "https://github.com/bdew-wurm/betterfarm/releases",
         "direct_download": {
-            "main": "",
-            "mirror": "",
-            "archive": "",
-            "filename": "",
-            "bytes": 0,
-            "sha256": "",
-            "virustotal": ""
+            "main": "https://github.com/bdew-wurm/betterfarm/releases/download/v2.2/betterfarm-2.2.zip",
+            "mirror": "https://github.com/jesterjunk/WurmUnlimited/raw/master/mods/server/authors/bdew/betterfarm-2.2.zip",
+            "archive": "https://web.archive.org/web/20230808030042/https://github.com/bdew-wurm/betterfarm/releases/download/v2.2/betterfarm-2.2.zip",
+            "filename": "betterfarm-2.2.zip",
+            "bytes": 92829,
+            "sha256": "367a3cc7522f3884a82bfc51fc0e0a9e41621b412517f67e88bf572a5a7305b3",
+            "virustotal": "https://www.virustotal.com/gui/file/367a3cc7522f3884a82bfc51fc0e0a9e41621b412517f67e88bf572a5a7305b3"
         },
-        "current_version": "",
-        "release_date": "",
-        "description": ""
+        "current_version": "2.2",
+        "release_date": "Aug 16, 2020",
+        "description": "Adds ability to cultivate, sow, farm, harvest, harvest and replant in a bigger area / mass plant and harvest planter racks and some more"
     },
 •·⸱⸳.•
 
@@ -1493,11 +1567,11 @@ modname    BetterGamemasters
 modname    BetterGamemasters.properties
 •·⸱⸳.•
     {
-        "author": "",
-        "mod_name": "",
-        "slug": "",
+        "author": "Ulviirala aka dmon82",
+        "mod_name": "Better Gamemasters",
+        "slug": "better_gamemasters",
         "forum_1": {
-            "main": "",
+            "main": "https://forum.wurmonline.com/index.php?/topic/133975-alpha-better-gamemasters-111-hotfix/",
             "archive": "",
             "pages": {}
         },
@@ -1510,19 +1584,19 @@ modname    BetterGamemasters.properties
             "main": "",
             "archive": ""
         },
-        "github_releases": "",
+        "github_releases": "https://github.com/dmon82/BetterGamemasters/releases",
         "direct_download": {
-            "main": "",
-            "mirror": "",
-            "archive": "",
-            "filename": "",
-            "bytes": 0,
-            "sha256": "",
+            "main": "https://github.com/dmon82/BetterGamemasters/releases/download/v1.1.1/BetterGamemasters-1.1.1-bin.zip",
+            "mirror": "https://github.com/jesterjunk/WurmUnlimited/raw/master/mods/server/authors/ulviirala_aka_dmon82/BetterGamemasters-1.1.1-bin.zip",
+            "archive": "https://web.archive.org/web/20230808030056/https://github.com/dmon82/BetterGamemasters/releases/download/v1.1.1/BetterGamemasters-1.1.1-bin.zip",
+            "filename": "BetterGamemasters-1.1.1-bin.zip",
+            "bytes": 5225,
+            "sha256": "a4cc7b05028013a89366db3e0946cb74b15c05fb89b2870921b4752096667cbb",
             "virustotal": ""
         },
-        "current_version": "",
-        "release_date": "",
-        "description": ""
+        "current_version": "1.1.1",
+        "release_date": "https://www.virustotal.com/gui/file/a4cc7b05028013a89366db3e0946cb74b15c05fb89b2870921b4752096667cbb",
+        "description": "Game masters can pick-up items with disregard to carry limits by body strength, walking speed is not affected by inventory weight"
     },
 •·⸱⸳.•
 
