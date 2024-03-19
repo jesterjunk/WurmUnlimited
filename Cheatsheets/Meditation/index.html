@@ -6,6 +6,37 @@
     <title>Wurm Unlimited - Meditation Cheatsheet</title>
     <style>
 
+    :root {
+        --color_scrollbar_thumb: hsl(50, 11%, 41%);
+        --color_scrollbar_track: hsl(72, 9%, 11%);
+    }
+
+    html {
+/*        scroll-behavior: smooth;*/
+        scroll-padding: 131px;
+
+    /*                               This is for                                    */
+    /*                                 FireFox                                      */
+    /*                   thumb                         track                        */
+        scrollbar-color: var(--color_scrollbar_thumb)  var(--color_scrollbar_track);
+        scrollbar-width: thin;  /* options: auto (this is default), thin, none */
+        scrollbar-height: thin;  /* options: auto (this is default), thin, none */
+    }
+
+    body::-webkit-scrollbar {
+        width: .5em;
+        height: .5em;
+    }
+
+    body::-webkit-scrollbar-track {
+        background-color: var(--color_scrollbar_track);
+    }
+
+    body::-webkit-scrollbar-thumb {
+        background-color: var(--color_scrollbar_thumb);
+    }
+
+
     body {
         margin: 40px 0;
         color: hsl(60, 30%, 96%);
@@ -22,20 +53,31 @@
     h3 {
         text-align: center;
     }
-    div#path_navigation {
+    div#header {
+        top: 0;
+        position: fixed;
+        width: 100%;
+        height: 120px;
+        background: hsl(72, 9%, 11%);
+        border-bottom: 1px solid #000;
+    }
+    div#header div#path_navigation {
+        position: absolute;
+        bottom: 10px;
+        width: 100%;
         text-align: center;
     }
-    div#path_navigation a {
+    div#header div#path_navigation a {
         display: inline-block;
         padding: 8px;
         border: 1px solid black;
         background: hsl(70, 8%, 15%);
-        margin-bottom: 20px;
-
     }
-    div#path_navigation a:not(:last-child) {
+    div#header div#path_navigation a:not(:last-child) {
         margin-right: 8px;
-
+    }
+    div#paths {
+        margin-top: 131px;
     }
     table {
         margin: 0 auto;
@@ -93,7 +135,7 @@
 </head>
 <body>
 
-
+<div id="header">
 <h3>Wurm Unlimited - Meditation Cheatsheet</h3>
 
 <div id="path_navigation">
@@ -102,6 +144,11 @@
     <a href="#Path_of_Insanity"  title="#Path_of_Insanity" >Insanity</a>
     <a href="#Path_of_Love"      title="#Path_of_Love"     >Love</a>
     <a href="#Path_of_Hate"      title="#Path_of_Hate"     >Hate</a>
+</div>
+</div>
+
+<div id="paths">
+
 </div>
 
 <script>
@@ -155,7 +202,7 @@ function generateTablesFromJson(jsonData) {
         container.appendChild(table);
     });
 
-    document.body.appendChild(container);
+    document.getElementById(`paths`).appendChild(container);
 }
 
 // Load JSON and generate tables
