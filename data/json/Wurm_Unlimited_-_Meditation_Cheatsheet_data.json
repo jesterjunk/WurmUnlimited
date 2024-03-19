@@ -1,0 +1,582 @@
+{
+    "knowledge": {
+        "path": "Path of Knowledge",
+        "wurmpedia": "https://www.wurmpedia.com/index.php/Path_of_Knowledge",
+        "otherlands": "https://otherlands.bdew.net/meditation-answers/path-of-knowledge/",
+        "tiles": "Knowledge path tiles are usually found beside water and sand. Generally they are quite close to the shore, but some have also been found in deep waters.<br><br>You should be able to create your own knowledge path tile by flattening a low area close to open water, creating some sand tiles and pave some tiles near by. Once planted, test each tile to see if it's \"special\" as the Knowledge Tile does not have to be in the center. If the area is disturbed , the special tile may vanish, and must be recreated, and may show up in a different spot than before.<br><br>As with all paths, meditating on the tile gives the message \"This is indeed a special place\" after meditation is complete, and shows that you have found a special tile that belongs to a path.",
+        "answers": {
+            "1": {
+                "level": 1,
+                "title": "Initiate",
+                "question": "What is knowledge?",
+                "answer": "Information that I have accepted as a fact"
+            },
+            "2": {
+                "level": 2,
+                "title": "Eager",
+                "question": "What best constitutes a fact?",
+                "answer": "Anything I accept as the truth"
+            },
+            "3": {
+                "level": 3,
+                "title": "Explorer",
+                "question": "Is there any absolute truth?",
+                "answer": "Only what I decide to see within me"
+            },
+            "4": {
+                "level": 4,
+                "title": "Sheetfolder",
+                "question": "How do I best prepare myself to learn things?",
+                "answer": "I initially accept everything as fact and try to constantly verify it"
+            },
+            "5": {
+                "level": 5,
+                "title": "Desertmind",
+                "question": "What is the most important product of knowledge?",
+                "answer": "Fearlessness"
+            },
+            "6": {
+                "level": 6,
+                "title": "Observer",
+                "question": "What constitutes a professional?",
+                "answer": "Someone who is paid"
+            },
+            "7": {
+                "level": 7,
+                "title": "Bookkeeper",
+                "question": "Which of these is the most certain way to rise above the crowd?",
+                "answer": "To really learn the details"
+            },
+            "8": {
+                "level": 8,
+                "title": "Mud-dweller",
+                "question": "What do I do when I have too little knowledge to make the best choice?",
+                "answer": "Usually you could toss a coin"
+            },
+            "9": {
+                "level": 9,
+                "title": "Thought Eater",
+                "question": "How important is knowledge of history?",
+                "answer": "It can help"
+            },
+            "10": {
+                "level": 10,
+                "title": "Crooked",
+                "question": "What is required to make good decisions?",
+                "answer": "Fairly logical thinking"
+            },
+            "11": {
+                "level": 11,
+                "title": "Enlightened",
+                "question": "What will make my knowledge useless?",
+                "answer": "Inactivity"
+            },
+            "12": {
+                "level": 12,
+                "title": "12th Hierophant",
+                "question": "Which of these is a requirement for truly working knowledge?",
+                "answer": "That there is no randomness in the world"
+            },
+            "13": {
+                "level": 13,
+                "title": "13th Hierophant",
+                "question": "What knowledge is most valuable?",
+                "answer": "To see what it is that you actually do to the world and the people around you"
+            },
+            "14": {
+                "level": 14,
+                "title": "14th Hierophant",
+                "question": "What is the best path to understanding a particular human behaviour?",
+                "answer": "By understanding how the behaviour is supposed to benefit the individual in question"
+            },
+            "15": {
+                "level": 15,
+                "title": "15th Hierophant",
+                "question": "What is the best path to understanding a particular function in society?",
+                "answer": "By investigating how the function is supposed to benefit everyone"
+            },
+            "16": {
+                "level": 16,
+                "title": "16th Hierophant",
+                "question": "What is the ultimate purpose of gaining knowledge?",
+                "answer": "To achieve happiness"
+            },
+            "17": {
+                "level": 17,
+                "title": "17th Hierophant",
+                "question": "Who of these has the most valuable knowledge?",
+                "answer": "The Lover"
+            },
+            "18": {
+                "level": 18,
+                "title": "18th Hierophant",
+                "question": "Why does society care about knowledge?",
+                "answer": "To survive"
+            }
+        }
+    },
+    "power": {
+        "path": "Path of Power",
+        "wurmpedia": "https://www.wurmpedia.com/index.php/Path_of_Power",
+        "otherlands": "https://otherlands.bdew.net/meditation-answers/path-of-power/",
+        "tiles": "Power path tiles are usually found on flat tiles at high elevations (i.e. on mountains (2000 dirts above the water table)). However, please note that a Path of Power tile can be on a non-flat tile as well.<br><br>You should be able to create your own Path of Power tile by flattening tiles when high above sea level, then testing them.<br><br>As with all paths, meditating on the tile gives the message \"This is indeed a special place\" after meditation is complete, and shows that you have found a special tile that belongs to a path.",
+        "answers": {
+            "1": {
+                "level": 1,
+                "title": "Initiate",
+                "question": "What is the ultimate purpose of power?",
+                "answer": "To achieve personal freedom"
+            },
+            "2": {
+                "level": 2,
+                "title": "Gatherer",
+                "question": "What is money?",
+                "answer": "Money is mainly energy"
+            },
+            "3": {
+                "level": 3,
+                "title": "Greedy",
+                "question": "In large amounts, what of these things is the most certain route to power for an unknown person?",
+                "answer": "Money"
+            },
+            "4": {
+                "level": 4,
+                "title": "Strong",
+                "question": "What is the main reason that people strive for power and money?",
+                "answer": "To gain control over their lives"
+            },
+            "5": {
+                "level": 5,
+                "title": "Released",
+                "question": "What is the safest way of getting rid of your enemy?",
+                "answer": "Conquer them"
+            },
+            "6": {
+                "level": 6,
+                "title": "Unafraid",
+                "question": "If power is a sword, what do I need to swing it?",
+                "answer": "Courage"
+            },
+            "7": {
+                "level": 7,
+                "title": "Brave",
+                "question": "What is the biggest risk of my gaining power?",
+                "answer": "That I become a coward"
+            },
+            "8": {
+                "level": 8,
+                "title": "Performer",
+                "question": "How do I best control other people while releasing their energy?",
+                "answer": "Give them limited power"
+            },
+            "9": {
+                "level": 9,
+                "title": "Liberator",
+                "question": "Will I loose my power if I am dishonest?",
+                "answer": "Usually not"
+            },
+            "10": {
+                "level": 10,
+                "title": "Force",
+                "question": "Why am I in power?",
+                "answer": "I am better"
+            },
+            "11": {
+                "level": 11,
+                "title": "Vibrant Light",
+                "question": "Which of these are blocked from achieving ultimate power?",
+                "answer": "None"
+            },
+            "12": {
+                "level": 12,
+                "title": "12th Sovereign",
+                "question": "Which of these is the least working tactic when bringing someone down socially?",
+                "answer": "Ridiculing the person"
+            },
+            "13": {
+                "level": 13,
+                "title": "13th Sovereign",
+                "question": "Which is most powerful?",
+                "answer": "Being very rich"
+            },
+            "14": {
+                "level": 14,
+                "title": "14th Sovereign",
+                "question": "How do you best assume control of a democracy?",
+                "answer": "Run for office using a reasonable philosophic base with solutions to contemporary problems"
+            },
+            "15": {
+                "level": 15,
+                "title": "15th Sovereign",
+                "question": "How do you best assume control of the whole world?",
+                "answer": "Assume control of some super-state organization and increase its influence"
+            },
+            "16": {
+                "level": 16,
+                "title": "16th Sovereign",
+                "question": "How do you best control your partner?",
+                "answer": "Igniting Love"
+            },
+            "17": {
+                "level": 17,
+                "title": "17th Sovereign",
+                "question": "What is the main reason society works?",
+                "answer": "Monopoly of Violence"
+            },
+            "18": {
+                "level": 18,
+                "title": "18th Sovereign",
+                "question": "What is the purpose of violence?",
+                "answer": "To achieve a purpose"
+            }
+        }
+    },
+    "insanity": {
+        "path": "Path of Insanity",
+        "wurmpedia": "https://www.wurmpedia.com/index.php/Path_of_Insanity",
+        "otherlands": "https://otherlands.bdew.net/meditation-answers/path-of-insanity/",
+        "tiles": "Insanity path tiles are found inside mines, on any tile more than 2 tiles away from any ore veins or cave exits. Note that reinforcements and rock salt do not count as \"ore\" and will not block Insanity tiles from appearing.<br><br>After completing a meditation on a path of insanity tile the usual message of \"This is indeed a special place\" will not appear. Due to this you may need to try moving to different tiles and repeatedly meditating until you get a path question in order to advance. Certain Path of Insanity-specific \"trance\" messages may also appear when beginning to meditate, making it clearer that the tile is special.",
+        "answers": {
+            "1": {
+                "level": 1,
+                "title": "Initiate",
+                "question": "How come some people are rich and some are poor?",
+                "answer": "Life is unfair"
+            },
+            "2": {
+                "level": 2,
+                "title": "Disturbed",
+                "question": "Who has most control of my fate?",
+                "answer": "The stars"
+            },
+            "3": {
+                "level": 3,
+                "title": "Crazed",
+                "question": "If I win the lottery, what determined it?",
+                "answer": "Simple luck"
+            },
+            "4": {
+                "level": 4,
+                "title": "Deranged",
+                "question": "A horse slips and kills the rider. What happened?",
+                "answer": "Chance struck"
+            },
+            "5": {
+                "level": 5,
+                "title": "Sicko",
+                "question": "Who of these are usually hiding something",
+                "answer": "A silent person"
+            },
+            "6": {
+                "level": 6,
+                "title": "Mental",
+                "question": "Do I have a free will?",
+                "answer": "Yes"
+            },
+            "7": {
+                "level": 7,
+                "title": "Psycho",
+                "question": "Must I treat others as I want to be treated myself?",
+                "answer": "Always"
+            },
+            "8": {
+                "level": 8,
+                "title": "Beast",
+                "question": "These roads, mines and houses are",
+                "answer": "Basically unnatural"
+            },
+            "9": {
+                "level": 9,
+                "title": "Maniac",
+                "question": "Who usually has most incentive to attack a normal person like me?",
+                "answer": "The government"
+            },
+            "10": {
+                "level": 10,
+                "title": "Drooling",
+                "question": "What best describes humankind?",
+                "answer": "Evil"
+            },
+            "11": {
+                "level": 11,
+                "title": "Gone",
+                "question": "What best describes my life?",
+                "answer": "Totally meaningless"
+            },
+            "12": {
+                "level": 12,
+                "title": "12th Eidolon",
+                "question": "Who committed the crime?",
+                "answer": "The rich guy"
+            },
+            "13": {
+                "level": 13,
+                "title": "13th Eidolon",
+                "question": "He worries about someone therefor he ___ the person",
+                "answer": "cares about"
+            },
+            "14": {
+                "level": 14,
+                "title": "14th Eidolon",
+                "question": "The poor",
+                "answer": "are more trustworthy"
+            },
+            "15": {
+                "level": 15,
+                "title": "15th Eidolon",
+                "question": "Good people will often",
+                "answer": "love you"
+            },
+            "16": {
+                "level": 16,
+                "title": "16th Eidolon",
+                "question": "You have no friends because you are",
+                "answer": "superior"
+            },
+            "17": {
+                "level": 17,
+                "title": "17th Eidolon",
+                "question": "You should always vote for",
+                "answer": "what benefits you most"
+            },
+            "18": {
+                "level": 18,
+                "title": "18th Eidolon",
+                "question": "It is better to",
+                "answer": "stick to your principles"
+            }
+        }
+    },
+    "love": {
+        "path": "Path of Love",
+        "wurmpedia": "https://www.wurmpedia.com/index.php/Path_of_Love",
+        "otherlands": "https://otherlands.bdew.net/meditation-answers/path-of-love/",
+        "tiles": "Love path tiles are usually found near water on flat or flattish grass with flowers around.<br><br>You can create your own love path tile by flattening a low area close to open water and planting flowers on all of the tiles. The rules for a tile to become a special tile are:<br><br>There must be water closer than 20 tiles away. Usually the love tile will appear 5 or more tiles from water.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;• There must be at least 4 tiles with flowers within a radius of 2 tiles around the special tile (forming a 5 x 5 area).<br><br>&nbsp;&nbsp;&nbsp;&nbsp;• The special tile must not be 10 dirts steeper than surrounding tiles.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;• Grass (with or without flowers) must be predominant within a radius of 2 tiles around the special tile.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;• Once planted, test each tile to see if it's \"special\" as the Love Tile does not have to be in the center of the area. If flowers or grass tiles are ever removed, the special tile may vanish. It must then be recreated, and may show up in a different spot than before.<br><br>Be aware that sprouts spreading from trees and grazing animals can remove the flowers and therefore destroy the Path of Love special tile.<br><br>As with all paths, meditating on the tile gives the message \"This is indeed a special place\" after meditation is complete, and shows that you have found a special tile that belongs to a path. Sometimes, it is needed to meditate on the same tile several times to get the \"special tile\" message.",
+        "answers": {
+            "1": {
+                "level": 1,
+                "title": "Initiate",
+                "question": "What is love?",
+                "answer": "It is a spring"
+            },
+            "2": {
+                "level": 2,
+                "title": "Nice",
+                "question": "Without which can love not survive?",
+                "answer": "Respect"
+            },
+            "3": {
+                "level": 3,
+                "title": "Gentle",
+                "question": "Which of these negates love?",
+                "answer": "Contempt"
+            },
+            "4": {
+                "level": 4,
+                "title": "Warm",
+                "question": "How do I love someone more?",
+                "answer": "I accept"
+            },
+            "5": {
+                "level": 5,
+                "title": "Goodhearted",
+                "question": "What makes love grow most?",
+                "answer": "Time"
+            },
+            "6": {
+                "level": 6,
+                "title": "Giving",
+                "question": "What should I say to best strengthen existing love?",
+                "answer": "I love you"
+            },
+            "7": {
+                "level": 7,
+                "title": "Rock",
+                "question": "What is the best reason to ask someone I love to change?",
+                "answer": "To preserve balance"
+            },
+            "8": {
+                "level": 8,
+                "title": "Splendid",
+                "question": "What do I need to do to love everyone?",
+                "answer": "Accept humankind"
+            },
+            "9": {
+                "level": 9,
+                "title": "Protector",
+                "question": "Which of these is the biggest failure in love?",
+                "answer": "Not protecting your love"
+            },
+            "10": {
+                "level": 10,
+                "title": "Respectful",
+                "question": "What of these will ultimately make love fail?",
+                "answer": "Lack of patience"
+            },
+            "11": {
+                "level": 11,
+                "title": "Saint",
+                "question": "What is the biggest act of love?",
+                "answer": "Setting free"
+            },
+            "12": {
+                "level": 12,
+                "title": "12th Deva",
+                "question": "Are there people who can love you no matter what?",
+                "answer": "Yes. There are such people"
+            },
+            "13": {
+                "level": 13,
+                "title": "13th Deva",
+                "question": "What do I really have to fight in myself in order to be a loving person?",
+                "answer": "Envy"
+            },
+            "14": {
+                "level": 14,
+                "title": "14th Deva",
+                "question": "What best describes a business?",
+                "answer": "It provides a service in much need"
+            },
+            "15": {
+                "level": 15,
+                "title": "15th Deva",
+                "question": "What best describes society?",
+                "answer": "A way for people to cooperate in order to reduce overall pain"
+            },
+            "16": {
+                "level": 16,
+                "title": "16th Deva",
+                "question": "Being which of these gives you least friends?",
+                "answer": "annoying"
+            },
+            "17": {
+                "level": 17,
+                "title": "17th Deva",
+                "question": "Which of these will always block love?",
+                "answer": "principles"
+            },
+            "18": {
+                "level": 18,
+                "title": "18th Deva",
+                "question": "Which of these is a side effect of love?",
+                "answer": "vulnerability"
+            }
+        }
+    },
+    "hate": {
+        "path": "Path of Hate",
+        "wurmpedia": "https://www.wurmpedia.com/index.php/Path_of_Hate",
+        "otherlands": "https://otherlands.bdew.net/meditation-answers/path-of-hate/",
+        "tiles": "Hate path tiles are only found on mycelium, and as such, they can only be found on Chaos, Epic and Defiance servers.<br><br>You should be able to create your own hate path tile by creating a flat 5x5 area of mycelium away from water. It should contain three or more infected thorn bushes.<br><br>As with all paths, meditating on the tile gives the message \"This is indeed a special place\" after meditation is complete, and shows that you have found a special tile that belongs to a path.",
+        "answers": {
+            "1": {
+                "level": 1,
+                "title": "Initiate",
+                "question": "What is hate?",
+                "answer": "A need"
+            },
+            "2": {
+                "level": 2,
+                "title": "Ridiculous",
+                "question": "What is the best thing that comes from hate?",
+                "answer": "Energy"
+            },
+            "3": {
+                "level": 3,
+                "title": "Envious",
+                "question": "What is the worst thing that hate can bring?",
+                "answer": "It can kill me"
+            },
+            "4": {
+                "level": 4,
+                "title": "Hateful",
+                "question": "What type of hate is the weakest?",
+                "answer": "Hate based on fear"
+            },
+            "5": {
+                "level": 5,
+                "title": "Finger",
+                "question": "How can I best strengthen my hate?",
+                "answer": "By finding proof"
+            },
+            "6": {
+                "level": 6,
+                "title": "Sheep",
+                "question": "What is the best use of my hate?",
+                "answer": "To resolve my problems"
+            },
+            "7": {
+                "level": 7,
+                "title": "Snake",
+                "question": "Who is in control of my aggression?",
+                "answer": "Anyone who knows about it"
+            },
+            "8": {
+                "level": 8,
+                "title": "Shark",
+                "question": "How do I best control my hate?",
+                "answer": "With the truth"
+            },
+            "9": {
+                "level": 9,
+                "title": "Infection",
+                "question": "What is the best effect of displaying aggression?",
+                "answer": "Fear"
+            },
+            "10": {
+                "level": 10,
+                "title": "Swarm",
+                "question": "When should I get rid of my hate?",
+                "answer": "If I loose out"
+            },
+            "11": {
+                "level": 11,
+                "title": "Free",
+                "question": "When have I mastered my hate?",
+                "answer": "When I can loose it at will"
+            },
+            "12": {
+                "level": 12,
+                "title": "12th Harbinger",
+                "question": "What is the most beneficial aspect of blind hate?",
+                "answer": "It lets you survive by striking first"
+            },
+            "13": {
+                "level": 13,
+                "title": "13th Harbinger",
+                "question": "Which is the most important enemy to strike down?",
+                "answer": "The enemy which tries to like me"
+            },
+            "14": {
+                "level": 14,
+                "title": "14th Harbinger",
+                "question": "Which of these is most successful in controlling any number of people?",
+                "answer": "Masterful psychology"
+            },
+            "15": {
+                "level": 15,
+                "title": "15th Harbinger",
+                "question": "Which of these diminishes the power of hate most?",
+                "answer": "Believing in the concept of an afterlife"
+            },
+            "16": {
+                "level": 16,
+                "title": "16th Harbinger",
+                "question": "What will increase the effect of your hate most?",
+                "answer": "People who believe in you"
+            },
+            "17": {
+                "level": 17,
+                "title": "17th Harbinger",
+                "question": "What is the difference between hate and anger?",
+                "answer": "Action"
+            },
+            "18": {
+                "level": 18,
+                "title": "18th Harbinger",
+                "question": "Which hate is the strongest?",
+                "answer": "Feeling of injustice"
+            }
+        }
+    }
+}

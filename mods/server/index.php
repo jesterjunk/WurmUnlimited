@@ -319,12 +319,15 @@
         width: calc(100% - var(--table-row-spacing-adjustment) * 2);
         border-spacing: 0 var(--table-row-spacing-adjustment);
     }
+    table#mods_table tbody tr {
+        z-index: 2025;
+    }
     table#mods_table thead tr th {
         z-index: 999;
         position: -webkit-sticky;
         position: sticky;
         top: var(--table-row-spacing-adjustment);
-        height:        calc(180px + var(--table-header-spacing-adjustment) - var(--table-row-spacing-adjustment));
+        height: calc(180px + var(--table-header-spacing-adjustment) - var(--table-row-spacing-adjustment));
         padding-bottom: calc(22px - var(--table-header-spacing-adjustment));
         vertical-align: bottom;
         color: var(--table-header-text-color);
