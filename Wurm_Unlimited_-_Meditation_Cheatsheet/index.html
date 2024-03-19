@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en" style="background: hsl(70, 4%, 8%); overflow-y: scroll;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wurm Unlimited - Meditation Cheatsheet</title>
+    <style>
+
+    body {
+        margin: 40px 0;
+        color: hsl(60, 30%, 96%);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /*  URLS  */
+    a:link,
+    a:visited {color: hsl(190, 81%, 67%); text-decoration: none; outline: none;}
+    a:hover {color: hsl(80, 76%, 53%);}
+    a:active {color: hsl(40, 93%, 51%);}
+    /*  URLS  */
+
+    h3 {
+        text-align: center;
+    }
+    div#path_navigation {
+        text-align: center;
+    }
+    div#path_navigation a {
+        display: inline-block;
+        padding: 8px;
+        border: 1px solid black;
+        background: hsl(70, 8%, 15%);
+        margin-bottom: 20px;
+
+    }
+    div#path_navigation a:not(:last-child) {
+        margin-right: 8px;
+
+    }
+    table {
+        margin: 0 auto;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+    }
+
+    table,
+    th,
+    td {
+        border: 1px solid black;
+        background: hsl(70, 8%, 15%);
+    }
+
+    th,
+    td {
+        padding: 8px;
+    }
+
+    th {
+/*        background-color: #f2f2f2;*/
+    }
+    th.path_title {
+        text-align: center;
+    }
+    th.level {
+        width: 40px;
+    }
+    th.title {
+        width: 108px;
+    }
+    th.question {
+        width: 376px;
+    }
+    th.answer {
+        width: 376px;
+    }
+    td.level {
+        text-align: center;
+    }
+    td.height_adjustment_00 {
+        height: 42px;
+    }
+    td.title {
+        text-align: center;
+    }
+    td.question {
+        text-align: left;
+    }
+    td.answer {
+        text-align: left;
+    }
+
+    </style>
+</head>
+<body>
+
+
+<h3>Wurm Unlimited - Meditation Cheatsheet</h3>
+
+<div id="path_navigation">
+    <a href="#Path_of_Knowledge" title="#Path_of_Knowledge">Knowledge</a>
+    <a href="#Path_of_Power"     title="#Path_of_Power"    >Power</a>
+    <a href="#Path_of_Insanity"  title="#Path_of_Insanity" >Insanity</a>
+    <a href="#Path_of_Love"      title="#Path_of_Love"     >Love</a>
+    <a href="#Path_of_Hate"      title="#Path_of_Hate"     >Hate</a>
+</div>
+
+<script>
+// Function to load JSON data
+async function loadJsonData(url) {
+    try {
+        const response = await fetch(url);
+        return response.json();
+    } catch (error) {
+        console.error('Error fetching JSON:', error);
+    }
+}
+
+// Function to generate HTML tables from JSON data
+function generateTablesFromJson(jsonData) {
+    const container = document.createElement('div');
+
+    Object.values(jsonData).forEach(path => {
+        const table = document.createElement('table');
+        const thead = document.createElement('thead');
+        const tbody = document.createElement('tbody');
+
+        // Creating table header
+        thead.innerHTML = `
+  <tr>
+    <th colspan="2" class="path_title" id="${path.path.replaceAll(` `, `_`)}">${path.path}</th>
+    <td colspan="2" class="path_tiles"><br>${path.tiles}<br><br></td>
+  </tr>
+  <tr>
+    <th class="level">Level</th>
+    <th class="title">Title</th>
+    <th class="question">Question</th>
+    <th class="answer">Answer</th>
+  </tr>
+`;
+        table.appendChild(thead);
+
+        // Creating table body
+        Object.values(path.answers).forEach(answer => {
+            const row = document.createElement('tr');
+            row.innerHTML = `
+    <td class="level height_adjustment_00">${answer.level}</td>
+    <td class="title">${answer.title}</td>
+    <td class="question">${answer.question}</td>
+    <td class="answer">${answer.answer}</td>
+  `;
+            tbody.appendChild(row);
+        });
+
+        table.appendChild(tbody);
+        container.appendChild(table);
+    });
+
+    document.body.appendChild(container);
+}
+
+// Load JSON and generate tables
+loadJsonData('../data/json/Wurm_Unlimited_-_Meditation_Cheatsheet_data.json')
+    .then(jsonData => {
+        generateTablesFromJson(jsonData);
+    });
+
+</script>
+
+
+</body>
+</html>
