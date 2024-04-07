@@ -10610,9 +10610,9 @@ modname    windmill.properties
 modname    Windmills
 •·⸱⸳.•
     {
-        "author": "",
-        "mod_name": "",
-        "slug": "",
+        "author": "Coldie aka Cuddles",
+        "mod_name": "windmill",
+        "slug": "windmill",
         "forum_1": {
             "main": "",
             "archive": "",
@@ -10629,17 +10629,17 @@ modname    Windmills
         },
         "github_releases": "",
         "direct_download": {
-            "main": "",
+            "main": "https://onedrive.live.com/?authkey=%21AJ8_AuHT3LPrDVk&cid=C258484ED396C139&id=C258484ED396C139%21544&parId=C258484ED396C139%21318&action=locate",
             "mirror": "",
-            "archive": "",
-            "filename": "",
-            "bytes": 0,
-            "sha256": "",
-            "virustotal": ""
+            "archive": "https://web.archive.org/web/20240407061225id_/https://dmmvqa.dm.files.1drv.com/y4m5FVzAm6nca0xO111q_Hj-KI3mrDrciJbFUeKTiXlyRYfKInC23z8FuwF4Uy0MuzLMVuP6KXwWORH3u6ICluU8a4fJGJt3mQQ1YRRLWtHQZj_5Twiv_7P5npvZSmIXwi7sVBfmSpiIKfT6n7qGZP-NE8NEflw__9qm_hHqAujB3GHH6y8ZeuNxEX8ZU7hMY4iqtpEmjWdjhUHij2f_O2-1w",
+            "filename": "windmill.zip",
+            "bytes": 7930356,
+            "sha256": "7518eb82266dbc5b04f34237aa4db6047cd5cb8e0043799b6ec74c88cb152e3e",
+            "virustotal": "https://www.virustotal.com/gui/file/7518eb82266dbc5b04f34237aa4db6047cd5cb8e0043799b6ec74c88cb152e3e"
         },
         "current_version": "",
-        "release_date": "",
-        "description": ""
+        "release_date": "Aug 11, 2021",
+        "description": "Adds in windmills, sawmills and masonry mills to allow creating their respective products in bulk.\n– Windmill: Provides flour, corn flour, mortar and concrete (requires clay)\n– Sawmill: Provides various wooden items (requires wood)\n– Masonry Mill: Provides bricks and slabs of the ore you utilize (requires ore)\n– Note: Utilizing the creation of these items through the mills provides no skill gain. This is intended and just provides a way to mass produce items."
     },
 •·⸱⸳.•
 
