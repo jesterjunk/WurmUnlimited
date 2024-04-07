@@ -626,6 +626,7 @@ modname    Archery                                             *war arrow head a
         "github_releases": "",
         "direct_download": {
             "main": "https://1drv.ms/u/s!AjnBltNOSFjCgnC3h37iXg6Hknkj?e=3Juzaq",
+            "main_long": "https://onedrive.live.com/?authkey=%21ALeHfuJeDoeSeSM&id=C258484ED396C139%21368&cid=C258484ED396C139&parId=root&parQt=sharedby&o=OneUp",
             "mirror": "https://github.com/jesterjunk/WurmUnlimited/raw/master/mods/server/authors/coldie_aka_cuddles/archery.zip",
             "archive": "https://web.archive.org/web/20230724155815/https://1t8w7a.dm.files.1drv.com/y4mUE36pfScUpcJwQy5InwRlTF9Su8i_3ZNE2mojFil9HqCgajcP4zQa8bmJOyF4yOWlKc2m1Ai5kKQQAJ70Bu-3cA5MURsCEukVa2SxHcXlXISPmdt5xCbHx6tnINcjxgUmeF083lLLmqvTEA1QpzaxjCqiMd-569SZbQHsuCGgQBGJfErUvZzMwWMxJTaYHO821ceVfEiq1EqEmzHgMG8Rg",
             "filename": "archery.zip",
@@ -2002,6 +2003,7 @@ modname    Buildingskillmod                                    https://wiki.wurm
         "github_releases": "",
         "direct_download": {
             "main": "https://1drv.ms/u/s!AjnBltNOSFjCgj_Jz3qiuOh1jjmD",
+            "main_long": "",
             "mirror": "https://github.com/jesterjunk/WurmUnlimited/raw/master/mods/server/authors/coldie_aka_cuddles/buildingskillmod.zip",
             "archive": "https://web.archive.org/web/20230731061910/https://bykfjw.dm.files.1drv.com/y4m86ZJ-9UZyic8YHktx4fL4D0AauW7n23elLNhhLXDwBq7VJSetE3DYx8XN3Qok7kBFie6Ii_seY-5rf7iW1Twy3Q0CIREZUekop0Y5Z8rv8Pgr68kyB7C94JL7mGNTM1iH2qlhAbulLd9sRckrQ93Xo06-QvwVJCL51BM4FFFOGAOHv6JOJcB5yMUddchWEXGReCOqZou7rliZsfisw8zVA",
             "filename": "buildingskillmod.zip",
@@ -2336,6 +2338,7 @@ modname    Cavus Nostra                                        imp moon metal it
         "github_releases": "",
         "direct_download": {
             "main": "https://1drv.ms/u/s!AjnBltNOSFjCgkAkd4a_r9jgcfGl",
+            "main_long": "",
             "mirror": "",
             "archive": "https://web.archive.org/web/20230801071301/https://ag1rbg.dm.files.1drv.com/y4mkuvrhEmoDTiSefkbKtfDDHcOkERFrjzKIOf4T9CJe_1LGrOznpwEx2nvIchhmuAFjJI3tvOTijLMpWQi0tGmM623tl_892MIGCJug8j-PWiBnnIHE95R3SymlfyRTbUojfLhn6INVNB362C6cKBfvYCsLBXQvNUIQWdVkP8QlnF_Wy2iUgNL7ThXdXtF5SHB92GU0RAQv2doXHA4sUC38Q",
             "filename": "cavusnostra.zip",
@@ -2501,6 +2504,7 @@ modname    combiner.properties
         "github_releases": "",
         "direct_download": {
             "main": "https://1drv.ms/u/s!AjnBltNOSFjCgnKn_ePBAJGqGOxu?e=2NeFFl",
+            "main_long": "",
             "mirror": "",
             "archive": "https://web.archive.org/web/20230801073541/https://o2th7g.dm.files.1drv.com/y4m8L6ap7au5K3xXdGJ331rO2Sz3gPT2b0L8JD_4jC_-ubUsQi6DV130yoZAi4nGa3wY8zP9nnUakJj63Wr7y0TfS4uzDQAeDMs7UrQB61XR0lIfZn39222X-tOgtvK53-r6JymXtJNPH1X_roURqM9OL40xYPTZCdl0lzGwsgh6On5Kgv7nPyjICPXAia4QPnQbG-eCrk36mn4B-JBXFWZQw",
             "filename": "combiner.zip",
@@ -3012,6 +3016,7 @@ modname    Creature DB                                         *Fix when manuall
         "github_releases": "",
         "direct_download": {
             "main": "https://1drv.ms/u/s!AjnBltNOSFjCgnRSIOc8KBVGanzy?e=twg72G",
+            "main_long": "",
             "mirror": "https://github.com/jesterjunk/WurmUnlimited/raw/master/mods/server/authors/coldie_aka_cuddles/creaturesdb.zip",
             "archive": "https://web.archive.org/web/20230802202258/https://o2t91w.dm.files.1drv.com/y4m95XUexQpLCoATggniKE0jS0_9sIWztQcaeHDTbuQzws31LC1TgEiHvAyD9Ug3UdqXGckn2IwSpZ-wKy3fo5pJNVRiG9PQll4OnTrH9fahs-ngP6bsaddUKY7XEkLGWoOYd52vpprxZ6HjBHSAxX_8SfCIMWV6dClKdAuvlKJEcTx1xRADWnnHw6xRWF4rukDSto9CxtdkiFrXtYx19aIsg",
             "filename": "creaturesdb.zip",
@@ -3117,6 +3122,7 @@ modname    Creature max count (Coldie)                         Admin management 
         "github_releases": "",
         "direct_download": {
             "main": "https://1drv.ms/u/s!AjnBltNOSFjCgm1CgrVce73g0-Go?e=Nu9cxf",
+            "main_long": "",
             "mirror": "https://github.com/jesterjunk/WurmUnlimited/raw/master/mods/server/authors/coldie_aka_cuddles/mobspawnmaxcount.zip",
             "archive": "https://web.archive.org/web/20230802184914/https://1tpq7g.dm.files.1drv.com/y4mWX3TdOjJaHguq3Jt0lRiq-po7md8-tRd5EeSYFt46hRPN4ptVhZF3ay919dAqvxPk1dEfk6xxlQfyITrh2527pQ35YnINxeYVCe2TghjLg-8TZvVTzpdyg8JWUH6WKfV56MMlMsDFlnE3f_OP-SpTLbMFiAsufiRoeCNNG6obRmdQaGbYoQ_psHb0lGzVatjmRXNNmd3OzF-Hhv8ZvzHGQ",
             "filename": "mobspawnmaxcount.zip",
@@ -3412,6 +3418,7 @@ modname    Decorations Mod                                     *Craftables toys 
         "github_releases": "",
         "direct_download": {
             "main": "https://1drv.ms/u/s!AjnBltNOSFjChA2Wpyj7JSFtCt4-?e=QB27Dj",
+            "main_long": "",
             "mirror": "https://github.com/jesterjunk/WurmUnlimited/raw/master/mods/server/authors/coldie_aka_cuddles/decorations.zip",
             "archive": "https://web.archive.org/web/20230802212535/https://ag0oza.dm.files.1drv.com/y4m6c_W2tf_zc4h9hbQzC5nOG0fL2ywy9BDX9-KXNETd7DAX5yaw6ivf0wUALFHKtIznd2U1qyjxWKmGOlwmEqXjI9zbaA3GlAB9zD3v6ZvTDZZBkBss4KeyUf9fl1q-omxmCbw34iz5Fb-k9Z5-x-MHSP-BHIlejX6S5KoylFO2FLGE2xU20QtPoP72vRLlEnW1DvHEsOlIRlbaZwOxdVg-Q",
             "filename": "decorations.zip",
@@ -3497,6 +3504,7 @@ modname    deedmaker.properties
         "github_releases": "",
         "direct_download": {
             "main": "https://1drv.ms/u/s!AjnBltNOSFjCgk9lnoUxtjbrRlCh",
+            "main_long": "",
             "mirror": "",
             "archive": "https://web.archive.org/web/20230802235529/https://z5h6wq.dm.files.1drv.com/y4mtiqbALAERvUA9jS5Hj3B-J9pdkXPoS5v_SpDs1M2b58TOhEWYPD5fPN9rEErebb_Kq4kTgoOPsryO0SVg74PjaNCbBlPNfbqTy-ASeYjuuxWUpOIAtAGdGionN_EMzKUryeCZ6c9y5VppZB2zC0DyxbfTPeRtuQS3nHfQLltte9kAzTLNBkWCW86-W80VvT1r0NLyuErRLm3RGmRypRB7g",
             "filename": "deedmaker.zip",
@@ -3918,6 +3926,7 @@ modname    DPS                                                 show the damage y
         "github_releases": "",
         "direct_download": {
             "main": "https://1drv.ms/u/s!AjnBltNOSFjCgkLm33ZmIJs-ACXK",
+            "main_long": "",
             "mirror": "https://github.com/jesterjunk/WurmUnlimited/raw/master/mods/server/authors/coldie_aka_cuddles/DPS.zip",
             "archive": "https://web.archive.org/web/20230807085659/https://ag2h7w.dm.files.1drv.com/y4m9bSnO9PgJjTiS42aDF4Eik9YWoC5GSYa0HzEhyPkGtQUI1JZ2kiSxnXOE1V5ywucxSJF3vsyUpnwPOG531RrUt1vNejB-vU5ZHXYQrxRhgn4X6LRjnLZgwlN1Xj7vlo1tqtMl0_LRbxr34bFIZO7pn9JLgKJ8Fq0yFJG_3LFKSR3yBp37e_vGUrTGBlkyymuAUtAH3XXK__VveCXY_orwA",
             "filename": "DPS.zip",
@@ -4039,6 +4048,7 @@ modname    Dungeon Mod                                         a complex mod whe
         "github_releases": "",
         "direct_download": {
             "main": "https://1drv.ms/u/s!AjnBltNOSFjCgkqJESX7w46Wtxhm",
+            "main_long": "",
             "mirror": "",
             "archive": "https://web.archive.org/web/20230807092214/https://z5ipyw.dm.files.1drv.com/y4mxxxotJZsaS0UL2ZETntEVY2jzmUm4wwG3Yy7zmSjcsSUPctY68uCAMLfkbTBGWoe3corU0GnUeeEUiKT80ZuMhZ9TDD3S4ji2bSP7vB3rOJznRBzA38VGlQyHytJ6USBAWkieQn_MWDLe4-_IRdAgRDhIa9XZEXvFt56Q4xMon4G0AbYcNmqj_HfQCK6JNUFSOO0A1c5Zl5aZP8ZIRIubQ",
             "filename": "dungeon.zip",
@@ -4127,6 +4137,7 @@ modname    Dyemaker.properties
         "github_releases": "",
         "direct_download": {
             "main": "https://1drv.ms/u/s!AjnBltNOSFjChAaSk_GXtEbXecVP?e=OQCEkZ",
+            "main_long": "",
             "mirror": "https://github.com/jesterjunk/WurmUnlimited/raw/master/mods/server/authors/coldie_aka_cuddles/dyemaker.zip",
             "archive": "https://web.archive.org/web/20230807094924/https://byimba.dm.files.1drv.com/y4m96kt9EiDttYCOVARYIilhtPVT-vSJav3IOPsCu6olGIOhZFdezJZewd7oSid73G0jRrAx3WyUqs1H3cJDBucpHmmDkX3h7HSQviId62dz8PU5jYv0VIf7Ipc6lmES0JNraNBHp-L9OEnUznbSuCnMJlJAHml9ynxnz1uziqpj1XAmLWs3wb2epeZbiFz86ZyH3iDTFdsrGzp1YKKFGd5zg",
             "filename": "dyemaker.zip",
@@ -4327,6 +4338,7 @@ modname    Epic Skill Curve                                    Benefit from havi
         "github_releases": "",
         "direct_download": {
             "main": "https://1drv.ms/u/s!AjnBltNOSFjCgkPuAweA0v-Blc2I",
+            "main_long": "",
             "mirror": "https://github.com/jesterjunk/WurmUnlimited/raw/master/mods/server/authors/coldie_aka_cuddles/epiccurve.zip",
             "archive": "https://web.archive.org/web/20230807220113/https://ag3seg.dm.files.1drv.com/y4mwdjj_Ug4TUMbJHEZM0CwF0o6-Qpm2imLv6Z8StKHuasd4k2x5FMY8Rfz56VCoTYJM_Q9cIXVpomDkELYO5db1rgdjgMhp4QRHOg2HjYUCjuZW7HaFtVmAN5jr0wdiOgbjMoTNkoDsfeeG_gmDuf76mQvV-9bjOO-i8BNNL6pt3O0-jh6YzujW1DLCec-V1WdqDjxlqLVCm1OZPxFWheMzw",
             "filename": "epiccurve.zip",
@@ -4409,6 +4421,7 @@ modname    EventMod                                            When we host even
         "github_releases": "",
         "direct_download": {
             "main": "https://1drv.ms/u/s!AjnBltNOSFjCgkgH-QH3qkEfavEz",
+            "main_long": "",
             "mirror": "https://github.com/jesterjunk/WurmUnlimited/raw/master/mods/server/authors/coldie_aka_cuddles/eventmod.zip",
             "archive": "https://web.archive.org/web/20230807221706/https://ag15yq.dm.files.1drv.com/y4mbiEpLCSXSOWoR7KKodySoDmn3aqiiRkFHNsxKoUs7leOO1U2-_6r4Dqacnz4iqBYpaBJt8vykstZvDMr2T1OlWIIr8Sghfgqszprk3yx9KJkbO0F2e1eipSr0GrZkCDjInZvUQKDpML_zHJOTqw27W747m354Aq-3MAFbgxrZUsEEg5Zi3nQw359-RN7yQ-_k05dclgJdCsfelt3dro0gQ",
             "filename": "eventmod.zip",
@@ -4580,6 +4593,7 @@ modname    fishmonger.properties
         "github_releases": "",
         "direct_download": {
             "main": "https://1drv.ms/u/s!AjnBltNOSFjCgmfYBTPObME6skDD",
+            "main_long": "",
             "mirror": "https://github.com/jesterjunk/WurmUnlimited/raw/master/mods/server/authors/coldie_aka_cuddles/fishmonger.zip",
             "archive": "https://web.archive.org/web/20230807231117/https://cvqjgg.dm.files.1drv.com/y4mRFS5Kb0TShFjwYnoEKmAgPKiAglcHrvhX0pGM92R1M8nHvSfv_d0_0Etiq-l2Ah6rh4VK83OdBToPrFCtiykuDZ7VL2pVQPHAu55VWuzkpvPHfKevmJ3F9LjfTfJS7YD66mNQcojFQej-C_GEsEG7UmDlbCZNjz6EDJgjuUyFOlP5NpLwcnyJaxTZYCB2hVOSnk99jSMfH3dm5aSofBnwQ",
             "filename": "fishmonger.zip",
@@ -10629,7 +10643,9 @@ modname    Windmills
         },
         "github_releases": "",
         "direct_download": {
-            "main": "https://onedrive.live.com/?authkey=%21AJ8_AuHT3LPrDVk&cid=C258484ED396C139&id=C258484ED396C139%21544&parId=C258484ED396C139%21318&action=locate",
+            "main": "https://1drv.ms/u/s!AjnBltNOSFjChCCfPwLh09yz6w1Z",
+            "main_long": "",
+            "main_long": "https://onedrive.live.com/?authkey=%21AJ8_AuHT3LPrDVk&cid=C258484ED396C139&id=C258484ED396C139%21544&parId=C258484ED396C139%21318&action=locate",
             "mirror": "https://github.com/jesterjunk/WurmUnlimited/raw/master/mods/server/authors/coldie_aka_cuddles/windmill.zip",
             "archive": "https://web.archive.org/web/20240407061225id_/https://dmmvqa.dm.files.1drv.com/y4m5FVzAm6nca0xO111q_Hj-KI3mrDrciJbFUeKTiXlyRYfKInC23z8FuwF4Uy0MuzLMVuP6KXwWORH3u6ICluU8a4fJGJt3mQQ1YRRLWtHQZj_5Twiv_7P5npvZSmIXwi7sVBfmSpiIKfT6n7qGZP-NE8NEflw__9qm_hHqAujB3GHH6y8ZeuNxEX8ZU7hMY4iqtpEmjWdjhUHij2f_O2-1w",
             "filename": "windmill.zip",
