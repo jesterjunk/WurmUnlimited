@@ -2,7 +2,7 @@
 <html lang="en" style="background: #121212; overflow-y: scroll;">
 <head>
     <meta charset="UTF-8">
-    <title>Image Selector</title>
+    <title>Wurm Unlimited: Tree Planters</title>
     <style>
         body {
             margin: 0;
@@ -25,12 +25,13 @@
             margin: 0;
             padding: 0;
         }
+
         #options {
             display: flex;
-            flex-direction: row;
             justify-content: center;
             margin: 0;
         }
+
         .button_group {
             display: flex;
             flex-wrap: wrap;
@@ -38,7 +39,8 @@
             align-items: center;
             align-content: flex-start;
         }
-        .button {
+
+        .button, .clear-button, .select-all-button {
             background-color: #333333;
             border-radius: 4px;
             padding: 10px;
@@ -48,48 +50,123 @@
             border: none;
             user-select: none;
         }
-        .button:hover {
+
+        .button:hover, .clear-button:hover, .select-all-button:hover {
             background-color: #424242;
         }
+
         .selected {
             background-color: #616161;
         }
+
         #images {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
             margin: 0;
         }
-        img {
+
+        .image-container {
             margin: 10px;
+            text-align: center;
+        }
+        .image-container div {
+            padding-bottom: 20px;
+        }
+
+        img {
             width: auto;
             height: auto;
             max-width: 100%;
             max-height: 100%;
             object-fit: contain;
+            cursor: pointer;
         }
+
         #select_all_clear_container {
             margin: 0;
         }
+
         .clear-button, .select-all-button {
-            background-color: #333333;
-            border-radius: 4px;
-            padding: 10px;
-            margin: 10px;
-            margin-bottom: -10px;
-            color: #E0E0E0;
-            cursor: pointer;
-            border: none;
             font-weight: bold;
         }
-        .clear-button:hover, .select-all-button:hover {
-            background-color: #424242;
+        #title, #title h3 {
+            margin: 0;
+            padding: 0;
+        }
+        #title h3 {
+            margin-left: 20px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        /* Lightbox styles */
+        .lightbox {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+        .lightbox-content {
+            position: relative;
+            max-width: 90%;
+            max-height: 90%;
+            text-align: center;
+        }
+        .lightbox img {
+            max-width: 100%;
+            max-height: calc(80vh - 40px); /* Adjusted to ensure space for the label */
+            display: block;
+            margin: 0 auto;
+        }
+        .lightbox .label {
+            color: #E0E0E0;
+            margin-top: 10px;
+            font-size: 16px;
+            display: block; /* Ensure it's displayed as a block element */
+        }
+        .lightbox .close, .lightbox .prev, .lightbox .next {
+            position: absolute;
+            color: #E0E0E0;
+            border: none;
+            cursor: pointer;
+            padding: 9px;
+            font-size: 18px;
+            line-height: 18px;
+            border-radius: 4px;
+            width: 36px;
+            height: 36px;
+            color: #E0E0E0;
+            background-color: #61616180;
+        }
+        .lightbox .close {
+            top: 0;
+            right: 0;
+        }
+        .lightbox .prev {
+            height: calc(36px * 4);
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        .lightbox .next {
+            height: calc(36px * 4);
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
         }
     </style>
 </head>
 <body>
 
 <div id="outer">
+    <div id="title"><h3>Wurm Unlimited: Tree Planters</h3></div>
     <div id="select_all_clear_container">
         <button class="clear-button" onclick="clearSelections()">Clear</button>
         <button class="select-all-button" onclick="selectAll()">Select All</button>
@@ -102,42 +179,53 @@
     <div id="images"></div>
 </div>
 
+<!-- Lightbox structure -->
+<div class="lightbox" id="lightbox">
+    <div class="lightbox-content" id="lightbox-content">
+        <button class="close" id="lightbox-close">X</button>
+        <button class="prev" id="lightbox-prev">&#10094;</button>
+        <img id="lightbox-image" src="" alt="">
+        <div class="label" id="lightbox-label"></div>
+        <button class="next" id="lightbox-next">&#10095;</button>
+    </div>
+</div>
+
 <script>
     const planters = `
-brick
-clay
-marble
-pottery
-sandstone
-slate
-stone
+00|brick
+01|clay
+02|marble
+03|pottery
+04|sandstone
+05|slate
+06|stone
 
-applewood
-birchwood
-cedarwood
-cherrywood
-chestnut
-firwood
-lemonwood
-lindenwood
-maplewood
-oakenwood
-olivewood
-orangewood
-pinewood
-walnut
-willow
+07|applewood
+08|birchwood
+09|cedarwood
+10|cherrywood
+11|chestnut
+12|firwood
+13|lemonwood
+14|lindenwood
+15|maplewood
+16|oakenwood
+17|olivewood
+18|orangewood
+19|pinewood
+20|walnut
+21|willow
 
-blueberrywood
-raspberrywood
-grapewood
-hazelnutwood
-thorn
-oleanderwood
-lavenderwood
-camelliawood
-rosewood
-lingonberrywood
+22|blueberrywood
+23|raspberrywood
+24|grapewood
+25|hazelnutwood
+26|thorn
+27|oleanderwood
+28|lavenderwood
+29|camelliawood
+30|rosewood
+31|lingonberrywood
 `.trim().split('\n\n');
 
     const buttonGroups = [
@@ -146,19 +234,17 @@ lingonberrywood
         document.getElementById('button_group_3')
     ];
 
-    let groupIndex = 0;
-    planters.forEach(group => {
-        group.split('\n').forEach((planter, index) => {
-            const planterName = planter.trim();
+    planters.forEach((group, groupIndex) => {
+        group.split('\n').forEach(planter => {
+            const [number, planterName] = planter.trim().split('|');
             const planterNameTitleCase = planterName.charAt(0).toUpperCase() + planterName.slice(1).replace(/wood$/, '');
             const button = document.createElement('div');
             button.className = 'button';
-            button.dataset.image = `imgs/${String(groupIndex * 11 + index).padStart(2, '0')}_tree_planter_${planterName}.png`;
-            button.textContent = planterNameTitleCase;
+            button.dataset.image = `imgs/${number}_tree_planter_${planterName}.png`;
+            button.textContent = planterNameTitleCase.replace(/Oaken$/, 'Oak');
 
             buttonGroups[groupIndex].appendChild(button);
         });
-        groupIndex++;
     });
 
     const options = document.querySelectorAll('.button');
@@ -168,13 +254,13 @@ lingonberrywood
 
     options.forEach(option => {
         option.addEventListener('mouseover', () => {
-            if (!selectedImages.has(option.dataset.image)) {
+            if (selectedImages.size === 0 && !selectedImages.has(option.dataset.image)) {
                 showPreview(option.dataset.image);
             }
         });
 
         option.addEventListener('mouseout', () => {
-            if (hoverPreview) {
+            if (hoverPreview && imageContainer.contains(hoverPreview)) {
                 imageContainer.removeChild(hoverPreview);
                 hoverPreview = null;
             }
@@ -193,27 +279,34 @@ lingonberrywood
     });
 
     function showPreview(image) {
-        if (hoverPreview) {
+        if (hoverPreview && imageContainer.contains(hoverPreview)) {
             imageContainer.removeChild(hoverPreview);
         }
         hoverPreview = document.createElement('img');
         hoverPreview.src = image;
-        hoverPreview.style.width = '390px';
+        hoverPreview.style.width = '380px';
         hoverPreview.style.opacity = '0.5';
+        hoverPreview.style.position = 'absolute';
+        hoverPreview.style.pointerEvents = 'none';
+        hoverPreview.style.zIndex = '1';
+        hoverPreview.style.marginTop = '20px'; // Adjust margin to align with selected image
         imageContainer.appendChild(hoverPreview);
     }
 
     function updateSelectedImages() {
         imageContainer.innerHTML = '';
-        const width = imageContainer.clientWidth;
-        const height = imageContainer.clientHeight;
-        const aspectRatio = 1296 / 681;
-        const imgWidth = Math.min(width, aspectRatio * height) / Math.max(selectedImages.size, 1);
         selectedImages.forEach(image => {
+            const imgContainer = document.createElement('div');
+            imgContainer.className = 'image-container';
             const img = document.createElement('img');
             img.src = image;
-            img.style.width = '390px';
-            imageContainer.appendChild(img);
+            img.style.width = '380px';
+            img.addEventListener('click', () => openLightbox(image));
+            const label = document.createElement('div');
+            label.textContent = image.split('_tree_planter_')[1].replace('.png', '').replace(/wood$/, '').charAt(0).toUpperCase() + image.split('_tree_planter_')[1].replace('.png', '').slice(1);
+            imgContainer.appendChild(img);
+            imgContainer.appendChild(label);
+            imageContainer.appendChild(imgContainer);
         });
     }
 
@@ -222,6 +315,7 @@ lingonberrywood
         options.forEach(option => option.classList.remove('selected'));
         updateSelectedImages();
     }
+
     function selectAll() {
         options.forEach(option => {
             selectedImages.add(option.dataset.image);
@@ -229,6 +323,80 @@ lingonberrywood
         });
         updateSelectedImages();
     }
+
+    // Lightbox functionality
+    const lightbox = document.getElementById('lightbox');
+    const lightboxContent = document.getElementById('lightbox-content');
+    const lightboxImage = document.getElementById('lightbox-image');
+    const lightboxLabel = document.getElementById('lightbox-label');
+    const closeBtn = document.getElementById('lightbox-close');
+    const prevBtn = document.getElementById('lightbox-prev');
+    const nextBtn = document.getElementById('lightbox-next');
+
+    let currentIndex = -1;
+    let selectedImageArray = [];
+
+    function openLightbox(image) {
+        selectedImageArray = Array.from(selectedImages);
+        currentIndex = selectedImageArray.indexOf(image);
+        updateLightbox();
+        lightbox.style.display = 'flex';
+    }
+
+    function closeLightbox() {
+        lightbox.style.display = 'none';
+    }
+
+    function updateLightbox() {
+        if (currentIndex >= 0 && currentIndex < selectedImageArray.length) {
+            const image = selectedImageArray[currentIndex];
+            lightboxImage.src = image;
+            lightboxLabel.textContent = image.split('_tree_planter_')[1].replace('.png', '').replace(/wood$/, '').charAt(0).toUpperCase() + image.split('_tree_planter_')[1].replace('.png', '').slice(1);
+            prevBtn.style.display = selectedImageArray.length > 1 ? 'block' : 'none';
+            nextBtn.style.display = selectedImageArray.length > 1 ? 'block' : 'none';
+        }
+    }
+
+    function showPrev() {
+        if (currentIndex > 0) {
+            currentIndex--;
+        } else {
+            currentIndex = selectedImageArray.length - 1; // Jump to the last image
+        }
+        updateLightbox();
+    }
+
+    function showNext() {
+        if (currentIndex < selectedImageArray.length - 1) {
+            currentIndex++;
+        } else {
+            currentIndex = 0; // Jump to the first image
+        }
+        updateLightbox();
+    }
+
+    closeBtn.addEventListener('click', closeLightbox);
+    prevBtn.addEventListener('click', showPrev);
+    nextBtn.addEventListener('click', showNext);
+    lightboxImage.addEventListener('click', closeLightbox);
+
+    lightbox.addEventListener('click', (event) => {
+        if (event.target === lightbox || event.target === lightboxContent) {
+            closeLightbox();
+        }
+    });
+
+    document.addEventListener('keydown', (event) => {
+        if (lightbox.style.display === 'flex') {
+            if (event.key === 'Escape') {
+                closeLightbox();
+            } else if (event.key === 'ArrowLeft') {
+                showPrev();
+            } else if (event.key === 'ArrowRight') {
+                showNext();
+            }
+        }
+    });
 </script>
 
 </body>
