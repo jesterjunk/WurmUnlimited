@@ -1,0 +1,212 @@
+<!DOCTYPE HTML>
+<html lang="en" style="background: #121212; overflow-y: scroll;">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Selector</title>
+    <style>
+        body {
+            margin: 0;
+            color: #E0E0E0;
+            font-family: Verdana, Geneva, sans-serif;
+            text-align: center;
+            font-size: 0;
+        }
+
+        div {
+            margin: 10px;
+            padding: 10px;
+        }
+
+        #outer {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-size: 16px;
+            margin: 0;
+            padding: 0;
+        }
+        #options {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin: 0;
+        }
+        .button_group {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            align-content: flex-start;
+        }
+        .button {
+            background-color: #333333;
+            border-radius: 4px;
+            padding: 10px;
+            margin: 5px;
+            color: #E0E0E0;
+            cursor: pointer;
+            border: none;
+            user-select: none;
+        }
+        .button:hover {
+            background-color: #424242;
+        }
+        .selected {
+            background-color: #616161;
+        }
+        #images {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 0;
+        }
+        img {
+            margin: 10px;
+            width: auto;
+            height: auto;
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+        }
+        #select_all_clear_container {
+            margin: 0;
+        }
+        .clear-button, .select-all-button {
+            background-color: #333333;
+            border-radius: 4px;
+            padding: 10px;
+            margin: 10px;
+            margin-bottom: -10px;
+            color: #E0E0E0;
+            cursor: pointer;
+            border: none;
+            font-weight: bold;
+        }
+        .clear-button:hover, .select-all-button:hover {
+            background-color: #424242;
+        }
+    </style>
+</head>
+<body>
+
+<div id="outer">
+    <div id="select_all_clear_container">
+        <button class="clear-button" onclick="clearSelections()">Clear</button>
+        <button class="select-all-button" onclick="selectAll()">Select All</button>
+    </div>
+    <div id="options">
+        <div class="button_group">
+            <div class="button" data-image="imgs/00_tree_planter_brick.png">Brick</div>
+            <div class="button" data-image="imgs/01_tree_planter_clay.png">Clay</div>
+            <div class="button" data-image="imgs/02_tree_planter_marble.png">Marble</div>
+            <div class="button" data-image="imgs/03_tree_planter_pottery.png">Pottery</div>
+            <div class="button" data-image="imgs/04_tree_planter_sandstone.png">Sandstone</div>
+            <div class="button" data-image="imgs/05_tree_planter_slate.png">Slate</div>
+            <div class="button" data-image="imgs/06_tree_planter_stone.png">Stone</div>
+        </div>
+        <div class="button_group">
+            <div class="button" data-image="imgs/07_tree_planter_applewood.png">Apple</div>
+            <div class="button" data-image="imgs/08_tree_planter_birchwood.png">Birch</div>
+            <div class="button" data-image="imgs/09_tree_planter_cedarwood.png">Cedar</div>
+            <div class="button" data-image="imgs/10_tree_planter_cherrywood.png">Cherry</div>
+            <div class="button" data-image="imgs/11_tree_planter_chestnut.png">Chestnut</div>
+            <div class="button" data-image="imgs/12_tree_planter_firwood.png">Fir</div>
+            <div class="button" data-image="imgs/13_tree_planter_lemonwood.png">Lemon</div>
+            <div class="button" data-image="imgs/14_tree_planter_lindenwood.png">Linden</div>
+            <div class="button" data-image="imgs/15_tree_planter_maplewood.png">Maple</div>
+            <div class="button" data-image="imgs/16_tree_planter_oakenwood.png">Oaken</div>
+            <div class="button" data-image="imgs/17_tree_planter_olivewood.png">Olive</div>
+            <div class="button" data-image="imgs/18_tree_planter_orangewood.png">Orange</div>
+            <div class="button" data-image="imgs/19_tree_planter_pinewood.png">Pine</div>
+            <div class="button" data-image="imgs/20_tree_planter_walnut.png">Walnut</div>
+            <div class="button" data-image="imgs/21_tree_planter_willow.png">Willow</div>
+        </div>
+        <div class="button_group">
+            <div class="button" data-image="imgs/22_tree_planter_blueberrywood.png">Blueberry</div>
+            <div class="button" data-image="imgs/23_tree_planter_raspberrywood.png">Raspberry</div>
+            <div class="button" data-image="imgs/24_tree_planter_grapewood.png">Grape</div>
+            <div class="button" data-image="imgs/25_tree_planter_hazelnutwood.png">Hazelnut</div>
+            <div class="button" data-image="imgs/26_tree_planter_thorn.png">Thorn</div>
+            <div class="button" data-image="imgs/27_tree_planter_oleanderwood.png">Oleander</div>
+            <div class="button" data-image="imgs/28_tree_planter_lavenderwood.png">Lavender</div>
+            <div class="button" data-image="imgs/29_tree_planter_camelliawood.png">Camellia</div>
+            <div class="button" data-image="imgs/30_tree_planter_rosewood.png">Rose</div>
+            <div class="button" data-image="imgs/31_tree_planter_lingonberrywood.png">Lingonberry</div>
+        </div>
+    </div>
+    <div id="images"></div>
+</div>
+
+<script>
+    const options = document.querySelectorAll('.button');
+    const imageContainer = document.getElementById('images');
+    const selectedImages = new Set();
+    let hoverPreview = null;
+
+    options.forEach(option => {
+        option.addEventListener('mouseover', () => {
+            if (!selectedImages.has(option.dataset.image)) {
+                showPreview(option.dataset.image);
+            }
+        });
+
+        option.addEventListener('mouseout', () => {
+            if (hoverPreview) {
+                imageContainer.removeChild(hoverPreview);
+                hoverPreview = null;
+            }
+        });
+
+        option.addEventListener('click', () => {
+            if (selectedImages.has(option.dataset.image)) {
+                selectedImages.delete(option.dataset.image);
+                option.classList.remove('selected');
+            } else {
+                selectedImages.add(option.dataset.image);
+                option.classList.add('selected');
+            }
+            updateSelectedImages();
+        });
+    });
+
+    function showPreview(image) {
+        if (hoverPreview) {
+            imageContainer.removeChild(hoverPreview);
+        }
+        hoverPreview = document.createElement('img');
+        hoverPreview.src = image;
+        hoverPreview.style.width = '390px';
+        hoverPreview.style.opacity = '0.5';
+        imageContainer.appendChild(hoverPreview);
+    }
+
+    function updateSelectedImages() {
+        imageContainer.innerHTML = '';
+        const width = imageContainer.clientWidth;
+        const height = imageContainer.clientHeight;
+        const aspectRatio = 1296 / 681;
+        const imgWidth = Math.min(width, aspectRatio * height) / Math.max(selectedImages.size, 1);
+        selectedImages.forEach(image => {
+            const img = document.createElement('img');
+            img.src = image;
+            img.style.width = '390px';
+            imageContainer.appendChild(img);
+        });
+    }
+
+    function clearSelections() {
+        selectedImages.clear();
+        options.forEach(option => option.classList.remove('selected'));
+        updateSelectedImages();
+    }
+    function selectAll() {
+        options.forEach(option => {
+            selectedImages.add(option.dataset.image);
+            option.classList.add('selected');
+        });
+        updateSelectedImages();
+    }
+</script>
+
+</body>
+</html>
