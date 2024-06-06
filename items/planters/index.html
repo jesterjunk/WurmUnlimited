@@ -95,49 +95,72 @@
         <button class="select-all-button" onclick="selectAll()">Select All</button>
     </div>
     <div id="options">
-        <div class="button_group">
-            <div class="button" data-image="imgs/00_tree_planter_brick.png">Brick</div>
-            <div class="button" data-image="imgs/01_tree_planter_clay.png">Clay</div>
-            <div class="button" data-image="imgs/02_tree_planter_marble.png">Marble</div>
-            <div class="button" data-image="imgs/03_tree_planter_pottery.png">Pottery</div>
-            <div class="button" data-image="imgs/04_tree_planter_sandstone.png">Sandstone</div>
-            <div class="button" data-image="imgs/05_tree_planter_slate.png">Slate</div>
-            <div class="button" data-image="imgs/06_tree_planter_stone.png">Stone</div>
-        </div>
-        <div class="button_group">
-            <div class="button" data-image="imgs/07_tree_planter_applewood.png">Apple</div>
-            <div class="button" data-image="imgs/08_tree_planter_birchwood.png">Birch</div>
-            <div class="button" data-image="imgs/09_tree_planter_cedarwood.png">Cedar</div>
-            <div class="button" data-image="imgs/10_tree_planter_cherrywood.png">Cherry</div>
-            <div class="button" data-image="imgs/11_tree_planter_chestnut.png">Chestnut</div>
-            <div class="button" data-image="imgs/12_tree_planter_firwood.png">Fir</div>
-            <div class="button" data-image="imgs/13_tree_planter_lemonwood.png">Lemon</div>
-            <div class="button" data-image="imgs/14_tree_planter_lindenwood.png">Linden</div>
-            <div class="button" data-image="imgs/15_tree_planter_maplewood.png">Maple</div>
-            <div class="button" data-image="imgs/16_tree_planter_oakenwood.png">Oaken</div>
-            <div class="button" data-image="imgs/17_tree_planter_olivewood.png">Olive</div>
-            <div class="button" data-image="imgs/18_tree_planter_orangewood.png">Orange</div>
-            <div class="button" data-image="imgs/19_tree_planter_pinewood.png">Pine</div>
-            <div class="button" data-image="imgs/20_tree_planter_walnut.png">Walnut</div>
-            <div class="button" data-image="imgs/21_tree_planter_willow.png">Willow</div>
-        </div>
-        <div class="button_group">
-            <div class="button" data-image="imgs/22_tree_planter_blueberrywood.png">Blueberry</div>
-            <div class="button" data-image="imgs/23_tree_planter_raspberrywood.png">Raspberry</div>
-            <div class="button" data-image="imgs/24_tree_planter_grapewood.png">Grape</div>
-            <div class="button" data-image="imgs/25_tree_planter_hazelnutwood.png">Hazelnut</div>
-            <div class="button" data-image="imgs/26_tree_planter_thorn.png">Thorn</div>
-            <div class="button" data-image="imgs/27_tree_planter_oleanderwood.png">Oleander</div>
-            <div class="button" data-image="imgs/28_tree_planter_lavenderwood.png">Lavender</div>
-            <div class="button" data-image="imgs/29_tree_planter_camelliawood.png">Camellia</div>
-            <div class="button" data-image="imgs/30_tree_planter_rosewood.png">Rose</div>
-            <div class="button" data-image="imgs/31_tree_planter_lingonberrywood.png">Lingonberry</div>
-        </div>
+        <div class="button_group" id="button_group_1"></div>
+        <div class="button_group" id="button_group_2"></div>
+        <div class="button_group" id="button_group_3"></div>
     </div>
     <div id="images"></div>
 </div>
 
 <script>
+    const planters = `
+brick
+clay
+marble
+pottery
+sandstone
+slate
+stone
+
+applewood
+birchwood
+cedarwood
+cherrywood
+chestnut
+firwood
+lemonwood
+lindenwood
+maplewood
+oakenwood
+olivewood
+orangewood
+pinewood
+walnut
+willow
+
+blueberrywood
+raspberrywood
+grapewood
+hazelnutwood
+thorn
+oleanderwood
+lavenderwood
+camelliawood
+rosewood
+lingonberrywood
+`.trim().split('\n\n');
+
+    const buttonGroups = [
+        document.getElementById('button_group_1'),
+        document.getElementById('button_group_2'),
+        document.getElementById('button_group_3')
+    ];
+
+    let groupIndex = 0;
+    planters.forEach(group => {
+        group.split('\n').forEach((planter, index) => {
+            const planterName = planter.trim();
+            const planterNameTitleCase = planterName.charAt(0).toUpperCase() + planterName.slice(1).replace(/wood$/, '');
+            const button = document.createElement('div');
+            button.className = 'button';
+            button.dataset.image = `imgs/${String(groupIndex * 11 + index).padStart(2, '0')}_tree_planter_${planterName}.png`;
+            button.textContent = planterNameTitleCase;
+
+            buttonGroups[groupIndex].appendChild(button);
+        });
+        groupIndex++;
+    });
+
     const options = document.querySelectorAll('.button');
     const imageContainer = document.getElementById('images');
     const selectedImages = new Set();
