@@ -283,7 +283,7 @@
             imageContainer.removeChild(hoverPreview);
         }
         hoverPreview = document.createElement('img');
-        hoverPreview.src = image;
+        hoverPreview.src = image.replace('imgs/', 'imgs/tn/').replace('.png', '_tn.png');
         hoverPreview.style.width = '380px';
         hoverPreview.style.opacity = '0.5';
         hoverPreview.style.position = 'absolute';
@@ -299,7 +299,8 @@
             const imgContainer = document.createElement('div');
             imgContainer.className = 'image-container';
             const img = document.createElement('img');
-            img.src = image;
+            const thumbImage = image.replace('imgs/', 'imgs/tn/').replace('.png', '_tn.png');
+            img.src = thumbImage;
             img.style.width = '380px';
             img.addEventListener('click', () => openLightbox(image));
             const label = document.createElement('div');
@@ -307,6 +308,10 @@
             imgContainer.appendChild(img);
             imgContainer.appendChild(label);
             imageContainer.appendChild(imgContainer);
+
+            // Preload full-resolution image
+            const fullImage = new Image();
+            fullImage.src = image;
         });
     }
 
