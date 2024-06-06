@@ -302,16 +302,18 @@
             const thumbImage = image.replace('imgs/', 'imgs/tn/').replace('.png', '_tn.png');
             img.src = thumbImage;
             img.style.width = '380px';
+            img.loading = 'lazy'; // Lazy load thumbnails
+            img.addEventListener('load', () => {
+                // Preload full-resolution image after thumbnail is loaded
+                const fullImage = new Image();
+                fullImage.src = image;
+            });
             img.addEventListener('click', () => openLightbox(image));
             const label = document.createElement('div');
             label.textContent = image.split('_tree_planter_')[1].replace('.png', '').replace(/wood$/, '').charAt(0).toUpperCase() + image.split('_tree_planter_')[1].replace('.png', '').slice(1);
             imgContainer.appendChild(img);
             imgContainer.appendChild(label);
             imageContainer.appendChild(imgContainer);
-
-            // Preload full-resolution image
-            const fullImage = new Image();
-            fullImage.src = image;
         });
     }
 
