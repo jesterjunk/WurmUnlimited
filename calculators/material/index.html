@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Material Calculator</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="panel" id="inputPanel">
+            <h1>Material Calculator</h1>
+            <div class="calculator">
+                <div class="input-field">
+                    <label for="recipe">Select Recipe</label>
+                    <select id="recipe">
+                        <option value="" selected>Choose a recipe</option>
+                        <option value="marbleTreePlanter">Marble Tree Planter</option>
+                    </select>
+                </div>
+                <div class="input-field">
+                    <label for="quantity">Quantity</label>
+                    <input type="number" id="quantity" min="1" value="1" autocomplete="off">
+                </div>
+            </div>
+        </div>
+        <div class="panel" id="outputPanel">
+            <div id="output">
+                <div id="startingMaterials"><h3>Starting Materials:</h3><ul></ul></div>
+                <div id="additionalMaterials"><h3>Additional Materials:</h3><ul></ul></div>
+                <div id="totalMaterials"><h3>Total Materials:</h3><ul></ul></div>
+            </div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
