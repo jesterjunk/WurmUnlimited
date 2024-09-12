@@ -16,14 +16,3 @@ https://jesterjunk.github.io/WurmUnlimited/Cheatsheets/Meditation
 https://jesterjunk.github.io/WurmUnlimited/mods/server/Wurm_Unlimited_-_adjusting_vehicle_settings_with_movemod_server_mod
 
 https://jesterjunk.github.io/WurmUnlimited/items/planters
-
-
-<br>
-<br>
-
-
-untested mod edit comparisons
-
-https://jesterjunk.github.io/WurmUnlimited/edits/flouraction.java_vs_concreteaction.java.html
-
-https://jesterjunk.github.io/WurmUnlimited/edits/windmill_original_backup.java_vs_windmill.java.html
