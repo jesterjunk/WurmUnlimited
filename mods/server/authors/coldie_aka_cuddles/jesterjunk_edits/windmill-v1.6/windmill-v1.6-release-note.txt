@@ -1,0 +1,7 @@
+windmill-v1.6
+
+release note:
+
+added recipe to windmill
+
+clay 1kg + sand 1kg = mortar 2kg

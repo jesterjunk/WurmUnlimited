@@ -1,0 +1,7 @@
+windmill-v1.5
+
+release note:
+
+added recipe to windmill
+
+clay 2kg + rock shards 20kg = concrete 3kg ... Wogic says: “The remaining 19 kg of rock shards have been banished to the void.”
