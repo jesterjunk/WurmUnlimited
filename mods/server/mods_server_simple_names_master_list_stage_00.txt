@@ -186,7 +186,7 @@ modname    VoteReward.properties
 modname    windmill.properties
 
 
-────────────────────────────────────────────────────────────────────────────────
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
 
 
 [EN] Sleepy Gaming | 25x/150x | PVE | Mods | 4k Map
@@ -299,7 +299,7 @@ modname    Windmill
 modname    Wyvern Mod
 
 
-────────────────────────────────────────────────────────────────────────────────
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
 
 
 Genesis - 5x-2x Skill Curve / 4x Actions - Free Deeds, No Upkeep, Weekly Events
@@ -342,7 +342,7 @@ modname    WyvernMods - Compilation of mods enhancing Wurm Unlimited gameplay.
 modname    VoteReward - Earn 25c daily for voting for our server.
 
 
-────────────────────────────────────────────────────────────────────────────────
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
 
 
 Abravion
@@ -430,7 +430,7 @@ modname    Windmills
 modname    Wyvern
 
 
-────────────────────────────────────────────────────────────────────────────────
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
 
 
 The Immortal Forest
@@ -491,7 +491,7 @@ modname    Non-Combat Pets ( Minipets) ( set on 100 normals, 50 rares, and 5 fan
 modname    Creatures Mod (AbsollutlyNobody)                                                                                      Add 7 new colors of horses, new colors of animals, and new animals (zebra, panda, ocelot)
 
 
-────────────────────────────────────────────────────────────────────────────────
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
 
 
 Riviera PvE - Free Deed - Epic - Bounties - Modded
@@ -557,7 +557,7 @@ modname    Void Incursions                            There will be rift events 
 modname    Waxed Food                                 You can use Beeswax to preserve food and use them as decoration.
 
 
-────────────────────────────────────────────────────────────────────────────────
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
 
 
 The Commonwealth PvE - 2x3x - Modded
@@ -643,7 +643,7 @@ https://forum.wurmonline.com/index.php?/profile/77711-tyoda/
 https://forum.wurmonline.com/index.php?/profile/68843-xyp/
 
 
-────────────────────────────────────────────────────────────────────────────────
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
 
 
 Wurm Unlimited Forum
@@ -819,7 +819,7 @@ modname    EnhancedChickenCoop                                                  
 modname    CustomWagons (with the help of Bdew and Coldie )                                 *Creates the potential to make your own custom wagons provided you can add the textures for them.
 
 
-────────────────────────────────────────────────────────────────────────────────
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
 
 
 https://steamcommunity.com/sharedfiles/filedetails/?id=1897906283
@@ -1085,7 +1085,7 @@ By Luceat
 modname    Skillmod - ----
 
 
-────────────────────────────────────────────────────────────────────────────────
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
 
 
 Complete Mod List - Update 13. Oct. 2019
@@ -1469,3 +1469,493 @@ modname    Skillmod                                            Released     http
 ▄ Forum Thread
 ▄ Media
 ▄ Github
+
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+
+
+Thrive
+
+modname    Add Kingdom Items
+modname    Add mission Items
+modname    Announcer
+modname    Bag of Holding
+modname    Better Dig
+modname    Better Farm
+modname    Bounty
+modname    Bounty on Burn
+modname    Bulk Separate
+modname    Carftable Pauldrons
+modname    Creature Age
+modname    Crop mod
+modname    Discord
+modname    Distant Render (requires client mod)
+modname    DPS
+modname    Event mod
+modname    Fire burn time
+modname    Fuel Storage
+modname    Harvest Helper
+modname    Hitching post
+modname    Inbreed warning
+modname    Leaderboard
+modname    Lead more
+modname    Location (/location)
+modname    Mini pets
+modname    More craftables
+modname    Move mod
+modname    One tile mining
+modname    Server tweaks
+modname    Spell mod
+modname    Spellcraft
+modname    Start gear
+modname    Survival
+modname    Tabard mod
+modname    Timer fix
+modname    Taxidermy
+modname    Titles
+modname    Vote
+
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+
+
+Valoria
+
+An extensive list of all out mods and what they do
+
+* Spellmod
+    - No priest restrictions. Spells that required 100 favor or linking to cast now require a maximum of 90 favor.
+* Cropmod
+    - No crop rot.
+* Harvesthelper
+    - Adds the /seasons command to see what is in season.
+* Creatureagemod
+    - Young animals reach a breedable age faster.
+* Hitchingpost
+    - Adds craftable hitching posts.
+* Inbreedwarning
+    - Adds a warning when breeding related creatures.
+* Serverpacks, serverfixes, servermap, httpserver, scriptrunner.
+    - Mods that help run the server smoothly, allow modded items to be visable and shows the server map.
+* Servertweaks
+    - Multiple small changes including allowing libila as a god on freedom.
+* Spellcraft
+    - Adds new spells, statuette quality improves channeling.
+* Duskombat
+    - Improvements to the combat system to make it more balanced.
+* Armory
+    - Improvements to armor modifiers for balance.
+* Wyvernmods
+    - Large mod which includes custom mobs, titans, rare mobs (reaper and spectral drake), mastercrafting and more.
+    - Affinity food now gives 30% skillgain not 10%.
+    - Many actions can now be done while mounted (farming, mining etc).
+    - Houses may now be double the size of what your carpentry allows.
+    - Reduced mailing costs from 1c to 1i.
+    - Libilia priests will have strongwall on freedom.
+    - Quality of the bed will provide bonus sb when sleeping.
+    - When imping with rare materials any sucessful imp has a chance it is no longer only on consumption.
+    - Tomes can be used on any 3x3 flat ground with an altar.
+    - Smelting pots are disabled.
+    - Hybrid skillgain is enabled meaning that imping is just as viable as creation spam for skillgain.
+    - Mediation questions tiles are no longer needed. Any cave tile for insanity. Grass, tree or bush for love. Rock for power, sand for knowledge, mycelium for hate.
+    - Hate war bonus is replaced with walking movement speed bonus starting at 1% at level 3 and 10% at level 13.
+    - SOTG is replaced with 2% action speed at level 7 and 12% at level 13. Does not affect swing timers for weapons.
+    - Power now has scaling bonus stamina starting at 5 at level 7 and 30 and level 13.
+    - Knowledge now scales at level 7 from 5% skillgain to 30% at level 13.
+    - Missions fixed and more available.
+    - When a new creature is born on enchanted grass it removes 1 bad trait as a free genesis cast.
+* Loottables
+    - Extra loot can be found on certain creatures. Champs have a small chance to drop a rare bone. Champs will also drop a random moometal lump and a random tool with a random enchant. Goblins will drop random metal lumps on death as well. Uniques and Titans will drop extra loot. The rare mobs (spec drake and reaper) will drop a treasure map cache on death.
+* Treasurehunting
+    - Mod that enables treasure maps to be found by doing actions such as mining, digging, woodcutting, fishing, foraging or hunting humanoid creatures. They also drop on the rare mobs and on uniques and titans when slain.
+* Serverlistcounter
+    - Correctly displays the playercount. We do not add fake numbers to our count.
+* Discord Relay
+    - Connects the ingame channels and alerts to discord.
+* Starter Gear
+    - Adjusts starter gear so all gear and tools are 10ql.
+* Kingdomstuff
+    - Allows for the creation of all PMK items.
+* Bulkseperated
+    - Splits items in bulk storage to sort by quality.
+* Betterfarm
+    - QoL mod for farming and forestry.
+* Betterdig
+    - QoL mod for digging. Dirt drops to ground or goes into the cart you dig from.
+* Highway Portals
+    - If there is a highway running to your deed you may make a portal to connect it to other exisiting ones.
+* Timerfix
+    - Shorter timers for actions like praying, spells, mediating, sowing, destroying, alchemy and sacrificing.
+* Locationcommand
+    - The command /location will give your coordinates.
+Armoury - Weapons Updated
+- most won't notice a change
+- may still have to be tweaked but all weapons should be a lot more balanced now while still retaining their identity(except crowbar: is a slower skill penalty dps weapon now)
+- knives nerfed to not be viable as weapons currently
+- crit is generally higher, we'll see how that works lol
+- wyvernmods weapons arent a thing yet, might we one day if we figure out how to use them in armoury mod
+- Armors have WO stats except drake hide has less casting penalty
+All the stats for nerds:
+https://cdn.discordapp.com/attachments/1030611169263767552/1033245955975282748/weaps.png?ex=66e9b808&is=66e86688&hm=efdece95d6fa8089aa36af83847b848b3a2293b27557244755989c32f6cce4c9&
+https://web.archive.org/web/20240916203747id_/https://cdn.discordapp.com/attachments/1030611169263767552/1033245955975282748/weaps.png?ex=66e9b808&is=66e86688&hm=efdece95d6fa8089aa36af83847b848b3a2293b27557244755989c32f6cce4c9&
+
+Property files as of 26th december 2023
+in case someone wanted to look up very specific stuff
+https://cdn.discordapp.com/attachments/1030611169263767552/1189241083398467675/Properties.zip?ex=66e9ac11&is=66e85a91&hm=742733c86be8c662733e4d9e5add43d6e5b3750dba662b8758c24f37214373a1&
+https://web.archive.org/web/20240916204006id_/https://cdn.discordapp.com/attachments/1030611169263767552/1189241083398467675/Properties.zip?ex=66e9ac11&is=66e85a91&hm=742733c86be8c662733e4d9e5add43d6e5b3750dba662b8758c24f37214373a1&
+
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+
+
+Naeadit
+
+Currently installed mods, some of them require client side modloader: https://github.com/ago1024/WurmClientModLauncher/releases/tag/v0.15
+AddKingdomItems - allows for crafting of PMK wagons and such
+Altars - new, fancy altars (requires client side serverpacks mod - part of Ago's modloader)
+Archeotweaks - better archaeology finds, including rift materials.
+AshProduce - forges, ovens and such constantly produce ash. Ash quality = burner quality
+BagOfHolding - spell for all priests. Magically increases capacity of containers.
+BetterDig - dug resource is put in in crates in vehicle. Also allows for some actions to be preformed from a vehicle which normally require to disembark.
+BetterFarm - crops don't rot. Area of Effect farming (3x3 at 50 skill, 5x5 at 70 skill and 7x7 at 90 skill). Adds "pick all" and "plant all" options to planter racks.
+BountyMod - money for killing mobs.
+BulkSeparated - bulk containers split stacks by quality. Option under right click menu to disable sorting if needed.
+Combiner - Allows to combine logs, acorns, cochineal and woad
+CreatureAgeMod - new born animals grow up to "hitchable" stage super fast.
+CropMod - adds 5 units to every field harvested.
+DisableFogSpiders - Removes fog spiders, those are said to cause lag.
+DiscordRealy - 2 way communication between some of the ingame channels and Discord server.
+DoubleBulkCapacity - Crates are currently set to default x5. Bulk containers are set to max.
+DUSKombat - no skill loss on death. Player to environment damage set to x1.5
+FireBurnTime - Adds exact time left for the fire to go out in heat sources when examined.
+Halloween - decorative plus mini-event
+HarvestHelper - adds the /seasons command which returns harvest season data for all harvestables in the events window.
+HitchingPost - Adds a craftable hitching post (requires client side serverpacks mod - part of Ago's modloader)
+HitchLimits - Allows to hitch any mob which can be lead with a rope to carts/wagons. Untamed animals don't unhitch, Too old animals don't unhitch. Hitched creatures become peaceful.
+HWPortals - Adds highway portals. Those teleport the player with the vehicle/mount to any other portal within the same highway network. One portal per settlement. Upon teleporting player gets dismounted so make sure your mount is branded. Vehicles don't have that issue since they inherently have permissions built in.
+InfinityWideEntry - removes the limit of 3 tiles maximum width of cave entrances.
+MarkAndRecall - Adds craftable runes. Ultima Onine style. Those can be marked anywhere where the player is permitted to cast deity spells (so in other player's cities that permission needs to be granted to allow someone to mark a rune there). They don't take damage from use and can be re-marked in new spot if needed.
+MightyMattockMod - adds a new tool: Mattock. It allows for terraforming dirt even if there is rock layer underneath.
+ModifyGestationPeriod - Adds "decrease Gestation" spell to all priests. This removes 1 day from the pregnancy timer per cast.
+MoonmetalMiningMod - fixes the cap on moonmetal veins, adds random drop of seryll lumps (those don't have veins) to mining actions. Currently set to 1 in 100 mining actions.
+MorePottables - Adds Woad, Rift Crystal, Rift Wood and Sift Stone to the list of items which can be grown in pottery planters.
+MoveMod - multiple movement speed and slope limit tweaks.
+NoBuildLimit - Building limit from Carpentry skill no longer applies. Allows to build as big as your soul desires.
+NoMailCost - mailing items is free but bounced mails still cost 1i (rejected or expired after 14 days)
+OneTileMining - Allows to surface mine rock corners without having to expose all 4 adjacent tiles to rock.
+Pick More Sprouts - 5 sprouts per action if picking 1 tile ad a time. AoE sprout picking produces the vanilla number of sprouts (1 per tree).
+SacrificeMod - sacrificing rare/supreme/fantastic items produces a rare/supreme/fantastic strange bone. Currently chance is set to 100%
+SimpleConcrete - Adds a recipe for concrete which uses rock shards and clay only.
+SpellCraft - Multiple tweaks and addons. Max faith = 300. 10 faith to become priest. Rite favor required greatly reduced. Replenish spell: casted on a container which can hold liquid makes the container automatically refill itself.
+SpellMod - Removes delay between prayer gains and limit of daily gains from prayers. Removes priest restrictions. Gives all priests all spells.
+Taxidermy - Allows to create dead, standing and animated decorative models of slain monsters. Adds the Taxidermy Kit item to craftable recipes list. Animated model uses 1000 karma to create.
+Timed Pay - Gives players 5 karma per minute online.
+TimerFix - some of the actions which don't follow the default action timer multiplier are fixed here.
+TreasureHunting - adds treasure maps which are randomly given to players then they preform certain actions.
+WaxedMod - allows to wax food items to preserver them as decoration.
+Windmill - Adds windmill (grinds flour), Sawmill (makes planks/hull planks/shafts and other wooden items), Masonry Mill (makes bricks and slabs). Put material in the mill, right click and select what it should make - profit.
+WyvernMods - This is so extensive that i'll try to write it up separately.
+
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+
+
+Dakotija
+https://www.dakotija.eu/
+https://web.archive.org/web/20240916205225/https://www.dakotija.eu/
+
+BountyOnBurn
+DUSKombat
+DeedMod
+DiscorRelay
+ServerTweaks
+TreasureHunting
+VoteReward
+Alchemy
+Bagofholding
+Betterdig
+Bountymod
+Bulkseparated
+Christmasmod
+Creatureagemod
+Cropmod
+FuelStorage
+Halloween
+Harvesthelper
+Hitchingpost
+Inbreedwarning
+Metatemod
+Merchantcap
+Onetilemining
+Planters
+Repairtower
+Servermap
+Spellmod
+Timerfix
+Upkeepcost
+Rift Altar
+
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+
+
+Varulvhamn
+
+Mod list:
+- Better dig
+- Better farm
+- Bounty on burn
+- Bulk mod
+- Bulk separated
+- Chirp info
+- Custom creatures
+- Crop mod
+- Dig to ground
+- Discord relay
+- Double bulk capacity
+- DUSKombat
+- Fire burn time
+- Hitching post
+- Hitch limits
+- Highway portals
+- Inbreed warning
+- Increased merchant items
+- Kingdom items
+- Kingdom tabards
+- Merchant decay prevention
+- Model me impressed
+- Move to centre
+- No holy ground
+- Piggy bank
+- Planters
+- Repair guard towers
+- Rift event
+- Sacrifice mod
+- Simple concrete
+- Spellcraft
+- Spell mod
+- Stable master
+- Taxidermy
+- Tent sleep
+- Threedee
+- Treasure hunting
+- Waxed foods
+- Windmills
+- Wyvern mods
+
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+
+
+M.IND
+
+ActionDemo
+Announcer
+BagOfHolding
+BetterDig
+BetterFarm
+BulkSeparated
+CreatureAgeMod
+CropMod
+DigToGround
+DoubleBulkCapacity
+DUSKombat
+EmptyTrashBin
+FireBurnTime
+HarvestHelper
+HitchingPost
+InbreedWarning
+AcceleratedTreeFarm
+SpellMod
+TreasureHunting
+WyvernMods
+AshProduce
+ActionTimerFix
+MoveToCenter
+LocationCommand
+BalanceCommand
+SimpleConcrete
+
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+
+
+Nirvana
+
+Nirvana_mods_image.png
+https://cdn.discordapp.com/attachments/1071805899435421767/1127639999500783716/image.png?ex=66e9b096&is=66e85f16&hm=317370f72e74ea4f82cae4f54683cc6b23bd99ed20390793c0145bce92b6cd95&
+https://web.archive.org/web/20240916210925/https://cdn.discordapp.com/attachments/1071805899435421767/1127639999500783716/image.png?ex=66e9b096&is=66e85f16&hm=317370f72e74ea4f82cae4f54683cc6b23bd99ed20390793c0145bce92b6cd95&
+
+
+Mods used on the server
+
+Ada And Glimmer rods
+Add Kingdom Items
+Add Mission Items
+Announcer
+Archaeology Tweaks
+Ash Produce
+Auto Alerts
+Bdew Server Mod Tools
+Better Digging
+Better Farming
+Bounty Mod
+Bounty on Burn
+Bulk Mod
+Bulk Separated
+CavusNostra
+Chest Claim
+Combiner
+Craftable Pauldrons
+Creature Age Mod
+Crop Mod
+Custom NPC
+Deed Maker
+Disable Fog Spiders
+Double Bulk Capacity
+Dye maker
+Fire Burn Time
+Fish Monger
+Halloween
+Harvest Helper
+Hey man where is my cart
+Highway Portals
+Hitch Limits
+Hitching Post
+Hota Statues Mod
+Http Server In breed
+Infinite mine
+Lead More
+Location Command
+Lootables
+LTDebuff
+Mark and Recall Runes
+Meditate Mod
+Milk Reset
+Mini Pets
+Modify Gestation Period
+More Craftables
+Move Mod
+Move to Center
+NCPs' mods
+new weapons
+No Holy land
+No Mail Cost
+One Tile Mining
+Pick More Sprouts
+Planters
+Sacrifice Mod
+Salve Mod
+Sawmill mod
+Signs mod
+Simple Concrete
+Sindusk Library
+Spell Craft
+Spell Mod
+Stable Master
+Starter Gear
+Tabard Mod
+Taxidermy
+Treasure Hunting
+Warning
+Waxed
+Wyvern mods
+
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+
+
+Terra Australis
+
+AdaAndGlimmerRods (disabled for now)
+AddKingdomItems
+AddMissionItems
+Alchemy Mod
+altars
+announcer
+AshProduce
+AutoAlerts
+Awakening
+bagofholding
+betterdig
+betterfarm
+bountymod
+BountyOnBurn
+bulkseparated
+buyermerchant
+cavusnostra
+chestclaim
+christmasmod
+Coffee
+combiner
+CopyItems
+creatureagemod
+creaturemod
+cropmod
+customtrader
+CustomWagons
+decorations
+deedmaker
+deedmod
+~~deliverycontracts~~ (removed due to conflict)
+DiscordRelay
+DPS
+DragonRider(disabled)
+Duskombat
+Dyemaker
+Empty Trashbin
+eventmod
+FireBurnTime
+fishmonger
+fishytweaks
+Fuel Storage
+GuardAssist
+harvesthelper
+hitchingpost
+hitchlimits
+hwportals
+inbreedwarning
+leadmore
+Load Altars
+LocationCommand
+MarkAndRecall vehicles
+meditatemod
+Mighty Mattock
+minipets
+ModifyGestationPeriod
+modtreefarm
+moonmetalblessings
+morecraftables
+movemod
+movetocenter
+newportals
+nobuildlimit
+NoHolyGround
+NoMailCost
+onetilemining
+paintings
+PickMoreSprouts
+planters
+PollSpawner(disabled)
+Reedlands
+riftevent
+sacrificemod
+salvemod
+ServerTweaks
+Shop Anvil
+SimpleConcrete
+SimplePavingMod
+SinduskLibrary
+Spellcraft
+spellmod
+StableMaster
+TabardMod
+taxidermy
+tentsleep
+threedee
+timerfix
+TreasureHunting
+unleash
+VoteReward
+waxed
+Windmills
