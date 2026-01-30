@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Wurm Unlimited Recipes</title>
+        <style>
+            html, body {
+                height: 100%;
+            }
+
+            body {
+                margin: 0;
+                padding: 0;
+                background: #1C1712;
+                color: #E7DCC6;
+                font-family: "Trebuchet MS", Verdana, Arial, sans-serif;
+                font-size: 14px;
+                line-height: 1.4;
+            }
+
+            .page_shell {
+                min-height: 100%;
+                padding: 16px 12px 28px 12px;
+                box-sizing: border-box;
+            }
+
+            .page_frame {
+                max-width: 980px;
+                margin: 0 auto;
+                background: #241D16;
+                border: 1px solid #5B4A33;
+                box-shadow: 0 1px 0 rgba(255, 255, 255, 0.06), 0 10px 30px rgba(0, 0, 0, 0.45);
+                border-radius: 6px;
+                overflow: hidden;
+            }
+
+            .page_header {
+                padding: 14px 14px 12px 14px;
+                background: linear-gradient(#2D241B, #1F1913);
+                border-bottom: 1px solid #5B4A33;
+            }
+
+            .page_title {
+                margin: 0;
+                font-size: 18px;
+                letter-spacing: 0.4px;
+                color: #EBDCB8;
+                text-shadow: 0 1px 0 rgba(0, 0, 0, 0.7);
+            }
+
+            .page_subtitle {
+                margin: 6px 0 0 0;
+                font-size: 12px;
+                color: #CDBD9B;
+            }
+
+            .toolbar {
+                padding: 12px 14px 10px 14px;
+                background: #221B15;
+                border-bottom: 1px solid #5B4A33;
+            }
+
+            .controls_row {
+                display: grid;
+                grid-template-columns: 1fr 180px;
+                gap: 10px;
+                align-items: center;
+            }
+
+            .control_group {
+                display: block;
+            }
+
+            .label_text {
+                display: block;
+                font-size: 12px;
+                color: #CDBD9B;
+                margin: 0 0 4px 0;
+                text-shadow: 0 1px 0 rgba(0, 0, 0, 0.6);
+            }
+
+            input[type="search"], select {
+                width: 100%;
+                box-sizing: border-box;
+                padding: 9px 10px;
+                border-radius: 5px;
+                border: 1px solid #5B4A33;
+                background: linear-gradient(#2B231B, #1E1812);
+                color: #F1E7D2;
+                outline: none;
+                box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.6), 0 1px 0 rgba(255, 255, 255, 0.05);
+                font-size: 14px;
+            }
+
+            input[type="search"]::placeholder {
+                color: rgba(231, 220, 198, 0.55);
+            }
+
+            input[type="search"]:focus, select:focus {
+                border-color: #8B6B3C;
+                box-shadow: 0 0 0 2px rgba(139, 107, 60, 0.25), inset 0 1px 2px rgba(0, 0, 0, 0.6);
+            }
+
+            .meta_row {
+                margin-top: 10px;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 8px 14px;
+                align-items: baseline;
+            }
+
+            .badge {
+                display: inline-block;
+                padding: 3px 8px;
+                border: 1px solid #5B4A33;
+                background: linear-gradient(#2B231B, #1E1812);
+                border-radius: 999px;
+                font-size: 12px;
+                color: #DCCFAF;
+                box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05);
+            }
+
+            .status_text {
+                font-size: 12px;
+                color: #CDBD9B;
+            }
+
+            .content {
+                padding: 12px 14px 14px 14px;
+            }
+
+            .results {
+                display: grid;
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+                gap: 10px;
+            }
+
+            .recipe_card {
+                background: linear-gradient(#2B231B, #1F1913);
+                border: 1px solid #5B4A33;
+                border-radius: 6px;
+                padding: 10px 10px 9px 10px;
+                box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05);
+            }
+
+            .recipe_name {
+                margin: 0 0 6px 0;
+                font-size: 14px;
+                color: #EBDCB8;
+                text-shadow: 0 1px 0 rgba(0, 0, 0, 0.7);
+                word-break: break-word;
+            }
+
+            .recipe_kv {
+                margin: 0;
+                padding: 0;
+                list-style: none;
+                font-size: 12px;
+                color: #DCCFAF;
+            }
+
+            .recipe_kv li {
+                margin: 0 0 3px 0;
+                padding: 0;
+                word-break: break-word;
+            }
+
+            .kv_key {
+                color: #BFAF8E;
+            }
+
+            .recipe_desc {
+                margin: 7px 0 0 0;
+                font-size: 12px;
+                color: #CDBD9B;
+                border-top: 1px dotted rgba(91, 74, 51, 0.7);
+                padding-top: 7px;
+            }
+
+            @media (max-width: 720px) {
+                .controls_row {
+                    grid-template-columns: 1fr;
+                }
+
+                .results {
+                    grid-template-columns: 1fr;
+                }
+
+                .page_shell {
+                    padding: 10px 8px 18px 8px;
+                }
+
+                .page_header, .toolbar, .content {
+                    padding-left: 12px;
+                    padding-right: 12px;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="page_shell">
+            <div class="page_frame">
+                <div class="page_header">
+                    <h1 class="page_title">Wurm Unlimited Recipes</h1>
+                    <p class="page_subtitle">Type to search in realtime. No buttons.</p>
+                </div>
+
+                <div class="toolbar">
+                    <div class="controls_row">
+                        <div class="control_group">
+                            <label class="label_text" for="search_input">Search</label>
+                            <input id="search_input" type="search" placeholder="name, skill, ingredient, result..." autocomplete="off" spellcheck="false">
+                        </div>
+                        <div class="control_group">
+                            <label class="label_text" for="skill_select">Skill</label>
+                            <select id="skill_select">
+                                <option value="">All</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="meta_row">
+                        <span class="badge" id="count_badge">0 recipes</span>
+                        <span class="badge" id="shown_badge">0 shown</span>
+                        <span class="status_text" id="status_text"></span>
+                    </div>
+                </div>
+
+                <div class="content">
+                    <div class="results" id="results"></div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            (function () {
+                "use strict";
+
+                var recipe_list = [];
+                var render_timer = null;
+
+                var search_input_el = null;
+                var skill_select_el = null;
+                var results_el = null;
+                var status_text_el = null;
+                var count_badge_el = null;
+                var shown_badge_el = null;
+
+                function safe_text(value) {
+                    if (value === null || value === undefined) {
+                        return "";
+                    }
+                    return String(value);
+                }
+
+                function set_status_text(text_value) {
+                    status_text_el.textContent = safe_text(text_value);
+                }
+
+                function normalize_query(text_value) {
+                    return safe_text(text_value).toLowerCase().trim();
+                }
+
+                function build_skill_options() {
+                    var skill_map = {};
+                    var idx = 0;
+                    var recipe_obj = null;
+                    var skill_value = "";
+
+                    for (idx = 0; idx < recipe_list.length; idx += 1) {
+                        recipe_obj = recipe_list[idx];
+                        skill_value = safe_text(recipe_obj.skill);
+                        if (skill_value) {
+                            skill_map[skill_value] = true;
+                        }
+                    }
+
+                    var skill_list = Object.keys(skill_map).sort(function (a, b) {
+                        return a.localeCompare(b);
+                    });
+
+                    while (skill_select_el.options.length > 1) {
+                        skill_select_el.remove(1);
+                    }
+
+                    for (idx = 0; idx < skill_list.length; idx += 1) {
+                        var opt_el = document.createElement("option");
+                        opt_el.value = skill_list[idx];
+                        opt_el.textContent = skill_list[idx];
+                        skill_select_el.appendChild(opt_el);
+                    }
+                }
+
+                function index_recipes() {
+                    var idx = 0;
+                    var recipe_obj = null;
+                    var search_blob = "";
+
+                    for (idx = 0; idx < recipe_list.length; idx += 1) {
+                        recipe_obj = recipe_list[idx];
+                        try {
+                            search_blob = JSON.stringify(recipe_obj);
+                        } catch (err_obj) {
+                            search_blob = "";
+                        }
+                        recipe_obj.search_blob = safe_text(search_blob).toLowerCase();
+                    }
+                }
+
+                function fmt_field(field_value) {
+                    var text_value = safe_text(field_value);
+                    if (!text_value) {
+                        return "";
+                    }
+                    return text_value;
+                }
+
+                function render_recipe_card(recipe_obj) {
+                    var card_el = document.createElement("div");
+                    card_el.className = "recipe_card";
+
+                    var name_el = document.createElement("h2");
+                    name_el.className = "recipe_name";
+                    name_el.textContent = fmt_field(recipe_obj.name) || "(unnamed recipe)";
+                    card_el.appendChild(name_el);
+
+                    var kv_el = document.createElement("ul");
+                    kv_el.className = "recipe_kv";
+
+                    var recipe_id = fmt_field(recipe_obj.recipeid);
+                    var skill_value = fmt_field(recipe_obj.skill);
+                    var known_value = "";
+                    if (recipe_obj.known === true) {
+                        known_value = "yes";
+                    } else if (recipe_obj.known === false) {
+                        known_value = "no";
+                    } else {
+                        known_value = "";
+                    }
+
+                    var result_id = "";
+                    var result_name = "";
+                    var result_diff = "";
+                    var result_desc = "";
+
+                    if (recipe_obj.result && typeof recipe_obj.result === "object") {
+                        result_id = fmt_field(recipe_obj.result.id);
+                        result_name = fmt_field(recipe_obj.result.name);
+                        result_diff = fmt_field(recipe_obj.result.difficulty);
+                        result_desc = fmt_field(recipe_obj.result.description);
+                    }
+
+                    var active_id = "";
+                    if (recipe_obj.active && typeof recipe_obj.active === "object") {
+                        active_id = fmt_field(recipe_obj.active.id);
+                    }
+
+                    var target_id = "";
+                    if (recipe_obj.target && typeof recipe_obj.target === "object") {
+                        target_id = fmt_field(recipe_obj.target.id);
+                    }
+
+                    var li_el = null;
+
+                    if (recipe_id) {
+                        li_el = document.createElement("li");
+                        li_el.innerHTML = '<span class="kv_key">Recipe ID:</span> ' + escape_html(recipe_id);
+                        kv_el.appendChild(li_el);
+                    }
+
+                    if (skill_value) {
+                        li_el = document.createElement("li");
+                        li_el.innerHTML = '<span class="kv_key">Skill:</span> ' + escape_html(skill_value);
+                        kv_el.appendChild(li_el);
+                    }
+
+                    if (known_value) {
+                        li_el = document.createElement("li");
+                        li_el.innerHTML = '<span class="kv_key">Known:</span> ' + escape_html(known_value);
+                        kv_el.appendChild(li_el);
+                    }
+
+                    if (active_id) {
+                        li_el = document.createElement("li");
+                        li_el.innerHTML = '<span class="kv_key">Active:</span> ' + escape_html(active_id);
+                        kv_el.appendChild(li_el);
+                    }
+
+                    if (target_id) {
+                        li_el = document.createElement("li");
+                        li_el.innerHTML = '<span class="kv_key">Target:</span> ' + escape_html(target_id);
+                        kv_el.appendChild(li_el);
+                    }
+
+                    if (result_id || result_name) {
+                        li_el = document.createElement("li");
+                        li_el.innerHTML = '<span class="kv_key">Result:</span> ' + escape_html(result_name || result_id);
+                        kv_el.appendChild(li_el);
+                    }
+
+                    if (result_diff) {
+                        li_el = document.createElement("li");
+                        li_el.innerHTML = '<span class="kv_key">Difficulty:</span> ' + escape_html(result_diff);
+                        kv_el.appendChild(li_el);
+                    }
+
+                    card_el.appendChild(kv_el);
+
+                    if (result_desc) {
+                        var desc_el = document.createElement("p");
+                        desc_el.className = "recipe_desc";
+                        desc_el.textContent = result_desc;
+                        card_el.appendChild(desc_el);
+                    }
+
+                    return card_el;
+                }
+
+                function escape_html(text_value) {
+                    var str_value = safe_text(text_value);
+                    return str_value
+                        .replace(/&/g, "&amp;")
+                        .replace(/</g, "&lt;")
+                        .replace(/>/g, "&gt;")
+                        .replace(/"/g, "&quot;")
+                        .replace(/'/g, "&#39;");
+                }
+
+                function apply_filters_and_render() {
+                    var search_query = normalize_query(search_input_el.value);
+                    var selected_skill = safe_text(skill_select_el.value);
+                    var shown_count = 0;
+
+                    var frag_el = document.createDocumentFragment();
+                    var idx = 0;
+                    var recipe_obj = null;
+
+                    results_el.innerHTML = "";
+
+                    for (idx = 0; idx < recipe_list.length; idx += 1) {
+                        recipe_obj = recipe_list[idx];
+
+                        if (selected_skill && safe_text(recipe_obj.skill) !== selected_skill) {
+                            continue;
+                        }
+
+                        if (search_query) {
+                            if (recipe_obj.search_blob.indexOf(search_query) === -1) {
+                                continue;
+                            }
+                        }
+
+                        frag_el.appendChild(render_recipe_card(recipe_obj));
+                        shown_count += 1;
+                    }
+
+                    results_el.appendChild(frag_el);
+                    shown_badge_el.textContent = shown_count + " shown";
+                }
+
+                function schedule_render() {
+                    if (render_timer !== null) {
+                        window.clearTimeout(render_timer);
+                        render_timer = null;
+                    }
+
+                    render_timer = window.setTimeout(function () {
+                        render_timer = null;
+                        apply_filters_and_render();
+                    }, 75);
+                }
+
+                function wire_events() {
+                    search_input_el.addEventListener("input", function (event_obj) {
+                        schedule_render();
+                    });
+
+                    skill_select_el.addEventListener("change", function (event_obj) {
+                        schedule_render();
+                    });
+                }
+
+                function load_recipes() {
+                    set_status_text("Loading recipes...");
+                    fetch("_wurm_unlimited_default_581_recipes.json", { cache: "no-store" })
+                        .then(function (resp_obj) {
+                            if (!resp_obj.ok) {
+                                throw new Error("HTTP " + resp_obj.status);
+                            }
+                            return resp_obj.json();
+                        })
+                        .then(function (data_obj) {
+                            if (!Array.isArray(data_obj)) {
+                                throw new Error("Invalid JSON format (expected an array)");
+                            }
+
+                            recipe_list = data_obj;
+                            count_badge_el.textContent = recipe_list.length + " recipes";
+
+                            build_skill_options();
+                            index_recipes();
+                            set_status_text("");
+                            schedule_render();
+                        })
+                        .catch(function (err_obj) {
+                            recipe_list = [];
+                            count_badge_el.textContent = "0 recipes";
+                            shown_badge_el.textContent = "0 shown";
+                            results_el.innerHTML = "";
+                            set_status_text("Could not load _wurm_unlimited_default_581_recipes.json (" + safe_text(err_obj && err_obj.message) + ").");
+                        });
+                }
+
+                function init_app() {
+                    search_input_el = document.getElementById("search_input");
+                    skill_select_el = document.getElementById("skill_select");
+                    results_el = document.getElementById("results");
+                    status_text_el = document.getElementById("status_text");
+                    count_badge_el = document.getElementById("count_badge");
+                    shown_badge_el = document.getElementById("shown_badge");
+
+                    wire_events();
+                    load_recipes();
+                }
+
+                if (document.readyState === "loading") {
+                    document.addEventListener("DOMContentLoaded", function () {
+                        init_app();
+                    });
+                } else {
+                    init_app();
+                }
+            }());
+        </script>
+    </body>
+</html>
