@@ -1,4 +1,4 @@
-windmill-v1.6
+windmill-v1.7
 
 release note:
 
