@@ -1,0 +1,43 @@
+windmill-v1.6
+
+release note:
+
+updated concrete recipe for windmill
+
+
+
+
+Old concrete recipe
+
+  1 clay           =   2000g  =   2kg
+  1 rock shards    =  20000g  =  20kg
+-------------------------------------
+  1 concrete, clay =   3000g  =   3kg
+
+
+ 10 clay           =  20000g  =  20kg
+ 10 rock shards    = 200000g  = 200kg
+-------------------------------------
+ 10 concrete, clay =  30000g  =  30kg
+
+
+
+
+New concrete recipe (Windmill only)
+
+  0.5 clay         =   1000g  =   1kg
+  0.1 rock shards  =   2000g  =   2kg
+-------------------------------------
+  1 concrete, clay =   3000g  =   3kg
+
+
+  5 clay           =  10000g  =  10kg
+  1 rock shards    =  20000g  =  20kg
+-------------------------------------
+ 10 concrete, clay =  30000g  =  30kg
+
+
+100 clay           = 200000g  = 200kg
+ 20 rock shards    = 400000g  = 400kg
+-------------------------------------
+200 concrete, clay = 600000g  = 600kg
