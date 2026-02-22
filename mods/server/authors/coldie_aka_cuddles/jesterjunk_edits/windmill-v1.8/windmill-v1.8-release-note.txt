@@ -1,0 +1,7 @@
+windmill-v1.8
+
+release note:
+
+added clay brick recipe to masonry mill
+
+claybrickaction.java    D:\xampp\htdocs\git\WurmUnlimited\mods\server\authors\coldie_aka_cuddles\jesterjunk_edits\windmill-v1.8\src\main\java\net\WAC\wurmunlimited\mods\windmill\claybrickaction.java
